@@ -1,59 +1,22 @@
-# Project 1: Global Retail Sales Analysis
+# 🌍 Global Retail Analytics
 
-## 📊 Overview
+This project analyzes global retail sales across time, country, and product lines using Python and Tableau.
 
-This project analyzes a sample global retail dataset to uncover key business insights, including:
+## 🔧 Tools
+- **Python (Google Colab)** for data cleaning and transformation
+- **Tableau Public** for interactive visualization
+- **GitHub** for version control and showcase
 
-- Total sales by country
-- Monthly sales trends
-- Top-selling products
+## 📊 Visualizations
+1. 📈 Sales Trend Over Time  
+2. 📊 Sales by Country  
+3. 🥧 Sales by Product  
 
-The entire workflow was completed using **Google Colab**, **Pandas**, and **Tableau Public**, demonstrating full cloud-based data analysis skills.
+👉 [Click here to view the final dashboard](https://public.tableau.com/app/profile/zheng.lyu6601/viz/GlobalRetailAnalysis_17487317429280/GlobalRetailAnalysis#1)
 
----
+## 🧼 Dataset
+- Source: Sample dataset (retail_sales_sample.csv)
+- Cleaned using `pandas` and uploaded to Tableau
 
-## 🧠 Objectives
-
-- Clean and prepare retail transaction data
-- Generate KPIs such as total sales, quantity sold, and sales trends
-- Visualize insights in an interactive Tableau dashboard
-
----
-
-## 🛠️ Tools & Skills
-
-- Python (Pandas)
-- Google Colab (cloud-based development)
-- Tableau Public (visualization)
-- GitHub (version control and documentation)
-
----
-
-## 📁 Files
-
-| File | Description |
-|------|-------------|
-| `retail_analysis.ipynb` | Data cleaning and analysis notebook |
-| `cleaned_sales.csv` | Cleaned dataset used for visualization |
-| `dashboard.png` | Screenshot of the Tableau dashboard |
-| `README.md` | Project documentation (this file) |
-
----
-
-## 📈 Tableau Dashboard
-
-👉 [View Dashboard on Tableau Public](#) *(insert your link here after publishing)*
-
----
-
-## 📌 Key Insights
-
-- 🇺🇸 USA and 🇨🇳 China are the highest revenue contributors.
-- 📅 February showed a temporary dip in sales, likely due to seasonal changes.
-- 🛒 Product A consistently ranks top in both revenue and volume.
-
----
-
-## 📬 Contact
-
-If you’d like to learn more about this project or discuss collaboration, feel free to reach out via [LinkedIn](#).
+## 📎 Summary
+This is the first of four data portfolio projects designed to showcase cloud-based data analysis workflows using AI-assisted Python in Colab and interactive dashboards in Tableau Public.
