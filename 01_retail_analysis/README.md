@@ -1,5 +1,8 @@
 # 🌍 Global Retail Analytics
 
+## 🖼️ Dashboard Preview
+![Retail Dashboard](tableau_screenshot.png)
+
 This project analyzes global retail sales across time, country, and product lines using Python and Tableau.
 
 ## 🔧 Tools
@@ -13,9 +16,6 @@ This project analyzes global retail sales across time, country, and product line
 3. 🥧 Sales by Product  
 
 👉 [Click here to view the final dashboard](https://public.tableau.com/app/profile/zheng.lyu6601/viz/GlobalRetailAnalysis_17487317429280/GlobalRetailAnalysis#1)
-
-## 🖼️ Dashboard Preview
-![Retail Dashboard](tableau_screenshot.png)
 
 ## 🧼 Dataset
 - Source: Sample dataset (retail_sales_sample.csv)
