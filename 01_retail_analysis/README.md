@@ -1,4 +1,4 @@
-📁 Project 01: Retail Sales Analysis
+## 📁 Project 01: Retail Sales Analysis
 
 This project showcases a simulated end-to-end retail sales analysis pipeline, featuring data cleaning, trend visualization, regional and product-level insights, and a clean, cloud-based workflow. It demonstrates proficiency in Python, SQL, and Tableau.
 
