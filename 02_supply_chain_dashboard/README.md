@@ -49,7 +49,7 @@ Origin-Destination Frequency
 02_supply_chain_dashboard/
 ├── supply_chain_dashboard.ipynb   # Data cleaning and export in Python
 ├── cleaned_supply_chain.csv       # Final cleaned dataset
-├── Supply_Chain_Dashboard.sql     # Full SQL logic
+├── supply_chain_Dashboard.sql     # Full SQL logic
 ├── tableau_screenshot.png         # Dashboard preview image
 └── README.md                      # This documentation
 
