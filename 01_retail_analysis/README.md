@@ -24,11 +24,19 @@ This project analyzes global retail sales across time, country, and product line
 ## 📎 Summary
 This is the first of four data portfolio projects designed to showcase cloud-based data analysis workflows using AI-assisted Python in Colab and interactive dashboards in Tableau Public.
 
-## 📓 Usage Note
+---
 
-The file `Notebook.ipynb` is a standard **Jupyter Notebook (.ipynb)** created and executed in **Google Colab**.
+## 📓 Notebook Format Notice
 
-To preserve execution history and cell output, we retained the original filename.  
-Please open the notebook with Google Colab to fully experience the code, outputs, and visuals.
+The main analysis file is named `Notebook.ipynb`, and it is a standard **Jupyter Notebook (.ipynb)** created and executed in **Google Colab**.
 
-👉 How to open: Copy the repo URL → Go to Google Colab → File → Open notebook → GitHub tab → Paste URL
+⚠️ The filename has been intentionally kept as `Notebook.ipynb` to preserve the notebook's full execution history and cell outputs. Renaming directly in GitHub can break the file structure or delete outputs.
+
+You can open and interact with the notebook directly in your browser via Google Colab:
+
+➡️ **How to open in Colab:**
+1. Go to [Google Colab](https://colab.research.google.com/)
+2. Click `File → Open notebook → GitHub` tab
+3. Paste this repository URL:  
+   `https://github.com/ZhengLyu-Data/Lvzheng-Wuhan-Data`
+4. Open the `01_retail_analysis/Notebook.ipynb` file
