@@ -1,82 +1,71 @@
-# 📦 Project 2: Supply Chain Dashboard
+📁 Project 02: Supply Chain Dashboard
+📝 Project Overview
+This project focuses on building a supply chain dashboard based on delivery records. It visualizes key logistics metrics and explores cost vs. performance tradeoffs.
 
-This project showcases supply chain data processing and cross-platform analytics using Python, SQL, and Tableau—all within a cloud-based environment.
+🛠️ Tools Used
+Google Colab – Data cleaning and preparation
 
----
+SQL Fiddle (MySQL) – Cloud-based SQL analysis
 
-## 📊 Project Goals
+Tableau Public – Dashboard creation
 
-- Clean and analyze order-level supply chain data
-- Visualize insights in Tableau Public
-- Simulate SQL queries using SQLFiddle (MySQL 5.6)
-- Demonstrate cloud-native workflow using Google Colab and browser-based tools
+GitHub – Version control and publishing
 
----
+📊 Dataset Fields
+Order ID
 
-## 🧼 Data Cleaning (Google Colab)
+Origin and Destination
 
-The original CSV file was cleaned using Python in Google Colab.
+Transport Method
 
-**Key steps:**
-- Remove duplicates
-- Convert date fields
-- Export `cleaned_supply_orders.csv` for visualization
+Distance (km)
 
-🔗 Notebook: [Colab Link](https://colab.research.google.com/drive/14xYDYSa90cUVil0eGwcW7EgnkBmTVQCa)
+Delivery Time (days)
 
----
+Transport Cost (USD)
 
-## 📈 Tableau Dashboard
+🧹 Data Preparation (Python)
+Handled missing values and duplicates
 
-Tableau Public was used to create an interactive dashboard featuring:
+Normalized column names
 
-- Order quantity by product
-- Shipment breakdown by supplier
-- Monthly trend visualization
+Exported cleaned dataset for further SQL/Tableau use
 
-📌 [Live Dashboard](https://public.tableau.com/app/profile/zheng.lyu6601/viz/SupplyChainDashboard_17487579608020/SupplyChainDashboard#2)
+🔍 SQL Analysis (via SQL Fiddle)
+Created table and inserted sample data
 
-🖼️ Preview Screenshot:
-![Dashboard](tableau_screenshot.png)
+Ran queries to analyze:
 
----
+Average delivery time per method
 
-## 🧠 SQL Simulation (via SQLFiddle)
+Top 3 most expensive delivery routes
 
-SQL queries were executed in SQLFiddle (MySQL 5.6) to simulate database analytics.
+Longest distances by origin
 
-📌 [SQLFiddle Result Link](https://sqlfiddle.com/mysql/online-compiler?id=1b567ad2-8eff-44dc-a9a5-b3e7dad7eebe)
+📄 Filename: Supply_Chain_Dashboard.sql
 
-📄 Source files:
-- [`supply_chain_schema.sql`](supply_chain_schema.sql) – Create and populate the table
-- [`supplier_analysis.sql`](supplier_analysis.sql) – Analyze total quantity and unit price by supplier
+📈 Tableau Visualizations
+Delivery Time by Method
 
-🖼️ Screenshot:
-![SQL Result Screenshot](sqlfiddle_result.png)
+Cost vs Distance
 
----
+Origin-Destination Frequency
 
-## 🌐 Tools Used
+🔗 📊 View Tableau Dashboard
 
-| Task              | Tool               |
-|-------------------|--------------------|
-| Data Cleaning     | Python (Google Colab) |
-| Visualization     | Tableau Public     |
-| SQL Query         | SQLFiddle (MySQL 5.6) |
-| Version Control   | GitHub             |
+📁 Repository Structure
+bash
 
----
+02_supply_chain_dashboard/
+├── supply_chain_dashboard.ipynb   # Data cleaning and export in Python
+├── cleaned_supply_chain.csv       # Final cleaned dataset
+├── Supply_Chain_Dashboard.sql     # Full SQL logic
+├── tableau_screenshot.png         # Dashboard preview image
+└── README.md                      # This documentation
 
-## 📓 Notebook Format Notice
+💡 Highlights
+Cross-tool workflow: Python + SQL + Tableau
 
-Due to GitHub display limitations, the Jupyter Notebook is named `Notebook.ipynb`. All steps are fully documented inside. The `.csv` and `.sql` files are also included for review.
+Cloud-based query execution (SQL Fiddle)
 
----
-
-## 📘 English Notebook Version
-
-To demonstrate cross-border collaboration and international communication skills, this project includes an English-only version of the notebook:
-
-[➡️ View `supply_chain_dashboard_en.ipynb`](./supply_chain_dashboard_en.ipynb)
-
-📅 *Last updated: 2025-05-31*
+Emphasis on delivery efficiency and cost insights
