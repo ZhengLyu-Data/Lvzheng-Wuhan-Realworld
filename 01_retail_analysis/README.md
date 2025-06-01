@@ -50,3 +50,11 @@ Sales by Product – Product revenue distribution via pie chart
 100% cloud-native: No local setup needed
 Strong use of Python + Tableau for end-to-end analysis
 Easily expandable for time series forecasting or classification
+
+🐍 Notebook Language Notice
+
+The notebook file (Notebook.ipynb) in this project is written entirely in Python, executed via Google Colab in a cloud-based environment. 
+All analysis, data cleaning, and visualization preparation were completed using standard Python libraries (such as pandas, matplotlib, etc.). 
+This ensures accessibility and reproducibility for reviewers and collaborators without requiring local setup.
+
+
