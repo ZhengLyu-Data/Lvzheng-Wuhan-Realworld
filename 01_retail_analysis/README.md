@@ -22,9 +22,9 @@ This project provides a foundational business insight into sales performance usi
 - Dashboard publishing with Tableau Public
 
 ## 🔧 Tools Used
-Python (Google Colab) – Data cleaning and preprocessing
-Tableau Public – Interactive dashboard and visual storytelling
-GitHub – Project version control and portfolio publishing
+- Python (Google Colab) – Data cleaning and preprocessing
+- Tableau Public – Interactive dashboard and visual storytelling
+- GitHub – Project version control and portfolio publishing
 
 ## 🧹 Data Cleaning Process
 
