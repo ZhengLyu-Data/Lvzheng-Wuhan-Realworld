@@ -50,6 +50,7 @@ Sales by Product – Product revenue distribution via pie chart
 📁 Repository Structure
 
 01_retail_analysis/
+
 ├── Notebook.ipynb                 # Python data analysis in Google Colab
 ├── cleaned_sales.csv              # Cleaned version of the retail dataset
 ├── retail_sales_sample.csv        # Raw data (source)
