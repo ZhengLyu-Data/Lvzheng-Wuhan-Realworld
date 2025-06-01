@@ -7,7 +7,7 @@ This project showcases a simulated end-to-end retail sales analysis pipeline, fe
 01_retail_analysis/
 ├── retail_sales_sample.csv         # Simulated raw retail sales data
 ├── cleaned_sales.csv               # Cleaned dataset ready for analysis
-├── Notebook.ipynb                  # Python analysis notebook (Colab-compatible)
+├── Notebook                        # Python analysis notebook (Colab-compatible)
 ├── tableau_screenshot.png          # Dashboard snapshot
 └── README.md                       # Project documentation
 ```
