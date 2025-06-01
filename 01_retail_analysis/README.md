@@ -23,6 +23,7 @@ This project provides a foundational business insight into sales performance usi
 
 ## 🔧 Tools Used
 - Python (Google Colab) – Data cleaning and preprocessing
+- Excel - organizing, analyzing, and managing data
 - Tableau Public – Interactive dashboard and visual storytelling
 - GitHub – Project version control and portfolio publishing
 
