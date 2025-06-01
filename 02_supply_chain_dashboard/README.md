@@ -73,4 +73,10 @@ Due to GitHub display limitations, the Jupyter Notebook is named `Notebook.ipynb
 
 ---
 
+## 📘 English Notebook Version
+
+To demonstrate cross-border collaboration and international communication skills, this project includes an English-only version of the notebook:
+
+[➡️ View `supply_chain_dashboard_en.ipynb`](./supply_chain_dashboard_en.ipynb)
+
 📅 *Last updated: 2025-05-31*
