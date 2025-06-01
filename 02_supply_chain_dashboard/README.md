@@ -17,7 +17,7 @@ This project demonstrates a full data analysis pipeline for a simulated supply c
 
 ```
 02_supply_chain_dashboard/
-│├── supply_chain_sample.csv          # Original raw data
+├── supply_chain_sample.csv          # Original raw data
 ├── cleaned_supply_chain.csv         # Cleaned dataset for visualization
 ├── Notebook.ipynb                   # Python (Colab) cleaning script
 ├── supply_chain_dashboard.sql       # Final SQL analysis queries
