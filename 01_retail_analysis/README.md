@@ -1,34 +1,61 @@
-# 🛒 Project 1: Retail Sales Analysis
+📁 Project 01: Retail Sales Analysis
+📝 Project Overview
+This project analyzes global retail sales data using Python, Google Colab, and Tableau Public. The goal is to identify trends, geographic sales distribution, and product performance using a fully cloud-based workflow.
 
-This project explores a sample retail dataset to identify sales trends across time, countries, and product categories using Python and Tableau.
+🛠️ Tools Used
+Google Colab – Python data processing and cleaning
 
-## 📌 Objective
-To analyze historical retail sales data and uncover actionable insights on:
-- Monthly sales trends
-- Sales performance by country
-- Product-based revenue breakdown
+Pandas – Data manipulation
 
-## 🧰 Tools Used
-- Google Colab (Python, Pandas)
-- Tableau Public (for visualization)
-- GitHub (for version control)
+Tableau Public – Interactive data visualization
 
-## 📊 Key Visualizations
-1. **Monthly Sales Trend:** Shows total sales by month using line chart.
-2. **Sales by Country:** Compares country-wise sales using bar chart.
-3. **Sales by Product:** Displays category-wise revenue distribution using pie chart.
+GitHub – Version control and portfolio hosting
 
-📈 Dashboard Link: [View Tableau Dashboard](https://public.tableau.com/app/profile/zheng.lyu6601/viz/GlobalRetailAnalysis_17487317429280/GlobalRetailAnalysis#1)
+📊 Dataset
+The dataset contains sales transactions across different countries and product categories. It includes:
 
-## 🧪 Data Processing Steps
-1. Load raw CSV into Colab
-2. Clean missing/null values with median strategy
-3. Export cleaned data for visualization
+Date of sale
 
-## 📓 Notebook Format Notice
-The Colab notebook file is currently named `Notebook.ipynb` due to session constraints. All code, documentation, and steps follow a modular format. You can open the notebook directly in Google Colab.
+Country
 
-## 🗃️ Files
-- `Notebook.ipynb` – Retail analysis in Python
-- `cleaned_sales.csv` – Cleaned dataset
-- `README.md` – Project documentation
+Product name
+
+Quantity and Unit Price
+
+🧹 Data Cleaning (Python on Colab)
+Performed data preprocessing:
+
+Removed missing values
+
+Converted data types
+
+Calculated total revenue (quantity × unit price)
+
+Formatted date columns for monthly trend analysis
+
+📈 Visualizations (Tableau)
+Sales Over Time – Monthly trend chart of total revenue
+
+Sales by Country – Comparison of revenue by country using colored bars
+
+Sales by Product – Product revenue distribution via pie chart
+
+🔗 📊 View Tableau Dashboard
+
+📁 Repository Structure
+bash
+复制
+编辑
+01_retail_analysis/
+├── Notebook.ipynb                 # Python data analysis in Google Colab
+├── cleaned_sales.csv              # Cleaned version of the retail dataset
+├── retail_sales_sample.csv        # Raw data (source)
+├── tableau_screenshot.png         # Dashboard preview image
+└── README.md                      # This documentation
+
+💡 Highlights
+100% cloud-native: No local setup needed
+
+Strong use of Python + Tableau for end-to-end analysis
+
+Easily expandable for time series forecasting or classification
