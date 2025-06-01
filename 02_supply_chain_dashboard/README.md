@@ -58,3 +58,11 @@ Origin-Destination Frequency
 Cross-tool workflow: Python + SQL + Tableau
 Cloud-based query execution (SQL Fiddle)
 Emphasis on delivery efficiency and cost insights
+
+🐍 Notebook Language Notice
+
+The notebook file (Notebook.ipynb) in this project is written entirely in Python, executed via Google Colab in a cloud-based environment. 
+All analysis, data cleaning, and visualization preparation were completed using standard Python libraries (such as pandas, matplotlib, etc.). 
+This ensures accessibility and reproducibility for reviewers and collaborators without requiring local setup.
+
+
