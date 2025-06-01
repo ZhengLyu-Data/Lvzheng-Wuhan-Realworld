@@ -48,7 +48,6 @@ Sales by Product – Product revenue distribution via pie chart
 🔗 📊 View Tableau Dashboard
 
 📁 Repository Structure
-bash
 
 01_retail_analysis/
 ├── Notebook.ipynb                 # Python data analysis in Google Colab
