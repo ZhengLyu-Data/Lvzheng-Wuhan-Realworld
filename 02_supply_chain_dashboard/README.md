@@ -1,79 +1,75 @@
 # 📦 Project 2: Supply Chain Dashboard
 
-This project demonstrates supply chain data processing and visualization using cloud tools and cross-platform collaboration.
+This project showcases supply chain data processing and cross-platform analytics using Python, SQL, and Tableau—all within a cloud-based environment.
 
 ---
 
-## 📊 Overview
+## 📊 Project Goals
 
-The goal of this project is to analyze supplier and product performance based on a simulated order dataset. It includes:
-
-- Cleaning raw supply chain order data with Python (Google Colab)
-- Visualizing insights through Tableau Public
-- Executing SQL queries using SQLFiddle (MySQL 5.6)
+- Clean and analyze order-level supply chain data
+- Visualize insights in Tableau Public
+- Simulate SQL queries using SQLFiddle (MySQL 5.6)
+- Demonstrate cloud-native workflow using Google Colab and browser-based tools
 
 ---
 
-## 🧼 Data Cleaning (Python via Google Colab)
+## 🧼 Data Cleaning (Google Colab)
 
-The original dataset was cleaned using Python in Google Colab.  
-Cleaning steps included:
-- Handling null values
-- Removing duplicate records
-- Standardizing date formats
-- Exporting `cleaned_supply_orders.csv` for visualization and SQL query
+The original CSV file was cleaned using Python in Google Colab.
 
-🔗 [Colab Notebook Link](https://colab.research.google.com/drive/14xYDYSa90cUVil0eGwcW7EgnkBmTVQCa)
+**Key steps:**
+- Remove duplicates
+- Convert date fields
+- Export `cleaned_supply_orders.csv` for visualization
+
+🔗 Notebook: [Colab Link](https://colab.research.google.com/drive/14xYDYSa90cUVil0eGwcW7EgnkBmTVQCa)
 
 ---
 
 ## 📈 Tableau Dashboard
 
-Using the cleaned dataset, the following Tableau dashboard was created:
+Tableau Public was used to create an interactive dashboard featuring:
 
-📌 [View Supply Chain Dashboard](https://public.tableau.com/app/profile/zheng.lyu6601/viz/SupplyChainDashboard_17487579608020/SupplyChainDashboard#2)
+- Order quantity by product
+- Shipment breakdown by supplier
+- Monthly trend visualization
 
-Includes:
-- Total order quantity by product
-- Supplier-wise shipment comparison
-- Monthly order trend
+📌 [Live Dashboard](https://public.tableau.com/app/profile/zheng.lyu6601/viz/SupplyChainDashboard_17487579608020/SupplyChainDashboard#2)
 
-🖼️ Sample Preview:  
-![Tableau Dashboard Screenshot](tableau_screenshot.png)
+🖼️ Preview Screenshot:
+![Dashboard](tableau_screenshot.png)
 
 ---
 
-## 🧠 SQL Practice (via SQLFiddle)
+## 🧠 SQL Simulation (via SQLFiddle)
 
-To showcase multi-tool proficiency, SQL queries were also performed using SQLFiddle (MySQL 5.6):
+SQL queries were executed in SQLFiddle (MySQL 5.6) to simulate database analytics.
 
-🔗 [SQLFiddle Execution Link](https://sqlfiddle.com/mysql/online-compiler?id=1b567ad2-8eff-44dc-a9a5-b3e7dad7eebe)
+📌 [SQLFiddle Result Link](https://sqlfiddle.com/mysql/online-compiler?id=1b567ad2-8eff-44dc-a9a5-b3e7dad7eebe)
 
-SQL logic includes:
-- Table creation
-- Simulated supplier data insertion
-- Ranking suppliers by total quantity
+📄 Source files:
+- [`supply_chain_schema.sql`](supply_chain_schema.sql) – Create and populate the table
+- [`supplier_analysis.sql`](supplier_analysis.sql) – Analyze total quantity and unit price by supplier
 
-🖼️ SQL Query Result:  
+🖼️ Screenshot:
 ![SQL Result Screenshot](sqlfiddle_result.png)
 
 ---
 
-## 🌐 Cross-Platform Capabilities
+## 🌐 Tools Used
 
-| Tool | Platform |
-|------|----------|
-| Python | Google Colab |
-| Visualization | Tableau Public |
-| SQL Queries | SQLFiddle (MySQL 5.6) |
-
-This cloud-based pipeline demonstrates real-world analytical workflows without relying on any local development environment.
+| Task              | Tool               |
+|-------------------|--------------------|
+| Data Cleaning     | Python (Google Colab) |
+| Visualization     | Tableau Public     |
+| SQL Query         | SQLFiddle (MySQL 5.6) |
+| Version Control   | GitHub             |
 
 ---
 
 ## 📓 Notebook Format Notice
 
-Due to GitHub rendering constraints, the Jupyter Notebook file retains the default name `Notebook.ipynb`. This does not affect functionality or reproducibility. All project steps are contained in the notebook.
+Due to GitHub display limitations, the Jupyter Notebook is named `Notebook.ipynb`. All steps are fully documented inside. The `.csv` and `.sql` files are also included for review.
 
 ---
 
