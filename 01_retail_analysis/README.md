@@ -1,7 +1,8 @@
 📁 Project 01: Retail Sales Analysis
 
 📝 Project Overview
-This project analyzes global retail sales data using Python, Google Colab, and Tableau Public. The goal is to identify trends, geographic sales distribution, and product performance using a fully cloud-based workflow.
+This project analyzes global retail sales data using Python, Google Colab, and Tableau Public. 
+The goal is to identify trends, geographic sales distribution, and product performance using a fully cloud-based workflow.
 
 🛠️ Tools Used
 
