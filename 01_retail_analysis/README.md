@@ -94,3 +94,10 @@ You can open and interact with the notebook directly in your browser via Google 
 ## ✅ Outcome
 
 This project demonstrates my readiness for entry-level data analyst or data engineering roles in global companies. It is part of a 4-project portfolio designed to showcase cloud-based, end-to-end analytical capabilities with business value.
+
+## 📘 English Notebook Version
+
+For international review and interview readiness, this project also provides a fully English-translated version of the notebook:
+
+[➡️ View `retail_analysis_en.ipynb`](./retail_analysis_en.ipynb)
+
