@@ -11,32 +11,23 @@ data = {
 
 df = pd.DataFrame(data)
 
-# save as simulated raw data file
+# Save as simulated raw data file
 df.to_csv("retail_sales_sample.csv", index=False)
-print("✅ simulated raw data retail_sales_sample.csv created successfully")
-df.head()
-✅ simulated raw data retail_sales_sample.csv created successfully
-OrderDate	Country	Product	Quantity	UnitPrice
-0	2022-01-01	USA	A	10	20.0
-1	2022-01-02	UK	B	5	15.0
-2	2022-01-05	USA	A	8	22.0
-3	2022-02-01	Germany	C	2	30.0
-4	2022-02-10	UK	B	12	18.0
+print("✅ Simulated raw data 'retail_sales_sample.csv' created successfully")
+print(df.head())
 
+# Clean and enrich data
 df_cleaned = df.copy()
 df_cleaned.drop_duplicates(inplace=True)
 df_cleaned.dropna(inplace=True)
 df_cleaned['OrderDate'] = pd.to_datetime(df_cleaned['OrderDate'], errors='coerce')
 df_cleaned = df_cleaned[df_cleaned['OrderDate'].notnull()]
 df_cleaned['TotalSales'] = df_cleaned['Quantity'] * df_cleaned['UnitPrice']
-df_cleaned.to_csv("cleaned_sales.csv", index=False)
-print("✅ cleaned_sales.csv successfully saved")
-✅ cleaned_sales.csv successfully saved
 
-# Assume your current DataFrame is df_cleaned
+# Save cleaned data
 df_cleaned.to_csv("cleaned_sales.csv", index=False)
-print("✅ cleaned_sales.csv saved successfully")
-✅ cleaned_sales.csv saved successfully
+print("✅ 'cleaned_sales.csv' saved successfully")
 
+# Download to local if needed
 from google.colab import files
 files.download("cleaned_sales.csv")
