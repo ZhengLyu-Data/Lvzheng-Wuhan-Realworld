@@ -23,3 +23,12 @@ This project analyzes global retail sales across time, country, and product line
 
 ## 📎 Summary
 This is the first of four data portfolio projects designed to showcase cloud-based data analysis workflows using AI-assisted Python in Colab and interactive dashboards in Tableau Public.
+
+## 📓 Usage Note
+
+The file `Notebook.ipynb` is a standard **Jupyter Notebook (.ipynb)** created and executed in **Google Colab**.
+
+To preserve execution history and cell output, we retained the original filename.  
+Please open the notebook with Google Colab to fully experience the code, outputs, and visuals.
+
+👉 How to open: Copy the repo URL → Go to Google Colab → File → Open notebook → GitHub tab → Paste URL
