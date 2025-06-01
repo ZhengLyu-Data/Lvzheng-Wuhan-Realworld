@@ -1,78 +1,80 @@
-# 🚚 Supply Chain Dashboard
+# 📦 Project 2: Supply Chain Dashboard
 
-This project explores a simulated supply chain dataset using Python and Tableau. It focuses on understanding order distribution, transport efficiency, and cost dynamics across different cities and delivery methods. The project demonstrates full cloud-based development and cross-platform tool integration (Colab + Tableau + GitHub).
-
----
-
-## 🎯 Project Objectives
-
-- Clean and prepare supply chain order data using Python (in Google Colab)
-- Analyze shipping origin, transport time, and delivery cost
-- Create 3 insightful visualizations
-- Build a comprehensive interactive dashboard in Tableau Public
+This project demonstrates supply chain data processing and visualization using cloud tools and cross-platform collaboration.
 
 ---
 
-## 🧪 Tools & Technologies
+## 📊 Overview
 
-| Tool            | Purpose                         |
-|------------------|----------------------------------|
-| **Google Colab** | Data cleaning with Python (pandas) |
-| **Tableau Public** | Interactive dashboard design     |
-| **GitHub**       | Project documentation & version control |
+The goal of this project is to analyze supplier and product performance based on a simulated order dataset. It includes:
 
----
-
-## 📁 Project Structure
-
-| File                          | Description                                 |
-|-------------------------------|---------------------------------------------|
-| `supply_chain_dashboard.ipynb` | Python notebook for data cleaning (Colab)  |
-| `cleaned_supply_data.csv`      | Cleaned dataset used for visualization     |
-| `tableau_screenshot.png`       | Image of the final Tableau dashboard       |
-| `README.md`                    | Project documentation (this file)          |
+- Cleaning raw supply chain order data with Python (Google Colab)
+- Visualizing insights through Tableau Public
+- Executing SQL queries using SQLFiddle (MySQL 5.6)
 
 ---
 
-## 📊 Tableau Dashboard (Interactive)
+## 🧼 Data Cleaning (Python via Google Colab)
 
-🔗 [View the Live Dashboard on Tableau Public](https://public.tableau.com/app/profile/zheng.lyu6601/viz/SupplyChainDashboard_17487579608020/SupplyChainDashboard)
+The original dataset was cleaned using Python in Google Colab.  
+Cleaning steps included:
+- Handling null values
+- Removing duplicate records
+- Standardizing date formats
+- Exporting `cleaned_supply_orders.csv` for visualization and SQL query
 
-The dashboard includes 3 key visualizations:
-
-1. **Orders by Origin City**  
-   - Shows the number of orders shipped from each origin city.
-2. **Average Delivery Time by Transport Method**  
-   - Compares delivery speed across Air, Rail, Truck, and Ship.
-3. **Distance vs. Transport Cost**  
-   - A scatter plot to evaluate the relationship between delivery distance and cost.
-
-📷 Dashboard preview:  
-![Dashboard Screenshot](tableau_screenshot.png)
+🔗 [Colab Notebook Link](https://colab.research.google.com/drive/14xYDYSa90cUVil0eGwcW7EgnkBmTVQCa)
 
 ---
 
-## 🔍 Key Insights
+## 📈 Tableau Dashboard
 
-- Major shipping volumes are concentrated in cities like Wuhan, Shanghai, and Guangzhou.
-- **Air** transport is the fastest but also has higher cost variance.
-- There's a visible correlation between **longer distances and higher transport costs**, with outliers worth investigating.
+Using the cleaned dataset, the following Tableau dashboard was created:
+
+📌 [View Supply Chain Dashboard](https://public.tableau.com/app/profile/zheng.lyu6601/viz/SupplyChainDashboard_17487579608020/SupplyChainDashboard#2)
+
+Includes:
+- Total order quantity by product
+- Supplier-wise shipment comparison
+- Monthly order trend
+
+🖼️ Sample Preview:  
+![Tableau Dashboard Screenshot](tableau_screenshot.png)
+
+---
+
+## 🧠 SQL Practice (via SQLFiddle)
+
+To showcase multi-tool proficiency, SQL queries were also performed using SQLFiddle (MySQL 5.6):
+
+🔗 [SQLFiddle Execution Link](https://sqlfiddle.com/mysql/online-compiler?id=1b567ad2-8eff-44dc-a9a5-b3e7dad7eebe)
+
+SQL logic includes:
+- Table creation
+- Simulated supplier data insertion
+- Ranking suppliers by total quantity
+
+🖼️ SQL Query Result:  
+![SQL Result Screenshot](sqlfiddle_result.png)
+
+---
+
+## 🌐 Cross-Platform Capabilities
+
+| Tool | Platform |
+|------|----------|
+| Python | Google Colab |
+| Visualization | Tableau Public |
+| SQL Queries | SQLFiddle (MySQL 5.6) |
+
+This cloud-based pipeline demonstrates real-world analytical workflows without relying on any local development environment.
 
 ---
 
 ## 📓 Notebook Format Notice
 
-The notebook `supply_chain_dashboard.ipynb` was created and executed in **Google Colab**.  
-It includes full output and markdown commentary, demonstrating cloud-based data analytics workflow.
+Due to GitHub rendering constraints, the Jupyter Notebook file retains the default name `Notebook.ipynb`. This does not affect functionality or reproducibility. All project steps are contained in the notebook.
 
 ---
 
-## ✅ Outcome
-
-This project reflects real-world supply chain analytics tasks and shows proficiency in:
-- Python-based data cleaning and transformation
-- Tableau-based visual storytelling
-- GitHub-based cloud project documentation
-
-It is part of a 4-project portfolio designed to support data analyst job applications in enterprise or global settings.
-
+📅 *Last updated: 2025-05-31*
