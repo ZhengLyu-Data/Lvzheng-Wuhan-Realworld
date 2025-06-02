@@ -3,6 +3,18 @@
 This project demonstrates a full data analysis pipeline for a simulated supply chain dataset. It covers data cleaning in Python, SQL querying for business insights, and a professional dashboard created in Tableau. This project showcases my ability to work across multiple platforms and tools commonly used in data roles.
 
 ---
+## 📊 Project Overview
+
+This project provides a foundational business insight into sales performance using a simulated retail dataset. The pipeline includes:
+
+- Data cleaning using Python (Pandas)
+- Trend visualization over time
+- Geographic breakdown by cities and trasnportation
+- Product category contribution via bar and pie charts
+- Dashboard publishing with Tableau Public
+- Manage and manipulate relational databases with SQL
+  
+---
 
 ## 🔧 Tools Used
 
