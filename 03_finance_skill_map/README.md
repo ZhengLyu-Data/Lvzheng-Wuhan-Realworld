@@ -17,13 +17,8 @@ A dynamic dashboard was created using Tableau, highlighting three core perspecti
 
 ### 📌 Key Visualizations:
 1. **Average Training Hours per Skill**  
-   Horizontal bar chart showing average training time by skill.
-
 2. **Skill Distribution by Department and Category**  
-   Stacked bar chart showing the count of skills by department and skill category.
-
 3. **Skill Category by Proficiency Level**  
-   Heatmap indicating how different skill categories are distributed across proficiency levels.
 
 🔗 **Dashboard Link:**  
 [View on Tableau Public](https://public.tableau.com/app/profile/zheng.lyu6601/viz/Financial_skill_map/Financial_skill_map#1)
@@ -36,7 +31,6 @@ A dynamic dashboard was created using Tableau, highlighting three core perspecti
 ├── financial_skill_map_notebook.ipynb
 └── README.md
 
-## ⚠️ Notebook Language Notice
-The Python notebook file (`financial_skill_map_notebook.ipynb`) was originally created using Google Colab in English-language mode. While all variable names and outputs are in English. This does not affect data integrity or code functionality.
-
+## 💬 Notebook Language Notice
+The notebook file `financial_skill_map.ipynb` is entirely in English to align with global hiring standards.
 ---
