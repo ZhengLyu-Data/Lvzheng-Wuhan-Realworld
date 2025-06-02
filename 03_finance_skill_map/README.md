@@ -22,7 +22,6 @@ This notebook is written entirely in **English** to ensure clarity for internati
 
 ## 📈 Visualization Overview
 Three Tableau charts were created and combined into one dashboard:
-
 # Training Hours by Skill Type 
 – Bar chart showing average training hours by skill category.
 # Training Hours by Country 
