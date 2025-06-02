@@ -37,7 +37,6 @@ The interactive dashboard includes:
 
 🔗 [View Published Tableau Dashboard](https://public.tableau.com/app/profile/zheng.lyu6601/viz/GlobalRetailAnalysis_17487317429280/GlobalRetailAnalysis)
 
-## 💡 Highlights
 ## 🧹 Data Cleaning Process
 
 Key steps included:
