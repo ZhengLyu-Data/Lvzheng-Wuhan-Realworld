@@ -15,9 +15,6 @@ This project analyzes financial skill development across departments. Using a cl
 ## 📊 Tableau Dashboard
 A dynamic dashboard was created using Tableau, highlighting three core perspectives of financial skills across departments.
 
-🔗 **Dashboard Link:**  
-[View on Tableau Public](https://public.tableau.com/app/profile/zheng.lyu6601/viz/Financial_skill_map/Financial_skill_map#1)
-
 ### 📌 Key Visualizations:
 1. **Average Training Hours per Skill**  
    Horizontal bar chart showing average training time by skill.
@@ -28,8 +25,8 @@ A dynamic dashboard was created using Tableau, highlighting three core perspecti
 3. **Skill Category by Proficiency Level**  
    Heatmap indicating how different skill categories are distributed across proficiency levels.
 
-📸 Screenshot:  
-[Dashboard Screenshot](financial_dashboard.png)
+🔗 **Dashboard Link:**  
+[View on Tableau Public](https://public.tableau.com/app/profile/zheng.lyu6601/viz/Financial_skill_map/Financial_skill_map#1)
 
 ## 🗂️ Repository Structure
 03_finance_skill_map/
