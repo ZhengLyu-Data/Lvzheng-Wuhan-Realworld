@@ -37,6 +37,6 @@ A dynamic dashboard was created using Tableau, highlighting three core perspecti
 └── README.md
 
 ## ⚠️ Notebook Language Notice
-The Python notebook file (`financial_skill_map_notebook.ipynb`) was originally created using Google Colab in Chinese-language mode. While all variable names and outputs are in English, some markdown cells may still include Chinese. This does not affect data integrity or code functionality.
+The Python notebook file (`financial_skill_map_notebook.ipynb`) was originally created using Google Colab in English-language mode. While all variable names and outputs are in English. This does not affect data integrity or code functionality.
 
 ---
