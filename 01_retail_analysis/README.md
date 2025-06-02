@@ -22,20 +22,21 @@ This notebook is written entirely in English to ensure clarity for international
 
 ## 📈 Visualization Overview
 Three Tableau charts were created and combined into one dashboard:
-##| 📈 **Sales Trends** | Line chart showing monthly sales trends |
-##| 📊 **Sales by Country** | Colored bar chart comparing total sales by country |
-##| 🧾 **Sales by Product** | Pie chart summarizing total sales by product |
+1.|📈 **Sales Trends** | Line chart showing monthly sales trends |
+2.|📊 **Sales by Country** | Colored bar chart comparing total sales by country |
+3.|🧾 **Sales by Product** | Pie chart summarizing total sales by product |
 ➡️ View the dashboard here: [Global Retail Dashboard](https://public.tableau.com/app/profile/zheng.lyu6601/viz/GlobalRetailAnalysis_17487317429280/GlobalRetailAnalysis)
 
 ## 📁 File Structure
+```
 01_retail_analysis/
 │
-├── retail_analysis(Python Notebook).ipynb        ## Python analysis notebook
-├── README.md                                     ## Project documentation
-├── cleaned_sales.csv                             ## Cleaned dataset
-├── retail_sales_sample.SQL                       ## Raw input data
-└── tableau.screenshot.png                        ## Tableau dashboard image
-
+├── retail_analysis(Python Notebook).ipynb        # Python analysis notebook
+├── README.md                                     # Project documentation
+├── cleaned_sales.csv                             # Cleaned dataset
+├── retail_sales_sample.csv                       # Raw input data
+└── tableau.screenshot.png                        # Tableau dashboard image
+```
 ## 💬 Notebook Language Notice
 Due to platform limitations, the notebook filename remains `retail_analysis.ipynb`. 
 The entire content is written in English to maintain consistency with other projects and job application materials.
