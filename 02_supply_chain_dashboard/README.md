@@ -29,8 +29,6 @@ Three Tableau charts were created and combined into one dashboard:
 
 ➡️ [View Dashboard](https://public.tableau.com/app/profile/zheng.lyu6601/viz/SupplyChainDashboard_17487579608020/SupplyChainDashboard#2)
 
-![Dashboard Screenshot](dashboard.png)
-
 ## 📁 File Structure
 
 ```
