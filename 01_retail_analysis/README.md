@@ -35,7 +35,7 @@ Three Tableau charts were created and combined into one dashboard:
 ```
 01_retail_sales_analysis/
 │
-├── retail_analysis(Notebook).ipynb        # Python analysis notebook
+├── retail_analysis(Python Notebook).ipynb # Python analysis notebook
 ├── retail_sales_sample.csv                # Raw input data
 ├── cleaned_sales.csv                      # Cleaned dataset
 ├── tableau.dashboard.png                  # Tableau dashboard image
