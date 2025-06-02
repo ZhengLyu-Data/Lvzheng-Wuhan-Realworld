@@ -78,8 +78,9 @@ This project analyzes and visualizes employee financial skill development data t
 
 ## 💬 Notebook Language Notice
 
-> This project’s Python code (`financial_skill_map.ipynb`) is written entirely in **English**, in alignment with international data science interview expectations.
-
+> This project uses a file named Notebook.ipynb instead of a specific project-named notebook due to platform constraints.
+It was executed and saved using Google Colab.
+Please open the notebook in any Jupyter-based environment to view the step-by-step Python analysis.
 ---
 
 ## 🧠 Skills Demonstrated
