@@ -22,9 +22,9 @@ This notebook is written entirely in English to ensure clarity for international
 
 ## 📈 Visualization Overview
 Three Tableau charts were created and combined into one dashboard:
-#| 📈 **Sales Trends** | Line chart showing monthly sales trends |
-#| 📊 **Sales by Country** | Colored bar chart comparing total sales by country |
-#| 🧾 **Sales by Product** | Pie chart summarizing total sales by product |
+##| 📈 **Sales Trends** | Line chart showing monthly sales trends |
+##| 📊 **Sales by Country** | Colored bar chart comparing total sales by country |
+##| 🧾 **Sales by Product** | Pie chart summarizing total sales by product |
 ➡️ View the dashboard here: [Global Retail Dashboard](https://public.tableau.com/app/profile/zheng.lyu6601/viz/GlobalRetailAnalysis_17487317429280/GlobalRetailAnalysis)
 
 ## 📁 File Structure
