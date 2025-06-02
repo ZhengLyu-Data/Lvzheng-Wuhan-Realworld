@@ -1,43 +1,26 @@
-## 📊 01_retail_analysis
+# 🛒 Project 1: Retail Sales Analysis
 
-## 📌 Project Overview
-This project analyzes key data related to retail sales analysis, with a focus on trends, segment performance, and actionable insights.
+This project analyzes simulated retail sales data to uncover key trends across time, countries, and products. It includes Python-based preprocessing, a cleaned dataset, and a Tableau dashboard.
 
-## 🧮 Dataset
-- Source: Simulated CSV data
-- Fields: Varies per project (see notebook)
+## 📊 Tableau Dashboard
+- **Link:** [Retail Sales Dashboard](https://public.tableau.com/app/profile/zheng.lyu6601/viz/GlobalRetailAnalysis_17487317429280/GlobalRetailAnalysis#1)
+- **Dashboard Includes:**
+  - Monthly Sales Trend
+  - Sales by Country
+  - Sales by Product
 
-## 🧰 Tech Stack
-- Python (Pandas)
-- Tableau Public
-- GitHub
-- Excel
+## 📁 Project Structure
+01_retail_analysis/
+├── retail_analysis_notebook.ipynb
+├── retail_sales_sample.csv
+├── cleaned_sales.csv
+├── retail_dashboard.png
+└── README.md
+
+## 💡 Highlights
+- Used `pandas` for data cleaning and preprocessing.
+- Created dynamic Tableau visualizations to explore sales patterns.
+- Demonstrated clear storytelling with three charts integrated in a dashboard.
 
 ## 📓 Notebook Format Notice
-This project uses a Jupyter Notebook (`.ipynb`) to document all Python code.
-You can view the notebook directly on GitHub or open it in Colab for testing.
-
-## 📘 Notebook Language Notice
-This notebook is written entirely in **English** to ensure clarity for international recruiters and collaborators.
-
-## 📈 Visualization Overview
-Three Tableau charts were created and combined into one dashboard:
-1. **Monthly Sales Trend** – Line chart showing total sales over time by month.  
-2. **Sales by Country** – Bar chart comparing sales performance across different countries.  
-3. **Sales by Product** – Bar chart displaying total sales volume by product category.**Chart 1**
-
-➡️ [View Dashboard](https://public.tableau.com/app/profile/zheng.lyu6601/viz/GlobalRetailAnalysis_17487317429280/GlobalRetailAnalysis#1)
-
-![Dashboard Screenshot](dashboard.png)
-
-## 📁 File Structure
-
-```
-01_retail_sales_analysis/
-│
-├── retail_analysis(Python Notebook).ipynb # Python analysis notebook
-├── README.md                              # Project documentation
-├── cleaned_sales.csv                      # Cleaned dataset
-├── retail_sales_sample.csv                # Raw input data
-└── tableau.dashboard.png                  # Tableau dashboard image 
-```
+All code and comments are written in English. The notebook filename is generic for platform consistency but contains the full project workflow.
