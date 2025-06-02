@@ -23,9 +23,9 @@ This notebook is written entirely in **English** to ensure clarity for internati
 
 ## 📈 Visualization Overview
 Three Tableau charts were created and combined into one dashboard:
-1. **Inventory Status by Warehouse** – Bar chart showing current inventory levels across locations.  
-2. **Monthly Supply Movement** – Line chart displaying supply movement trends over time.  
-3. **Supplier Efficiency Comparison** – Horizontal bar chart comparing suppliers by delivery timeliness or accuracy.
+1. **Inventory Status by Warehouse**  
+2. **Monthly Supply Movement** 
+3. **Supplier Efficiency Comparison** 
 
 ➡️ [View Dashboard](https://public.tableau.com/app/profile/zheng.lyu6601/viz/SupplyChainDashboard_17487579608020/SupplyChainDashboard#2)
 
