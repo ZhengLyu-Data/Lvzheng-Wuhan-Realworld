@@ -29,7 +29,7 @@ A dynamic dashboard was created using Tableau, highlighting three core perspecti
    Heatmap indicating how different skill categories are distributed across proficiency levels.
 
 📸 Screenshot:  
-![Dashboard Screenshot](financial_dashboard.png)
+[Dashboard Screenshot](financial_dashboard.png)
 
 ## 🗂️ Repository Structure
 03_finance_skill_map/
