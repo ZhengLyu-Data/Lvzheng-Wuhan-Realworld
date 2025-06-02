@@ -22,9 +22,9 @@ This notebook is written entirely in **English** to ensure clarity for internati
 
 ## 📈 Visualization Overview
 Three Tableau charts were created and combined into one dashboard:
-1. **Chart 1**
-2. **Chart 2**
-3. **Chart 3**
+1. **Monthly Sales Trend** – Line chart showing total sales over time by month.  
+2. **Sales by Country** – Bar chart comparing sales performance across different countries.  
+3. **Sales by Product** – Bar chart displaying total sales volume by product category.**Chart 1**
 
 ➡️ [View Dashboard](https://public.tableau.com/app/profile/zheng.lyu6601/viz/GlobalRetailAnalysis_17487317429280/GlobalRetailAnalysis#1)
 
