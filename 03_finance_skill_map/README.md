@@ -29,7 +29,7 @@ This project visualizes upskilling patterns across departments in a simulated fi
 | 🧑‍💼 **Skill Distribution by Department** | Stacked bars showing skill type counts across departments |
 | 🔥 **Category vs Proficiency** | Heatmap of skill categories against proficiency levels |
 
-View the dashboard here: [Financial Skill Map](https://public.tableau.com/app/profile/zheng.lyu6601/viz/Financial_skill_map/Financial_skill_map)
+View the dashboard here: [Financial Skill Map](https://public.tableau.com/app/profile/zheng.lyu6601/viz/Financial_skill_map/Financial_skill_map) 📌 The dashboard was created and published using Tableau Public.
 
 ## 💬 Notebook Language Notice
 The notebook file `financial_skill_map.ipynb` is entirely in English to align with global hiring standards.
