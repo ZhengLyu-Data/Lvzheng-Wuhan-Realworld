@@ -28,7 +28,7 @@ This project focuses on automating inventory replenishment analysis across multi
 | 🧾 **Reorder Need by Category** | Bar chart of products below reorder threshold, grouped by category |
 | 🔁 **Forecast vs Stock by Warehouse** | Side-by-side bars comparing forecasted demand vs actual inventory |
 
-View the dashboard here: [Smart Replenishment Dashboard](https://public.tableau.com/app/profile/zheng.lyu6601/viz/Smart_replenishment/Smart_replenishment)
+View the dashboard here: [Smart Replenishment Dashboard](https://public.tableau.com/app/profile/zheng.lyu6601/viz/Smart_replenishment/Smart_replenishment) 📌 The dashboard was created and published using Tableau Public.
 
 ## 🧠 SQL Analytics
 Executed in SQLFiddle to simulate backend queries:
