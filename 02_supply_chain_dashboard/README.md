@@ -1,43 +1,36 @@
-## 🚚 02_supply_chain_dashboard
+# 📘 Project 03: Financial Skill Map
 
-## 📌 Project Overview
-This project analyzes key data related to supply chain dashboard, with a focus on trends, segment performance, and actionable insights.
+## 📌 Overview
+This project visualizes upskilling patterns across departments in a simulated finance company. From data wrangling to advanced Tableau visualizations, it illustrates how learning trends can be mapped and analyzed.
 
-## 🧮 Dataset
-- Source: Simulated CSV data
-- Fields: Varies per project (see notebook)
-
-## 🧰 Tech Stack
-- Python (Pandas)
-- Tableau Public
-- GitHub
-- Excel
-- SQLFiddle / Azure SQL (for applicable projects)
-
-## 📓 Notebook Format Notice
-This project uses a Jupyter Notebook (`.ipynb`) to document all Python code.
-You can view the notebook directly on GitHub or open it in Colab for testing.
-
-## 📘 Notebook Language Notice
-This notebook is written entirely in **English** to ensure clarity for international recruiters and collaborators.
-
-## 📈 Visualization Overview
-Three Tableau charts were created and combined into one dashboard:
-1. **Inventory Status by Warehouse**  
-2. **Monthly Supply Movement** 
-3. **Supplier Efficiency Comparison** 
-
-➡️ [View Dashboard](https://public.tableau.com/app/profile/zheng.lyu6601/viz/SupplyChainDashboard_17487579608020/SupplyChainDashboard#2)
-
-## 📁 File Structure
-
+## 📁 Folder Structure
 ```
-02_supply_chain_dashboard/
+03_finance_skill_map/
 │
-├── supply_chain_dashboard(Python Notebook).ipynb # Python analysis notebook
-├── README.md                                     # Project documentation
-├── cleaned_supply_chain.csv                      # Cleaned dataset
-├── supply_chain_dashboard.SQL                    # SQL analysis process
-├── supply_chain_sample.csv                       # Raw input data
-└── tableau.screenshot.png                        # Tableau dashboard image
+├── financial_skill_map.ipynb        # Python notebook for data preprocessing
+├── financial_skill_sample.csv       # Simulated raw dataset
+├── cleaned_financial_skills.csv     # Cleaned dataset used in Tableau
+├── financial_skill_map.twbx         # Tableau packaged workbook
+├── TrainingHoursBySkill.png         # Tableau chart 1
+├── SkillDistributionByDepartment.png # Tableau chart 2
+├── CategoryVsProficiencyHeatmap.png # Tableau chart 3
+├── FinancialSkillDashboard.png      # Screenshot of final dashboard
+└── README.md                        # Project documentation
 ```
+
+## 🧹 Data Cleaning
+- Removed nulls and standardized date formats
+- Aggregated training hours by skill
+- Mapped proficiency levels into categories
+
+## 📊 Tableau Visualizations
+| Chart | Description |
+|-------|-------------|
+| ⏱️ **Training Hours by Skill** | Horizontal bar chart of average training time per skill |
+| 🧑‍💼 **Skill Distribution by Department** | Stacked bars showing skill type counts across departments |
+| 🔥 **Category vs Proficiency** | Heatmap of skill categories against proficiency levels |
+
+View the dashboard here: [Financial Skill Map](https://public.tableau.com/app/profile/zheng.lyu6601/viz/Financial_skill_map/Financial_skill_map)
+
+## 💬 Notebook Language Notice
+The notebook file `financial_skill_map.ipynb` is entirely in English to align with global hiring standards.
