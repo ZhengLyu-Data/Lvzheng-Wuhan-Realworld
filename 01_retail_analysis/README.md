@@ -16,23 +16,21 @@ Excel
 ## 📓 Notebook Format Notice
 This project uses a Jupyter Notebook (.ipynb) to document all Python code. You can view the notebook directly on GitHub or open it in Colab for testing.
 
-📘 Notebook Language Notice
+## 📘 Notebook Language Notice
 This notebook is written entirely in English to ensure clarity for international recruiters and collaborators.
 
-📈 Visualization Overview
+## 📈 Visualization Overview
 Three Tableau charts were created and combined into one dashboard:
-
 Inventory Status by Warehouse
 Monthly Supply Movement
 Supplier Efficiency Comparison
 ➡️ View Dashboard
 
-📁 File Structure
+## 📁 File Structure
 01_retail_analysis/
 │
 ├── retail_analysis(Python Notebook).ipynb        # Python analysis notebook
 ├── README.md                                     # Project documentation
 ├── cleaned_sales.csv                             # Cleaned dataset
-├── supply_chain_dashboard.SQL                    # SQL analysis process
-├── supply_chain_sample.csv                       # Raw input data
+├── retail_sales_sample.SQL                       # Raw input data
 └── tableau.screenshot.png                        # Tableau dashboard image
