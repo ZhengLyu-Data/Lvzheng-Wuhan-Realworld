@@ -7,14 +7,14 @@ This project visualizes upskilling patterns across departments in a simulated fi
 ```
 03_finance_skill_map/
 │
-├── financial_skill_map.ipynb        # Python notebook for data preprocessing
-├── financial_skill_sample.csv       # Simulated raw dataset
-├── cleaned_financial_skills.csv     # Cleaned dataset used in Tableau
-├── TrainingHoursBySkill.png         # Tableau chart 1
+├── financial_skill_map.ipynb         # Python notebook for data preprocessing
+├── financial_skill_sample.csv        # Simulated raw dataset
+├── cleaned_financial_skills.csv      # Cleaned dataset used in Tableau
+├── TrainingHoursBySkill.png          # Tableau chart 1
 ├── SkillDistributionByDepartment.png # Tableau chart 2
-├── CategoryVsProficiencyHeatmap.png # Tableau chart 3
-├── FinancialSkillDashboard.png      # Screenshot of final dashboard
-└── README.md                        # Project documentation
+├── CategoryVsProficiencyHeatmap.png  # Tableau chart 3
+├── FinancialSkillDashboard.png       # Screenshot of final dashboard
+└── README.md                         # Project documentation
 ```
 
 ## 🧹 Data Cleaning
