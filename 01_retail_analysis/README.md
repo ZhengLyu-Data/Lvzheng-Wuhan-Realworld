@@ -32,7 +32,7 @@ Supplier Efficiency Comparison
 │
 ├── retail_analysis(Python Notebook).ipynb        # Python analysis notebook
 ├── README.md                                     # Project documentation
-├── cleaned_supply_chain.csv                      # Cleaned dataset
+├── cleaned_sales.csv                             # Cleaned dataset
 ├── supply_chain_dashboard.SQL                    # SQL analysis process
 ├── supply_chain_sample.csv                       # Raw input data
 └── tableau.screenshot.png                        # Tableau dashboard image
