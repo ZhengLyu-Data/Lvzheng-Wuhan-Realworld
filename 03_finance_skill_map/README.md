@@ -35,7 +35,7 @@ Three Tableau charts were created and combined into one dashboard:
 ```
 03_finance_skill_map/
 │
-├── finance_skill_map(Notebook).ipynb        # Python analysis notebook
+├── finance_skill_map(Python Notebook).ipynb # Python analysis notebook
 ├── financial_skill_sample.csv               # Raw input data
 ├── cleaned_financial_skills.csv             # Cleaned dataset
 ├── tableau.screenshot.png                   # Tableau dashboard image
