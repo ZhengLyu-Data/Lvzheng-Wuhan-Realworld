@@ -22,9 +22,9 @@ This notebook is written entirely in English to ensure clarity for international
 
 ## 📈 Visualization Overview
 Three Tableau charts were created and combined into one dashboard:
-1.**Sales Trends**  
-2.**Sales by Country**  
-3.**Sales by Product**  
+1. **Sales Trends**  
+2. **Sales by Country**  
+3. **Sales by Product**  
 
 ➡️ View the dashboard here: [Global Retail Dashboard](https://public.tableau.com/app/profile/zheng.lyu6601/viz/GlobalRetailAnalysis_17487317429280/GlobalRetailAnalysis)
 
