@@ -38,6 +38,7 @@ Three Tableau charts were created and combined into one dashboard:
 │
 ├── supply_chain_dashboard(Notebook).ipynb        # Python analysis notebook
 ├── supply_chain_sample.csv                       # Raw input data
+├── supply_chain_dashboard.SQL                    # SQL analysis process
 ├── cleaned_supply_chain.csv                      # Cleaned dataset
 ├── tableau.screenshot.png                        # Tableau dashboard image
 └── README.md                                     # Project documentation
