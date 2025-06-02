@@ -1,36 +1,39 @@
-# 📘 Project 03: Financial Skill Map
+# 🚚 Project 02: Supply Chain Dashboard
 
 ## 📌 Overview
-This project visualizes upskilling patterns across departments in a simulated finance company. From data wrangling to advanced Tableau visualizations, it illustrates how learning trends can be mapped and analyzed.
+This project analyzes a simulated supply chain dataset, demonstrating key skills in data preprocessing, SQL analytics, and business dashboard design using Python, SQL Fiddle, and Tableau.
 
 ## 📁 Folder Structure
 ```
-03_finance_skill_map/
+02_supply_chain_dashboard/
 │
-├── financial_skill_map.ipynb        # Python notebook for data preprocessing
-├── financial_skill_sample.csv       # Simulated raw dataset
-├── cleaned_financial_skills.csv     # Cleaned dataset used in Tableau
-├── financial_skill_map.twbx         # Tableau packaged workbook
-├── TrainingHoursBySkill.png         # Tableau chart 1
-├── SkillDistributionByDepartment.png # Tableau chart 2
-├── CategoryVsProficiencyHeatmap.png # Tableau chart 3
-├── FinancialSkillDashboard.png      # Screenshot of final dashboard
+├── supply_chain_dashboard.ipynb     # Python notebook for data cleaning and preparation
+├── supply_chain_sample.csv          # Simulated raw dataset
+├── cleaned_supply_chain.csv         # Cleaned dataset used in Tableau
+├── supply_chain_dashboard.sql       # Combined SQL queries used for analysis (SQL Fiddle-compatible)
+├── InventoryLevels.png              # Tableau chart 1
+├── FulfillmentRates.png             # Tableau chart 2
+├── SupplierPerformance.png          # Tableau chart 3
+├── SupplyChainDashboard.png         # Screenshot of final dashboard
 └── README.md                        # Project documentation
 ```
 
 ## 🧹 Data Cleaning
-- Removed nulls and standardized date formats
-- Aggregated training hours by skill
-- Mapped proficiency levels into categories
+- Removed nulls and duplicates
+- Renamed and standardized field names
+- Calculated metrics like `InventoryTurnover`, `DeliveryRate`, etc.
+
+## 🧮 SQL Queries
+SQL queries were executed on [SQL Fiddle](https://sqlfiddle.com) to simulate warehouse-level analytics. All queries are provided in `supply_chain_dashboard.sql`.
 
 ## 📊 Tableau Visualizations
 | Chart | Description |
 |-------|-------------|
-| ⏱️ **Training Hours by Skill** | Horizontal bar chart of average training time per skill |
-| 🧑‍💼 **Skill Distribution by Department** | Stacked bars showing skill type counts across departments |
-| 🔥 **Category vs Proficiency** | Heatmap of skill categories against proficiency levels |
+| 📦 **Inventory Levels** | Monthly stock levels by product |
+| 🚚 **Fulfillment Rates** | On-time delivery rate across vendors |
+| 🏭 **Supplier Performance** | Horizontal bars comparing supplier efficiency |
 
-View the dashboard here: [Financial Skill Map](https://public.tableau.com/app/profile/zheng.lyu6601/viz/Financial_skill_map/Financial_skill_map)
+View the dashboard here: [Supply Chain Dashboard](https://public.tableau.com/app/profile/zheng.lyu6601/viz/SupplyChainDashboard_17487579608020/SupplyChainDashboard)
 
 ## 💬 Notebook Language Notice
-The notebook file `financial_skill_map.ipynb` is entirely in English to align with global hiring standards.
+The notebook file `supply_chain_dashboard.ipynb` is fully written in English for consistency with professional standards.
