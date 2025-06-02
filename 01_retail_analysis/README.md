@@ -2,15 +2,6 @@
 
 This project showcases a simulated end-to-end retail sales analysis pipeline, featuring data cleaning, trend visualization, regional and product-level insights, and a clean, cloud-based workflow. It demonstrates proficiency in Python, SQL, and Tableau.
 
-## 📁 Project Structure
-```
-01_retail_analysis/
-├── retail_sales_sample.csv         # Simulated raw retail sales data
-├── cleaned_sales.csv               # Cleaned dataset ready for analysis
-├── Notebook                        # Python analysis notebook (Colab-compatible)
-├── tableau_screenshot.png          # Dashboard snapshot
-└── README.md                       # Project documentation
-```
 ## 📊 Project Overview
 
 This project provides a foundational business insight into sales performance using a simulated retail dataset. The pipeline includes:
@@ -26,6 +17,16 @@ This project provides a foundational business insight into sales performance usi
 - Excel - organizing, analyzing, and managing data
 - Tableau Public – Interactive dashboard and visual storytelling
 - GitHub – Project version control and portfolio publishing
+
+## 📁 Project Structure
+```
+01_retail_analysis/
+├── retail_sales_sample.csv         # Simulated raw retail sales data
+├── cleaned_sales.csv               # Cleaned dataset ready for analysis
+├── Notebook                        # Python analysis notebook (Colab-compatible)
+├── tableau_screenshot.png          # Dashboard snapshot
+└── README.md                       # Project documentation
+```
 
 ## 🧹 Data Cleaning Process
 
