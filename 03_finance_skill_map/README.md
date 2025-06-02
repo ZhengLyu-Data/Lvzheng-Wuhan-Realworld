@@ -22,12 +22,9 @@ This notebook is written entirely in **English** to ensure clarity for internati
 
 ## 📈 Visualization Overview
 Three Tableau charts were created and combined into one dashboard:
-# Training Hours by Skill Type 
-– Bar chart showing average training hours by skill category.
-# Training Hours by Country 
-– Bar or map chart displaying training investment per country.
-# Top Skill Learners 
-– Pie or ranked bar chart of individuals with highest training hours.
+1. **Training Hours by Skill Type** – Bar chart showing average training hours by skill category.  
+2. **Training Hours by Country** – Bar or map chart displaying training investment per country.  
+3. **Top Skill Learners** – Pie or ranked bar chart of individuals with highest training hours.
   
 ➡️ [View Dashboard](https://us-east-1.online.tableau.com/#/site/zhenglyu1990-685a75bdca/views/FinanceSkillMap/Sheet1?:iid=1)
 
