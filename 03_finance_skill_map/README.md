@@ -39,5 +39,5 @@ Three Tableau charts were created and combined into one dashboard:
 ├── README.md                                # Project documentatio
 ├── cleaned_financial_skills.csv             # Cleaned dataset
 ├── financial_skill_map.twbx                 # Tableau dashboard image
-└── finance_skill_sample.csv                 # Raw input data
+└── financial_skill_sample.csv                 # Raw input data
 ```
