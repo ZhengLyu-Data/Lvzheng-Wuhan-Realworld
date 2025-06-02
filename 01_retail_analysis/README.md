@@ -30,11 +30,11 @@ Three Tableau charts were created and combined into one dashboard:
 ## 📁 File Structure
 01_retail_analysis/
 │
-├── retail_analysis(Python Notebook).ipynb        # Python analysis notebook
-├── README.md                                     # Project documentation
-├── cleaned_sales.csv                             # Cleaned dataset
-├── retail_sales_sample.SQL                       # Raw input data
-└── tableau.screenshot.png                        # Tableau dashboard image
+├── retail_analysis(Python Notebook).ipynb        ## Python analysis notebook
+├── README.md                                     ## Project documentation
+├── cleaned_sales.csv                             ## Cleaned dataset
+├── retail_sales_sample.SQL                       ## Raw input data
+└── tableau.screenshot.png                        ## Tableau dashboard image
 
 ## 💬 Notebook Language Notice
 Due to platform limitations, the notebook filename remains `retail_analysis.ipynb`. 
