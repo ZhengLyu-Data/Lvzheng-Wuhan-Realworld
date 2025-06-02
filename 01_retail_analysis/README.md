@@ -1,26 +1,38 @@
-# 🛒 Project 1: Retail Sales Analysis
+## 🚚 01_Retail_Analysis
 
-This project analyzes simulated retail sales data to uncover key trends across time, countries, and products. It includes Python-based preprocessing, a cleaned dataset, and a Tableau dashboard.
+## 📌 Project Overview
+This project analyzes key data related to supply chain dashboard, with a focus on trends, segment performance, and actionable insights.
 
-## 📊 Tableau Dashboard
-- **Link:** [Retail Sales Dashboard](https://public.tableau.com/app/profile/zheng.lyu6601/viz/GlobalRetailAnalysis_17487317429280/GlobalRetailAnalysis#1)
-- **Dashboard Includes:**
-  - Monthly Sales Trend
-  - Sales by Country
-  - Sales by Product
+## 🧮 Dataset
+Source: Simulated CSV data
+Fields: Varies per project (see notebook)
 
-## 📁 Project Structure
-01_retail_analysis/
-├── retail_analysis_notebook.ipynb
-├── retail_sales_sample.csv
-├── cleaned_sales.csv
-├── retail_dashboard.png
-└── README.md
-
-## 💡 Highlights
-- Used `pandas` for data cleaning and preprocessing.
-- Created dynamic Tableau visualizations to explore sales patterns.
-- Demonstrated clear storytelling with three charts integrated in a dashboard.
+## 🧰 Tech Stack
+Python (Pandas)
+Tableau Public
+GitHub
+Excel
 
 ## 📓 Notebook Format Notice
-All code and comments are written in English. The notebook filename is generic for platform consistency but contains the full project workflow.
+This project uses a Jupyter Notebook (.ipynb) to document all Python code. You can view the notebook directly on GitHub or open it in Colab for testing.
+
+📘 Notebook Language Notice
+This notebook is written entirely in English to ensure clarity for international recruiters and collaborators.
+
+📈 Visualization Overview
+Three Tableau charts were created and combined into one dashboard:
+
+Inventory Status by Warehouse
+Monthly Supply Movement
+Supplier Efficiency Comparison
+➡️ View Dashboard
+
+📁 File Structure
+01_retail_analysis/
+│
+├── retail_analysis(Python Notebook).ipynb        # Python analysis notebook
+├── README.md                                     # Project documentation
+├── cleaned_supply_chain.csv                      # Cleaned dataset
+├── supply_chain_dashboard.SQL                    # SQL analysis process
+├── supply_chain_sample.csv                       # Raw input data
+└── tableau.screenshot.png                        # Tableau dashboard image
