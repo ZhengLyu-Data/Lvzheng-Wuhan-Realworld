@@ -1,0 +1,51 @@
+EmployeeID,Department,Skill,SkillLevel,YearsExperience,Certified,TrainingHours
+EMP_1000,Analytics,Python,Beginner,10.0,No,45
+EMP_1001,Finance,SQL,Advanced,6.7,No,101
+EMP_1002,Accounting,Python,Advanced,4.7,No,14
+EMP_1003,Accounting,SAS,Intermediate,5.4,Yes,6
+EMP_1004,Analytics,R,Beginner,1.6,Yes,63
+EMP_1005,Analytics,Tableau,Intermediate,2.6,Yes,84
+EMP_1006,Audit,SQL,Beginner,3.7,Yes,77
+EMP_1007,Finance,R,Intermediate,6.1,Yes,17
+EMP_1008,Data,SQL,Intermediate,2.7,Yes,14
+EMP_1009,Finance,Power BI,Advanced,2.6,No,73
+EMP_1010,Accounting,SAS,Advanced,1.2,Yes,32
+EMP_1011,Data,R,Beginner,6.5,No,69
+EMP_1012,Finance,Tableau,Intermediate,2.7,Yes,38
+EMP_1013,Finance,R,Beginner,9.1,Yes,21
+EMP_1014,Analytics,VBA,Advanced,8.7,No,49
+EMP_1015,Data,VBA,Advanced,1.2,No,117
+EMP_1016,Accounting,SQL,Beginner,2.8,No,13
+EMP_1017,Data,Excel,Intermediate,6.9,No,117
+EMP_1018,Audit,Python,Intermediate,2.5,Yes,36
+EMP_1019,Finance,Python,Beginner,1.8,Yes,52
+EMP_1020,Audit,SQL,Advanced,9.4,No,41
+EMP_1021,Analytics,SAS,Intermediate,5.9,No,25
+EMP_1022,Accounting,SAS,Advanced,5.0,No,61
+EMP_1023,Finance,Python,Intermediate,8.0,No,111
+EMP_1024,Audit,R,Beginner,8.2,Yes,74
+EMP_1025,Accounting,Power BI,Beginner,2.3,No,95
+EMP_1026,Finance,SAS,Beginner,1.4,No,43
+EMP_1027,Finance,Power BI,Advanced,4.6,No,83
+EMP_1028,Audit,Python,Advanced,4.5,Yes,108
+EMP_1029,Analytics,SQL,Advanced,4.9,No,88
+EMP_1030,Audit,Tableau,Beginner,7.4,Yes,72
+EMP_1031,Analytics,Python,Beginner,6.9,Yes,6
+EMP_1032,Data,Tableau,Advanced,9.8,No,90
+EMP_1033,Audit,SAS,Advanced,1.4,No,109
+EMP_1034,Accounting,Power BI,Beginner,4.3,Yes,75
+EMP_1035,Data,SQL,Intermediate,3.7,Yes,43
+EMP_1036,Audit,SAS,Beginner,8.7,No,89
+EMP_1037,Analytics,Tableau,Advanced,2.9,Yes,18
+EMP_1038,Audit,Excel,Advanced,2.3,No,117
+EMP_1039,Data,Excel,Beginner,4.8,No,22
+EMP_1040,Analytics,Excel,Intermediate,4.5,Yes,38
+EMP_1041,Finance,R,Intermediate,3.1,No,19
+EMP_1042,Accounting,VBA,Beginner,2.9,No,118
+EMP_1043,Accounting,Power BI,Advanced,9.3,No,18
+EMP_1044,Finance,Excel,Intermediate,4.7,Yes,100
+EMP_1045,Accounting,Power BI,Beginner,8.7,No,75
+EMP_1046,Finance,SAS,Intermediate,5.7,Yes,24
+EMP_1047,Accounting,Tableau,Advanced,1.0,Yes,39
+EMP_1048,Analytics,SAS,Beginner,10.0,No,41
+EMP_1049,Accounting,VBA,Beginner,8.4,Yes,82
