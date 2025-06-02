@@ -27,17 +27,6 @@ This project provides a foundational business insight into sales performance usi
 ├── tableau_screenshot.png          # Dashboard snapshot
 └── README.md                       # Project documentation
 ```
-
-## 🧹 Data Cleaning Process
-
-Key steps included:
-
-- Removing duplicates and nulls
-- Ensuring valid date formatting
-- Creating a `TotalSales` column = `Quantity * UnitPrice`
-
-The resulting dataset `cleaned_sales.csv` was exported and visualized using Tableau.
-
 ## 📈 Tableau Dashboard
 
 The interactive dashboard includes:
@@ -47,6 +36,17 @@ The interactive dashboard includes:
 3. **Sales by Product** – A pie chart highlighting contribution by product
 
 🔗 [View Published Tableau Dashboard](https://public.tableau.com/app/profile/zheng.lyu6601/viz/GlobalRetailAnalysis_17487317429280/GlobalRetailAnalysis)
+
+## 💡 Highlights
+## 🧹 Data Cleaning Process
+
+Key steps included:
+
+- Removing duplicates and nulls
+- Ensuring valid date formatting
+- Creating a `TotalSales` column = `Quantity * UnitPrice`
+
+The resulting dataset `cleaned_sales.csv` was exported and visualized using Tableau.
 
 ## 💡 Highlights
 
