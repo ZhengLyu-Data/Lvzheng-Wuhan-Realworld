@@ -1,43 +1,45 @@
-## 🧠 03_finance_skill_map
+## 📊 Project 3: Finance Skill Map
 
-## 📌 Project Overview
-This project analyzes key data related to finance skill map, with a focus on trends, segment performance, and actionable insights.
+## 📝 Project Overview
+This project analyzes financial skill development across departments. Using a cleaned dataset of training hours, skill categories, and proficiency levels, we visualized trends to support talent management decisions.
 
-## 🧮 Dataset
-- Source: Simulated CSV data
-- Fields: Varies per project (see notebook)
+## 📁 Dataset
+**Filename:** `cleaned_financial_skills.csv`  
+**Fields:**
+- `Skill`: Name of the financial skill
+- `Category`: Classification of the skill (e.g., Reporting, Analysis)
+- `Department`: Department where the skill is applied
+- `TrainingHours`: Total hours spent on training
+- `ProficiencyLevel`: Self-reported skill proficiency level (e.g., Beginner, Intermediate, Advanced)
 
-## 🧰 Tech Stack
-- Python (Pandas)
-- Tableau Public
-- GitHub
-- Excel
+## 📊 Tableau Dashboard
+A dynamic dashboard was created using Tableau, highlighting three core perspectives of financial skills across departments.
 
-## 📓 Notebook Format Notice
-This project uses a Jupyter Notebook (`.ipynb`) to document all Python code.
-You can view the notebook directly on GitHub or open it in Colab for testing.
+🔗 **Dashboard Link:**  
+[View on Tableau Public](https://public.tableau.com/app/profile/zheng.lyu6601/viz/Financial_skill_map/Financial_skill_map#1)
 
-## 📘 Notebook Language Notice
-This notebook is written entirely in **English** to ensure clarity for international recruiters and collaborators.
+### 📌 Key Visualizations:
+1. **Average Training Hours per Skill**  
+   Horizontal bar chart showing average training time by skill.
 
-## 📈 Visualization Overview
-Three Tableau charts were created and combined into one dashboard:
-1. **Training Hours by Skill Type** – Bar chart showing average training hours by skill category.  
-2. **Training Hours by department** – Bar or map chart displaying training investment per department.  
-3. **Top Skill Learners** – Pie or ranked bar chart of individuals with highest training hours.
-  
-➡️ [View Dashboard](https://us-east-1.online.tableau.com/#/site/zhenglyu1990-685a75bdca/views/FinanceSkillMap/Sheet1?:iid=1)
+2. **Skill Distribution by Department and Category**  
+   Stacked bar chart showing the count of skills by department and skill category.
 
-![Dashboard Screenshot](dashboard.png)
+3. **Skill Category by Proficiency Level**  
+   Heatmap indicating how different skill categories are distributed across proficiency levels.
 
-## 📁 File Structure
+📸 Screenshot:  
+![Dashboard Screenshot](financial_dashboard.png)
 
-```
+## 🗂️ Repository Structure
 03_finance_skill_map/
-│
-├── finance_skill_map(Python Notebook).ipynb # Python analysis notebook
-├── README.md                                # Project documentatio
-├── cleaned_financial_skills.csv             # Cleaned dataset
-├── financial_skill_map.twbx                 # Tableau dashboard image
-└── financial_skill_sample.csv                 # Raw input data
-```
+├── cleaned_financial_skills.csv
+├── financial_skill_map.twbx
+├── financial_dashboard.png
+├── financial_skill_map_notebook.ipynb
+└── README.md
+
+## ⚠️ Notebook Language Notice
+The Python notebook file (`financial_skill_map_notebook.ipynb`) was originally created using Google Colab in Chinese-language mode. While all variable names and outputs are in English, some markdown cells may still include Chinese. This does not affect data integrity or code functionality.
+
+---
