@@ -71,7 +71,7 @@ This project analyzes and visualizes employee financial skill development data t
 ├── cleaned_financial_skills.csv         # Clean data file
 ├── financial_skill_map.twbx             # Tableau dashboard (packaged)
 ├── Financial Skill Map.twb              # Tableau project file (non-packaged)
-├── notebook                             # Python notebook (data cleaning)
+├── Notebook                             # Python notebook (data cleaning)
 └── README.md                            # Project documentation
 ```
 ---
