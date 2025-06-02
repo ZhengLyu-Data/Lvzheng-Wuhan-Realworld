@@ -33,7 +33,7 @@ SQL queries were executed on [SQL Fiddle](https://sqlfiddle.com) to simulate war
 | 🚚 **Fulfillment Rates** | On-time delivery rate across vendors |
 | 🏭 **Supplier Performance** | Horizontal bars comparing supplier efficiency |
 
-View the dashboard here: [Supply Chain Dashboard](https://public.tableau.com/app/profile/zheng.lyu6601/viz/SupplyChainDashboard_17487579608020/SupplyChainDashboard)
+View the dashboard here: [Supply Chain Dashboard](https://public.tableau.com/app/profile/zheng.lyu6601/viz/SupplyChainDashboard_17487579608020/SupplyChainDashboard) 📌 The dashboard was created and published using Tableau Public.
 
 ## 💬 Notebook Language Notice
 The notebook file `supply_chain_dashboard.ipynb` is fully written in English for consistency with professional standards.
