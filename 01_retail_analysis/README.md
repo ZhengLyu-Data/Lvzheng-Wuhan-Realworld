@@ -1,65 +1,43 @@
-## 📁 Project 01: Retail Sales Analysis
+## 📊 01_retail_analysis
 
-This project showcases a simulated end-to-end retail sales analysis pipeline, featuring data cleaning, trend visualization, regional and product-level insights, and a clean, cloud-based workflow. It demonstrates proficiency in Python, SQL, and Tableau.
+## 📌 Project Overview
+This project analyzes key data related to retail sales analysis, with a focus on trends, segment performance, and actionable insights.
 
-## 📊 Project Overview
+## 🧮 Dataset
+- Source: Simulated CSV data
+- Fields: Varies per project (see notebook)
 
-This project provides a foundational business insight into sales performance using a simulated retail dataset. The pipeline includes:
+## 🧰 Tech Stack
+- Python (Pandas)
+- Tableau Public
+- GitHub
+- Excel
 
-- Data cleaning using Python (Pandas)
-- Trend visualization over time
-- Geographic breakdown by country
-- Product category contribution via bar and pie charts
-- Dashboard publishing with Tableau Public
+## 📓 Notebook Format Notice
+This project uses a Jupyter Notebook (`.ipynb`) to document all Python code.
+You can view the notebook directly on GitHub or open it in Colab for testing.
 
-## 🔧 Tools Used
-- Python (Google Colab) – Data cleaning and preprocessing
-- Excel - organizing, analyzing, and managing data
-- Tableau Public – Interactive dashboard and visual storytelling
-- GitHub – Project version control and portfolio publishing
+## 📘 Notebook Language Notice
+This notebook is written entirely in **English** to ensure clarity for international recruiters and collaborators.
 
-## 📁 Project Structure
+## 📈 Visualization Overview
+Three Tableau charts were created and combined into one dashboard:
+1. **Chart 1**
+2. **Chart 2**
+3. **Chart 3**
+
+➡️ [View Dashboard](https://public.tableau.com/app/profile/zheng.lyu6601/viz/GlobalRetailAnalysis_17487317429280/GlobalRetailAnalysis#1)
+
+![Dashboard Screenshot](dashboard.png)
+
+## 📁 File Structure
+
 ```
-01_retail_analysis/
-├── retail_sales_sample.csv         # Simulated raw retail sales data
-├── cleaned_sales.csv               # Cleaned dataset ready for analysis
-├── Notebook                        # Python analysis notebook (Colab-compatible)
-├── tableau_screenshot.png          # Dashboard snapshot
-└── README.md                       # Project documentation
+01_retail_sales_analysis/
+│
+├── retail_analysis.ipynb        # Python analysis notebook
+├── retail_sales_sample.csv        # Raw input data
+├── cleaned_sales.csv    # Cleaned dataset
+├── dashboard.png      # Tableau dashboard image
+└── README.md              # Project documentation
 ```
-## 📈 Tableau Dashboard
-
-The interactive dashboard includes:
-
-1. **Monthly Sales Trend** – A line chart showing revenue over time  
-2. **Sales by Country** – A bar chart colored by sales volume  
-3. **Sales by Product** – A pie chart highlighting contribution by product
-
-🔗 [View Published Tableau Dashboard](https://public.tableau.com/app/profile/zheng.lyu6601/viz/GlobalRetailAnalysis_17487317429280/GlobalRetailAnalysis)
-
-## 🧹 Data Cleaning Process
-
-Key steps included:
-
-- Removing duplicates and nulls
-- Ensuring valid date formatting
-- Creating a `TotalSales` column = `Quantity * UnitPrice`
-
-The resulting dataset `cleaned_sales.csv` was exported and visualized using Tableau.
-
-## 💡 Highlights
-
-100% cloud-native: No local setup needed
-Strong use of Python + Tableau for end-to-end analysis
-Easily expandable for time series forecasting or classification
-
-## 🐍 Notebook Language Notice
-
-The notebook file (Notebook.ipynb) in this project is written entirely in Python, executed via Google Colab in a cloud-based environment. 
-All analysis, data cleaning, and visualization preparation were completed using standard Python libraries (such as pandas, matplotlib, etc.). 
-This ensures accessibility and reproducibility for reviewers and collaborators without requiring local setup.
-
-## 📌 About This Project
-
-This is **Project 1 of 4** in my data career transition roadmap.  
-🔗 [View all my projects on GitHub](https://github.com/ZhengLyu-Data/Lvzheng-Wuhan-Data)
