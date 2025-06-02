@@ -29,8 +29,7 @@ This project presents a complete pipeline for analyzing simulated retail sales d
 | 📊 **Sales by Country** | Colored bar chart comparing total sales by country |
 | 🧾 **Sales by Product** | Pie chart summarizing total sales by product |
 
-View the dashboard here: [Global Retail Dashboard](https://public.tableau.com/app/profile/zheng.lyu6601/viz/GlobalRetailAnalysis_17487317429280/GlobalRetailAnalysis)
-## 📌 The dashboard was created and published using Tableau Public.
+View the dashboard here: [Global Retail Dashboard](https://public.tableau.com/app/profile/zheng.lyu6601/viz/GlobalRetailAnalysis_17487317429280/GlobalRetailAnalysis) 📌 The dashboard was created and published using Tableau Public.
 
 ## 💬 Notebook Language Notice
 Due to platform limitations, the notebook filename remains `retail_analysis.ipynb`. The entire content is written in English to maintain consistency with other projects and job application materials.
