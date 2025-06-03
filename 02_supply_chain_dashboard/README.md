@@ -7,7 +7,7 @@ This project analyzes a simulated supply chain dataset, demonstrating key skills
 ```
 02_supply_chain_dashboard/
 │
-├── supply_chain_dashboard.ipynb     # Python notebook for data cleaning and preparation
+├── supply_chain_dashboard.ipynb     # Python notebook for data cleaning and preparation in Google Colab
 ├── supply_chain_sample.csv          # Simulated raw dataset
 ├── cleaned_supply_chain.csv         # Cleaned dataset used in Tableau
 ├── supply_chain_dashboard.sql       # Combined SQL queries used for analysis (SQL Fiddle-compatible)
