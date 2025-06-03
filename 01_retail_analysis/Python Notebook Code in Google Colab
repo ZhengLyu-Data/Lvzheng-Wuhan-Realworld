@@ -1,33 +1,25 @@
+# Step 1: Import libraries
 import pandas as pd
-
-# Construct Simulation Data
-data = {
-    'OrderDate': ['2022-01-01', '2022-01-02', '2022-01-05', '2022-02-01', '2022-02-10', '2022-03-01', '2022-03-15'],
-    'Country': ['USA', 'UK', 'USA', 'Germany', 'UK', 'China', 'China'],
-    'Product': ['A', 'B', 'A', 'C', 'B', 'A', 'C'],
-    'Quantity': [10, 5, 8, 2, 12, 20, 3],
-    'UnitPrice': [20.0, 15.0, 22.0, 30.0, 18.0, 19.0, 35.0]
-}
-
-df = pd.DataFrame(data)
-
-# Save as simulated raw data file
-df.to_csv("retail_sales_sample.csv", index=False)
-print("✅ Simulated raw data 'retail_sales_sample.csv' created successfully")
-print(df.head())
-
-# Clean and enrich data
-df_cleaned = df.copy()
-df_cleaned.drop_duplicates(inplace=True)
-df_cleaned.dropna(inplace=True)
-df_cleaned['OrderDate'] = pd.to_datetime(df_cleaned['OrderDate'], errors='coerce')
-df_cleaned = df_cleaned[df_cleaned['OrderDate'].notnull()]
-df_cleaned['TotalSales'] = df_cleaned['Quantity'] * df_cleaned['UnitPrice']
-
-# Save cleaned data
-df_cleaned.to_csv("cleaned_sales.csv", index=False)
-print("✅ 'cleaned_sales.csv' saved successfully")
-
-# Download to local if needed
+# Step 2: Upload and load the dataset
 from google.colab import files
-files.download("cleaned_sales.csv")
+uploaded = files.upload() # Mannually upload train.csv here
+# Step 3: Read CSV into DataFrame
+df = pd.read_csv("train.csv")
+# Step 4: Check columns and first few rows
+print("Columns in the dataset:")
+print(df.columns.tolist())
+print("\n Preview of the dataset:")
+print(df.head())
+# Step 5: Drop duplicates and missing values
+df_cleaned = df.drop_duplicates()
+df_cleaned = df_cleaned.dropna()
+# Step 6: Add any relevant calculated columns if needed
+# Let's say this dataset is for retail sales production, we can check if a 'sales' column exists.
+# If not, we'll leave this step as a placeholder
+if 'UnitPrice' in df_cleaned.columns and 'Quantity' in df_cleaned.columns:
+    df_cleaned['TotalSales'] = df_cleaned['UnitPrice'] * df_cleaned['Quantity']
+# Step 7: Save the cleaned dataset
+df_cleaned.to_csv("cleaned_train.csv", index=False)
+print("Cleaned dataset saved as 'Cleaned_train.csv'")
+from google.colab import files
+files.download("cleaned_train.csv")
