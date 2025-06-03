@@ -16,6 +16,7 @@ This project provides a comprehensive analysis of global retail sales using real
 └── README.md                       # Project overview and documentation (this file)
 
 ## 🚀 Overview
+
 Objective: To analyze global sales performance, regional distribution, customer segments, and product categories using realistic business data.
 
 Dataset: Kaggle - Global Superstore Dataset
@@ -25,6 +26,7 @@ Data Size: ~10,000 rows
 Data Fields: Order Date, Sales, Customer Info, Region, Product Category, etc.
 
 ## 📊 Key Insights
+
 The project delivers the following key insights:
 
 Monthly sales performance trends and seasonality
@@ -36,6 +38,7 @@ Top-performing product categories and customer segments
 Identification of high-revenue and low-performing regions
 
 ## 📌 Tableau Dashboard
+
 The dashboard includes the following three visualizations:
 
 #Monthly Revenue Trend
@@ -49,7 +52,7 @@ Horizontal Bar Chart: Identifies top spenders based on total revenue
 
 ⚠️ Note: The dashboard screenshot is included in global_sales_dashboard.png.
 
-🧹 Data Cleaning (Python in Google Colab)
+## 🧹 Data Cleaning (Python in Google Colab)
 Removed duplicates and missing values
 
 Standardized date formats
@@ -58,7 +61,7 @@ Filtered out inconsistent sales data
 
 Output saved as cleaned_train.csv
 
-🧠 SQL Analysis (Programiz SQL)
+## 🧠 SQL Analysis (Programiz SQL)
 Key queries include:
 
 Top-selling product categories
