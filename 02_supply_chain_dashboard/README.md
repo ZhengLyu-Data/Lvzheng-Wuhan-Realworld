@@ -11,9 +11,6 @@ This project analyzes a simulated supply chain dataset, demonstrating key skills
 ├── supply_chain_sample.csv          # Simulated raw dataset
 ├── cleaned_supply_chain.csv         # Cleaned dataset used in Tableau
 ├── supply_chain_dashboard.sql       # Combined SQL queries used for analysis (SQL Fiddle-compatible)
-├── InventoryLevels.png              # Tableau chart 1
-├── FulfillmentRates.png             # Tableau chart 2
-├── SupplierPerformance.png          # Tableau chart 3
 ├── SupplyChainDashboard.png         # Screenshot of final dashboard
 └── README.md                        # Project documentation
 ```
