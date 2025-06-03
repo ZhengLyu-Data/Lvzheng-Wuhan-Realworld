@@ -7,7 +7,7 @@ This project presents a complete pipeline for analyzing simulated retail sales d
 ```
 01_retail_analysis/
 │
-├── retail_analysis.ipynb          # Python notebook for data cleaning and processing
+├── retail_analysis.ipynb          # Python notebook for data cleaning and processing in Google Colab
 ├── retail_sales_sample.csv        # Simulated raw dataset
 ├── cleaned_sales.csv              # Cleaned dataset used in Tableau
 ├── GlobalRetailDashboard.png      # Screenshot of final dashboard
