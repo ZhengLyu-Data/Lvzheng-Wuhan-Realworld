@@ -13,6 +13,7 @@ This project focuses on automating inventory replenishment analysis across multi
 ├── ReorderByCategory.png              # Screenshot of Tableau chart 2
 ├── ForecastVsStockByWarehouse.png     # Screenshot of Tableau chart 3
 ├── SmartReplenishmentDashboard.png    # Screenshot of final dashboard
+├── powerbi_dashboard_screenshot.png   # Screenshot of PowerBI dashboard
 └── README.md                          # Project documentation
 ```
 
@@ -29,6 +30,9 @@ This project focuses on automating inventory replenishment analysis across multi
 | 🔁 **Forecast vs Stock by Warehouse** | Side-by-side bars comparing forecasted demand vs actual inventory |
 
 View the dashboard here: [Smart Replenishment Dashboard](https://public.tableau.com/app/profile/zheng.lyu6601/viz/Smart_replenishment/Smart_replenishment) 📌 The dashboard was created and published using Tableau Public.
+
+## 🖼️ Dashboard Preview:  
+![Power BI Dashboard](./powerbi_dashboard_screenshot.png)
 
 ## 🧠 SQL Analytics
 Executed in SQLFiddle to simulate backend queries:
