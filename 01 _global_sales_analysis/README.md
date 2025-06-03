@@ -10,7 +10,7 @@ This project provides a comprehensive analysis of global retail sales using real
 01_global_sales_analysis/
 │
 ├── cleaned_train.csv                # Cleaned dataset after preprocessing
-├── train.csv
+├── train.csv                       # Kaggle real-world raw dataset
 ├── global_sales_analysis.ipynb     # Jupyter Notebook for data cleaning and preprocessing
 ├── global_sales_dashboard.png      # Tableau dashboard screenshot
 ├── global_sales.sql                # SQL queries for key insights
