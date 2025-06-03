@@ -1,32 +1,88 @@
-# 🛍️ Project 01: Retail Sales Analysis
+# 🛒 Project 1: Global Superstore Sales Analysis (Real-World Simulation)
 
-## 📌 Overview
-This project presents a complete pipeline for analyzing simulated retail sales data. From data preprocessing to visualization, it demonstrates how retail performance can be tracked and understood using Python and Tableau.
+This project provides a comprehensive analysis of global retail sales using real-world simulation data from Kaggle’s *Global Superstore* dataset. It includes Python-based data cleaning in Colab, SQL analysis, and Tableau dashboard visualization.
 
-## 📁 Folder Structure
-```
-01_retail_analysis/
+---
+
+## 📁 Project Structure
+
+```text
+01_global_sales_analysis/
 │
-├── retail_analysis.ipynb          # Python notebook for data cleaning and processing in Google Colab
-├── retail_sales_sample.csv        # Simulated raw dataset
-├── cleaned_sales.csv              # Cleaned dataset used in Tableau
-├── GlobalRetailDashboard.png      # Screenshot of final dashboard
-└── README.md                      # Project documentation
-```
+├── cleaned_train.csv                # Cleaned dataset after preprocessing
+├── global_sales_analysis.ipynb     # Jupyter Notebook for data cleaning and preprocessing
+├── global_sales_dashboard.png      # Tableau dashboard screenshot
+├── global_sales.sql                # SQL queries for key insights
+└── README.md                       # Project overview and documentation (this file)
 
-## 🧹 Data Cleaning
-- Removed duplicates and null values
-- Converted `OrderDate` to datetime
-- Calculated total sales by multiplying `Quantity` and `UnitPrice`
+## 🚀 Overview
+Objective: To analyze global sales performance, regional distribution, customer segments, and product categories using realistic business data.
 
-## 📊 Tableau Visualizations
-| Chart | Description |
-|-------|-------------|
-| 📈 **Sales Trends** | Line chart showing monthly sales trends |
-| 📊 **Sales by Country** | Colored bar chart comparing total sales by country |
-| 🧾 **Sales by Product** | Pie chart summarizing total sales by product |
+Dataset: Kaggle - Global Superstore Dataset
 
-View the dashboard here: [Global Retail Dashboard](https://public.tableau.com/app/profile/zheng.lyu6601/viz/GlobalRetailAnalysis_17487317429280/GlobalRetailAnalysis) 📌 The dashboard was created and published using Tableau Public.
+Data Size: ~10,000 rows
 
-## 💬 Notebook Language Notice
-Due to platform limitations, the notebook filename remains `retail_analysis.ipynb`. The entire content is written in English to maintain consistency with other projects and job application materials.
+Data Fields: Order Date, Sales, Customer Info, Region, Product Category, etc.
+
+## 📊 Key Insights
+The project delivers the following key insights:
+
+Monthly sales performance trends and seasonality
+
+Regional and segment-wise revenue breakdown
+
+Top-performing product categories and customer segments
+
+Identification of high-revenue and low-performing regions
+
+## 📌 Tableau Dashboard
+The dashboard includes the following three visualizations:
+
+#Monthly Revenue Trend
+Line Chart: Monthly total sales across all regions
+
+#Revenue by Category and Region
+Stacked Bar Chart: Category-wise sales across geographic regions
+
+# Top 10 Customers by Sales
+Horizontal Bar Chart: Identifies top spenders based on total revenue
+
+⚠️ Note: The dashboard screenshot is included in global_sales_dashboard.png.
+
+🧹 Data Cleaning (Python in Google Colab)
+Removed duplicates and missing values
+
+Standardized date formats
+
+Filtered out inconsistent sales data
+
+Output saved as cleaned_train.csv
+
+🧠 SQL Analysis (Programiz SQL)
+Key queries include:
+
+Top-selling product categories
+
+Regional revenue comparison
+
+Monthly growth analysis
+
+SQL queries are stored in global_sales.sql.
+
+## 📝 Notebook Language Notice
+The notebook global_sales_analysis.ipynb is written entirely in English for professional and international audience readiness.
+
+## 🔬 Real-World Simulation Notice
+This project uses a real dataset from Kaggle, simulating actual business scenarios to demonstrate job-ready analytical and visualization skills.
+
+## 🛠️ Tools Used
+Python (Google Colab)
+
+SQL (Programiz SQL Fiddle)
+
+Tableau (Public Edition for visualization)
+
+## 📎 Author
+Zheng Lyu
+Aspiring Data Analyst | U.S. Citizen | Career transition to Big Data industry (Wuhan)
+LinkedIn Profile | GitHub: ZhengLyu-Data
