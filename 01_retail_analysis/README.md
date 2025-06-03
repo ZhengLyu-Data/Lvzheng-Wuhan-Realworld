@@ -10,9 +10,6 @@ This project presents a complete pipeline for analyzing simulated retail sales d
 ├── retail_analysis.ipynb          # Python notebook for data cleaning and processing
 ├── retail_sales_sample.csv        # Simulated raw dataset
 ├── cleaned_sales.csv              # Cleaned dataset used in Tableau
-├── SalesTrends.png                # Screenshot of Tableau chart 1
-├── SalesByCountry.png             # Screenshot of Tableau chart 2
-├── SalesByProduct.png             # Screenshot of Tableau chart 3
 ├── GlobalRetailDashboard.png      # Screenshot of final dashboard
 └── README.md                      # Project documentation
 ```
