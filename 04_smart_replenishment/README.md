@@ -5,7 +5,7 @@ This project focuses on automating inventory replenishment analysis across multi
 ```
 04_smart_replenishment/
 │
-├── smart_replenishment.ipynb          # Python notebook for data cleaning and transformation
+├── smart_replenishment.ipynb          # Python notebook for data cleaning and transformation in Google Colab
 ├── smart_replenishment_sample.csv     # Simulated raw dataset
 ├── cleaned_replenishment.csv          # Cleaned dataset used in Tableau
 ├── smart_replenishment.sql            # SQL queries for analysis
