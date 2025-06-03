@@ -9,9 +9,6 @@ This project focuses on automating inventory replenishment analysis across multi
 ├── smart_replenishment_sample.csv     # Simulated raw dataset
 ├── cleaned_replenishment.csv          # Cleaned dataset used in Tableau
 ├── smart_replenishment.sql            # SQL queries for analysis
-├── StockVsReorder.png                 # Screenshot of Tableau chart 1
-├── ReorderByCategory.png              # Screenshot of Tableau chart 2
-├── ForecastVsStockByWarehouse.png     # Screenshot of Tableau chart 3
 ├── SmartReplenishmentDashboard.png    # Screenshot of final dashboard
 ├── powerbi_dashboard_screenshot.png   # Screenshot of PowerBI dashboard
 └── README.md                          # Project documentation
