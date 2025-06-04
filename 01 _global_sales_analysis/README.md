@@ -18,7 +18,7 @@ File: cleaned_train.csv
 
 ## 🔧 Tools Used
 
-# Tool                 # Purpose
+Tool                           Purpose
 
 Python                Data cleaning, CSV generation
 
