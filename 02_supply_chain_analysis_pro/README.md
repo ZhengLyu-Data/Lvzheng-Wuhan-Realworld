@@ -1,30 +1,10 @@
-## 📦 Project 2: Clean Supply Chain Dashboard
+## 📦 Supply Chain Product & Shipping Dashboard
 
-This project analyzes realistic supply chain data, focusing on product sales, shipping efficiency, and logistics costs. It features data cleaning with Python and dynamic dashboard creation using Tableau and Power BI.
+This project analyzes supply chain performance using real-world simulation data. The focus is on product sales, shipping efficiency, cost analysis, and logistics metrics across categories and carriers.
 
-## 🔍 Objective
+## 📁 Dataset
 
-To build a complete analytics solution for a simulated supply chain dataset by:
-
-Cleaning raw Kaggle-style data using Python
-
-Aggregating and transforming data into six structured CSVs
-
-Creating professional dashboards in Tableau and Power BI for stakeholder insights
-
-## 🧰 Tools & Skills
-
-Python (Pandas, Colab)
-
-Tableau Public
-
-Power BI Desktop
-
-Data cleaning, feature engineering, visualization design
-
-## 📊 Dataset Overview
-
-Raw file: Clean_supply_chain.xlsxProcessed into:
+The project uses cleaned data sourced from Kaggle, exported into six separate tables:
 
 product_summary.csv
 
@@ -38,47 +18,106 @@ shipping_time_per_carrier.csv
 
 product_category_distribution.csv
 
-## 📈 Tableau Dashboard: Product & Shipping Insights
+Original file: Clean_supply_chain.xlsx
 
-A clean visual summary of product performance and shipping KPIs.
+## 🔧 Tools Used
 
-Horizontal bar chart of units sold by product type
+Tool
 
-Donut chart for category distribution
+Purpose
 
-Scatter plot of distance vs. shipping cost
+Python
 
-Shipping time per carrier
+Data cleaning, CSV segmentation
 
-📷 Preview:
+Tableau
 
-## 📉 Power BI Dashboard: Logistics KPIs
+Visual dashboard (multi-chart product insights)
 
-Three compact visuals to quickly grasp logistics performance:
+Power BI
 
-KPI Card for Total Units Sold
+Carrier analysis, KPI reports
 
-Column chart for Shipping Time by Carrier
+SQL
 
-Pie chart for Product Category Share
-📷 Preview:
+Aggregation queries (shipping cost, performance)
 
+GitHub
 
-## 🧠 Key Insights
+Version control and portfolio publishing
 
-Category A and B products generate the most sales volume
+## 📌 Deliverables
 
-Carrier X is the most time-efficient across shipping modes
+✅ Cleaned and split dataset (6 CSVs)
 
-Higher shipping distance often correlates with increased cost (scatter trend)
+✅ Tableau dashboard: supply_chain_dashboard_tableau.png
 
-## 💼 Resume Summary
+✅ Power BI dashboard: supply_chain_dashboard_powerbi.png
 
-Supply Chain Dashboard ProjectBuilt supply chain dashboards in Tableau and Power BI using a realistic dataset. Conducted data wrangling in Python and created six analytical datasets. Designed KPIs and visuals focused on product sales and transportation efficiency.
+✅ SQL queries: project2_queries.sql + Markdown version
 
-## 🧑‍💻 Author
+📈 Tableau Dashboard
 
-Zheng LyuGitHub Portfolio
+Dashboard Title: Supply Chain Product & Shipping Insights
 
-⭐️ Star this project if it inspires you!
+Product Volume & Type (Bar & Donut Charts)
+
+Shipping Carrier Time & Cost
+
+Scatter Plot for Distance vs Cost
+
+## 📊 Power BI Dashboard
+
+Three analytical pages:
+
+Product KPIs & Category Trend
+
+Shipping Carrier Time & Cost
+
+Logistics Efficiency by Mode & Route
+
+## 🧮 SQL Sample
+
+-- Join shipping carrier mapping from orders and supply chain
+SELECT 
+    sc.product_id,
+    sc.product_name,
+    sc.product_type,
+    sc.units_sold,
+    sc.shipping_carrier,
+    sc.shipping_cost,
+    sc.shipping_time,
+    o.shipping_distance
+FROM supply_chain sc
+JOIN orders o
+  ON sc.shipping_carrier = 
+     CASE 
+         WHEN o.carrier_code = 'Carrier A' THEN 'DHL'
+         WHEN o.carrier_code = 'Carrier B' THEN 'FedEx'
+         WHEN o.carrier_code = 'Carrier C' THEN 'UPS'
+     END;
+
+-- Cost Efficiency by Route
+SELECT 
+    routes, 
+    ROUND(AVG(shipping_costs / shipping_distance), 2) AS cost_per_km
+FROM shipping_summary
+GROUP BY routes;
+
+-- Cost Efficiency by Route
+SELECT routes, ROUND(AVG(shipping_costs / shipping_distance), 2) AS cost_per_km
+FROM shipping_summary
+GROUP BY routes;
+
+## 📝 Resume Bullet (English)
+
+Supply Chain Dashboard ProjectBuilt end-to-end analytics workflow for supply chain performance using Python, SQL, Tableau, and Power BI. Segmented and visualized real-world shipping and sales data across multiple dimensions to reveal carrier efficiency, product trends, and logistics costs.
+
+## 📄 Resume Project Description (English)
+
+Supply Chain Analytics ProjectUsed Python to preprocess and split Kaggle-based supply chain data. Executed SQL joins to map carriers to shipment details and calculated route-level cost efficiencies. Built multi-layered dashboards in Tableau and Power BI to visualize category-level sales, shipping time, and logistics performance.
+
+## 📎 Author
+
+Zheng Lyu | Data Analyst CandidateGitHub: github.com/ZhengLyu-Data
 
