@@ -18,17 +18,17 @@ File: cleaned_train.csv
 
 ## 🔧 Tools Used
 
-Tool                 Purpose
+# Tool                 # Purpose
 
-Python               Data cleaning, CSV generation
+# Python               # Data cleaning, CSV generation
 
-Tableau              Trend and regional visualization
+# Tableau              # Trend and regional visualization
 
-Power BI             KPIs, category analysis dashboard
+# Power BI             # KPIs, category analysis dashboard
 
-SQL (Programiz)      Structured queries for aggregation
+# SQL (Programiz)      # Structured queries for aggregation
 
-GitHub               Portfolio version control & hosting
+# GitHub               # Portfolio version control & hosting
 
 ## 📌 Deliverables
 
