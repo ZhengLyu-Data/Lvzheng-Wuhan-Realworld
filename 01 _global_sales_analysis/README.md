@@ -42,10 +42,10 @@ Identification of high-revenue and low-performing regions
 
 The dashboard includes the following three visualizations:
 
-#Monthly Revenue Trend
+# Monthly Revenue Trend
 Line Chart: Monthly total sales across all regions
 
-#Revenue by Category and Region
+# Revenue by Category and Region
 Stacked Bar Chart: Category-wise sales across geographic regions
 
 # Top 10 Customers by Sales
