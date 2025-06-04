@@ -34,3 +34,24 @@ GROUP BY Product_Category;
 SELECT Product_Category, SUM(Quantity) AS TotalQty
 FROM cleaned_train
 GROUP BY Product_Category;
+
+-- Query 4: Monthly sales trend
+SELECT 
+  SUBSTR(OrderDate, 1, 7) AS Month,
+  SUM(TotalSales) AS MonthlySales
+FROM cleaned_train
+GROUP BY Month
+ORDER BY Month;
+
+-- Query 5: Top 2 best-selling product categories
+SELECT Product_Category, SUM(TotalSales) AS TotalSales
+FROM cleaned_train
+GROUP BY Product_Category
+ORDER BY TotalSales DESC
+LIMIT 2;
+
+-- Query 6: Average order value
+SELECT 
+  COUNT(OrderID) AS OrderCount,
+  ROUND(SUM(TotalSales)/COUNT(OrderID), 2) AS AvgOrderValue
+FROM cleaned_train;
