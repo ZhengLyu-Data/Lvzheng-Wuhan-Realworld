@@ -1,0 +1,48 @@
+# If running in Google Colab, upload CSV files manually
+from google.colab import files
+
+uploaded = files.upload()
+
+import io
+postings = pd.read_csv(io.BytesIO(uploaded['job_postings.csv']))
+skills = pd.read_csv(io.BytesIO(uploaded['job_skills.csv']))
+summary = pd.read_csv(io.BytesIO(uploaded['job_summary.csv']))
+
+# Import required libraries
+import pandas as pd
+
+# Load CSV files
+postings = pd.read_csv("job_postings.csv")
+skills = pd.read_csv("job_skills.csv")
+summary = pd.read_csv("job_summary.csv")
+
+# Merge the datasets on job_link
+merged_df = postings.merge(skills, on="job_link", how="left") \
+                    .merge(summary, on="job_link", how="left")
+
+# Extract state from location and count number of skills
+merged_df['state'] = merged_df['job_location'].str.extract(r",\s*(\w{2})$")
+merged_df['num_skills'] = merged_df['job_skills'].fillna('').apply(lambda x: len(x.split(',')) if x else 0)
+
+# Explode skills into separate rows
+skill_exploded = merged_df[['job_link', 'search_country', 'company', 'job_title', 'job_skills']].dropna()
+skill_exploded = skill_exploded.assign(skill=skill_exploded['job_skills'].str.split(',')).explode('skill')
+skill_exploded['skill'] = skill_exploded['skill'].str.strip()
+
+# Output core CSVs
+skill_exploded['skill'].value_counts().reset_index().to_csv("table1_skill_frequency.csv", index=False)
+merged_df['company'].value_counts().reset_index().to_csv("table2_top_hiring_companies.csv", index=False)
+merged_df['state'].value_counts().reset_index().to_csv("table3_job_count_by_state.csv", index=False)
+merged_df.groupby(['job_level', 'job_type']).size().reset_index(name='count').to_csv("table4_job_level_vs_type.csv", index=False)
+skill_exploded.groupby(['search_country', 'skill']).size().reset_index(name='count').to_csv("table5_skill_vs_country.csv", index=False)
+merged_df.groupby(['company', 'job_title']).size().reset_index(name='postings').to_csv("table6_company_job_summary.csv", index=False)
+
+# Optional: Download CSVs in Google Colab
+from google.colab import files
+
+files.download("table1_skill_frequency.csv")
+files.download("table2_top_hiring_companies.csv")
+files.download("table3_job_count_by_state.csv")
+files.download("table4_job_level_vs_type.csv")
+files.download("table5_skill_vs_country.csv")
+files.download("table6_company_job_summary.csv")
