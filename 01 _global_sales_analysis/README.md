@@ -1,85 +1,60 @@
-# 🛒 Project 1: Global Superstore Sales Analysis (Real-World Simulation)
+## 🛍️ Project 1: Global Retail Sales Dashboard
 
-This project provides a comprehensive analysis of global retail sales using real-world simulation data from Kaggle’s *Global Superstore* dataset. It includes Python-based data cleaning in Colab, SQL analysis, and Tableau dashboard visualization.
+This project analyzes global retail transactions and customer behavior using a simulated Kaggle dataset. It demonstrates interactive sales dashboards built with Tableau, with pre-processing handled in Python.
 
----
+## 🔍 Objective
 
-## 📁 Project Structure
+To extract key business insights from global retail data by:
 
-```text
-01_global_sales_analysis/
-│
-├── cleaned_train.csv                    # Cleaned dataset after preprocessing
-├── train.csv                            # Kaggle real-world raw dataset
-├── global_sales_analysis Python Code    # Jupyter Notebook for data cleaning and preprocessing
-├── global_sales_dashboard.png           # Tableau dashboard screenshot
-├── global_sales.sql                     # SQL queries for key insights
-└── README.md                            # Project overview and documentation (this file)
+Cleaning and restructuring data using Python
 
-## 🚀 Overview
+Creating regional and segment-based visualizations
 
-Objective: To analyze global sales performance, regional distribution, customer segments, and product categories using realistic business data.
+Highlighting KPIs for product sales, profit, and shipping
 
-Dataset: Kaggle - Global Superstore Dataset
+## 🧰 Tools & Skills
 
-Data Size: ~10,000 rows
+Python (Pandas, Colab)
 
-Data Fields: Order Date, Sales, Customer Info, Region, Product Category, etc.
+Tableau Public
 
-## 📊 Key Insights
+Data wrangling, KPI analysis, visualization design
 
-The project delivers the following key insights:
+## 📊 Dataset Overview
 
-Monthly sales performance trends and seasonality
+Source: Global Superstore (Kaggle)Raw file: Global_Superstore.csv ➜ Cleaned into structured format with columns:
 
-Regional and segment-wise revenue breakdown
+Order Date, Category, Sub-Category, Sales, Profit, Customer Segment, Region, etc.
 
-Top-performing product categories and customer segments
+## 📈 Tableau Dashboard: Global Sales Insights
 
-Identification of high-revenue and low-performing regions
+This dashboard provides a snapshot of key metrics:
 
-## 📌 Tableau Dashboard
+Sales & profit by category and sub-category
 
-The dashboard includes the following three visualizations:
+Regional performance (map)
 
-# Monthly Revenue Trend
-Line Chart: Monthly total sales across all regions
+Sales trends over time
 
-# Revenue by Category and Region
-Stacked Bar Chart: Category-wise sales across geographic regions
+Segment-based breakdowns (e.g., Consumer vs Corporate)
 
-# Top 10 Customers by Sales
-Horizontal Bar Chart: Identifies top spenders based on total revenue
+📷 Preview:
 
-⚠️ Note: The dashboard screenshot is included in global_sales_dashboard.png.
+## 🧠 Key Insights
 
-## 🧹 Data Cleaning (Python in Google Colab)
-Removed duplicates and missing values
+Technology and Office Supplies were top-performing categories
 
-Standardized date formats
+The East and West regions generated the most revenue
 
-Filtered out inconsistent sales data
+Consumer segment consistently led in sales volume
 
-Output saved as cleaned_train.csv
+## 💼 Resume Summary
 
-## 🧠 SQL Analysis (Programiz SQL)
-Key queries include:
+Global Retail Sales DashboardUsed Python to preprocess a global sales dataset and built a Tableau dashboard to visualize KPIs across regions, product lines, and customer segments.
 
-Top-selling product categories
+## 🧑‍💻 Author
 
-Regional revenue comparison
+Zheng LyuGitHub Portfolio
 
-Monthly growth analysis
+⭐️ Star this project if it helps you visualize retail analytics!
 
-SQL queries are stored in global_sales.sql.
-
-## 📝 Notebook Language Notice
-The notebook global_sales_analysis.ipynb is written entirely in English for professional and international audience readiness.
-
-## 🔬 Real-World Simulation Notice
-This project uses a real dataset from Kaggle, simulating actual business scenarios to demonstrate job-ready analytical and visualization skills.
-
-## 🛠️ Tools Used
-Python (Google Colab)
-
-SQL (Programiz SQL Fiddle)
