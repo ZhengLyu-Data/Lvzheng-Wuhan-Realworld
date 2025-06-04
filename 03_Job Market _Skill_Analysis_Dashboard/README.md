@@ -30,29 +30,17 @@ table6_company_job_summary.csv
 
 ## 🚰 Tools Used
 
-Tool
+Tool                  Purpose
 
-Purpose
+Python                Data preprocessing, cleaning, CSV generation
 
-Python
+Tableau               Visual skill analysis dashboard
 
-Data preprocessing, cleaning, CSV generation
+Power BI              Multi-page hiring trend reports
 
-Tableau
+SQL                   Aggregation and filtering of skills & jobs
 
-Visual skill analysis dashboard
-
-Power BI
-
-Multi-page hiring trend reports
-
-SQL
-
-Aggregation and filtering of skills & jobs
-
-GitHub
-
-Version control and public portfolio hosting
+GitHub                Version control and public portfolio hosting
 
 ## 📈 Tableau Dashboard
 
