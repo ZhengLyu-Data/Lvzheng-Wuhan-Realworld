@@ -22,29 +22,17 @@ Original file: Clean_supply_chain.xlsx
 
 ## 🔧 Tools Used
 
-Tool
+Tool                       Purpose
 
-Purpose
+Python                   Data cleaning, CSV segmentation
 
-Python
+Tableau                  Visual dashboard (multi-chart product insights)
 
-Data cleaning, CSV segmentation
+Power BI                 Carrier analysis, KPI reports
 
-Tableau
+SQL                      Aggregation queries (shipping cost, performance)
 
-Visual dashboard (multi-chart product insights)
-
-Power BI
-
-Carrier analysis, KPI reports
-
-SQL
-
-Aggregation queries (shipping cost, performance)
-
-GitHub
-
-Version control and portfolio publishing
+GitHub                   Version control and portfolio publishing
 
 ## 📌 Deliverables
 
