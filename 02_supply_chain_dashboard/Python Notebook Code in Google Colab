@@ -1,61 +1,28 @@
-📌 Step 1: Upload and Load Dataset
-from google.colab import files
+# Step 1: Import necessary libraries
 import pandas as pd
-
-# Upload CSV file (e.g., supply_chain_sample.csv)
-uploaded = files.upload()
-
-# Load the file into a DataFrame
-df = pd.read_csv("supply_chain_sample.csv")
-print("✅ Data loaded successfully. Total rows:", len(df))
-df.head()
-
-📌 Step 2: Check for Missing Values
-df.isnull().sum()
-
-📌 Step 3: Top 10 Origin Cities by Shipment Volume
-import matplotlib.pyplot as plt
-# Check if column exists
-if 'Origin City' in df.columns:
-    origin_summary = df['Origin City'].value_counts().head(10)
-    plt.figure(figsize=(10,5))
-    origin_summary.plot(kind='bar', color='skyblue')
-    plt.title('Top 10 Origin Cities by Shipment Volume')
-    plt.xlabel('City')
-    plt.ylabel('Number of Shipments')
-    plt.xticks(rotation=45)
-    plt.tight_layout()
-    plt.show()
+from google.colab import files
+upload = files.upload()
+# Step 2: Load the raw supply chain dataset
+import pandas as pd
+df = pd.read_csv("supply_chain_data.csv")
+# Step 3: Preview column names and sample data
+print("Columns in the dataset:")
+print(df.columns.tolist())
+print("\n Preview of the data:")
+print(df.head())
+# Step 4: Clean the data (drop dupilicates and missing values)
+df.drop_duplicates(inplace=True)
+df.dropna(inplace=True)
+print(f"Data cleaned. Remaining rows: {len(df)}")
+# Step 5: Create calcualted features (customize based on your data structure)
+if {'Order_Demand', 'Stock_Level', 'Reorder_Point'}.issubset(df.columns):
+    df["StockGap"] = df["Order_Demand"] - df["Stock_Level"]
+    df["ShouldReorder"] = df["Stock_Level"] < df["Reorder_Point"]
+    print("New columns created: 'StockGap', 'ShouldReorder'")
 else:
-    print("⚠️ Column 'Origin City' not found in the dataset.")
-
-📌 Step 4: Top 10 Destination Cities by Shipment Volume
-if 'Destination City' in df.columns:
-    destination_summary = df['Destination City'].value_counts().head(10)
-    plt.figure(figsize=(10,5))
-    destination_summary.plot(kind='bar', color='lightgreen')
-    plt.title('Top 10 Destination Cities by Shipment Volume')
-    plt.xlabel('City')
-    plt.ylabel('Number of Shipments')
-    plt.xticks(rotation=45)
-    plt.tight_layout()
-    plt.show()
-else:
-    print("⚠️ Column 'Destination City' not found in the dataset.")
-
-📌 Step 5: Product Category Distribution
-if 'Product Category' in df.columns:
-    df['Product Category'].value_counts().plot(kind='pie', autopct='%1.1f%%', title='Product Category Distribution', figsize=(6, 6))
-    plt.ylabel('')
-    plt.show()
-else:
-    print("⚠️ Column 'Product Category' not found in the dataset.")
-
-📌 Step 6: Save Cleaned Dataset
+print("Required columns for calculated files are missing. Please adjust Step 5.")
+# Step 6: Save the cleaned dataset
 df.to_csv("cleaned_supply_chain.csv", index=False)
-print("✅ Cleaned dataset saved as cleaned_supply_chain.csv")
-
-📌 Step 7: Download Cleaned File
+print("cleaned_supply_chain.csv saved successfully")
 from google.colab import files
 files.download("cleaned_supply_chain.csv")
-
