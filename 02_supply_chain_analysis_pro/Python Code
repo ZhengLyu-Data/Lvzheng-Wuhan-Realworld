@@ -1,0 +1,92 @@
+# STEP 1: Import and upload
+import pandas as pd
+from google.colab import files
+
+# Upload CSV
+uploaded = files.upload()
+filename = next(iter(uploaded))
+df = pd.read_csv(filename)
+
+# STEP 2: Clean column names
+df.columns = df.columns.str.strip().str.lower().str.replace(' ', '_')
+
+# Rename important fields
+df = df.rename(columns={
+    'number_of_products_sold': 'units_sold',
+    'shipping_times': 'shipping_time',
+    'shipping_carriers': 'shipping_carrier',
+    'shipping_costs': 'shipping_cost',
+    'sku': 'product_name',
+    'product_type': 'product_type',
+    'location': 'region'
+})
+
+# Convert numeric fields
+df['units_sold'] = pd.to_numeric(df['units_sold'], errors='coerce')
+df['price'] = pd.to_numeric(df['price'], errors='coerce')
+df['shipping_time'] = pd.to_numeric(df['shipping_time'], errors='coerce')
+df['shipping_cost'] = pd.to_numeric(df['shipping_cost'], errors='coerce')
+df['revenue_generated'] = pd.to_numeric(df['revenue_generated'], errors='coerce')
+
+# Drop rows with missing essential fields
+df = df.dropna(subset=['product_name', 'product_type', 'units_sold', 'price', 'shipping_time', 'region'])
+
+# STEP 3: Simulate additional fields
+df['sales'] = df['units_sold'] * df['price']
+df['profit'] = df['revenue_generated'] * 0.3
+df['customer_name'] = ['Customer_' + str(i % 10 + 1) for i in range(len(df))]
+df['order_date'] = pd.date_range(start='2023-01-01', periods=len(df), freq='D')
+df['ship_date'] = df['order_date'] + pd.to_timedelta(df['shipping_time'], unit='D')
+df['month'] = df['order_date'].dt.to_period('M')
+df['delivery_days'] = (df['ship_date'] - df['order_date']).dt.days
+
+# STEP 4: Generate 6 tables
+
+# 1. Top 10 Products by Sales
+top_10_products_by_sales = df.groupby('product_name')['sales'].sum().sort_values(ascending=False).head(10).reset_index()
+
+# 2. Monthly Sales Trend
+monthly_sales_trend = df.groupby('month')['sales'].sum().reset_index()
+monthly_sales_trend['month'] = monthly_sales_trend['month'].astype(str)
+
+# 3. Category Sales Distribution
+category_sales_distribution = df.groupby('product_type')['sales'].sum().reset_index()
+
+# 4. Top Customers by Orders
+top_customers_by_orders = df['customer_name'].value_counts().head(10).reset_index()
+top_customers_by_orders.columns = ['customer_name', 'order_count']
+
+# 5. Delivery Time Analysis
+delivery_time_analysis = df.groupby('shipping_carrier')['delivery_days'].mean().reset_index()
+
+# 6. Profit by Region
+profit_by_region = df.groupby('region')['profit'].sum().reset_index()
+
+# STEP 5: Export CSV
+top_10_products_by_sales.to_csv("top_10_products_by_sales.csv", index=False)
+monthly_sales_trend.to_csv("monthly_sales_trend.csv", index=False)
+category_sales_distribution.to_csv("category_sales_distribution.csv", index=False)
+top_customers_by_orders.to_csv("top_customers_by_orders.csv", index=False)
+delivery_time_analysis.to_csv("delivery_time_analysis.csv", index=False)
+profit_by_region.to_csv("profit_by_region.csv", index=False)
+
+print("✅ All 6 tables generated and exported.")
+
+# Show all 6 result tables
+print("📊 Top 10 Products by Sales")
+print(top_10_products_by_sales)
+
+print("\n📈 Monthly Sales Trend")
+print(monthly_sales_trend)
+
+print("\n📂 Category Sales Distribution")
+print(category_sales_distribution)
+
+print("\n👤 Top Customers by Orders")
+print(top_customers_by_orders)
+
+print("\n🚚 Delivery Time Analysis")
+print(delivery_time_analysis)
+
+print("\n💰 Profit by Region")
+print(profit_by_region)
