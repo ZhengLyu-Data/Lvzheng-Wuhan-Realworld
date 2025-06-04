@@ -1,47 +1,86 @@
-📦 02_Supply_Chain_Analysis_Pro
-🔍 Project Overview
-This project provides an end-to-end supply chain analysis using real-world datasets to simulate key business scenarios. It integrates data exploration, SQL querying, Python-based analysis, and both Tableau and Power BI dashboards. The goal is to identify bottlenecks, evaluate carrier performance, and optimize cost-efficiency in shipping and inventory decisions.
+📦 Project 2: Clean Supply Chain Dashboard
 
-🛠️ Tools & Technologies
-Python (Google Colab)
+This project analyzes realistic supply chain data, focusing on product sales, shipping efficiency, and logistics costs. It features data cleaning with Python and dynamic dashboard creation using Tableau and Power BI.
 
-SQL (Programiz / SQLFiddle)
+🔍 Objective
 
-Tableau (Public Dashboard)
+To build a complete analytics solution for a simulated supply chain dataset by:
 
-Power BI (Desktop Reports)
+Cleaning raw Kaggle-style data using Python
 
-📊 Key Insights & Outputs
-Carrier Efficiency: Identified top-performing shipping carriers by cost and delivery time.
+Aggregating and transforming data into six structured CSVs
 
-Geographic Bottlenecks: Mapped high-delay regions for targeted improvement.
+Creating professional dashboards in Tableau and Power BI for stakeholder insights
 
-Shipping Cost Patterns: Visualized correlations between distance, time, and cost.
+🧰 Tools & Skills
 
-Dashboard Summary: Interactive Tableau & Power BI dashboards to support supply chain decisions.
+Python (Pandas, Colab)
 
-📁 Folder Structure
-graphql
-Copy
-Edit
-02_Supply_chain_analysis_pro/
-│
-├── data/                        # Cleaned data sources
-├── notebooks/                  # Python EDA & visualizations
-├── sql_queries/                # SQL scripts and schema
-├── tableau_dashboard/          # Screenshot + public URL
-├── powerbi_dashboard/          # Report screenshots or .pbix (if included)
-└── README.md                   # This file
-📈 Sample Dashboards
-Tableau Dashboard:
-🔗 View on Tableau Public
+Tableau Public
 
-Power BI Report:
-(Screenshot or link here once available)
+Power BI Desktop
 
-✅ Learning Outcomes
-Performed real-world supply chain simulations with multi-tool integration.
+Data cleaning, feature engineering, visualization design
 
-Applied business intelligence tools to communicate insights visually.
+📊 Dataset Overview
 
-Developed a modular workflow for supply chain KPI analysis.
+Raw file: Clean_supply_chain.xlsxProcessed into:
+
+product_summary.csv
+
+shipping_summary.csv
+
+distance_cost_analysis.csv
+
+top_products_by_volume.csv
+
+shipping_time_per_carrier.csv
+
+product_category_distribution.csv
+
+📈 Tableau Dashboard: Product & Shipping Insights
+
+A clean visual summary of product performance and shipping KPIs.
+
+Horizontal bar chart of units sold by product type
+
+Donut chart for category distribution
+
+Scatter plot of distance vs. shipping cost
+
+Shipping time per carrier
+
+📷 Preview:
+
+
+📉 Power BI Dashboard: Logistics KPIs
+
+Three compact visuals to quickly grasp logistics performance:
+
+KPI Card for Total Units Sold
+
+Column chart for Shipping Time by Carrier
+
+Pie chart for Product Category Share
+
+📷 Preview:
+
+
+🧠 Key Insights
+
+Category A and B products generate the most sales volume
+
+Carrier X is the most time-efficient across shipping modes
+
+Higher shipping distance often correlates with increased cost (scatter trend)
+
+💼 Resume Summary
+
+Supply Chain Dashboard ProjectBuilt supply chain dashboards in Tableau and Power BI using a realistic dataset. Conducted data wrangling in Python and created six analytical datasets. Designed KPIs and visuals focused on product sales and transportation efficiency.
+
+🧑‍💻 Author
+
+Zheng LyuGitHub Portfolio
+
+⭐️ Star this project if it inspires you!
+
