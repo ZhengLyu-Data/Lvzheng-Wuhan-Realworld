@@ -1,60 +1,104 @@
-## 🛍️ Project 1: Global Retail Sales Dashboard
+## 📊 Global Sales Analysis Dashboard
 
-This project analyzes global retail transactions and customer behavior using a simulated Kaggle dataset. It demonstrates interactive sales dashboards built with Tableau, with pre-processing handled in Python.
+This project analyzes global retail sales using Python, Tableau, Power BI, and SQL. The goal is to extract insights across regions, categories, and time trends to support business decisions.
 
-## 🔍 Objective
+## 📁 Dataset
 
-To extract key business insights from global retail data by:
+The cleaned dataset contains order-level information including:
 
-Cleaning and restructuring data using Python
+Order ID, Date
 
-Creating regional and segment-based visualizations
+Region & Country
 
-Highlighting KPIs for product sales, profit, and shipping
+Product Category & Subcategory
 
-## 🧰 Tools & Skills
+Sales, Profit
 
-Python (Pandas, Colab)
+File: cleaned_train.csv
 
-Tableau Public
+## 🔧 Tools Used
 
-Data wrangling, KPI analysis, visualization design
+Tool
 
-## 📊 Dataset Overview
+Purpose
 
-Source: Global Superstore (Kaggle)Raw file: Global_Superstore.csv ➜ Cleaned into structured format with columns:
+Python
 
-Order Date, Category, Sub-Category, Sales, Profit, Customer Segment, Region, etc.
+Data cleaning, CSV generation
 
-## 📈 Tableau Dashboard: Global Sales Insights
+Tableau
 
-This dashboard provides a snapshot of key metrics:
+Trend and regional visualization
 
-Sales & profit by category and sub-category
+Power BI
 
-Regional performance (map)
+KPIs, category analysis dashboard
 
-Sales trends over time
+SQL (Programiz)
 
-Segment-based breakdowns (e.g., Consumer vs Corporate)
+Structured queries for aggregation
 
-📷 Preview:
+GitHub
 
-## 🧠 Key Insights
+Portfolio version control & hosting
 
-Technology and Office Supplies were top-performing categories
+## 📌 Deliverables
 
-The East and West regions generated the most revenue
+✅ Cleaned dataset cleaned_train.csv
 
-Consumer segment consistently led in sales volume
+✅ Tableau dashboard: global_sales_analysis_dashboard.png
 
-## 💼 Resume Summary
+✅ Power BI dashboard: global_sales_powerbi_dashboard.png
 
-Global Retail Sales DashboardUsed Python to preprocess a global sales dataset and built a Tableau dashboard to visualize KPIs across regions, product lines, and customer segments.
+✅ SQL queries: project1_queries.sql + Markdown version
 
-## 🧑‍💻 Author
+## 🧠 Key Visuals
 
-Zheng LyuGitHub Portfolio
+📈 Tableau Dashboard: Global Sales Overview
 
-⭐️ Star this project if it helps you visualize retail analytics!
+Regional Sales Bar Chart
 
+Profit Trend Line Chart
+
+Category Distribution Pie Chart
+
+
+
+## 📊 Power BI Dashboard: KPIs & Trends
+
+KPI Cards: Total Sales, Avg Order Value
+
+Bar Chart: Top Product Categories
+
+Pie Chart: Category Distribution
+
+
+
+## 🧮 SQL Summary (Run on Programiz)
+
+-- Query: Monthly Sales Trend
+SELECT
+  SUBSTR(OrderDate, 1, 7) AS Month,
+  SUM(TotalSales) AS MonthlySales
+FROM cleaned_train
+GROUP BY Month
+ORDER BY Month;
+
+-- Query: Top 2 Best-Selling Categories
+SELECT Product_Category, SUM(TotalSales) AS TotalSales
+FROM cleaned_train
+GROUP BY Product_Category
+ORDER BY TotalSales DESC
+LIMIT 2;
+
+## 📝 Resume Bullet (English)
+
+Global Sales Dashboard ProjectCleaned international sales data using Python and designed dashboards in Tableau and Power BI. Created structured SQL queries to analyze sales trends and product performance across categories and regions.
+
+## 📄 Resume Project Description (English)
+
+Global Sales Dashboard ProjectCleaned international sales data using Python and created visual dashboards in Tableau and Power BI. Used SQL to extract monthly sales trends, top-selling product categories, and average order values for executive insights.
+
+## 📎 Author
+
+Zheng Lyu | Data Analyst CandidateGitHub: github.com/ZhengLyu-Data
