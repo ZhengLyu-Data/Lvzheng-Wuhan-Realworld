@@ -1,11 +1,11 @@
-# Step 1: Upload your merged file (cleaned_olist_data.csv)
+# Step 1: Upload your merged file (olist_merged_raw.csv)
 from google.colab import files
 uploaded = files.upload()
 
 # Step 2: Import and read the merged file
 import pandas as pd
 
-df = pd.read_csv("cleaned_olist_data.csv")
+df = pd.read_csv("onlist_merged_raw.csv")
 
 # Step 3: Clean the data
 df['order_purchase_timestamp'] = pd.to_datetime(df['order_purchase_timestamp'])
