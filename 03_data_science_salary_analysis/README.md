@@ -10,16 +10,16 @@ This project analyzes supply chain and logistics transaction data to uncover del
 ```
 03_data_science_salary_analysis/
 ├── data/
-│   ├── supply_chain_raw.csv                   # Original raw dataset
-│   └── data_science_salaries_cleaned.csv      # Cleaned dataset used for analysis
+│   ├── data_science_salaries_raw.csv                   # Original raw dataset
+│   └── data_science_salaries_cleaned.csv               # Cleaned dataset used for analysis
 ├── scripts/
-│   ├── supply_chain_dataset.sql               # SQL Data extraction & transformation script
-│   └── supply_chain_dataset.python            # Python data cleaning script
+│   ├── data_science_dataset.sql                        # SQL Data extraction & transformation script
+│   └── data_science_dataset.python                     # Python data cleaning script
 ├── dashboard/
-│   ├── data_science_salary_dashboard.pbix     # Power BI dashboard file
-│   ├── powerbi_dashboard.pbix.png             # Power BI dashboard preview image
-│   ├── data_science_salary_dashboard.twbx     # Tableau workbook
-│   └── supply_chain_dashboard.preview.png     # Tableau dashboard screenshot
+│   ├── data_science_salary_dashboard.pbix              # Power BI dashboard file
+│   ├── data_science_salary_dashboard.pbix.png          # Power BI dashboard preview image
+│   ├── data_science_salary_dashboard.twbx              # Tableau workbook
+│   └── data_science_salary_dashboard.preview.png       # Tableau dashboard screenshot
 └── README.md
 ```
 
