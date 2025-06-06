@@ -19,7 +19,7 @@ This project analyzes supply chain and logistics transaction data to uncover del
 │   ├── data_science_salary_dashboard.pbix              # Power BI dashboard file
 │   ├── data_science_salary_dashboard.pbix.png          # Power BI dashboard preview image
 │   ├── data_science_salary_dashboard.twbx              # Tableau workbook
-│   └── data_science_salary_dashboard.preview.png       # Tableau dashboard screenshot
+│   └── data_science_salary_dashboard.preview.png       # Tableau dashboard preview image
 └── README.md
 ```
 
