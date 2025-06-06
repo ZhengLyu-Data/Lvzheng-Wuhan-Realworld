@@ -1,8 +1,7 @@
 ## 📊 Bank Marketing Campaign Analysis
 
 This project analyzes marketing campaign performance and customer behavior for a Portuguese retail bank.  
-It combines Python, SQL, Tableau, and Power BI to explore customer segmentation, engagement frequency, and macroeconomic correlations.  
-The project is designed for showcasing end-to-end BI capability for analyst roles.
+It combines Python, SQL, Tableau, and Power BI to explore customer segmentation, engagement frequency, and macroeconomic correlations. The project is designed for showcasing end-to-end BI capability for analyst roles.
 
 ---
 
