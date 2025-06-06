@@ -5,7 +5,7 @@ uploaded = files.upload()
 # Step 2: Import and read the merged file
 import pandas as pd
 
-df = pd.read_csv("onlist_merged_raw.csv")
+df = pd.read_csv("olist_merged_raw.csv")
 
 # Step 3: Clean the data
 df['order_purchase_timestamp'] = pd.to_datetime(df['order_purchase_timestamp'])
