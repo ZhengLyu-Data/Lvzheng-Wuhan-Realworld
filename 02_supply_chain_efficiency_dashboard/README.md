@@ -48,7 +48,7 @@ Performed in both SQL (SQLite) and Python (pandas):
 
 📁 File: `supply_chain_dashboard.pbix`  
 📷 Preview:  
-![Power BI Dashboard Preview](dashboard/powerbi_dashboard.pbix.png)
+![Power BI Dashboard Preview](powerbi_dashboard.pbix.png)
 
 **Includes:**
 
@@ -64,7 +64,7 @@ Performed in both SQL (SQLite) and Python (pandas):
 
 📁 File: `supply_chain_dashboard.twbx`  
 📷 Preview:  
-![Tableau Dashboard Preview](dashboard/supply_chain_dashboard.preview.png)
+![Tableau Dashboard Preview](tableau_dashboard.preview.png)
 
 **Includes:**
 
