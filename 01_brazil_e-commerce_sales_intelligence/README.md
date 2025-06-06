@@ -44,7 +44,7 @@ This project analyzes a real-world e-commerce dataset from Brazil, focusing on s
 
 📁 File: `brazil_ecommerce_dashboard.pbix`  
 📷 Preview:
-![Power BI Dashboard Preview](powerbi_dashboard_overview.png)
+![Power BI Dashboard Preview](powerbi_dashboard.pbix.png)
 
 **Includes:**
 
@@ -60,7 +60,7 @@ This project analyzes a real-world e-commerce dataset from Brazil, focusing on s
 
 📁 File: `brazil_ecommerce_dashboard.twbx`  
 📷 Preview:
-![tableau_dashboard preview](tableau_dashboard preview.png)
+![tableau_dashboard preview](tableau_dashboard.preview.png)
 
 **Includes:**
 
