@@ -42,20 +42,29 @@ This project analyzes a real-world e-commerce dataset from Brazil, focusing on s
 
 ## 📈 Power BI Dashboard
 
-- **File:** `brazil_ecommerce_dashboard.pbix`
-- **Preview:** `powerbi_dashboard.pbix.png`
-- **Tool:** Microsoft Power BI
+📁 File: `brazil_ecommerce_dashboard.pbix`  
+📷 Preview:
+
+**Includes:**
+
+- Product Category Sales Overview (bar chart)
+- Payment Type Distribution (pie chart)
+- Customer Review Trend Over Time (line chart)
 
 > Open `.pbix` using Power BI Desktop to explore the interactive visuals.
 
 ---
+## 📈 Power BI Dashboard
 
-## 📊 Tableau Dashboard
+📁 File: `brazil_ecommerce_dashboard.twbx`  
+📷 Preview:
 
-- **File:** `brazil_ecommerce_dashboard.twbx`
-- **Preview:** `tableau_dashboard_preview.png`
-- **Tool:** Tableau Public / Tableau Desktop
+**Includes:**
 
+- Top Categories by Revenue
+- Payment Method Breakdown
+- Review Score Distribution by Month
+- 
 > Open `.twbx` using Tableau Public (free) or Tableau Desktop 2022.1+.
 
 ---
