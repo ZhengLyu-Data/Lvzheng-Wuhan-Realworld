@@ -14,7 +14,7 @@ It combines Python, SQL, Tableau, and Power BI to explore customer segmentation,
 │   ├── bank_marketing_cleaned.csv                     # Cleaned dataset for visualization
 │   └── bank-additional-names.txt                      # Metadata label file
 ├── scripts/
-│   ├── bank_marketing_dataset.sql                     # SQL business queries
+│   ├── bank_marketing_dataset.sql                     # SQL Data extraction & transformation script
 │   └── bank_marketing_dataset.python                  # Python cleaning script
 ├── dashboard/
 │   ├── bank_marketing_customer_explorer.twbx          # Tableau workbook (customer segmentation)
