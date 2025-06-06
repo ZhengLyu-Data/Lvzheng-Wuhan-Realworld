@@ -56,6 +56,8 @@ Performed in Python (pandas):
 - Monthly Campaign Intensity Trend (line chart)
 - Monthly Economic Indicator Comparision Heatmap (matrix chart)
 
+> Open `.pbix` using Power BI Desktop to explore the interactive visuals.
+
 ---
 
 ## 📊 Tableau Dashboard
