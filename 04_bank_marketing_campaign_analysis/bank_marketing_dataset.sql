@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS bank_marketing;
+DROP TABLE IF EXISTS bank_marketing; -- Complete MySQL Script
 
 CREATE TABLE bank_marketing (
   age INT,
