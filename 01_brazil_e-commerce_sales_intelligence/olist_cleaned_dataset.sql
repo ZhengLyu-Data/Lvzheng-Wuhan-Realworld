@@ -1,4 +1,4 @@
--- Step 1: Create raw table
+-- Step 1: Create raw table -- Complete SQLite Script
 DROP TABLE IF EXISTS olist_raw;
 
 CREATE TABLE olist_raw (
