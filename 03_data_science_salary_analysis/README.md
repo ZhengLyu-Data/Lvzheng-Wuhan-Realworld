@@ -13,7 +13,7 @@ This project analyzes supply chain and logistics transaction data to uncover del
 │   ├── supply_chain_raw.csv                   # Original raw dataset
 │   └── data_science_salaries_cleaned.csv      # Cleaned dataset used for analysis
 ├── scripts/
-│   ├── supply_chain_dataset.sql               # SQL business analysis script
+│   ├── supply_chain_dataset.sql               # SQL Data extraction & transformation script
 │   └── supply_chain_dataset.python            # Python data cleaning script
 ├── dashboard/
 │   ├── data_science_salary_dashboard.pbix     # Power BI dashboard file
