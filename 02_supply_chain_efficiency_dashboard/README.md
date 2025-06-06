@@ -20,7 +20,7 @@ The project is tailored for showcasing technical competency in data roles such a
 │   ├── supply_chain_dashboard.pbix        # Power BI dashboard file
 │   ├── powerbi_dashboard.pbix.png         # Power BI dashboard preview image
 │   ├── supply_chain_dashboard.twbx        # Tableau workbook
-│   └── supply_chain_dashboard.preview.png # Tableau dashboard screenshot
+│   └── tableau_dashboard.preview.png      # Tableau dashboard screenshot
 └── README.md
 ```
 
