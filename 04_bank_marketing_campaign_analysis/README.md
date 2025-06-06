@@ -64,7 +64,7 @@ Performed in Python (pandas):
 
 📁 File: `bank_marketing_customer_explorer.twbx`  
 📷 Preview:  
-![Tableau Dashboard Preview](bank_marketing_customer exloer.preview.png)
+![Tableau Dashboard Preview](bank_marketing_customer_exloer.preview.png)
 
 **Includes:**
 
