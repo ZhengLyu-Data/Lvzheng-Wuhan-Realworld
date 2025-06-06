@@ -72,6 +72,8 @@ Performed in both SQL (SQLite) and Python (pandas):
 - Average product cost by warehouse block (bar chart)
 - Average customer care calls by customer rating (bar chart)
 
+> Open `.twbx` using Tableau Public (free) or Tableau Desktop 2022.1+.
+
 ---
 
 ## 🛠️ Tools Used
