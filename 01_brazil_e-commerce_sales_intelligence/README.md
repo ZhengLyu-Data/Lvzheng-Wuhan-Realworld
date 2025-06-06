@@ -67,5 +67,4 @@ This project analyzes a real-world e-commerce dataset from Brazil, focusing on s
 
 ## 📬 Contact
 
-For access to live Tableau/Power BI links or collaboration requests, feel free to reach out via [LinkedIn](https://www.linkedin.com/in/your-profile).
-
+For access to live Tableau/Power BI links or collaboration requests, feel free to reach out via [LinkedIn]https://www.linkedin.com/in/zheng-lyu-951295323/.
