@@ -70,6 +70,8 @@ Performed in Python (pandas):
 - Age and campaign frequency scatter
 - Multidimensional segmentation dashboard
 
+> Open `.twbx` using Tableau Public (free) or Tableau Desktop 2022.1+.
+
 ---
 
 ## 🛠️ Tools Used
