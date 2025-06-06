@@ -1,4 +1,5 @@
-## 📊 data_science_salary_analysis
+
+## 📊 Supply Chain Efficiency Dashboard
 
 This project analyzes supply chain and logistics transaction data to uncover delivery performance patterns, cost structures, and customer behavior.  
 It combines Python, SQL, Tableau, and Power BI to perform real-world data cleaning, operational insights extraction, and dashboard building.  
@@ -9,18 +10,18 @@ The project is tailored for showcasing technical competency in data roles such a
 ## 🗂️ Project Structure
 
 ```
-02_data_science_salary_analysis
+03_data_science_salary_analysis/
 ├── data/
-│   ├── supply_chain_raw.csv               # Original raw dataset
-│   └── supply_chain_cleaned.csv           # Cleaned dataset used for analysis
+│   ├── supply_chain_raw.csv                   # Original raw dataset
+│   └── data_science_salaries_cleaned.csv      # Cleaned dataset used for analysis
 ├── scripts/
-│   ├── supply_chain_dataset.sql           # SQL business analysis script
-│   └── supply_chain_dataset.python        # Python data cleaning script
+│   ├── supply_chain_dataset.sql               # SQL business analysis script
+│   └── supply_chain_dataset.python            # Python data cleaning script
 ├── dashboard/
-│   ├── supply_chain_dashboard.pbix        # Power BI dashboard file
-│   ├── powerbi_dashboard.pbix.png         # Power BI dashboard preview image
-│   ├── supply_chain_dashboard.twbx        # Tableau workbook
-│   └── supply_chain_dashboard.preview.png # Tableau dashboard screenshot
+│   ├── data_science_salary_dashboard.pbix     # Power BI dashboard file
+│   ├── powerbi_dashboard.pbix.png             # Power BI dashboard preview image
+│   ├── data_science_salary_dashboard.twbx     # Tableau workbook
+│   └── supply_chain_dashboard.preview.png     # Tableau dashboard screenshot
 └── README.md
 ```
 
@@ -33,7 +34,7 @@ Performed in both SQL (SQLite) and Python (pandas):
 - Removed missing or invalid entries
 - Renamed columns for consistency
 - Verified value ranges for all key metrics
-- Final cleaned file: `supply_chain_cleaned.csv`
+- Final cleaned file: `data_science_salaries_cleaned.csv`
 
 ---
 
@@ -48,7 +49,7 @@ Performed in both SQL (SQLite) and Python (pandas):
 
 ## 📈 Power BI Dashboard
 
-📁 File: `supply_chain_dashboard.pbix`  
+📁 File: `data_science_salary_dashboard.pbix`  
 📷 Preview:  
 ![Power BI Dashboard Preview](dashboard/powerbi_dashboard.pbix.png)
 
@@ -62,7 +63,7 @@ Performed in both SQL (SQLite) and Python (pandas):
 
 ## 📊 Tableau Dashboard
 
-📁 File: `supply_chain_dashboard.twbx`  
+📁 File: `data_science_salary_dashboard.twbx`  
 📷 Preview:  
 ![Tableau Dashboard Preview](dashboard/supply_chain_dashboard.preview.png)
 
