@@ -54,7 +54,8 @@ This project analyzes a real-world e-commerce dataset from Brazil, focusing on s
 > Open `.pbix` using Power BI Desktop to explore the interactive visuals.
 
 ---
-## 📈 Power BI Dashboard
+
+## 📊 Tableau Dashboard
 
 📁 File: `brazil_ecommerce_dashboard.twbx`  
 📷 Preview:
