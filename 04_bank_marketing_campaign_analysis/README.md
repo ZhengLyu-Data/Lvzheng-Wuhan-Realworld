@@ -10,17 +10,17 @@ It combines Python, SQL, Tableau, and Power BI to explore customer segmentation,
 ```
 04_bank_marketing_campaign_analysis/
 ├── data/
-│   ├── bank_marketing_raw.csv                         # Original dataset
-│   ├── bank_marketing_cleaned.csv                     # Cleaned dataset for visualization
-│   └── bank-additional-names.txt                      # Metadata label file
+│   ├── bank_marketing_raw.csv                               # Original dataset
+│   ├── bank_marketing_cleaned.csv                           # Cleaned dataset for visualization
+│   └── bank-additional-names.txt                            # Metadata label file
 ├── scripts/
-│   ├── bank_marketing_dataset.sql                     # SQL Data extraction & transformation script
-│   └── bank_marketing_dataset.python                  # Python cleaning script
+│   ├── bank_marketing_dataset.sql                           # SQL Data extraction & transformation script
+│   └── bank_marketing_dataset.python                        # Python cleaning script
 ├── dashboard/
-│   ├── bank_marketing_customer_explorer.twbx          # Tableau workbook (customer segmentation)
-│   ├── bank_marketing_customer_exloer.preview.png     # Tableau dashboard preview image
-│   ├── bank_marketing_behavior_signal.pbix            # Power BI dashboard (campaign + economics)
-│   ├── powerbi_dashboard_overview.png                 # Power BI dashboard preview image
+│   ├── bank_marketing_customer_explorer.twbx                # Tableau workbook (customer segmentation)
+│   ├── bank_marketing_customer_exloer.preview.png           # Tableau dashboard preview image
+│   ├── bank_marketing_behavior_signal.pbix                  # Power BI dashboard (campaign + economics)
+│   ├── bank_marketing_customer_behavior_dashbaord.png       # Power BI dashboard preview image
 └── README.md
 ```
 
@@ -48,7 +48,7 @@ Performed in Python (pandas):
 
 📁 File: `bank_marketing_behavior_signal.pbix`  
 📷 Preview:  
-![Power BI Dashboard Preview](bank_marketing_customer_exloer.preview.png)
+![Power BI Dashboard Preview](bank_marketing_customer_behavior_dashbaord.png)
 
 **Includes:**
 
