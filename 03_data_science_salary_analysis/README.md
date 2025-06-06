@@ -65,7 +65,7 @@ Performed in both SQL (SQLite) and Python (pandas):
 
 📁 File: `data_science_salary_dashboard.twbx`  
 📷 Preview:  
-![Tableau Dashboard Preview](dashboard/supply_chain_dashboard.preview.png)
+![Tableau Dashboard Preview](data_science_salary.preview.png)
 
 **Includes:**
 
