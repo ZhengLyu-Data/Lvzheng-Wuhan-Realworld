@@ -53,9 +53,9 @@ Performed in both SQL (SQLite) and Python (pandas):
 
 **Includes:**
 
-- Shipment mode distribution (pie chart)
-- Average discount by product importance (bar chart)
-- Average product cost by customer rating (line chart)
+- Top 15 Highest-Paid Data Roles (bar chart)
+- Salary vs. Remote Ratio by Company Size (scatter chart)
+- Top 10 countries by Average Data Salary (line chart)
 
 > Open `.pbix` using Power BI Desktop to explore the interactive visuals.
 
