@@ -8,14 +8,18 @@ This project analyzes a real-world e-commerce dataset from Brazil, focusing on s
 
 ```
 01_brazil_e-commerce_sales_intelligence/
-├── olist_raw_data.zip # Original raw dataset
-├── olist_cleaned_final.zip # Final cleaned dataset
-├── onlist_cleaned_dataset.sql # SQL cleaning script
-├── onlist_cleaned_dataset.python # Python cleaning script
-├── brazil_ecommerce_dashboard.pbix # Power BI dashboard file
-├── brazil_ecommerce_dashboard.twbx # Tableau dashboard file
-├── powerbi_dashboard.pbix.png # Power BI dashboard preview image
-├── tableau_dashboard_preview.png # Tableau dashboard preview image
+├── data/
+|   ├── olist_raw_data.zip              # Original raw dataset
+|   ├── olist_cleaned_final.zip         # Final cleaned dataset
+├── scripts/
+|   ├── onlist_cleaned_dataset.sql      # SQL business analysis script
+|   ├── onlist_cleaned_dataset.python   # Python data cleaning script
+├── dashboard/
+|   ├── brazil_ecommerce_dashboard.pbix # Power BI dashboard file
+|   ├── powerbi_dashboard.pbix.png      # Power BI dashboard preview image
+|   ├── brazil_ecommerce_dashboard.twbx # Tableau workbook
+|   ├── tableau_dashboard.preview.png   # Tableau dashboard preview image
+├── README.md 
 ```
 
 ---
