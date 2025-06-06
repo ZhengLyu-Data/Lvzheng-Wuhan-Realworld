@@ -1,0 +1,38 @@
+# data_science_salary.python
+# Upload, clean, and export the Data Science Salaries dataset
+
+import pandas as pd
+from google.colab import files
+
+# Step 1: Upload CSV
+uploaded = files.upload()
+
+# Step 2: Load dataset
+df = pd.read_csv("data_science_salaries_raw.csv")
+
+# Step 3: Drop unnamed index column if present
+if 'Unnamed: 0' in df.columns:
+    df.drop(columns=['Unnamed: 0'], inplace=True)
+
+# Step 4: Rename columns for clarity
+df.rename(columns={
+    'work_year': 'Year',
+    'experience_level': 'Experience Level',
+    'employment_type': 'Employment Type',
+    'job_title': 'Job Title',
+    'salary_in_usd': 'Salary (USD)',
+    'employee_residence': 'Employee Residence',
+    'remote_ratio': 'Remote Ratio',
+    'company_location': 'Company Location',
+    'company_size': 'Company Size'
+}, inplace=True)
+
+# Step 5: Optional - Map experience levels to full names
+exp_map = {'EN': 'Entry', 'MI': 'Mid', 'SE': 'Senior', 'EX': 'Executive'}
+df['Experience Level'] = df['Experience Level'].map(exp_map)
+
+# Step 6: Save cleaned file
+df.to_csv("data_science_salaries_cleaned.csv", index=False)
+
+# Step 7: Download cleaned file
+files.download("data_science_salaries_cleaned.csv")
