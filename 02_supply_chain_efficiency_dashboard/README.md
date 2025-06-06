@@ -85,4 +85,4 @@ Performed in both SQL (SQLite) and Python (pandas):
 
 ## 📬 Contact
 
-Feel free to live Tableau/Power BI links or collaboration requests, feel free to reach out via likendin.
+Feel free to live Tableau/Power BI links or collaboration requests, feel free to reach out via likendin https://www.linkedin.com/in/zheng-lyu-951295323/.
