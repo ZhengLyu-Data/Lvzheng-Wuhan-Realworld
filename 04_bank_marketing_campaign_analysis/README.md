@@ -11,17 +11,17 @@ The project is designed for showcasing end-to-end BI capability for analyst role
 ```
 04_bank_marketing_campaign_analysis/
 ├── data/
-    ├── bank_marketing_raw.csv                         # Original dataset
-    ├── bank_marketing_cleaned.csv                     # Cleaned dataset for visualization
-    └── bank-additional-names.txt                      # Metadata label file
+│   ├── bank_marketing_raw.csv                         # Original dataset
+│   ├── bank_marketing_cleaned.csv                     # Cleaned dataset for visualization
+│   └── bank-additional-names.txt                      # Metadata label file
 ├── scripts/
-    ├── bank_marketing_dataset.sql                     # SQL business queries
-    └── bank_marketing_dataset.python                  # Python cleaning script
+│   ├── bank_marketing_dataset.sql                     # SQL business queries
+│   └── bank_marketing_dataset.python                  # Python cleaning script
 ├── dashboard/
-    ├── bank_marketing_customer_explorer.twbx          # Tableau workbook (customer segmentation)
-    ├── bank_marketing_customer_exloer.preview.png     # Tableau dashboard preview
-    ├── bank_marketing_behavior_signal.pbix            # Power BI dashboard (campaign + economics)
-    ├── powerbi_dashboard_overview.png                 # Power BI dashboard preview
+│   ├── bank_marketing_customer_explorer.twbx          # Tableau workbook (customer segmentation)
+│   ├── bank_marketing_customer_exloer.preview.png     # Tableau dashboard preview
+│   ├── bank_marketing_behavior_signal.pbix            # Power BI dashboard (campaign + economics)
+│   ├── powerbi_dashboard_overview.png                 # Power BI dashboard preview
 └── README.md
 ```
 
@@ -84,4 +84,4 @@ Performed in Python (pandas):
 
 ## 📬 Contact
 
-For collaboration, feedback, or walkthrough requests, feel free to reach out via LinkedIn or email.
+For collaboration, feedback, or walkthrough requests, feel free to reach out via LinkedIn https://www.linkedin.com/in/zheng-lyu-951295323/
