@@ -49,7 +49,7 @@ Performed in both SQL (SQLite) and Python (pandas):
 
 📁 File: `data_science_salary_dashboard.pbix`  
 📷 Preview:  
-![Power BI Dashboard Preview](dashboard/powerbi_dashboard.pbix.png)
+![Power BI Dashboard Preview](data_science_salary_dashboard.pbix.png)
 
 **Includes:**
 
