@@ -18,9 +18,9 @@ It combines Python, SQL, Tableau, and Power BI to explore customer segmentation,
 │   └── bank_marketing_dataset.python                  # Python cleaning script
 ├── dashboard/
 │   ├── bank_marketing_customer_explorer.twbx          # Tableau workbook (customer segmentation)
-│   ├── bank_marketing_customer_exloer.preview.png     # Tableau dashboard preview
+│   ├── bank_marketing_customer_exloer.preview.png     # Tableau dashboard preview image
 │   ├── bank_marketing_behavior_signal.pbix            # Power BI dashboard (campaign + economics)
-│   ├── powerbi_dashboard_overview.png                 # Power BI dashboard preview
+│   ├── powerbi_dashboard_overview.png                 # Power BI dashboard preview image
 └── README.md
 ```
 
