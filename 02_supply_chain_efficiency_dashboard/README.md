@@ -1,7 +1,4 @@
-
 ## 📊 Supply Chain Efficiency Dashboard
-
-## 📌 Project Description
 
 This project analyzes supply chain and logistics transaction data to uncover delivery performance patterns, cost structures, and customer behavior.  
 It combines Python, SQL, Tableau, and Power BI to perform real-world data cleaning, operational insights extraction, and dashboard building.  
