@@ -18,7 +18,7 @@ This project analyzes supply chain and logistics transaction data to uncover del
 │   ├── supply_chain_dashboard.pbix        # Power BI dashboard file
 │   ├── powerbi_dashboard.pbix.png         # Power BI dashboard preview image
 │   ├── supply_chain_dashboard.twbx        # Tableau workbook
-│   └── tableau_dashboard.preview.png      # Tableau dashboard screenshot
+│   └── tableau_dashboard.preview.png      # Tableau dashboard preview image
 └── README.md
 ```
 
