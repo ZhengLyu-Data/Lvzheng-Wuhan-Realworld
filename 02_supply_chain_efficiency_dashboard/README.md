@@ -56,6 +56,8 @@ Performed in both SQL (SQLite) and Python (pandas):
 - Average discount by product importance (bar chart)
 - Average product cost by customer rating (line chart)
 
+> Open `.pbix` using Power BI Desktop to explore the interactive visuals.
+
 ---
 
 ## 📊 Tableau Dashboard
