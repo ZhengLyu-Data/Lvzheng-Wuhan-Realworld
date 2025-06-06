@@ -48,7 +48,7 @@ Performed in Python (pandas):
 
 📁 File: `bank_marketing_behavior_signal.pbix`  
 📷 Preview:  
-![Power BI Dashboard Preview](powerbi_dashboard_overview.png)
+![Power BI Dashboard Preview](bank_marketing_customer_exloer.preview.png)
 
 **Includes:**
 
