@@ -14,7 +14,7 @@ The project is tailored for showcasing technical competency in data roles such a
 │   ├── supply_chain_raw.csv               # Original raw dataset
 │   └── supply_chain_cleaned.csv           # Cleaned dataset used for analysis
 ├── scripts/
-│   ├── supply_chain_dataset.sql           # SQL business analysis script
+│   ├── supply_chain_dataset.sql           # SQL Data extraction & transformation script
 │   └── supply_chain_dataset.python        # Python data cleaning script
 ├── dashboard/
 │   ├── supply_chain_dashboard.pbix        # Power BI dashboard file
