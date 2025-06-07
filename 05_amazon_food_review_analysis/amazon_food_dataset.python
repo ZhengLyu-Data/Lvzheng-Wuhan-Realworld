@@ -1,0 +1,144 @@
+# =======================
+# 📦 1. Import Libraries
+# =======================
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from textblob import TextBlob
+from wordcloud import WordCloud
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import classification_report
+from sklearn.feature_extraction.text import TfidfVectorizer
+
+# ==========================
+# 📂 2. Load & Clean Dataset
+# ==========================
+print("🚀 Loading and cleaning data...")
+
+from google.colab import files
+uploaded = files.upload()
+
+df = pd.read_csv("amazon_reviews_raw.csv")
+
+# Select essential columns (adjust if not present)
+cols = ['Time', 'UserId', 'ProfileName', 'Score', 'Text']
+df = df[[col for col in cols if col in df.columns]]
+df = df.dropna(subset=['Text'])
+df = df.sample(n=20000, random_state=42)
+
+# Convert time if present
+if 'Time' in df.columns:
+    df['Time'] = pd.to_datetime(df['Time'], unit='s', errors='coerce')
+
+# Convert score to sentiment label
+def map_score(score):
+    try:
+        s = int(score)
+        if s <= 2:
+            return "negative"
+        elif s == 3:
+            return "neutral"
+        else:
+            return "positive"
+    except:
+        return "unknown"
+
+df['sentiment_score'] = df['Score'].apply(map_score)
+df = df[df['sentiment_score'] != 'unknown']
+
+# Save cleaned data for later steps
+df.to_csv("clean_reviews.csv", index=False)
+print("✅ Data cleaned. Total records:", len(df))
+
+# =========================================
+# 💬 3. Sentiment Analysis with TextBlob
+# =========================================
+import pandas as pd
+from textblob import TextBlob
+
+# Load the cleaned review dataset from Step 2
+df = pd.read_csv("clean_reviews.csv")
+
+# Define the sentiment labeling function
+def get_sentiment(text):
+    try:
+        text = str(text)
+        blob = TextBlob(text)
+        polarity = blob.sentiment.polarity  # ranges from -1 to 1
+        if polarity > 0.1:
+            return "positive"
+        elif polarity < -0.1:
+            return "negative"
+        else:
+            return "neutral"
+    except:
+        return "neutral"
+
+# Apply the function to the 'Text' column
+print("🔍 Running sentiment analysis. This may take a few minutes...")
+df['predicted_sentiment'] = df['Text'].apply(get_sentiment)
+
+# Save the labeled dataset for later use (visualization & modeling)
+df.to_csv("clean_reviews_labeled.csv", index=False)
+print("✅ Sentiment analysis complete. Output saved as: clean_reviews_labeled.csv")
+
+# ======================================
+# 📊 4. NLP Feature Extraction (TF-IDF)
+# ======================================
+print("🧠 Extracting TF-IDF features...")
+
+vectorizer = TfidfVectorizer(max_features=1000, stop_words='english')
+X = vectorizer.fit_transform(df['Text'].fillna('').astype(str))
+
+# WordCloud
+print("🎨 Generating word cloud...")
+all_words = ' '.join(df['Text'].fillna('').tolist())
+wordcloud = WordCloud(width=800, height=400, background_color='white').generate(all_words)
+
+plt.figure(figsize=(10, 5))
+plt.imshow(wordcloud, interpolation='bilinear')
+plt.axis("off")
+plt.title("Most Frequent Words in Reviews")
+plt.tight_layout()
+plt.savefig("wordcloud.png")
+plt.show()
+
+# ====================================
+# 🧪 5. Train Simple Sentiment Model
+# ====================================
+print("🤖 Training sentiment classifier...")
+
+# Exclude neutral for binary classification
+df_model = df[df['sentiment_score'] != 'neutral']
+X_model = vectorizer.transform(df_model['Text'].astype(str))
+y_model = df_model['sentiment_score']
+
+X_train, X_test, y_train, y_test = train_test_split(X_model, y_model, test_size=0.2, random_state=42)
+model = LogisticRegression(max_iter=1000)
+model.fit(X_train, y_train)
+y_pred = model.predict(X_test)
+
+print("✅ Classification Report:")
+print(classification_report(y_test, y_pred))
+
+# ============================
+# 📈 6. Visualization Summary
+# ============================
+print("📊 Creating sentiment distribution chart...")
+
+plt.figure(figsize=(6, 4))
+sns.countplot(x='predicted_sentiment', data=df, palette='pastel')
+plt.title("Predicted Sentiment Distribution")
+plt.xlabel("Sentiment")
+plt.ylabel("Review Count")
+plt.tight_layout()
+plt.savefig("sentiment_distribution.png")
+plt.show()
+
+df.to_csv("clean_reviews.csv", index=False)
+
+df.to_csv("clean_reviews_labeled.csv", index=False)
+
+from google.colab import files
+files.download("clean_reviews_labeled.csv")
