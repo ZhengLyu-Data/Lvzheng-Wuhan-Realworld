@@ -15,6 +15,7 @@ This project analyzes customer product reviews from the Amazon Fine Food Reviews
 ├── wordcloud.png                                      # Visualization of key keywords based on TF-IDF
 ├── sentiment_distribution.png                         # Distribution of sentiment classes
 ├── README.md                                          # Project documentation
+
 ```
 
 ---
