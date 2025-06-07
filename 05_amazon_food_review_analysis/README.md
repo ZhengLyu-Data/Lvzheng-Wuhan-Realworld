@@ -2,8 +2,6 @@
 
 This project analyzes customer product reviews from the Amazon Fine Food Reviews dataset using natural language processing (NLP) techniques. The objective is to clean the raw text data, predict sentiment (positive/neutral/negative), visualize insights, and build a simple classification model.
 
----
-、、、
 ## Project Structure
 - `amazon_review_nlp_analysis_colab_final.ipynb`: Jupyter Notebook containing the complete analysis workflow
 - `amazon_reviews_raw.csv`: Raw dataset (not uploaded due to size, available on Kaggle)
@@ -12,8 +10,6 @@ This project analyzes customer product reviews from the Amazon Fine Food Reviews
 - `wordcloud.png`: Visualization of key keywords based on TF-IDF
 - `sentiment_distribution.png`: Distribution of sentiment classes
 - `README.md`: Project documentation
-、、、
----
 
 ## Data Cleaning
 - Removed null entries and unnecessary columns
