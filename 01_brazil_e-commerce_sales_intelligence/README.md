@@ -24,6 +24,13 @@ This project analyzes a real-world e-commerce dataset from Brazil, focusing on s
 
 ---
 
+## 📥 Dataset Source
+
+This project uses the [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) from Kaggle.  
+The dataset contains detailed transaction records including order status, product category, customer location, reviews, and more.
+
+---
+
 ## 🧼 Data Cleaning
 
 - The original dataset was downloaded from [Kaggle - Brazilian E-Commerce Public Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).
