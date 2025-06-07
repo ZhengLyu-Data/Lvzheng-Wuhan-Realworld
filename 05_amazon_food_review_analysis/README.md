@@ -1,8 +1,6 @@
 
 ## Project Title: Amazon Review Sentiment Analysis System
 
-## Folder Name: 05_amazon_review_nlp
-
 ## Dataset Description:
 - Raw Data File: amazon_reviews_raw.csv (not uploaded due to large size)
 - Cleaned Data File: clean_reviews.csv (sampled and cleaned text data)
