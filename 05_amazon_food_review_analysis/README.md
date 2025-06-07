@@ -50,5 +50,27 @@ This project analyzes customer product reviews from the Amazon Fine Food Reviews
 
 ---
 
+## 📦 Raw Data Access
+
+Due to GitHub file size limits, the original dataset has been split into six parts:
+
+- `amazon_reviews_raw_part1.csv`
+- ...
+- `amazon_reviews_raw_part6.csv`
+
+Each part contains 100,000 rows from the original dataset (~500,000 rows total).
+
+To reconstruct or process, simply read them in sequence using Pandas:
+
+```python
+import pandas as pd
+df = pd.concat([
+    pd.read_csv("amazon_reviews_raw_part1.csv"),
+    pd.read_csv("amazon_reviews_raw_part2.csv"),
+    ...
+])
+
+---
+
 ## Contact
 For questions or collaboration opportunities, please connect via LinkedIn https://www.linkedin.com/in/zheng-lyu-951295323/.
