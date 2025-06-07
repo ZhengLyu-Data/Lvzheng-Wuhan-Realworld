@@ -86,11 +86,11 @@ Performed in both SQL (SQLite) and Python (pandas):
 
 ## 🛠️ Tools Used
 
-- Python:                  	 Pandas, Numpy, Matplotlib
-- SQL:                       SQLite used for querying relational datasets
-- Power BI:                  Built interactive dashboards and visual analytics
-- Tableau Public:            Alternative BI tool for dashboard comparison
-- Google Colab/Github:       For cloud-based development and collaboration
+- Python: Pandas, Numpy, Matplotlib
+- SQL: SQLite used for querying relational datasets
+- Microsoft Power BI: Built interactive dashboards and visual analytics
+- Tableau Public: Alternative BI tool for dashboard comparison
+- Google Colab/Github: For cloud-based development and collaboration
 
 ---
 
