@@ -1,10 +1,10 @@
- ## Amazon Review Sentiment Analysis
+## Amazon Review Sentiment Analysis
 
 This project analyzes customer product reviews from the Amazon Fine Food Reviews dataset using natural language processing (NLP) techniques. The objective is to clean the raw text data, predict sentiment (positive/neutral/negative), visualize insights, and build a simple classification model.
 
 ---
 
- ## Project Structure
+## Project Structure
 
 ```
 ├── data/
@@ -22,7 +22,7 @@ This project analyzes customer product reviews from the Amazon Fine Food Reviews
 
 ---
 
- ## Data Cleaning
+## Data Cleaning
 
 - Removed null entries and unnecessary columns
 - Standardized text to lowercase and removed punctuation/special characters
@@ -31,7 +31,7 @@ This project analyzes customer product reviews from the Amazon Fine Food Reviews
 
 ---
 
- ## Key Insights
+## Key Insights
 
 - Majority of reviews in the dataset are positive
 - TextBlob provides an efficient way to label sentiment with minimal configuration
@@ -40,7 +40,7 @@ This project analyzes customer product reviews from the Amazon Fine Food Reviews
 
 ---
 
- ## Tools Used
+## Tools Used
 - Python
 - Pandas
 - TextBlob
@@ -50,5 +50,5 @@ This project analyzes customer product reviews from the Amazon Fine Food Reviews
 
 ---
 
- ## Contact
+## Contact
 For questions or collaboration opportunities, please connect via LinkedIn https://www.linkedin.com/in/zheng-lyu-951295323/.
