@@ -26,6 +26,13 @@ It combines Python, SQL, Tableau, and Power BI to explore customer segmentation,
 
 ---
 
+## 📥 Dataset Source
+
+This project uses the [Bank Marketing Dataset](https://www.kaggle.com/datasets/henriqueyamahata/bank-marketing) from Kaggle.  
+The dataset includes client information, previous marketing interactions, economic indicators, and final subscription outcomes.
+
+---
+
 ## 🧹 Data Cleaning
 
 Performed in Python (pandas):
