@@ -55,7 +55,7 @@ Due to file size constraints, this repository includes a split version of the ra
 ---
 
 ## 🛠️ Tools Used
-- Python: Pandas, Numpy, Matplotlib
+- Python: Pandas, Numpy, TextBlob, Matplotlib, WordCloud
 - NLP: Sentiment analysis and keyword extraction on Amazon product reviews
 - Google Colab/Github: For cloud-based development and collaboration
 
