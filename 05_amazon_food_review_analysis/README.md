@@ -12,7 +12,7 @@ This project analyzes customer product reviews from the Amazon Fine Food Reviews
 │   ├── amazon_reviews_raw Part 2.csv                        (original 568,000 reviews), split into 6 parts due to file size limits
 │   ├── ...                         
 │   ├── amazon_reviews_raw Part 23.csv:                         
-│   ├── clean_reviews.csv:                                  # Cleaned and sampled data (20,000 records)
+│   ├── clean_reviews.csv:                                  # Load and Cleaned dataset (20,000 records)
 │   └── clean_reviews_labeled.csv                           # Labeled dataset with sentiment predictions
 ├── script
 │   └── amazon_review_nlp_analysis_colab_final.ipynb        # Jupyter Notebook containing the complete analysis workflow
