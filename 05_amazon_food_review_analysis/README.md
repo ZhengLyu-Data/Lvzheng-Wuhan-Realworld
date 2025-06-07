@@ -45,7 +45,7 @@ Due to file size constraints, this repository includes a split version of the ra
 
 ---
 
-## Key Insights
+## 🔍 Key Insights
 
 - Majority of reviews in the dataset are positive
 - TextBlob provides an efficient way to label sentiment with minimal configuration
