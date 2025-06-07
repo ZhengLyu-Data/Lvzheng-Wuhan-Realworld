@@ -87,7 +87,7 @@ Performed in both SQL (SQLite) and Python (pandas):
 
 - Python: Pandas, Numpy, Matplotlib 
 - SQL: SQLite used for querying relational datasets
-- Power BI: Built interactive dashboards and visual analytics
+- Microsoft Power BI: Built interactive dashboards and visual analytics
 - Tableau: Alternative BI tool for dashboard comparison
 - Google Colab/Github: For cloud-based development and collaboration 
 
