@@ -24,6 +24,13 @@ This project analyzes supply chain and logistics transaction data to uncover del
 
 ---
 
+## 📥 Dataset Source
+
+This project is based on the [Customer Analytics Dataset](https://www.kaggle.com/datasets/prachi13/customer-analytics) from Kaggle.  
+It simulates supply chain and delivery data including product importance, discounts, customer ratings, and shipping costs.
+
+--- 
+
 ## 🧹 Data Cleaning
 
 Performed in both SQL (SQLite) and Python (pandas):
