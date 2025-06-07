@@ -55,12 +55,8 @@ Due to file size constraints, this repository includes a split version of the ra
 ---
 
 ## 🛠️ Tools Used
-- Python
-- Pandas
-- TextBlob
-- Scikit-learn
-- Matplotlib
-- WordCloud
+- Python: Pandas, Numpy, Matplotlib
+- Google Colab/Github: For cloud-based development and collaboration
 
 ---
 
