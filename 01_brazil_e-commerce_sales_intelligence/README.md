@@ -84,7 +84,7 @@ The dataset contains detailed transaction records including order status, produc
 - Python: Pandas, Numpy, Matplotlib
 - SQL: SQLite used for querying multiple relational tables
 - Microsoft Power BI: Built interactive dashboards and visual analytics
-- Tableau: Alternative BI tool for dashboard comparison
+- Tableau Public: Alternative BI tool for dashboard comparison
 - Google Colab/Github: For cloud-based development and collaboration
 
 ---
