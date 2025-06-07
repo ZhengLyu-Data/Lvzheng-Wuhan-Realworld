@@ -81,11 +81,11 @@ The dataset contains detailed transaction records including order status, produc
 
 ## ✅ Tools Used
 
-- SQL (Data extraction & transformation)
-- Python (Data cleaning and preprocessing)
-- Power BI (Business dashboard design)
-- Tableau (Visual storytelling)
-
+- Python (Pandas, Numpy, Matplotlib)
+- SQL: SQLite used for querying multiple relational tables
+- Power BI: Built interactive dashboards and visual analytics
+- Tableau / Power BI for dashboards
+- Google Colab / GitHub for cloud-based development
 ---
 
 ## 📬 Contact
