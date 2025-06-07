@@ -25,6 +25,17 @@ This project analyzes customer product reviews from the Amazon Fine Food Reviews
 
 ---
 
+## 📥 Original Dataset Source
+
+This project is based on the public dataset:
+
+🔗 [Amazon Fine Food Reviews – Kaggle](https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews)
+
+The full dataset contains over 568,000 customer reviews and is available under a permissive open license.  
+Due to file size constraints, this repository includes a split version of the raw data for testing and reproducibility.
+
+---
+
 ## Data Cleaning
 
 - Removed null entries and unnecessary columns
