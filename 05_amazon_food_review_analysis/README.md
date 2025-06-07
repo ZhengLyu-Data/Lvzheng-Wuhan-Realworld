@@ -1,4 +1,4 @@
-## 🛍️ Amazon Review Sentiment Analysis
+## 🛍️ Amazon Food Review Sentiment Analysis
 
 This project analyzes customer product reviews from the Amazon Fine Food Reviews dataset using natural language processing (NLP) techniques. The objective is to clean the raw text data, predict sentiment (positive/neutral/negative), visualize insights, and build a simple classification model.
 
