@@ -4,7 +4,7 @@ This project analyzes customer product reviews from the Amazon Fine Food Reviews
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 ├── data/
