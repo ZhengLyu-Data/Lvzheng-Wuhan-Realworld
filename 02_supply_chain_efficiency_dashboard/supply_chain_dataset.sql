@@ -1,4 +1,4 @@
--- 🧱 Project: Supply Chain Efficiency Dashboard - Complete SQLite Script
+-- 🧱 Project: Supply Chain Efficiency Dashboard 
 
 -- ✅ Step 1: Create table structure
 DROP TABLE IF EXISTS supply_chain;
