@@ -8,12 +8,10 @@ This project analyzes customer product reviews from the Amazon Fine Food Reviews
 
 ```
 ├── data/
-│   ├── amazon_reviews_raw Part 1.csv:                      # Raw dataset (not uploaded due to size, available on Kaggle
-│   ├── amazon_reviews_raw Part 2.csv:                        (original 568,000 reviews), split into 6 parts due to file size limits
-│   ├── amazon_reviews_raw Part 3.csv:                         
-│   ├── amazon_reviews_raw Part 4.csv:                         
-│   ├── amazon_reviews_raw Part 5.csv:
-│   ├── amazon_reviews_raw Part 6.csv: 
+│   ├── amazon_reviews_raw Part 1.csv                       # Raw dataset (not uploaded due to size, available on Kaggle
+│   ├── amazon_reviews_raw Part 2.csv                        (original 568,000 reviews), split into 6 parts due to file size limits
+│   ├── ...                         
+│   ├── amazon_reviews_raw Part 23.csv:                         
 │   ├── clean_reviews.csv:                                  # Cleaned and sampled data (20,000 records)
 │   └── clean_reviews_labeled.csv                           # Labeled dataset with sentiment predictions
 ├── script
