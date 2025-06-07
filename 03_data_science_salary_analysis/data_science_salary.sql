@@ -1,4 +1,4 @@
--- Create table for raw data -- Complete SQLite Script
+-- Create table for raw data 
 CREATE TABLE data_science_salaries_raw (
     work_year INTEGER,
     experience_level TEXT,
