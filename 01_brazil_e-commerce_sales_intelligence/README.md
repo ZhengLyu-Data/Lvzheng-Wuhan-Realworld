@@ -74,7 +74,7 @@ The dataset contains detailed transaction records including order status, produc
 - Top Categories by Revenue
 - Payment Method Breakdown
 - Review Score Distribution by Month
-- 
+ 
 > Open `.twbx` using Tableau Public (free) or Tableau Desktop 2022.1+.
 
 ---
@@ -83,7 +83,7 @@ The dataset contains detailed transaction records including order status, produc
 
 - Python: Pandas, Numpy, Matplotlib
 - SQL: SQLite used for querying multiple relational tables
-- Power BI: Built interactive dashboards and visual analytics
+- Microsoft Power BI: Built interactive dashboards and visual analytics
 - Tableau: Alternative BI tool for dashboard comparison
 - Google Colab/Github: For cloud-based development and collaboration
 
