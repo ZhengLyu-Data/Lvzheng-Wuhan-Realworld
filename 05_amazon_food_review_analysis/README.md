@@ -1,28 +1,35 @@
+## Amazon Review Sentiment Analysis
 
-## Project Title: Amazon Review Sentiment Analysis System
+This project analyzes customer product reviews from the Amazon Fine Food Reviews dataset using natural language processing (NLP) techniques. The objective is to clean the raw text data, predict sentiment (positive/neutral/negative), visualize insights, and build a simple classification model.
 
-## Dataset Description:
-- Raw Data File: amazon_reviews_raw.csv (not uploaded due to large size)
-- Cleaned Data File: clean_reviews.csv (sampled and cleaned text data)
-- Labeled Data File: clean_reviews_labeled.csv (includes sentiment predictions)
-- Visualization Files: wordcloud.png, sentiment_distribution.png
+## Project Structure
+- `amazon_review_nlp_analysis_colab_final.ipynb`: Jupyter Notebook containing the complete analysis workflow
+- `amazon_reviews_raw.csv`: Raw dataset (not uploaded due to size, available on Kaggle)
+- `clean_reviews.csv`: Cleaned and sampled data (20,000 records)
+- `clean_reviews_labeled.csv`: Labeled dataset with sentiment predictions
+- `wordcloud.png`: Visualization of key keywords based on TF-IDF
+- `sentiment_distribution.png`: Distribution of sentiment classes
+- `README.md`: Project documentation
 
-## Tools Used:
-Python + Pandas + TextBlob + Scikit-learn + Matplotlib + WordCloud
+## Data Cleaning
+- Removed null entries and unnecessary columns
+- Standardized text to lowercase and removed punctuation/special characters
+- Sampled 20,000 reviews from the full dataset (~500,000 rows)
+- Exported cleaned and labeled data for modeling
 
-## Data Source:
-[Kaggle - Amazon Fine Food Reviews](https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews)
+## Key Insights
+- Majority of reviews in the dataset are positive
+- TextBlob provides an efficient way to label sentiment with minimal configuration
+- Logistic regression based on TF-IDF features achieved meaningful performance for binary classification (positive vs. negative)
+- Visualizations such as word clouds and sentiment distribution help interpret the data effectively
 
-## Project Overview:
+## Tools Used
+- Python
+- Pandas
+- TextBlob
+- Scikit-learn
+- Matplotlib
+- WordCloud
 
-This project focuses on Natural Language Processing (NLP) applied to real-world e-commerce customer reviews. The goal is to clean and analyze review texts, perform sentiment classification, and visualize key insights.
-
-Key steps in the analysis:
-1. Load and sample 20,000 reviews from the original Amazon dataset (~500,000 records)
-2. Clean text fields using Pandas
-3. Predict sentiment (positive / neutral / negative) using TextBlob
-4. Generate a keyword word cloud using TF-IDF scores
-5. Plot a sentiment distribution chart
-6. Build a logistic regression classifier using TF-IDF vectors
-
-This project was developed entirely in Python and is suitable for demonstrating entry-level NLP and data engineering skills in a job application.
+## Contact
+For questions or collaboration opportunities, please connect via LinkedIn https://www.linkedin.com/in/zheng-lyu-951295323/.
