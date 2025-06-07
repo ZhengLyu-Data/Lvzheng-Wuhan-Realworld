@@ -87,5 +87,5 @@ df = pd.concat([
 ---
 
 
-## Contact
+## 📬 Contact
 For questions or collaboration opportunities, please connect via LinkedIn https://www.linkedin.com/in/zheng-lyu-951295323/.
