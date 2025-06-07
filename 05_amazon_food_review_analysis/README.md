@@ -54,7 +54,7 @@ Due to file size constraints, this repository includes a split version of the ra
 
 ---
 
-## Tools Used
+## 🛠️ Tools Used
 - Python
 - Pandas
 - TextBlob
