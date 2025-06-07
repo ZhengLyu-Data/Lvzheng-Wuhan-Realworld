@@ -25,6 +25,13 @@ This project analyzes supply chain and logistics transaction data to uncover del
 
 ---
 
+## 📥 Dataset Source
+
+This project uses the [Data Science Job Salaries Dataset](https://www.kaggle.com/datasets/ruchi798/data-science-job-salaries) from Kaggle.  
+It includes job title, company size, remote ratio, salary in USD, and location for data-related roles.
+
+---  
+
 ## 🧹 Data Cleaning
 
 Performed in both SQL (SQLite) and Python (pandas):
