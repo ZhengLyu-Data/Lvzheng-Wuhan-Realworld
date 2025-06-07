@@ -36,7 +36,7 @@ Due to file size constraints, this repository includes a split version of the ra
 
 ---
 
-## Data Cleaning
+## 🧹 Data Cleaning
 
 - Removed null entries and unnecessary columns
 - Standardized text to lowercase and removed punctuation/special characters
