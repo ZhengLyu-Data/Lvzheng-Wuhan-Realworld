@@ -54,12 +54,10 @@ To help e-commerce businesses and logistics teams gain insights into delivery ef
 ## 🔗 GitHub Project  
 [Click to view project](https://github.com/ZhengLyu-Data/01_brazil_ecommerce_data_pipeline)
 
----
-
-## 🧑‍💻 Author & Project Statement
+🧑‍💻 Author & Project Statement
 
 This project was independently designed, implemented, and documented by **Zheng Lyu** as part of a professional data engineering portfolio.  
 It integrates structured querying, Python preprocessing, and dashboarding to demonstrate a complete retail intelligence pipeline.
 
-## 📬 Contact  
+📬 Contact  
 For questions or collaboration opportunities, please connect via LinkedIn: [Zheng Lyu](https://www.linkedin
