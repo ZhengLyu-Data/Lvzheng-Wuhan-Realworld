@@ -1,4 +1,4 @@
-## Amazon Sentiment NLP Pipeline
+## 🛍️ Amazon Sentiment NLP Pipeline
 
 ## 📦 Project Overview
 This project performs real-world sentiment analysis on Amazon product reviews using natural language processing (NLP) techniques. It builds a full data pipeline from text preprocessing to sentiment scoring and final visualization.
