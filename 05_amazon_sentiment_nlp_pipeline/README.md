@@ -50,7 +50,7 @@ Help product teams identify customer satisfaction drivers and pain points throug
 ```
 
 ## 🔗 GitHub Project
-[Click to view project](https://github.com/ZhengLyu-Data/05_amazon_sentiment_nlp_pipeline)
+[Click to view project](https://github.com/ZhengLyu-Data/Lvzheng-Wuhan-Data/tree/main/05_amazon_sentiment_nlp_pipeline)
 
 ## 📬 Contact
 For questions or collaboration opportunities, please connect via LinkedIn https://www.linkedin.com/in/zheng-lyu-951295323/.
