@@ -29,13 +29,25 @@ Help product teams identify customer satisfaction drivers and pain points throug
 - Common customer complaints (negative TF-IDF terms)
 - Time-based sentiment drift
 
-## 📂 Repository Structure
-/05_amazon_sentiment_nlp_pipeline
-│
-├── data/ # Raw CSV from Kaggle (500K reviews)
-├── python/ # NLP + sentiment notebook (.ipynb)
-├── dashboards/ # Charts, word clouds, Power BI screenshots
-├── README.md # Project pipeline and structure
+
+## 📁 Repository Structure
+
+```
+├── data/
+│   ├── amazon_reviews_raw Part 1.csv                       # Raw dataset CSV from Kaggle (500K reviews)
+│   ├── amazon_reviews_raw Part 2.csv                        
+│   ├── ...                         
+│   ├── amazon_reviews_raw Part 23.csv:                         
+│   ├── clean_reviews.csv:                                  # Load and Cleaned dataset (20,000 records)
+│   └── clean_reviews_labeled.csv                           # Labeled dataset with sentiment predictions
+├── script
+│   └── amazon_review_nlp_analysis_colab_final.ipynb        # NLP + semtiment notebook (.ipynb)
+├── dashboard
+│   ├── wordcloud.png                                       # Visualization of key keywords based on TF-IDF
+│   └── sentiment_distribution.png                          # Distribution of sentiment classes
+└── README.md                                               # Project pipeline and structure
+ 
+```
 
 ## 🔗 GitHub Project
 [Click to view project](https://github.com/ZhengLyu-Data/05_amazon_sentiment_nlp_pipeline)
