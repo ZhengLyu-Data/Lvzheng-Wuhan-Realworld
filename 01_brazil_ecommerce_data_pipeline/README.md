@@ -27,39 +27,39 @@ To help e-commerce businesses and logistics teams gain insights into delivery ef
 - 💬 Review score trends and patterns  
 - 💰 Payment type behavior vs customer satisfaction  
 
-
 ## 📁 Repository Structure
 
 ---
 
-```
+、、、
 01_brazil_ecommerce_data_pipeline
 │
 ├── data/
-│   ├── olist_raw_data.zip                  # Original Kaggle dataset (all CSVs)
-│   └── olist_cleaned_final.zip             # Final cleaned dataset used for analysis
+│ ├── olist_raw_data.zip                   # Original Kaggle dataset (all CSVs)
+│ └── olist_cleaned_final.zip              # Final cleaned dataset used for analysis
 │
 ├── scripts/
-│   ├── onlist_cleaned_dataset.sql          # SQL script for data extraction & cleaning
-│   └── onlist_cleaned_dataset.python       # Python script for EDA & processing (Colab)
+│ ├── onlist_cleaned_dataset.sql           # SQL script for data extraction & cleaning
+│ └── onlist_cleaned_dataset.python        # Python script for EDA & processing (Colab)
 │
 ├── dashboard/
-│   ├── brazil_ecommerce_dashboard.pbix      # Power BI dashboard file
-│   ├── powerbi_dashboard.pbix.png           # Power BI dashboard preview image
-│   ├── brazil_ecommerce_dashboard.twbx      # Tableau workbook file
-│   └── tableau_dashboard.preview.png        # Tableau dashboard preview image
+│ ├── brazil_ecommerce_dashboard.pbix      # Power BI dashboard file
+│ ├── powerbi_dashboard.pbix.png           # Power BI dashboard preview image
+│ ├── brazil_ecommerce_dashboard.twbx      # Tableau workbook file
+│ └── tableau_dashboard.preview.png        # Tableau dashboard preview image
 │
-└── README.md                                # Full pipeline and documentation
+└── README.md # Full pipeline and documentation
 、、、
 
 ---
 
- 🔗 Github Project
-[Click to view project](https://github.com/ZhengLyu-Data/Lvzheng-Wuhan-Data/tree/main/05_amazon_sentiment_nlp_pipeline)
+## 🔗 GitHub Project  
+[Click to view project](https://github.com/ZhengLyu-Data/01_brazil_ecommerce_data_pipeline)
 
-🧑‍💻 Author & Project Statement
+## 🧑‍💻 Author & Project Statement  
 This project was independently designed, implemented, and documented by **Zheng Lyu** as part of a professional data engineering portfolio.  
-It combines real-world data with end-to-end NLP pipelines and business-oriented dashboards.
+It integrates structured querying, Python preprocessing, and dashboarding to demonstrate a complete retail intelligence pipeline.
 
-📬 Contact
-For questions or collaboration opportunities, please connect via LinkedIn https://www.linkedin.com/in/zheng-lyu-951295323/.
+## 📬 Contact  
+For questions or collaboration opportunities, please connect via LinkedIn:  
+[Zheng Lyu](https://www.linkedin.com/in/zheng-lyu-951295323/)
