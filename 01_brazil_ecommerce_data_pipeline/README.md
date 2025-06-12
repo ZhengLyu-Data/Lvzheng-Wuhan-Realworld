@@ -51,7 +51,7 @@ To help e-commerce businesses and logistics teams gain insights into delivery ef
 
 、、、
 
-## 🔗 GitHub Project
+🔗 GitHub Project
 [Click to view project](https://github.com/ZhengLyu-Data/Lvzheng-Wuhan-Data/tree/main/05_amazon_sentiment_nlp_pipeline)
 
 ## 🧑‍💻 Author & Project Statement
