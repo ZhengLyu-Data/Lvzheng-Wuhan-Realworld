@@ -48,13 +48,13 @@ To help e-commerce businesses and logistics teams gain insights into delivery ef
 │ ├── brazil_ecommerce_dashboard.twbx      # Tableau workbook file
 │ └── tableau_dashboard.preview.png        # Tableau dashboard preview image
 │
-└── README.md # Full pipeline and documentation
+└── README.md                              # Full pipeline and documentation
 、、、
 
 ---
 
 ## 🔗 GitHub Project  
-[Click to view project](https://github.com/ZhengLyu-Data/01_brazil_ecommerce_data_pipeline)
+[Click to view project](https://github.com/ZhengLyu-Data/Lvzheng-Wuhan-Data/tree/main/01_brazil_ecommerce_data_pipeline)
 
 ## 🧑‍💻 Author & Project Statement  
 This project was independently designed, implemented, and documented by **Zheng Lyu** as part of a professional data engineering portfolio.  
