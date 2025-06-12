@@ -29,8 +29,6 @@ To help e-commerce businesses and logistics teams gain insights into delivery ef
 
 ## 📁 Repository Structure
 
----
-
 、、、
 01_brazil_ecommerce_data_pipeline
 │
@@ -49,9 +47,8 @@ To help e-commerce businesses and logistics teams gain insights into delivery ef
 │ └── tableau_dashboard.preview.png        # Tableau dashboard preview image
 │
 └── README.md                              # Full pipeline and documentation
-、、、
 
----
+、、、
 
 ## 🔗 GitHub Project  
 [Click to view project](https://github.com/ZhengLyu-Data/Lvzheng-Wuhan-Data/tree/main/01_brazil_ecommerce_data_pipeline)
