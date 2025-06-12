@@ -41,7 +41,7 @@ Help product teams identify customer satisfaction drivers and pain points throug
 │   ├── clean_reviews.csv:                                  # Load and Cleaned dataset (20,000 records)
 │   └── clean_reviews_labeled.csv                           # Labeled dataset with sentiment predictions
 ├── script
-│   └── amazon_review_nlp_analysis_colab_final.ipynb        # NLP + semtiment notebook (.ipynb)
+│   └── amazon_sentiment_nlp_pipeline.python                # NLP + semtiment notebook (.ipynb)
 ├── dashboard
 │   ├── wordcloud.png                                       # Visualization of key keywords based on TF-IDF
 │   └── sentiment_distribution.png                          # Distribution of sentiment classes
