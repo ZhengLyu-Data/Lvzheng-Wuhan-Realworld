@@ -31,15 +31,15 @@ To help e-commerce businesses and logistics teams gain insights into delivery ef
 ## 📁 Repository Structure
 
 ```
-/01_brazil_ecommerce_data_pipeline
+01_brazil_ecommerce_data_pipeline
 │
 ├── data/
-│   ├── olist_raw_data.zip               # Original Kaggle dataset (all CSVs)
-│   └── olist_cleaned_final.zip          # Final cleaned dataset used for analysis
+│   ├── olist_raw_data.zip                  # Original Kaggle dataset (all CSVs)
+│   └── olist_cleaned_final.zip             # Final cleaned dataset used for analysis
 │
 ├── scripts/
-│   ├── onlist_cleaned_dataset.sql       # SQL script for data extraction & cleaning
-│   └── onlist_cleaned_dataset.python    # Python script for EDA & processing (Colab)
+│   ├── onlist_cleaned_dataset.sql          # SQL script for data extraction & cleaning
+│   └── onlist_cleaned_dataset.python       # Python script for EDA & processing (Colab)
 │
 ├── dashboard/
 │   ├── brazil_ecommerce_dashboard.pbix      # Power BI dashboard file
@@ -47,9 +47,9 @@ To help e-commerce businesses and logistics teams gain insights into delivery ef
 │   ├── brazil_ecommerce_dashboard.twbx      # Tableau workbook file
 │   └── tableau_dashboard.preview.png        # Tableau dashboard preview image
 │
-└── README.md                             # Full pipeline and documentation
-、、、
+└── README.md                                # Full pipeline and documentation
 
+、、、
 
 ## 🔗 GitHub Project  
 [Click to view project](https://github.com/ZhengLyu-Data/01_brazil_ecommerce_data_pipeline)
