@@ -1,88 +1,44 @@
-## 🛍️ Amazon Food Review Sentiment Analysis
+## Amazon Sentiment NLP Pipeline
 
-This project analyzes customer product reviews from the Amazon Fine Food Reviews dataset using natural language processing (NLP) techniques. The objective is to clean the raw text data, predict sentiment (positive/neutral/negative), visualize insights, and build a simple classification model.
+## 📦 Project Overview
+This project performs real-world sentiment analysis on Amazon product reviews using natural language processing (NLP) techniques. It builds a full data pipeline from text preprocessing to sentiment scoring and final visualization.
 
----
+## 🎯 Business Objective
+Help product teams identify customer satisfaction drivers and pain points through large-scale review mining and sentiment dashboards.
 
-## 📁 Project Structure
+## 🧱 Data Pipeline Architecture
+1. **Data Source:** Amazon Fine Food Reviews (Kaggle)
+2. **Text Cleaning & Preprocessing:** Python (re, NLTK, stopwords, lemmatization)
+3. **Sentiment Modeling:**
+   - VADER for polarity scoring
+   - TF-IDF for keyword extraction
+4. **Dashboard Visualization:**
+   - Word clouds for top positive/negative terms
+   - Sentiment breakdown by product
+   - Timeline of average sentiment scores
 
-```
-├── data/
-│   ├── amazon_reviews_raw Part 1.csv                       # Raw dataset (not uploaded due to size, available on Kaggle
-│   ├── amazon_reviews_raw Part 2.csv                        (original 568,000 reviews), split into 6 parts due to file size limits
-│   ├── ...                         
-│   ├── amazon_reviews_raw Part 23.csv:                         
-│   ├── clean_reviews.csv:                                  # Load and Cleaned dataset (20,000 records)
-│   └── clean_reviews_labeled.csv                           # Labeled dataset with sentiment predictions
-├── script
-│   └── amazon_review_nlp_analysis_colab_final.ipynb        # Jupyter Notebook containing the complete analysis workflow
-├── Visualization
-│   ├── wordcloud.png                                       # Visualization of key keywords based on TF-IDF
-│   └── sentiment_distribution.png                          # Distribution of sentiment classes
-└── README.md                                               # Project documentation
- 
-```
+## 🧰 Tech Stack
+- **Languages:** Python (NLTK, VADER, matplotlib, seaborn)
+- **Platforms:** Google Colab, GitHub, Kaggle
+- **Visualization:** Tableau Public (optional), Power BI
+- **Data:** Amazon Fine Food Reviews dataset (500K+ samples)
 
----
+## 📊 Key Insights
+- Top phrases in 5-star vs 1-star reviews
+- Sentiment intensity distribution
+- Common customer complaints (negative TF-IDF terms)
+- Time-based sentiment drift
 
-## 📥 Original Dataset Source
+## 📂 Repository Structure
+/05_amazon_sentiment_nlp_pipeline
+│
+├── data/ # Raw CSV from Kaggle (500K reviews)
+├── python/ # NLP + sentiment notebook (.ipynb)
+├── dashboards/ # Charts, word clouds, Power BI screenshots
+├── README.md # Project pipeline and structure
 
-This project is based on the public dataset:
-
-🔗 [Amazon Fine Food Reviews – Kaggle](https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews)
-
-The full dataset contains over 568,000 customer reviews and is available under a permissive open license.  
-Due to file size constraints, this repository includes a split version of the raw data for testing and reproducibility.
-
----
-
-## 🧹 Data Cleaning
-
-- Removed null entries and unnecessary columns
-- Standardized text to lowercase and removed punctuation/special characters
-- Sampled 20,000 reviews from the full dataset (~500,000 rows)
-- Exported cleaned and labeled data for modeling
-
----
-
-## 🔍 Key Insights
-
-- Majority of reviews in the dataset are positive
-- TextBlob provides an efficient way to label sentiment with minimal configuration
-- Logistic regression based on TF-IDF features achieved meaningful performance for binary classification (positive vs. negative)
-- Visualizations such as word clouds and sentiment distribution help interpret the data effectively
-
----
-
-## 🛠️ Tools Used
-- Python: Pandas, Numpy, TextBlob, Matplotlib, WordCloud
-- NLP: Sentiment analysis and keyword extraction on Amazon product reviews
-- Google Colab/Github: For cloud-based development and collaboration
-
----
-
-## 📦 Raw Data Access
-
-Due to GitHub file size limits, the original dataset has been split into six parts:
-
-- `amazon_reviews_raw_part1.csv`
-- ...
-- `amazon_reviews_raw_part6.csv`
-
-Each part contains 100,000 rows from the original dataset (~500,000 rows total).
-
-To reconstruct or process, simply read them in sequence using Pandas:
-
-```python
-import pandas as pd
-df = pd.concat([
-    pd.read_csv("amazon_reviews_raw_part1.csv"),
-    pd.read_csv("amazon_reviews_raw_part2.csv"),
-    ...
-])
-```
----
-
+## 🔗 GitHub Project
+[Click to view project](https://github.com/ZhengLyu-Data/05_amazon_sentiment_nlp_pipeline)
 
 ## 📬 Contact
 For questions or collaboration opportunities, please connect via LinkedIn https://www.linkedin.com/in/zheng-lyu-951295323/.
