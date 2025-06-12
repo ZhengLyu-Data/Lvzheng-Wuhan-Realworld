@@ -92,3 +92,70 @@ The dataset contains detailed transaction records including order status, produc
 ## 📬 Contact
 
 For access to live Tableau/Power BI links or collaboration requests, feel free to reach out via LinkedIn https://www.linkedin.com/in/zheng-lyu-951295323/.
+
+🛒 Brazil E-Commerce Sales Intelligence Pipeline
+
+📦 Project Overview  
+This project analyzes Brazilian e-commerce data from Kaggle (Olist) and builds a full data intelligence pipeline.  
+From structured data queries to Python-based analysis and BI dashboards, it demonstrates an end-to-end solution for e-commerce performance monitoring and optimization.
+
+🎯 Business Objective  
+To help e-commerce businesses and logistics teams gain insights into delivery efficiency, customer satisfaction, and product category performance.
+
+🧱 Data Pipeline Architecture  
+- **Data Source:** Olist Brazilian E-Commerce Dataset (Kaggle)  
+- **SQL Query Layer:** SQLite to extract relational metrics across sellers, orders, payments, and reviews  
+- **Python Processing:** Data cleaning, delay flagging, freight analysis (Google Colab)  
+- **Visualization Layer:**  
+  - Tableau: Product category distribution, review score heatmaps  
+  - Power BI: Delivery delay vs. cost scatter plots, review timeline, payment type comparison  
+
+🧰 Tech Stack  
+- **Languages:** SQL (SQLite), Python (pandas, matplotlib)  
+- **Platforms:** Google Colab, GitHub, Kaggle  
+- **Visualization Tools:** Tableau Public, Power BI  
+- **Data Size:** 100K+ orders, 50K+ customers, 120K+ reviews  
+
+📊 Key Insights  
+- 📦 Top-selling product categories by revenue and volume  
+- 🚚 Freight cost vs. delivery delay correlation  
+- 💬 Review score trends and patterns  
+- 💰 Payment type behavior vs customer satisfaction  
+
+📁 Repository Structure
+/01_brazil_ecommerce_data_pipeline
+│
+├── data/
+│ ├── customers.csv
+│ ├── orders.csv
+│ ├── order_items.csv
+│ ├── payments.csv
+│ ├── reviews.csv
+│ └── products.csv
+│
+├── sql/
+│ └── olist_sales_analysis.sql
+│
+├── python/
+│ └── brazil_ecommerce_pipeline.ipynb
+│
+├── dashboards/
+│ ├── product_category_tableau.png
+│ ├── delivery_delay_scatter.png
+│ ├── review_score_trend.png
+│ └── payment_behavior_chart.png
+│
+└── README.md
+
+🔗 GitHub Project  
+[Click to view project](https://github.com/ZhengLyu-Data/01_brazil_ecommerce_data_pipeline)
+
+---
+
+## ✅ Author & Project Statement
+
+This project was independently designed, implemented, and documented by **Zheng Lyu** as part of a professional data engineering portfolio.  
+It integrates structured querying, Python preprocessing, and dashboarding to demonstrate a complete retail intelligence pipeline.
+
+## 📬 Contact  
+For questions or collaboration opportunities, please connect via LinkedIn: [Zheng Lyu](https://www.linkedin
