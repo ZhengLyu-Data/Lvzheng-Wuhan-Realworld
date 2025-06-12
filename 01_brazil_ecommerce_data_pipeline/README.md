@@ -27,6 +27,7 @@ To help e-commerce businesses and logistics teams gain insights into delivery ef
 - 💬 Review score trends and patterns  
 - 💰 Payment type behavior vs customer satisfaction  
 
+---
 ## 📁 Repository Structure
 
 、、、
@@ -50,6 +51,7 @@ To help e-commerce businesses and logistics teams gain insights into delivery ef
 
 、、、
 
+---
 
 ## 🔗 GitHub Project  
 [Click to view project](https://github.com/ZhengLyu-Data/Lvzheng-Wuhan-Data/tree/main/01_brazil_ecommerce_data_pipeline)
@@ -59,5 +61,4 @@ This project was independently designed, implemented, and documented by **Zheng 
 It integrates structured querying, Python preprocessing, and dashboarding to demonstrate a complete retail intelligence pipeline.
 
 ## 📬 Contact  
-For questions or collaboration opportunities, please connect via LinkedIn:  
-[Zheng Lyu](https://www.linkedin.com/in/zheng-lyu-951295323/)
+For questions or collaboration opportunities, please connect via LinkedIn: [Zheng Lyu](https://www.linkedin.com/in/zheng-lyu-951295323/)
