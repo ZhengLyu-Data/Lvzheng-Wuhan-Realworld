@@ -30,6 +30,8 @@ To help e-commerce businesses and logistics teams gain insights into delivery ef
 
 ## 📁 Repository Structure
 
+---
+
 ```
 01_brazil_ecommerce_data_pipeline
 │
@@ -48,15 +50,16 @@ To help e-commerce businesses and logistics teams gain insights into delivery ef
 │   └── tableau_dashboard.preview.png        # Tableau dashboard preview image
 │
 └── README.md                                # Full pipeline and documentation
-
 、、、
 
-🔗 GitHub Project
+---
+
+ 🔗 Github Project
 [Click to view project](https://github.com/ZhengLyu-Data/Lvzheng-Wuhan-Data/tree/main/05_amazon_sentiment_nlp_pipeline)
 
-## 🧑‍💻 Author & Project Statement
+🧑‍💻 Author & Project Statement
 This project was independently designed, implemented, and documented by **Zheng Lyu** as part of a professional data engineering portfolio.  
 It combines real-world data with end-to-end NLP pipelines and business-oriented dashboards.
 
-## 📬 Contact
+📬 Contact
 For questions or collaboration opportunities, please connect via LinkedIn https://www.linkedin.com/in/zheng-lyu-951295323/.
