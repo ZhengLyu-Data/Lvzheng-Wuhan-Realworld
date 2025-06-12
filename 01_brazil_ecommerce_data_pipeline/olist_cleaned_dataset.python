@@ -1,0 +1,33 @@
+# Step 1: Upload your merged file (olist_merged_raw.csv)
+from google.colab import files
+uploaded = files.upload()
+
+# Step 2: Import and read the merged file
+import pandas as pd
+
+df = pd.read_csv("olist_merged_raw.csv")
+
+# Step 3: Clean the data
+df['order_purchase_timestamp'] = pd.to_datetime(df['order_purchase_timestamp'])
+df['order_delivered_customer_date'] = pd.to_datetime(df['order_delivered_customer_date'])
+
+df['purchase_month'] = df['order_purchase_timestamp'].dt.to_period('M').astype(str)
+df['delivery_days'] = (df['order_delivered_customer_date'] - df['order_purchase_timestamp']).dt.days
+
+df = df.dropna(subset=[
+    'order_id', 'payment_value', 'price', 'freight_value',
+    'customer_state', 'seller_state', 'product_category_name_english'
+])
+
+df = df[
+    (df['payment_value'] > 0) &
+    (df['price'] > 0) &
+    (df['freight_value'] >= 0)
+]
+
+# Step 4: Export the final cleaned dataset
+df.to_csv("olist_cleaned_final.csv", index=False)
+print("✅ olist_cleaned_final.csv has been created!")
+
+# Step 5: Optional - Download
+files.download("olist_cleaned_final.csv")
