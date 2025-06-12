@@ -126,26 +126,23 @@ To help e-commerce businesses and logistics teams gain insights into delivery ef
 /01_brazil_ecommerce_data_pipeline
 │
 ├── data/
-│ ├── customers.csv
-│ ├── orders.csv
-│ ├── order_items.csv
-│ ├── payments.csv
-│ ├── reviews.csv
-│ └── products.csv
+│   ├── olist_raw_data.zip               # Original Kaggle dataset (all CSVs)
+│   └── olist_cleaned_final.zip          # Final cleaned dataset used for analysis
 │
-├── sql/
-│ └── olist_sales_analysis.sql
+├── scripts/
+│   ├── onlist_cleaned_dataset.sql       # SQL script for data extraction & cleaning
+│   └── onlist_cleaned_dataset.python    # Python script for EDA & processing (Colab)
 │
-├── python/
-│ └── brazil_ecommerce_pipeline.ipynb
+├── dashboard/
+│   ├── brazil_ecommerce_dashboard.pbix      # Power BI dashboard file
+│   ├── powerbi_dashboard.pbix.png           # Power BI dashboard preview image
+│   ├── brazil_ecommerce_dashboard.twbx      # Tableau workbook file
+│   └── tableau_dashboard.preview.png        # Tableau dashboard preview image
 │
-├── dashboards/
-│ ├── product_category_tableau.png
-│ ├── delivery_delay_scatter.png
-│ ├── review_score_trend.png
-│ └── payment_behavior_chart.png
-│
-└── README.md
+└── README.md                             # Full pipeline and documentation
+、、、
+
+
 
 🔗 GitHub Project  
 [Click to view project](https://github.com/ZhengLyu-Data/01_brazil_ecommerce_data_pipeline)
