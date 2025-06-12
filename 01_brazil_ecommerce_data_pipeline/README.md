@@ -34,8 +34,9 @@ To help e-commerce businesses and logistics teams gain insights into delivery ef
 ```
 01_brazil_e-commerce_sales_intelligence/
 ├── data/
-│   ├── olist_raw_data.zip                  # Original raw dataset
-│   └── olist_cleaned_final.zip             # Final cleaned dataset
+│   ├── olist_raw_data.zip                  # Original Kaggle dataset (all CSVs)![image](https://github.com/user-attachments/assets/29c9d0ec-bcb9-44ea-b550-790de1ea4ca9)
+│   └── olist_cleaned_final.zip             # Final cleaned dataset used for analysis![image](https://github.com/user-attachments/assets/b3f6c143-ab97-4a8c-8f63-279a71d3d64c)
+
 ├── scripts/
 │   ├── onlist_cleaned_dataset.sql          # SQL Data extraction & transformation script
 │   └── onlist_cleaned_dataset.python       # Python data cleaning script
