@@ -32,16 +32,17 @@ To help job seekers and hiring teams understand compensation trends by location,
 ```
 03_data_salary_insight_pipeline/
 ├── data/
-│ ├── salary_raw.csv # Original dataset from Kaggle
-│ └── salary_cleaned.csv # Processed and labeled dataset
+│ ├── data_science_salaries_raw.csv           # Original Kaggle dataset (all CSVs)
+│ └── data_science_salaries_cleaned.csv       # Processed and labeled dataset
 ├── scripts/
-│ └── salary_insight_analysis.python # Python notebook for EDA & plotting
+│ ├── data_science_salary.sql                 # SQL script for data extraction & cleaning
+  └── data_science_salary.python              # Python script for EDA & processing (Colab)
 ├── dashboard/
-│ ├── salary_dashboard.pbix # Power BI dashboard
-│ ├── powerbi_dashboard.preview.png # Power BI dashboard preview
-│ ├── salary_dashboard.twbx # Tableau workbook
-│ └── tableau_dashboard.preview.png # Tableau dashboard preview
-└── README.md # Project documentation
+│ ├── salary_dashboard.pbix                   # Power BI dashboard file
+│ ├── powerbi_dashboard.preview.png           # Power BI dashboard preview image
+│ ├── salary_dashboard.twbx                   # Tableau workbook
+│ └── tableau_dashboard.preview.png           # Tableau dashboard preview image
+└── README.md                                 # Full pipeline and documentation!
 ```
 
 ---
