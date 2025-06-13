@@ -28,6 +28,7 @@ To help retail and logistics teams improve supply chain efficiency by analyzing 
 
 ---
 
+```
 ## 📁 Repository Structure
 
 02_supply_chain_data_pipeline/
@@ -43,7 +44,7 @@ To help retail and logistics teams improve supply chain efficiency by analyzing 
 │ ├── supply_chain_dashboard.twbx           # Tableau workbook
 │ └── supply_chain_dashboard.twbx.png       # Tableau dashboard preview
 └── README.md                               # Project documentation
-
+```
 
 ---
 
