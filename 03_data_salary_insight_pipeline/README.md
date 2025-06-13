@@ -28,6 +28,8 @@ To help job seekers and hiring teams understand compensation trends by location,
 ---
 
 ## 📁 Repository Structure
+
+```
 03_data_salary_insight_pipeline/
 ├── data/
 │ ├── salary_raw.csv # Original dataset from Kaggle
@@ -40,8 +42,10 @@ To help job seekers and hiring teams understand compensation trends by location,
 │ ├── salary_dashboard.twbx # Tableau workbook
 │ └── tableau_dashboard.preview.png # Tableau dashboard preview
 └── README.md # Project documentation
+```
 
 ---
+
 
 ## 🔗 GitHub Project  
 [Click to view project](https://github.com/ZhengLyu-Data/Lvzheng-Wuhan-Data/tree/main/03_data_salary_insight_pipeline)
