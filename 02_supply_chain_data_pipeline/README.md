@@ -32,17 +32,17 @@ To help retail and logistics teams improve supply chain efficiency by analyzing 
 
 02_supply_chain_data_pipeline/
 ├── data/
-│ ├── supply_chain_raw.csv # Original dataset from Kaggle
-│ └── supply_chain_cleaned.csv # Cleaned data used for analysis
+│ ├── supply_chain_raw.csv                  # Original dataset from Kaggle
+│ └── supply_chain_cleaned.csv              # Cleaned data used for analysis
 ├── scripts/
-│ ├── supply_chain_analysis.sql # SQL script for query & transformation
-│ └── supply_chain_analysis.python # Python script for correlation analysis
+│ ├── supply_chain_analysis.sql             # SQL script for query & transformation
+│ └── supply_chain_analysis.python          # Python script for correlation analysis
 ├── dashboard/
-│ ├── supply_chain_dashboard.pbix # Power BI dashboard
-│ ├── powerbi_dashboard.preview.png # Power BI dashboard preview
-│ ├── supply_chain_dashboard.twbx # Tableau workbook
-│ └── tableau_dashboard.preview.png # Tableau dashboard preview
-└── README.md # Project documentation
+│ ├── supply_chain_dashboard.pbix           # Power BI dashboard
+│ ├── supply_chain_dashboard.pbix.png       # Power BI dashboard preview
+│ ├── supply_chain_dashboard.twbx           # Tableau workbook
+│ └── supply_chain_dashboard.twbx.png       # Tableau dashboard preview
+└── README.md                               # Project documentation
 
 
 ---
