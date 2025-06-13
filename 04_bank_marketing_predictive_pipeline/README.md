@@ -33,16 +33,18 @@ To support marketing teams in optimizing targeting strategies by identifying the
 ```
 04_bank_marketing_predictive_pipeline/
 ├── data/
-│ ├── bank_marketing_raw.csv # Original dataset from Kaggle
-│ └── bank_marketing_cleaned.csv # Cleaned dataset for analysis
+│ ├── bank_marketing_raw.csv                          # Original dataset from Kaggle
+│ ├── bank_marketing_cleaned.csv                      # Cleaned dataset used for analysis
+│ └── bank_additional_name.txt                        # optional reference only
 ├── scripts/
-│ └── bank_marketing_predict.python # Python notebook for preprocessing & insights
+│ ├── bank_marketing_dataset.sql                      # SQL script for data extraction & cleaning
+│ └── bank_marketing_dataset.python                   # Python notebook for preprocessing & insights
 ├── dashboard/
-│ ├── marketing_dashboard.pbix # Power BI dashboard
-│ ├── powerbi_dashboard.preview.png # Power BI dashboard preview
-│ ├── marketing_dashboard.twbx # Tableau workbook
-│ └── tableau_dashboard.preview.png # Tableau dashboard preview
-└── README.md # Full pipeline documentation
+│ ├── bank_marketing_customer_behavior.pbix           # Power BI dashboard
+│ ├── bank_marketing_customer_behavior.pbix.png       # Power BI dashboard preview image
+│ ├── bank_marketing_customer_explorer.twbx           # Tableau workbook
+│ └── bank_marketing_customer_explorer.twbx.png       # Tableau dashboard preview image
+└── README.md                                         # Full pipeline and documentation
 ```
 
 ---
