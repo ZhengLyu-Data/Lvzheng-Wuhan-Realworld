@@ -34,17 +34,17 @@ To help e-commerce businesses and logistics teams gain insights into delivery ef
 ```
 01_brazil_e-commerce_sales_intelligence/
 ├── data/
-│   ├── olist_raw_data.zip                  # Original Kaggle dataset (all CSVs)!
-│   └── olist_cleaned_final.zip             # Final cleaned dataset used for analysis!
+│   ├── olist_raw_data.zip                           # Original Kaggle dataset (all CSVs)!
+│   └── olist_cleaned_final.zip                      # Final cleaned dataset used for analysis!
 ├── scripts/
-│   ├── onlist_cleaned_dataset.sql          # SQL script for data extraction & cleaning!
-│   └── onlist_cleaned_dataset.python       # Python script for EDA & processing (Colab)!
+│   ├── onlist_cleaned_dataset.sql                   # SQL script for data extraction & cleaning!
+│   └── onlist_cleaned_dataset.python                # Python script for EDA & processing (Colab)!
 ├── dashboard/
-│   ├── brazil_ecommerce_dashboard.pbix     # Power BI dashboard file
-│   ├── powerbi_dashboard.pbix.png          # Power BI dashboard preview image
-│   ├── brazil_ecommerce_dashboard.twbx     # Tableau workbook
-│   └── tableau_dashboard.preview.png       # Tableau dashboard preview image
-└── README.md                               # Full pipeline and documentation!
+│   ├── brazil_ecommerce_dashboard.pbix              # Power BI dashboard file
+│   ├── brazil_ecommerce_dashboard.pbix.png          # Power BI dashboard preview image
+│   ├── brazil_ecommerce_dashboard.twbx              # Tableau workbook
+│   └── brazil_ecommerce_dashboard.twbx.png          # Tableau dashboard preview image
+└── README.md                                        # Full pipeline and documentation!
 ```
 
 ---
