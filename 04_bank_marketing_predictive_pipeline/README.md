@@ -30,6 +30,7 @@ To support marketing teams in optimizing targeting strategies by identifying the
 
 ## 📁 Repository Structure
 
+```
 04_bank_marketing_predictive_pipeline/
 ├── data/
 │ ├── bank_marketing_raw.csv # Original dataset from Kaggle
@@ -42,9 +43,10 @@ To support marketing teams in optimizing targeting strategies by identifying the
 │ ├── marketing_dashboard.twbx # Tableau workbook
 │ └── tableau_dashboard.preview.png # Tableau dashboard preview
 └── README.md # Full pipeline documentation
-
+```
 
 ---
+
 
 ## 🔗 GitHub Project  
 [Click to view project](github.com/ZhengLyu-Data/Lvzheng-Wuhan-Data/tree/main/04_bank_marketing_predictive_pipeline)
