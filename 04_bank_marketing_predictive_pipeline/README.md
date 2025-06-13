@@ -47,7 +47,7 @@ To support marketing teams in optimizing targeting strategies by identifying the
 ---
 
 ## 🔗 GitHub Project  
-[Click to view project](https://github.com/ZhengLyu-Data/Lvzheng-Wuhan-Data/tree/main/04_bank_marketing_predictive_pipeline)
+[Click to view project](github.com/ZhengLyu-Data/Lvzheng-Wuhan-Data/tree/main/04_bank_marketing_predictive_pipeline)
 
 ## 🧑‍💻 Author & Project Statement  
 This project was independently developed by **Zheng Lyu** to demonstrate predictive modeling and response segmentation using marketing data.  
