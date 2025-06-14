@@ -34,7 +34,7 @@ To help e-commerce businesses and logistics teams gain insights into delivery ef
 ```
 01_brazil_e-commerce_sales_intelligence/
 ├── data/
-│   ├── olist_raw_data.zip                           # Original Kaggle dataset (all CSVs)!
+│   ├── olist_merged_data.csv                        # Original Kaggle dataset (all CSVs)!
 │   └── olist_cleaned_final.zip                      # Final cleaned dataset used for analysis!
 ├── scripts/
 │   ├── onlist_cleaned_dataset.sql                   # SQL script for data extraction & cleaning!
