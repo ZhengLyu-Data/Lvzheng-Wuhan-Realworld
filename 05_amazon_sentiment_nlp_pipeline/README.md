@@ -1,7 +1,7 @@
 ## 🛍️ Amazon Sentiment NLP Pipeline
 
 ## 📦 Project Overview
-This project performs real-world sentiment analysis on Amazon product reviews using natural language processing (NLP) techniques. It builds a full data pipeline from text preprocessing to sentiment scoring and final visualization.
+This project performs real-world sentiment analysis on Amazon product reviews using natural language processing (NLP) techniques. It builds a full data pipeline from text preprocessing to sentiment scoring and final visualization. Designed with potential for integration with Azure Cosmos DB to enable global-scale, low-latency storage of semi-structured product reviews.
 
 ## 🎯 Business Objective
 Help product teams identify customer satisfaction drivers and pain points through large-scale review mining and sentiment dashboards.
