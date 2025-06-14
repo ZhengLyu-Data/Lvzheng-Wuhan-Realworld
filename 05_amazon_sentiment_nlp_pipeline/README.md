@@ -8,7 +8,7 @@ This project builds a complete NLP pipeline to analyze sentiment in Amazon produ
 
 | File | Description |
 |------|-------------|
-| `analysis_pipeline.py` | 📌 All-in-one Python pipeline: cleaning, sentiment analysis, and visualization |
+| `analysis_pipeline.py` | All-in-one Python pipeline: cleaning, sentiment analysis, and visualization |
 | `amazon_reviews_cleaned.csv` | Cleaned and preprocessed raw data (10,000 samples) |
 | `processed_reviews.csv` | Final output with predicted sentiment labels |
 | `clean_reviews.csv` | Filtered & cleaned review data |
