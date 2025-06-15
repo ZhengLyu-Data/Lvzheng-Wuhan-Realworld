@@ -58,11 +58,12 @@ This project builds a complete NLP pipeline to analyze sentiment in Amazon produ
 
 ---
 
+
 ## 🚀 How to Run
 
 You can open and run the entire workflow using Google Colab:
 
-```python
+python
 # Upload raw amazon_reviews_raw.csv to /content/
 !python analysis_pipeline.py
 It will produce all outputs automatically and allow you to download the files.
