@@ -50,11 +50,11 @@ Clean the raw dataset:
 - results = process_data(df)
 - View insights:
 
-results["avg_cost_by_mode"]
+  results["avg_cost_by_mode"]
 
-results["avg_discount_by_importance"]
+  results["avg_discount_by_importance"]
 
-results["correlation_rating_cost"]
+  results["correlation_rating_cost"]
 
 Open Power BI or Tableau to visualize the final results using the cleaned CSV.
 
