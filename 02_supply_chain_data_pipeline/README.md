@@ -16,7 +16,7 @@ This project analyzes a retail supply chain dataset to extract insights about sh
 - Average Discount vs Product Importance (Bar)
 - Top 10 Products by Total Revenue (Bar)
 
-![Power BI](dashboard/powerbi_dashboard.png)  
+![Power BI](supply_chain_dashboard.pbix.png)  
 ![Tableau](dashboard/tableau_dashboard.png)
 
 ---
