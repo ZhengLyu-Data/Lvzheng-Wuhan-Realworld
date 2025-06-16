@@ -23,24 +23,16 @@ Tableau Dashboard
 Before running this project, ensure the following are installed or available:
 
 - Python 3.x (or Google Colab)
-- Required libraries:
-  - `pandas`
-  - `numpy`
-
+- `pandas`
+- Tableau Public (for dashboard creation)
+- Power BI Desktop
+  
 ## How to Run This Project
 
 - Upload the original dataset `data_science_salaries_raw.csv`
 - Run the data cleaning script to generate `data_science_salaries_cleaned.csv`
 - Run the analysis pipeline: bash python run_pipeline.py
-- You will see the following results:
-
-Salary by experience
-
-Top-paying job titles
-
-High-paying company locations
-
-Download cleaned dataset for reuse or dashboarding
+- Load the cleaned CSV into Tableau and Power BI to build dashboards
 
 ## 🎓 Lessons Learned
 
