@@ -1,3 +1,5 @@
+# clean_data.py
+
 import pandas as pd
 
 def clean_salary_data(input_file):
