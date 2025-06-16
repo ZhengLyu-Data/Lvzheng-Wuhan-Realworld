@@ -8,7 +8,7 @@ Below are example screenshots of the final dashboards created in Power BI and Ta
 
 Power BI Dashboard
 
-![Example dashboard image](example-dashboard.png)
+![Tableau dashboard image](ecommerce_behavior_dashboard.twbx.png)
 
 Tableau Dashboard
 
