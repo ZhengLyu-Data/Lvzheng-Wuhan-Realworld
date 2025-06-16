@@ -1,59 +1,47 @@
-## 💼 Data Salary Insight Pipeline
+# 💼 Data Science Salary Analysis
 
-## 📦 Project Overview  
-This project analyzes global salary trends in the data industry using a real-world dataset from Kaggle.  
-It builds a complete pipeline from data extraction and preprocessing to interactive dashboards, highlighting geographic and role-based salary patterns.
-
-## 🎯 Business Objective  
-To help job seekers and hiring teams understand compensation trends by location, role, and experience level across the data profession.
-
-## 🧱 Data Pipeline Architecture  
-- **Data Source:** Data Science Job Salaries Dataset (Kaggle)  
-- **Python Processing:** Cleaning, standardization, feature engineering (Google Colab)  
-- **Visualization Layer:**  
-  - Tableau: Salary range by job title and region  
-  - Power BI: Remote vs onsite salary comparison, company size impact
-
-## 🧰 Tech Stack  
-- **Languages:** Python (pandas, matplotlib, seaborn)  
-- **Platforms:** Google Colab, GitHub, Kaggle  
-- **Visualization Tools:** Tableau Public, Power BI  
-- **Data Size:** 6K+ rows, 10+ features covering role, region, experience, salary, remote ratio
-
-## 📊 Key Insights  
-- 🌍 Top-paying regions include North America and select parts of Europe  
-- 💼 Highest salaries by role: Data Engineers and ML Engineers lead globally  
-- 🏢 Large companies tend to offer higher compensation, especially for remote positions  
+This project analyzes global data science salaries using real-world job data from Kaggle. The goal is to explore how salary varies by experience level, job title, and company location. The project demonstrates a full pipeline from raw data cleaning to structured insights.
 
 ---
 
-## 📁 Repository Structure
+## 📊 Data Visualization
 
-```
-03_data_salary_insight_pipeline/
-├── data/
-│ ├── data_science_salaries_raw.csv           # Original Kaggle dataset (all CSVs)
-│ └── data_science_salaries_cleaned.csv       # Processed and labeled dataset
-├── scripts/
-│ ├── data_science_salary.sql                 # SQL script for data extraction & cleaning
-  └── data_science_salary.python              # Python script for EDA & processing (Colab)
-├── dashboard/
-│ ├── salary_dashboard.pbix                   # Power BI dashboard file
-│ ├── powerbi_dashboard.preview.png           # Power BI dashboard preview image
-│ ├── salary_dashboard.twbx                   # Tableau workbook
-│ └── tableau_dashboard.preview.png           # Tableau dashboard preview image
-└── README.md                                 # Full pipeline and documentation!
-```
-
----
+Below are example visualizations generated in Python (you can recreate them in matplotlib, seaborn, or Power BI):
 
 
-## 🔗 GitHub Project  
-[Click to view project](https://github.com/ZhengLyu-Data/Lvzheng-Wuhan-Data/tree/main/03_data_salary_insight_pipeline)
+## Data Architecture
 
-## 🧑‍💻 Author & Project Statement  
-This project was independently completed by **Zheng Lyu** to uncover compensation dynamics in the global data job market.  
-It showcases a full analytics pipeline with visual insights tailored to job market trends.
 
-## 📬 Contact  
-For questions or collaboration opportunities, please connect via LinkedIn: [Zheng Lyu](https://www.linkedin.com/in/zheng-lyu-951295323/)
+## Prerequisites
+
+Before running this project, ensure the following are installed or available:
+
+- Python 3.x (or Google Colab)
+- Required libraries:
+  - `pandas`
+  - `numpy`
+
+## How to Run This Project
+
+- Upload the original dataset `data_science_salaries_raw.csv`
+- Run the data cleaning script to generate `data_science_salaries_cleaned.csv`
+- Run the analysis pipeline: bash python run_pipeline.py
+- You will see the following results:
+
+Salary by experience
+
+Top-paying job titles
+
+High-paying company locations
+
+Download cleaned dataset for reuse or dashboarding
+
+## 🎓 Lessons Learned
+
+- Field naming standardization is key to reproducible workflows
+- Mapping and grouping enables fast aggregation insights
+- Python script modularization makes project easier to maintain
+- Simple .groupby() operations can already deliver business value
+
+## Contact
+Feel free to reach out for collaboration or questions: LinkedIn: Zheng Lyu GitHub: ZhengLyu-Data
