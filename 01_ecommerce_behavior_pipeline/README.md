@@ -77,7 +77,8 @@ Chart	Title	Type	Description
 📝 Note: A geographic sales map (Chart 4) was planned but not included in this version.
 
 ---
-、、、
+
+```
 ## 🧪 Project Structure
 
 01_ecommerce_behavior_pipeline/
