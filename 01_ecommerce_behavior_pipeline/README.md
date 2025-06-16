@@ -1,124 +1,53 @@
-## E-commerce Behavior Pipeline
-🧠 Overview
-This project analyzes customer transaction behavior using the UCI Online Retail II dataset. It demonstrates an end-to-end data engineering pipeline from raw data preprocessing in Python to interactive visual analysis in Power BI.
+## Overview
 
-The goal is to identify high-value customers, understand product performance trends, and detect seasonal ordering patterns.
+This project analyzes online customer purchasing behavior using the UCI Online Retail II dataset. The goal is to identify top customers, evaluate product performance over time, and visualize purchasing patterns using Power BI. The pipeline includes data cleaning with Python and interactive dashboard creation.
 
-## 🧱 Architecture
+## Data Visualization
 
-Raw Excel (.xlsx)
+Below are example screenshots of the final dashboards created in Power BI and Tableau.
+
+Power BI Dashboard
+
+
+
+Tableau Dashboard
+
+
+
+## Data Architecture
+
+Raw Excel (online_retail_II.xlsx)
       ↓
-Python ETL (preprocessing.py)
+Data Cleaning & Aggregation (Python + pandas)
       ↓
 Cleaned CSV
       ↓
-Power BI Dashboard (.pbix)
+Interactive Dashboard (Power BI)
 
-## 🧰 Tools & Technologies
-Layer	Tools Used
-Data Source	UCI Online Retail II (via Kaggle)
-ETL	Python (pandas, numpy)
-Storage	CSV
-BI / Viz	Power BI Desktop
-Platform	Google Colab, GitHub
+We chose Power BI for interactive visualization and Python for efficient data wrangling. This architecture allows non-technical users to filter and explore insights while maintaining a reproducible backend pipeline.
 
-## 📦 Dataset
-Source: Online Retail II UCI Dataset
+## Prerequisites
 
-File: online_retail_II.xlsx
-
-Coverage: 2010–2011 transactions across multiple countries (mainly UK)
-
-Fields Used:
-
-Invoice, Customer ID, Invoice Date, Description, Country, Quantity, Price
-
-## ⚙️ Data Pipeline Steps
-1. Data Ingestion
-Load Excel file (online_retail_II.xlsx)
-
-Convert to pandas DataFrame
-
-Select core columns needed for behavioral analysis
-
-2. Data Cleaning
-Remove nulls and duplicates
-
-Filter out refunds or canceled invoices
-
-Convert InvoiceDate to datetime
-
-Save cleaned result to ecommerce_cleaned.csv
-
-3. Aggregation (Python)
-Compute total value: Price × Quantity
-
-Group by Customer ID, Product, InvoiceDate (Month)
-
-Generate summary table for dashboarding
-
-4. Visualization (Power BI)
-Import cleaned CSV into Power BI
-
-Build three visual components:
-
-Top 10 customers by revenue
-
-Monthly product ranking (quantity)
-
-Customer order frequency matrix
-
-## 📊 Dashboard Components
-Chart	Title	Type	Description
-🟦 Chart 1	Top 10 Customers by Revenue	Bar Chart	Ranks top-spending customers using total purchase value
-🟧 Chart 2	Product Quantity Ranking Over Time	Ribbon Chart	Visualizes top-selling products by month
-🟣 Chart 3	Customer Order Activity by Month	Matrix Table	Displays order frequency across customers and months
-
-📝 Note: A geographic sales map (Chart 4) was planned but not included in this version.
-
----
-
-```
-## 🧪 Project Structure
-
-01_ecommerce_behavior_pipeline/
-│
-├── data/
-│   ├── online_retail_II.xlsx
-│   └── ecommerce_cleaned.csv
-│
-├── scripts/
-│   └── preprocessing.py
-│
-├── dashboard/
-│   ├── ecommerce_behavior.pbix
-│   ├── preview_top_customers.png
-│   ├── preview_product_ranking.png
-│   └── preview_customer_matrix.png
-│
-└── README.md
-、、、
-
----
-
-
-## ▶️ How to Run
-Upload raw file online_retail_II.xlsx to /data/
-
-Execute data cleaning script:
-
+Before running the project, ensure the following:
+Python 3.x installed or use Google Colab
+Install pandas, numpy, and openpyxl
+Power BI Desktop installed (for .pbix file viewing)
+Place online_retail_II.xlsx into the data/ directory
+How to Run This Project
+Run the preprocessing script:
 python scripts/preprocessing.py
-Open ecommerce_behavior.pbix in Power BI Desktop
+The script will output:
+Cleaned CSV: data/ecommerce_cleaned.csv
+Open dashboard/ecommerce_behavior.pbix in Power BI Desktop
+Interact with filters and visuals on the dashboard
 
-Refresh and interact with filters (e.g., by month, customer)
+## Lessons Learned
 
-## 📌 Notes
-This project uses a filtered version of the UCI Online Retail II dataset for demonstration.
+Invoice and Description fields contain too many unique values; require summarization
+Power BI visuals require field aggregation (e.g., sum, count) to be meaningful
+Visual filtering helps highlight high-value users and product seasonality
+Pre-aggregating in Python reduces dashboard load time significantly
 
-Power BI charts are built-in with no additional DAX.
+## Contact
 
-Aggregations are pre-computed via Python to ensure performance.
-
-## 👤 Author
-Created by Zheng Lyu, a transitioning data engineer targeting roles in Wuhan starting August 2025.
-This is part of a 5-project portfolio showcasing real-world, end-to-end data workflows using cloud-compatible tooling.
+Please feel free to contact me if you have any questions: LinkedIn: Zheng Lyu GitHub: ZhengLyu-Data
