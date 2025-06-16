@@ -54,4 +54,4 @@ Visual segmentation by customer traits improves marketing targeting decisions
 Python’s modular scripting makes the entire pipeline reusable and extendable
 
 ## Contact
-For any questions, feel free to connect: LinkedIn: Zheng Lyu GitHub: ZhengLyu-Data
+For any questions, feel free to connect: LinkedIn & GitHub
