@@ -4,7 +4,7 @@ This project analyzes online customer purchasing behavior using the UCI Online R
 
 ## Data Visualization
 
-Below are example screenshots of the final dashboards created in Power BI and Tableau.
+Below are the screenshots of the final dashboards created in Power BI and Tableau.
 
 Power BI Dashboard
 
