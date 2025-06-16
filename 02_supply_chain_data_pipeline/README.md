@@ -1,59 +1,73 @@
-## 🚚 Supply Chain Data Pipeline
+## Overview
 
-## 📦 Project Overview  
-This project explores real-world retail supply chain data from Kaggle to build a complete data analysis pipeline.  
-It includes SQL querying, Python-based preprocessing, and business dashboards to uncover patterns in transportation, cost, and customer behavior.
+This project analyzes a retail supply chain dataset to extract insights about shipping mode, cost structure, and delivery performance. It includes data cleaning, statistical analysis in Python, and interactive dashboards built with Power BI and Tableau.
 
-## 🎯 Business Objective  
-To help retail and logistics teams improve supply chain efficiency by analyzing how transportation modes, product importance, and discount levels affect costs and customer satisfaction.
+## 📊 Data Visualization
 
-## 🧱 Data Pipeline Architecture  
-- **Data Source:** Retail Supply Chain Transaction Dataset (Kaggle)  
-- **SQL Layer:** Extract structured insights on transport mode, cost, discounts, and ratings  
-- **Python Layer:** Preprocessing, correlation checks, and grouping logic (Google Colab)  
-- **Visualization Layer:**  
-  - Tableau: Distribution by shipment type and product category  
-  - Power BI: Cost vs discount vs customer rating dashboards
+### Power BI Dashboard
 
-## 🧰 Tech Stack  
-- **Languages:** SQL, Python (pandas, matplotlib)  
-- **Platforms:** Google Colab, GitHub, Kaggle  
-- **Visualization Tools:** Tableau Public, Power BI  
-- **Data Size:** 10K+ transactions, 4 key features analyzed across logistics categories
+- Product Cost by Shipping Mode (Bar Chart)
+- Discount by Product Importance (Ribbon Chart)
+- Customer Rating vs Product Cost (Line Chart)
 
-## 📊 Key Insights  
-- 🚚 Distribution of shipping modes across order volume  
-- 📉 High product discounts often correlate with lower customer ratings  
-- 🧮 Scatter plots reveal complex interactions between freight cost and product importance  
+### Tableau Dashboard
+
+- Distribution of Product Cost by Shipment Mode (Bar)
+- Average Discount vs Product Importance (Bar)
+- Top 10 Products by Total Revenue (Bar)
+
+![Power BI](dashboard/powerbi_dashboard.png)  
+![Tableau](dashboard/tableau_dashboard.png)
 
 ---
 
-```
-## 📁 Repository Structure
+## Data Architecture
 
-02_supply_chain_data_pipeline/
-├── data/
-│ ├── supply_chain_raw.csv                  # Original dataset from Kaggle
-│ └── supply_chain_cleaned.csv              # Cleaned data used for analysis
-├── scripts/
-│ ├── supply_chain_analysis.sql             # SQL script for query & transformation
-│ └── supply_chain_analysis.python          # Python script for correlation analysis
-├── dashboard/
-│ ├── supply_chain_dashboard.pbix           # Power BI dashboard
-│ ├── supply_chain_dashboard.pbix.png       # Power BI dashboard preview
-│ ├── supply_chain_dashboard.twbx           # Tableau workbook
-│ └── supply_chain_dashboard.twbx.png       # Tableau dashboard preview
-└── README.md                               # Project documentation
-```
+![Architecture Diagram](dashboard/supply_chain_architecture.png)
 
 ---
 
-## 🔗 GitHub Project  
-[Click to view project](https://github.com/ZhengLyu-Data/Lvzheng-Wuhan-Data/tree/main/02_supply_chain_data_pipeline)
+## Prerequisites
 
-## 🧑‍💻 Author & Project Statement  
-This project was independently designed and implemented by **Zheng Lyu** as part of a professional data engineering portfolio.  
-It focuses on uncovering actionable insights from transactional logistics data through an integrated SQL–Python–BI pipeline.
+Before running the analysis:
 
-## 📬 Contact  
-For questions or collaboration opportunities, please connect via LinkedIn: [Zheng Lyu](https://www.linkedin.com/in/zheng-lyu-951295323/)
+- Python 3.x (or Google Colab)
+- Install required libraries:
+  ```bash
+  pip install pandas
+- Place supply_chain_raw.csv in your working directory
+
+## How to Run This Project
+Clean the raw dataset:
+
+- from clean_data import clean_supply_chain_data
+- df_clean = clean_supply_chain_data("supply_chain_raw.csv")
+- df_clean.to_csv("supply_chain_cleaned_by_python.csv", index=False)
+- Run the analysis:
+
+- from pipeline import process_data
+- df = pd.read_csv("supply_chain_cleaned_by_python.csv")
+- results = process_data(df)
+- View insights:
+
+results["avg_cost_by_mode"]
+
+results["avg_discount_by_importance"]
+
+results["correlation_rating_cost"]
+
+Open Power BI or Tableau to visualize the final results using the cleaned CSV.
+
+## Lessons Learned
+Data normalization is crucial for cross-platform dashboard integration
+
+Customer rating is weakly correlated with product cost in this dataset
+
+Ribbon chart helps better visualize importance-driven discount patterns
+
+Power BI and Tableau complement each other in flexibility and precision
+
+## Contact
+Created by Zheng Lyu
+
+View all projects: ZhengLyu-Data GitHub
