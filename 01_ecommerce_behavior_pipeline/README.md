@@ -12,7 +12,7 @@ Power BI Dashboard
 
 Tableau Dashboard
 
-![tableau dashboard image](ecommerce_behavior.twbx.png)
+![tableau dashboard image](ecommerce_behavior_dashboard.twbx.png)
 
 ## Data Architecture
 
