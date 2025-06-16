@@ -2,21 +2,21 @@
 
 This project analyzes a retail supply chain dataset to extract insights about shipping mode, cost structure, and delivery performance. It includes data cleaning, statistical analysis in Python, and interactive dashboards built with Power BI and Tableau.
 
-## 📊 Data Visualization
+## Data Visualization
 
-### Power BI Dashboard
+## Power BI Dashboard
 
 - Product Cost by Shipping Mode (Bar Chart)
 - Discount by Product Importance (Ribbon Chart)
 - Customer Rating vs Product Cost (Line Chart)
 
-### Tableau Dashboard
+## Tableau Dashboard
 
 - Distribution of Product Cost by Shipment Mode (Bar)
 - Average Discount vs Product Importance (Bar)
 - Top 10 Products by Total Revenue (Bar)
 
-![Power BI](supply_chain_dashboard.pbix.png)  
+![Power BI dashboard image](supply_chain_dashboard.pbix.png)  
 ![Tableau](dashboard/tableau_dashboard.png)
 
 ---
