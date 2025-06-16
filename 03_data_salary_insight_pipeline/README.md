@@ -1,8 +1,6 @@
-# 💼 Data Science Salary Analysis
+## Overview
 
 This project analyzes global data science salaries using real-world job data from Kaggle. The goal is to explore how salary varies by experience level, job title, and company location. The project demonstrates a full pipeline from raw data cleaning to structured insights.
-
----
 
 ## 📊 Data Visualization
 
