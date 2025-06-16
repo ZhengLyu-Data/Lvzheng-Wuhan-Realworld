@@ -1,61 +1,57 @@
-## 🏦 Bank Marketing Predictive Pipeline
+## Overview
 
-## 📦 Project Overview  
-This project uses a real-world dataset from a Portuguese banking institution (via Kaggle) to build a predictive analytics pipeline.  
-It combines data cleaning, feature engineering, and visual exploration to understand which customer profiles are most likely to respond to marketing campaigns.
+This project analyzes a real-world bank marketing dataset to identify which customer segments are more likely to respond positively to marketing campaigns. The pipeline includes data cleaning, feature standardization, and statistical aggregation using Python. Final insights are visualized using Tableau and Power BI dashboards.
 
-## 🎯 Business Objective  
-To support marketing teams in optimizing targeting strategies by identifying the characteristics of customers most likely to subscribe to a term deposit product.
+### Data Visualization
 
-## 🧱 Data Pipeline Architecture  
-- **Data Source:** Bank Marketing Dataset (Kaggle)  
-- **Python Processing:** Cleaning, encoding, feature engineering, response flagging (Google Colab)  
-- **Modeling Layer:** Logistic regression (optional, for binary prediction)  
-- **Visualization Layer:**  
-  - Tableau: Campaign outcomes by job, age group, education  
-  - Power BI: Customer profiles vs response ratio, contact method analysis
+Final insights are displayed via interactive dashboards in Tableau and Power BI:
 
-## 🧰 Tech Stack  
-- **Languages:** Python (pandas, matplotlib, seaborn)  
-- **Platforms:** Google Colab, GitHub, Kaggle  
-- **Visualization Tools:** Tableau Public, Power BI  
-- **Data Size:** 45K+ customer records, 17 features including job, age, contact type, campaign outcome
+![Tableau Dashboard](dashboard/tableau_bank_response.png)  
+![Power BI Dashboard](dashboard/powerbi_bank_response.png)
 
-## 📊 Key Insights  
-- ☎️ Contact type (cellular vs telephone) impacts subscription success  
-- 🎓 Higher education and white-collar roles show stronger campaign responses  
-- 🔁 Multiple contact attempts increase likelihood of customer conversion  
+### Data Architecture
+
+![Data Architecture](dashboard/data_architecture.png)
+
+## Prerequisites
+
+Before running the project, ensure the following:
+
+- Python 3.x installed (or use Google Colab)
+- Required libraries: `pandas`
+- Place `bank_marketing_raw.csv` into the root directory
 
 ---
 
-## 📁 Repository Structure
+# How to Run This Project
 
-```
-04_bank_marketing_predictive_pipeline/
-├── data/
-│ ├── bank_marketing_raw.csv                          # Original dataset from Kaggle
-│ ├── bank_marketing_cleaned.csv                      # Cleaned dataset used for analysis
-│ └── bank_additional_name.txt                        # optional reference only
-├── scripts/
-│ ├── bank_marketing_dataset.sql                      # SQL script for data extraction & cleaning
-│ └── bank_marketing_dataset.python                   # Python notebook for preprocessing & insights
-├── dashboard/
-│ ├── bank_marketing_customer_behavior.pbix           # Power BI dashboard
-│ ├── bank_marketing_customer_behavior.pbix.png       # Power BI dashboard preview image
-│ ├── bank_marketing_customer_explorer.twbx           # Tableau workbook
-│ └── bank_marketing_customer_explorer.twbx.png       # Tableau dashboard preview image
-└── README.md                                         # Full pipeline and documentation
-```
+You can either run the pipeline locally or in Colab.
 
----
+- Upload the raw dataset file:  
+   `bank_marketing_raw.csv`
 
+- Clean the data:
+   ```python
+   from clean_data import clean_bank_data
+   df_cleaned = clean_bank_data("bank_marketing_raw.csv")
 
-## 🔗 GitHub Project  
-[Click to view project](github.com/ZhengLyu-Data/Lvzheng-Wuhan-Data/tree/main/04_bank_marketing_predictive_pipeline)
+- Run the analysis:
+ from pipeline import analyze_marketing_data
+ results = analyze_marketing_data(df_cleaned)
+ Save the cleaned file:
 
-## 🧑‍💻 Author & Project Statement  
-This project was independently developed by **Zheng Lyu** to demonstrate predictive modeling and response segmentation using marketing data.  
-It reflects practical business applications of customer profiling and campaign targeting with BI dashboards.
+ df_cleaned.to_csv("bank_marketing_cleaned.csv", index=False)
+ (Optional) Download file in Colab:
 
-## 📬 Contact  
-For questions or collaboration opportunities, please connect via LinkedIn: [Zheng Lyu](https://www.linkedin.com/in/zheng-lyu-951295323/)
+ from google.colab import files
+ files.download("bank_marketing_cleaned.csv")
+
+## Lessons Learned
+
+Using .groupby() and .value_counts() enables quick distribution analysis across dimensions
+Standardizing field names in early steps reduces downstream errors
+Visual segmentation by customer traits improves marketing targeting decisions
+Python’s modular scripting makes the entire pipeline reusable and extendable
+
+## Contact
+For any questions, feel free to connect: LinkedIn: Zheng Lyu GitHub: ZhengLyu-Data
