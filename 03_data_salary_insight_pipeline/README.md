@@ -16,7 +16,7 @@ Tableau Dashboard
 
 ## Data Architecture
 
-![data architecture image](ecommerce_behavior_architecture.png)
+![data architecture image](data_science_salary_architecture.png)
 
 ## Prerequisites
 
