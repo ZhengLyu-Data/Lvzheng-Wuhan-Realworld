@@ -42,4 +42,4 @@ Before running this project, ensure the following are installed or available:
 - Simple .groupby() operations can already deliver business value
 
 ## Contact
-Feel free to reach out for collaboration or questions: LinkedIn: Zheng Lyu GitHub: ZhengLyu-Data
+Feel free to reach out for collaboration or questions: LinkedIn， GitHub
