@@ -11,7 +11,7 @@ Final insights are displayed via interactive dashboards in Tableau and Power BI:
 
 ### Data Architecture
 
-![Data Architecture](dashboard/data_architecture.png)
+![Data Architecture](bank_marketing_predictive_architecture.png)
 
 ## Prerequisites
 
