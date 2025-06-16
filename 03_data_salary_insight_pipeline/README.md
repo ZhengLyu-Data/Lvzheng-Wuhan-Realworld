@@ -8,7 +8,7 @@ Below are final visualizations generated in tabelau/ Power BI:
 
 Power BI Dashboard
 
-![Power BI dashboard image](ecommerce_customer_behavior.pbix.png)
+![Power BI dashboard image](data_science_salary_dashboard.pbix.png)
 
 Tableau Dashboard
 
