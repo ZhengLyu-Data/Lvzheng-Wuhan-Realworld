@@ -23,7 +23,7 @@ This project analyzes a retail supply chain dataset to extract insights about sh
 
 ## Data Architecture
 
-![Architecture Diagram](dashboard/supply_chain_architecture.png)
+![Architecture Diagram](supply_chain_data_architecture.png)
 
 ---
 
