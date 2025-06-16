@@ -17,7 +17,7 @@ This project analyzes a retail supply chain dataset to extract insights about sh
 - Top 10 Products by Total Revenue (Bar)
 
 ![Power BI dashboard image](supply_chain_dashboard.pbix.png)  
-![tableau dashboard image](dashboard/tableau_dashboard.png)
+![tableau dashboard image](supply_chain_dashboard.twbx.png)
 
 ---
 
