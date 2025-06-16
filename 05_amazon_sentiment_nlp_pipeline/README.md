@@ -1,82 +1,55 @@
-## 🗣️ Amazon Sentiment NLP Pipeline
+## Overview
 
-This project builds a complete NLP pipeline to analyze sentiment in Amazon product reviews using real-world data from Kaggle. It demonstrates a full-stack data engineering workflow — from raw data ingestion, preprocessing, sentiment classification, to visualized insight delivery.
+This project analyzes sentiment in Amazon product reviews using a full data engineering and NLP pipeline. The goal is to classify customer reviews into positive, neutral, or negative sentiment using TextBlob, and to visualize overall sentiment trends. The project demonstrates end-to-end data ingestion, text processing, and automated visualization.
 
----
+## Data Visualization
 
-## 📁 Project Structure
+This project does not use Tableau or Power BI. All visualizations are generated programmatically using Python libraries:
+sentiment_distribution.png: a bar chart created with matplotlib showing counts of positive, neutral, and negative reviews.
+wordcloud.png: a visual representation of the most frequently used words in the review texts, generated using the wordcloud library.
+These visuals help users quickly understand the overall emotional tone of the product feedback.
 
-| File | Description |
-|------|-------------|
-| `analysis_pipeline.py` | All-in-one Python pipeline: cleaning, sentiment analysis, and visualization |
-| `amazon_reviews_cleaned.csv` | Cleaned and preprocessed raw data (10,000 samples) |
-| `processed_reviews.csv` | Final output with predicted sentiment labels |
-| `clean_reviews.csv` | Filtered & cleaned review data |
-| `clean_reviews_labeled.csv` | Labeled data for sentiment visualization |
-| `wordcloud.png` | Word cloud of most common review terms |
-| `sentiment_distribution.png` | Bar chart showing sentiment distribution |
-| `pipeline.py` | Modular sentiment processing logic |
-| `run_pipeline.py` | Script to execute the processing pipeline |
-| `README.md` | This documentation file |
+## Data Architecture
 
----
+Raw CSV (Amazon Reviews)
+      ↓
+Text Cleaning & Preprocessing (pandas)
+      ↓
+Sentiment Classification (TextBlob)
+      ↓
+Visualizations (matplotlib, wordcloud)
 
-## 🔧 Technologies Used
+We chose Python and TextBlob due to their fast prototyping capabilities. The entire pipeline runs efficiently in Google Colab and is modular for future upgrades to more advanced NLP models (e.g., BERT).
 
-- 🐍 Python 3
-- `pandas`, `textblob` for data processing
-- `matplotlib`, `wordcloud` for visualization
-- Google Colab for runtime
+## Prerequisites
 
----
+Before running the project, ensure the following:
+Python 3.x installed or use Google Colab
+Clone this repository
+Download the Kaggle dataset: Amazon Fine Food Reviews
+Place Reviews.csv into the data/ directory
 
-## 📊 Workflow Overview
+## How to Run This Project
 
-1. **Raw Data Cleaning**  
-   - Select key columns, drop nulls  
-   - Sample 10,000 reviews from full dataset  
-   - Save as `amazon_reviews_cleaned.csv`
+Open terminal or Google Colab
+Navigate to project directory:
+cd 05_amazon_review_nlp
+Run the sentiment pipeline script:
+python scripts/analysis_pipeline.py
+Output files will be generated:
+Cleaned CSV: /data/amazon_reviews_cleaned.csv
+Sentiment-labeled CSV: /data/clean_reviews_labeled.csv
+Visuals: /visualizations/sentiment_distribution.png, wordcloud.png
 
-2. **Sentiment Mapping**  
-   - Convert review `Score` to sentiment label: `positive`, `neutral`, `negative`
-   - Use TextBlob to predict polarity from review text
-   - Save full output as `processed_reviews.csv`
+## Lessons Learned
 
-3. **Visualization**  
-   - Generate word cloud: `wordcloud.png`  
-   - Plot sentiment distribution bar chart: `sentiment_distribution.png`
+TextBlob is simple but limited; future versions should incorporate deep learning models.
+Review scores and text polarity are not always aligned — combining both is more robust.
+Preprocessing quality directly affects model output; consistent text normalization is critical.
+For large datasets, sampling is a good tradeoff to avoid overloading runtime.
 
----
+## Contact
 
-## 🧠 Sentiment Mapping Rules
-
-| Score | Mapped Sentiment |
-|-------|------------------|
-| 1–2   | negative          |
-| 3     | neutral           |
-| 4–5   | positive          |
-
----
-
-
-## 🚀 How to Run
-
-You can open and run the entire workflow using Google Colab:
-
-python
-# Upload raw amazon_reviews_raw.csv to /content/
-!python analysis_pipeline.py
-It will produce all outputs automatically and allow you to download the files.
-
-📌 Note
-The original raw dataset is large (~500MB) and not included in this repo.
-
-A cleaned 10,000-row sample is provided for demo and visualization purposes.
-
-For full-scale processing, refer to the Kaggle dataset: Amazon Fine Food Reviews
-
-📍 Author
-This project was created by a transitioning data engineer targeting positions in Wuhan starting August 2025. It is part of a 5-project portfolio demonstrating end-to-end data processing, real-world analysis, and cloud-compatible tooling.
-
-## 📬 Contact
-For questions or collaboration opportunities, please connect via LinkedIn https://www.linkedin.com/in/zheng-lyu-951295323/.
+Please feel free to contact me if you have any questions:
+LinkedIn: Zheng Lyu
+GitHub: ZhengLyu-Data
