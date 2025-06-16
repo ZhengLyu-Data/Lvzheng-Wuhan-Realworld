@@ -116,8 +116,5 @@ df.drop(columns=['duration'], inplace=True)
 # Optional: Rename columns to snake_case for clarity
 df.columns = [col.lower().replace('.', '_') for col in df.columns]
 
-# 📌 STEP 4: Export cleaned dataset
-df.to_csv('bank_marketing_cleaned.csv', index=False)
-
-# 📌 STEP 5: Download cleaned file
-files.download('bank_marketing_cleaned.csv')
+# Save and download the cleaned data
+df_cleaned.to_csv("bank_marketing_cleaned.csv", index=False)
