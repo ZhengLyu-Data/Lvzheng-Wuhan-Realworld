@@ -6,13 +6,13 @@ This project analyzes sentiment in Amazon food product reviews using natural lan
 
 Below are screenshots of the final visualizations:
 
-Sentiment Distribution ![Tableau dashboard image](example-dashboard.png)
+Sentiment Distribution ![Tableau dashboard image](sentiment_distribution.png)
 
-Word Cloud ![Tableau dashboard image](example-dashboard.png)
+Word Cloud ![Tableau dashboard image](wordcloud.png)
 
 ## Data Architecture
 
-![Example architecture image](example-architecture.png)
+![data_architecture image](amazon_sentiment_nlp_architecture.png)
 
 ## Prerequisites
 
