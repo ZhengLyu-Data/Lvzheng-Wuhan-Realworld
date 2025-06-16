@@ -8,10 +8,11 @@ Below are example screenshots of the final dashboards created in Power BI and Ta
 
 Power BI Dashboard
 
-
+![Example dashboard image](example-dashboard.png)
 
 Tableau Dashboard
 
+![Example architecture image](example-architecture.png)
 
 
 ## Data Architecture
