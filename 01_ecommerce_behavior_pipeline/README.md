@@ -29,17 +29,22 @@ We chose Power BI for interactive visualization and Python for efficient data wr
 ## Prerequisites
 
 Before running the project, ensure the following:
-1.Python 3.x installed or use Google Colab
-2.Install pandas, numpy, and openpyxl
-3.Power BI Desktop installed (for .pbix file viewing)
-4. Place online_retail_II.xlsx into the data/ directory
-5.How to Run This Project
+
+- 1.Python 3.x installed or use Google Colab
+- 2.Install pandas, numpy, and openpyxl
+- 3.Power BI Desktop installed (for .pbix file viewing)
+- 4. Place online_retail_II.xlsx into the data/ directory
+
+## How to Run This Project
 Run the preprocessing script:
-python scripts/preprocessing.py
-6.The script will output:
-Cleaned CSV: data/ecommerce_cleaned.csv
-Open dashboard/ecommerce_behavior.pbix in Power BI Desktop
-Interact with filters and visuals on the dashboard
+
+1. python and SQL scripts/preprocessing.py
+   The script will output:
+
+2. Cleaned CSV: data/ecommerce_cleaned.csv
+
+   Open dashboard/ecommerce_behavior in Power BI Desktop and Tableau
+   Interact with filters and visuals on the dashboard
 
 ## Lessons Learned
 
