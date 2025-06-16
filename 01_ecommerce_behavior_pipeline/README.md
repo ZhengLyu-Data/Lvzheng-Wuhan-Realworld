@@ -12,17 +12,11 @@ Power BI Dashboard
 
 Tableau Dashboard
 
-![Tableau dashboard image](ecommerce_behavior_dashboard.twbx.png)
+![tableau dashboard image](ecommerce_behavior.twbx.png)
 
 ## Data Architecture
 
-Raw Excel (online_retail_II.xlsx)
-      ↓
-Data Cleaning & Aggregation (Python + pandas)
-      ↓
-Cleaned CSV
-      ↓
-Interactive Dashboard (Power BI)
+![data architecture image](ecommerce_behavior_architecture.png)
 
 We chose Power BI for interactive visualization and Python for efficient data wrangling. This architecture allows non-technical users to filter and explore insights while maintaining a reproducible backend pipeline.
 
