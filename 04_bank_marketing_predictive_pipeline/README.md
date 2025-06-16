@@ -7,7 +7,7 @@ This project analyzes a real-world bank marketing dataset to identify which cust
 Final insights are displayed via interactive dashboards in Tableau and Power BI:
 
 ![Tableau Dashboard](dashboard/tableau_bank_response.png)  
-![Power BI Dashboard](dashboard/powerbi_bank_response.png)
+![Power BI Dashboard](bank_marketing_customer_behavior.pbix.png)
 
 ### Data Architecture
 
