@@ -50,4 +50,4 @@ Pre-aggregating in Python reduces dashboard load time significantly
 
 ## Contact
 
-Please feel free to contact me if you have any questions: LinkedIn: Zheng Lyu GitHub: ZhengLyu-Data
+Please feel free to contact me if you have any questions: LinkedIn，Twitter
