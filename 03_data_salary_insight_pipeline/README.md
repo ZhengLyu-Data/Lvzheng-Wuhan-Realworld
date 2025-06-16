@@ -4,8 +4,15 @@ This project analyzes global data science salaries using real-world job data fro
 
 ## Data Visualization
 
-Below are example visualizations generated in Python (you can recreate them in matplotlib, seaborn, or Power BI):
+Below are final visualizations generated in tabelau/ Power BI:
 
+Power BI Dashboard
+
+![Power BI dashboard image](ecommerce_customer_behavior.pbix.png)
+
+Tableau Dashboard
+
+![Tableau dashboard image](ecommerce_customer_behavior.pbix.png)
 
 ## Data Architecture
 
