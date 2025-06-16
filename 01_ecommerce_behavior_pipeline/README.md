@@ -1,90 +1,123 @@
-## 🛒 E-commerce Behavior Pipeline
-This project builds a complete customer behavior analysis pipeline using real-world Brazil e-commerce data from Kaggle. It demonstrates a full-stack data engineering workflow — from raw data ingestion, preprocessing, behavioral aggregation, to visualized insight delivery.
+## E-commerce Behavior Pipeline
+🧠 Overview
+This project analyzes customer transaction behavior using the UCI Online Retail II dataset. It demonstrates an end-to-end data engineering pipeline from raw data preprocessing in Python to interactive visual analysis in Power BI.
 
-## 📁 Project Structure
-File	Description
-preprocessing.py	All-in-one Python script: cleaning, timestamp processing, aggregation
-ecommerce_raw.csv	Original e-commerce dataset (from Kaggle)
-ecommerce_cleaned.csv	Cleaned and preprocessed data for visualization
-ecommerce_behavior.pbix	Final Power BI dashboard file
-preview_top_customers.png	Bar chart of top 10 customers by revenue
-preview_product_ranking.png	Ribbon chart of product quantity rankings over time
-preview_customer_matrix.png	Matrix chart of customer monthly activity
-README.md	This documentation file
+The goal is to identify high-value customers, understand product performance trends, and detect seasonal ordering patterns.
 
-## 🔧 Technologies Used
-🐍 Python 3，MySQL
+## 🧱 Architecture
 
-pandas, numpy for data transformation
+Raw Excel (.xlsx)
+      ↓
+Python ETL (preprocessing.py)
+      ↓
+Cleaned CSV
+      ↓
+Power BI Dashboard (.pbix)
 
-Power BI Desktop for interactive dashboarding
+## 🧰 Tools & Technologies
+Layer	Tools Used
+Data Source	UCI Online Retail II (via Kaggle)
+ETL	Python (pandas, numpy)
+Storage	CSV
+BI / Viz	Power BI Desktop
+Platform	Google Colab, GitHub
 
-Google Colab for cloud-based Python execution
+## 📦 Dataset
+Source: Online Retail II UCI Dataset
 
-## 📊 Workflow Overview
-Raw Data Cleaning
+File: online_retail_II.xlsx
 
-Drop missing and duplicate values
+Coverage: 2010–2011 transactions across multiple countries (mainly UK)
+
+Fields Used:
+
+Invoice, Customer ID, Invoice Date, Description, Country, Quantity, Price
+
+## ⚙️ Data Pipeline Steps
+1. Data Ingestion
+Load Excel file (online_retail_II.xlsx)
+
+Convert to pandas DataFrame
+
+Select core columns needed for behavioral analysis
+
+2. Data Cleaning
+Remove nulls and duplicates
+
+Filter out refunds or canceled invoices
 
 Convert InvoiceDate to datetime
 
-Normalize categorical fields like CustomerID, Description, Country
+Save cleaned result to ecommerce_cleaned.csv
 
-Save as ecommerce_cleaned.csv
+3. Aggregation (Python)
+Compute total value: Price × Quantity
 
-Behavior Aggregation
+Group by Customer ID, Product, InvoiceDate (Month)
 
-Calculate total order value (Price × Quantity) per customer
+Generate summary table for dashboarding
 
-Rank product sales trends across time
+4. Visualization (Power BI)
+Import cleaned CSV into Power BI
 
-Track customer engagement frequency by month
+Build three visual components:
 
-Visualization
+Top 10 customers by revenue
 
-Load cleaned data into Power BI
+Monthly product ranking (quantity)
 
-Build 3 core dashboard views:
-
-Top customers
-
-Product trends
-
-Monthly customer activity
-
-Export preview charts for documentation
-
-## 🧠 Behavior Mapping Dimensions
-Entity	Metric Tracked
-Customer	Total Order Value, Activity by Month
-Product	Quantity Sold Over Time
-Time	Daily and Monthly Order Trends
+Customer order frequency matrix
 
 ## 📊 Dashboard Components
 Chart	Title	Type	Description
-🟦 Chart 1	Top 10 Customers by Total Order Value	Bar Chart	Ranks highest-spending customers in descending order
-🟧 Chart 2	Product Sales Ranking Over Time	Ribbon Chart	Visualizes product quantity rankings by month
-🟣 Chart 3	Customer Order Activity by Month	Matrix Table	Shows how frequently each customer places orders per month
+🟦 Chart 1	Top 10 Customers by Revenue	Bar Chart	Ranks top-spending customers using total purchase value
+🟧 Chart 2	Product Quantity Ranking Over Time	Ribbon Chart	Visualizes top-selling products by month
+🟣 Chart 3	Customer Order Activity by Month	Matrix Table	Displays order frequency across customers and months
 
-## 🚀 How to Run
-You can open and run the entire workflow using Google Colab and Power BI Desktop:
+📝 Note: A geographic sales map (Chart 4) was planned but not included in this version.
 
-python
+---
+、、、
+## 🧪 Project Structure
 
-## Step 1: Upload ecommerce_raw.csv to /content/
-!python preprocessing.py
-This will generate ecommerce_cleaned.csv for Power BI import.
+01_ecommerce_behavior_pipeline/
+│
+├── data/
+│   ├── online_retail_II.xlsx
+│   └── ecommerce_cleaned.csv
+│
+├── scripts/
+│   └── preprocessing.py
+│
+├── dashboard/
+│   ├── ecommerce_behavior.pbix
+│   ├── preview_top_customers.png
+│   ├── preview_product_ranking.png
+│   └── preview_customer_matrix.png
+│
+└── README.md
+、、、
 
-Then open the file ecommerce_behavior.pbix using Power BI Desktop. All charts are pre-built and filtered. You may adjust product/customer/time filters as needed.
+---
 
-## 📌 Note
-The original raw dataset is sourced from Kaggle: Brazilian E-Commerce Public Dataset.
-It contains over 100K orders from multiple CSVs. We use a cleaned and flattened version for demo purposes.
 
-All visualizations are reproducible from the public dataset with the included script.
+## ▶️ How to Run
+Upload raw file online_retail_II.xlsx to /data/
 
-## 📍 Author
-This project was created by a transitioning data engineer targeting positions in Wuhan starting August 2025. It is part of a 5-project portfolio demonstrating end-to-end data processing, real-world analytics, and cloud-compatible tooling.
+Execute data cleaning script:
 
-##📬 Contact
-For questions or collaboration opportunities, please connect via LinkedIn: 👉 
+python scripts/preprocessing.py
+Open ecommerce_behavior.pbix in Power BI Desktop
+
+Refresh and interact with filters (e.g., by month, customer)
+
+## 📌 Notes
+This project uses a filtered version of the UCI Online Retail II dataset for demonstration.
+
+Power BI charts are built-in with no additional DAX.
+
+Aggregations are pre-computed via Python to ensure performance.
+
+## 👤 Author
+Created by Zheng Lyu, a transitioning data engineer targeting roles in Wuhan starting August 2025.
+This is part of a 5-project portfolio showcasing real-world, end-to-end data workflows using cloud-compatible tooling.
