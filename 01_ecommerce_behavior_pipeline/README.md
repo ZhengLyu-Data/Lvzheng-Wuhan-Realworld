@@ -36,7 +36,6 @@ Run the preprocessing script:
    The script will output:
 
 2. Cleaned CSV: data/ecommerce_cleaned.csv
-
    Open dashboard/ecommerce_behavior in Power BI Desktop and Tableau, Interact with filters and visuals on the dashboard
 
 ## Lessons Learned
