@@ -40,4 +40,4 @@ Word Cloud ![Tableau dashboard image](wordcloud.png)
 - Python scripting enables modular and reproducible NLP workflows
 
 ## Contact
-Please feel free to contact me if you have any questions:
+Please feel free to contact me if you have any questions: Linkedin, Twitter
