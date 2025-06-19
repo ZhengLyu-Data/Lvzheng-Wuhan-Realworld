@@ -16,7 +16,7 @@ Tableau Dashboard
 
 ## Data Architecture
 
-![data architecture image](ecommerce_behavior_architecture.png)
+![data architecture image](ecommerce_behavior_pipeline .drawio.png)
 
 We chose Power BI for interactive visualization and Python for efficient data wrangling. This architecture allows non-technical users to filter and explore insights while maintaining a reproducible backend pipeline.
 
