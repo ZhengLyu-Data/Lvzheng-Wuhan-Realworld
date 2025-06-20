@@ -18,11 +18,14 @@ The dashboard includes the following charts:
 - SQLite (optional for local storage)
   
 ## How to Run This Project
-```bash
-# Step 1: Load data (already cleaned)
-# Step 2: Use visualization script or Metabase dashboard builder
-# Step 3: Review insights from chart outputs
-```
+
+- Step 1: Load data (already cleaned)
+- Step 2: Use visualization script or Metabase dashboard builder
+- Step 3: Review insights from chart outputs
+
+🧩 Note on SQL Compatibility:
+All SQL scripts in this project are designed using standard SQL syntax. While executed with SQLite for simplicity, the same structure is compatible with MySQL or PostgreSQL by changing the database connector and placeholder syntax (`?` → `%s`).
+
 ## Lessons Learned
 - Product cost and customer rating are not always correlated
 - Discounts vary more significantly by shipment method than product tier
