@@ -14,7 +14,8 @@ The dashboard includes the following charts:
 
 ## Prerequisites
 - Python 3.10+
-- Pandas / Matplotlib (for simulation)
+- Pandas
+- SQLite
 - Metabase 
 
 ## How to Run This Project
@@ -29,4 +30,4 @@ The dashboard includes the following charts:
 - Shipment mode optimization directly impacts delivery timeliness
 
 ## Contact
-For questions or collaboration: [Zheng Lyu](mailto:zhenglyu1990@gmail.com)
+For questions or collaboration: Linkedin and Tiwtter
