@@ -20,18 +20,20 @@ This project analyzes customer responses to a marketing campaign by a Portuguese
 - SQLite (optional for intermediate storage)
 
 ## How to Run This Project
-```bash
-# Step 1: Clean the dataset
+
+- Step 1: Clean the dataset
 python clean_data.py
 
-# Step 2: Build the pipeline
+- Step 2: Build the pipeline
 python pipeline.py
 
-# Step 3: Run the full analysis
+- Step 3: Run the full analysis
 python run_pipeline.py
 
-# Step 4: View visual outputs (matplotlib)
-```
+- Step 4: View visual outputs (matplotlib)
+
+🧩 Note on SQL Compatibility:
+All SQL scripts in this project are designed using standard SQL syntax. While executed with SQLite for simplicity, the same structure is compatible with MySQL or PostgreSQL by changing the database connector and placeholder syntax (`?` → `%s`).
 
 ## 🎓 Lessons Learned
 - Contact method plays a role in campaign success
