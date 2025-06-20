@@ -15,9 +15,8 @@ The dashboard includes the following charts:
 ## Prerequisites
 - Python 3.10+
 - Pandas / metabase
-- SQLite
-- Metabase 
-
+- SQLite (optional for local storage)
+  
 ## How to Run This Project
 ```bash
 # Step 1: Load data (already cleaned)
