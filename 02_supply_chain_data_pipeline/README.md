@@ -15,7 +15,7 @@ The dashboard includes the following charts:
 ## Prerequisites
 - Python 3.10+
 - Pandas / Matplotlib (for simulation)
-- Metabase or Superset (planned but optional)
+- Metabase 
 
 ## How to Run This Project
 ```bash
