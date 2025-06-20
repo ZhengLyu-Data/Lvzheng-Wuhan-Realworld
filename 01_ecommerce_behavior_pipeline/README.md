@@ -38,6 +38,9 @@ Run the preprocessing script:
 2. Cleaned CSV: data/ecommerce_cleaned.csv
    Open dashboard/ecommerce_behavior in Power BI Desktop and Tableau, Interact with filters and visuals on the dashboard
 
+🧩 Note on SQL Compatibility:
+All SQL scripts in this project are designed using standard SQL syntax. While executed with SQLite for simplicity, the same structure is compatible with MySQL or PostgreSQL by changing the database connector and placeholder syntax (`?` → `%s`).
+   
 ## Lessons Learned
 
 Invoice and Description fields contain too many unique values; require summarization
