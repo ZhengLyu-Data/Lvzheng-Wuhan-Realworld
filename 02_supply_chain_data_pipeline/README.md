@@ -14,7 +14,7 @@ The dashboard includes the following charts:
 
 ## Prerequisites
 - Python 3.10+
-- Pandas
+- Pandas / metabase
 - SQLite
 - Metabase 
 
