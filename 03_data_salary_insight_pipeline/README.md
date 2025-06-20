@@ -3,7 +3,7 @@ This project explores salary trends in data science roles globally. It highlight
 
 ## 📊 Data Visualization
 
-![Chart 1](chart1.png)
+![Chart 1](chart1_average salary_by_ experience Level.png)
 ![Chart 2](chart2.png)
 ![Chart 3](chart3.png)
 
