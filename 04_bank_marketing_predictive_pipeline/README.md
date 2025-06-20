@@ -12,7 +12,7 @@ This project analyzes customer responses to a marketing campaign by a Portuguese
 ![matplotlib dashboard image](chart3_subscription_rate_by_education_level.png)
 
 ## Data Architecture
-![Data Architecture](data_architecture.png)
+![Data Architecture](bank_marketing_predictive_architecture.png)
 
 ## Prerequisites
 - Python 3.10+
@@ -39,4 +39,4 @@ python run_pipeline.py
 - Education level correlates with campaign responsiveness
 
 ## 📬 Contact
-For questions or collaboration: [Zheng Lyu](mailto:zhenglyu1990@gmail.com)
+For questions or collaboration: linkedin & Twitter
