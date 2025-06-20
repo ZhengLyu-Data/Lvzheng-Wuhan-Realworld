@@ -35,4 +35,4 @@ python run_pipeline.py
 - Company size affects salary dispersion
 
 ## 📬 Contact
-For questions or feedback: Linkedin & Twitter
+For questions or feedback: Linkedin & Twitter 
