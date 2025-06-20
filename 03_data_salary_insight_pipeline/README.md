@@ -1,45 +1,42 @@
-## Overview
+# Data Science Salary Analysis
 
-This project analyzes global data science salaries using real-world job data from Kaggle. The goal is to explore how salary varies by experience level, job title, and company location. The project demonstrates a full pipeline from raw data cleaning to structured insights.
+## 📌 Overview
+This project explores salary trends in data science roles globally. It highlights differences based on job level, company size, and work flexibility using structured pipeline processing and visual outputs.
 
-## Data Visualization
+**Dataset**: [Data Science Job Salaries](https://www.kaggle.com/datasets/ruchi798/data-science-job-salaries) published by Ruchi Bhatia on Kaggle.
 
-Below are final visualizations generated in tabelau/ Power BI:
+## 📊 Data Visualization
 
-Power BI Dashboard
+![Chart 1](chart1.png)
+![Chart 2](chart2.png)
+![Chart 3](chart3.png)
 
-![Power BI dashboard image](data_science_salary_dashboard.pbix.png)
+## 🏗️ Data Architecture
+![Data Architecture](data_architecture.png)
 
-Tableau Dashboard
+## 🧱 Prerequisites
+- Python 3.10+
+- pandas / matplotlib
+- SQLite (optional for local storage)
 
-![Tableau dashboard image](data_science_salary_dashboard.twbx.png)
+## 🚀 How to Run This Project
+```bash
+# Step 1: Clean the raw dataset
+python clean_data.py
 
-## Data Architecture
+# Step 2: Build the analysis pipeline
+python pipeline.py
 
-![data architecture image](data_science_salary_architecture.png)
+# Step 3: Execute the pipeline
+python run_pipeline.py
 
-## Prerequisites
-
-Before running this project, ensure the following are installed or available:
-
-- Python 3.x (or Google Colab)
-- `pandas`
-- Tableau Public (for dashboard creation)
-- Power BI Desktop
-  
-## How to Run This Project
-
-- Upload the original dataset `data_science_salaries_raw.csv`
-- Run the data cleaning script to generate `data_science_salaries_cleaned.csv`
-- Run the analysis pipeline: bash python run_pipeline.py
-- Load the cleaned CSV into Tableau and Power BI to build dashboards
+# Step 4: Review the output visuals (matplotlib charts)
+```
 
 ## 🎓 Lessons Learned
+- Position level has significant impact on salary
+- Remote jobs have diversified distribution by region
+- Company size affects salary dispersion
 
-- Field naming standardization is key to reproducible workflows
-- Mapping and grouping enables fast aggregation insights
-- Python script modularization makes project easier to maintain
-- Simple .groupby() operations can already deliver business value
-
-## Contact
-Feel free to reach out for collaboration or questions: LinkedIn， GitHub
+## 📬 Contact
+For questions or feedback: Linkedin & Twitter
