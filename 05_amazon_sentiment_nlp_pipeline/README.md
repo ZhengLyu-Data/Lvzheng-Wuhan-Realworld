@@ -14,6 +14,8 @@ Word Cloud ![Tableau dashboard image](wordcloud.png)
 
 ![data_architecture image](amazon_sentiment_nlp_architecture.png)
 
+Note: Tableau dashboards in this project are based on the NLP results exported from Python scripts. The visualizations represent sentiment distribution, polarity trends, and top review insights derived from TextBlob/VADER outputs.
+
 ## Prerequisites
 
 - Before running the project, ensure the following: Python 3.x installed (or use Google Colab)
