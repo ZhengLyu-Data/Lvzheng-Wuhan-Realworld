@@ -1,21 +1,21 @@
-## 📌 Overview
+## Overview
 This project explores salary trends in data science roles globally. It highlights differences based on job level, company size, and work flexibility using structured pipeline processing and visual outputs.
 
-## 📊 Data Visualization
+## Data Visualization
 
 ![Chart 1](chart1_average salary_by_ experience Level.png)
-![Chart 2](chart2.png)
+![Chart 2](chart2_remote_ work_ratio_ Distribution.png)
 ![Chart 3](chart3.png)
 
-## 🏗️ Data Architecture
+## Data Architecture
 ![Data Architecture](data_salary_insight_pipeline_architecture.png)
 
-## 🧱 Prerequisites
+## Prerequisites
 - Python 3.10+
 - pandas / matplotlib
 - SQLite (optional for local storage)
 
-## 🚀 How to Run This Project
+## How to Run This Project
 ```bash
 # Step 1: Clean the raw dataset
 python clean_data.py
