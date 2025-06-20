@@ -1,73 +1,32 @@
 ## Overview
-
-This project analyzes a retail supply chain dataset to extract insights about shipping mode, cost structure, and delivery performance. It includes data cleaning, statistical analysis in Python, and interactive dashboards built with Power BI and Tableau.
+This project analyzes supply chain efficiency using a cleaned dataset of 10,999 shipment records. It highlights operational bottlenecks, delivery timeliness, and product shipment cost-performance through structured SQL logic and dashboard visualization.
 
 ## Data Visualization
+The dashboard includes the following charts:
 
-## Power BI Dashboard
-
-- Product Cost by Shipping Mode (Bar Chart)
-- Discount by Product Importance (Ribbon Chart)
-- Customer Rating vs Product Cost (Line Chart)
-
-## Tableau Dashboard
-
-- Distribution of Product Cost by Shipment Mode (Bar)
-- Average Discount vs Product Importance (Bar)
-- Top 10 Products by Total Revenue (Bar)
-
-![Power BI dashboard image](supply_chain_dashboard.pbix.png)  
-![tableau dashboard image](supply_chain_dashboard.twbx.png)
-
----
+![metabase dashboard image](chart1_mode_of_shipment.png)
+![metabase dashboard image](chart2_discount_by_importance.png)
+![metabase dashboard image](chart3_rating_vs_cost.png)
 
 ## Data Architecture
 
-![Architecture Diagram](supply_chain_data_architecture.png)
-
----
+![Data Architecture](supply_chain_data_pipeline_architecture.png)
 
 ## Prerequisites
-
-Before running the analysis:
-
-- Python 3.x (or Google Colab)
-- Install required libraries:
-  ```bash
-  pip install pandas
-- Place supply_chain_raw.csv in your working directory
+- Python 3.10+
+- Pandas / Matplotlib (for simulation)
+- Metabase or Superset (planned but optional)
 
 ## How to Run This Project
-Clean the raw dataset:
-
-- from clean_data import clean_supply_chain_data
-- df_clean = clean_supply_chain_data("supply_chain_raw.csv")
-- df_clean.to_csv("supply_chain_cleaned_by_python.csv", index=False)
-- Run the analysis:
-
-- from pipeline import process_data
-- df = pd.read_csv("supply_chain_cleaned_by_python.csv")
-- results = process_data(df)
-- View insights:
-
-  results["avg_cost_by_mode"]
-
-  results["avg_discount_by_importance"]
-
-  results["correlation_rating_cost"]
-
-Open Power BI or Tableau to visualize the final results using the cleaned CSV.
-
+```bash
+# Step 1: Load data (already cleaned)
+# Step 2: Use visualization script or Metabase dashboard builder
+# Step 3: Review insights from chart outputs
+```
 ## Lessons Learned
-Data normalization is crucial for cross-platform dashboard integration
-
-Customer rating is weakly correlated with product cost in this dataset
-
-Ribbon chart helps better visualize importance-driven discount patterns
-
-Power BI and Tableau complement each other in flexibility and precision
+- Product cost and customer rating are not always correlated
+- Discounts vary more significantly by shipment method than product tier
+- Shipment mode optimization directly impacts delivery timeliness
 
 ## Contact
-Created by Zheng Lyu
-
-View all projects: ZhengLyu-Data GitHub
+For questions or collaboration: [Zheng Lyu](mailto:zhenglyu1990@gmail.com)
