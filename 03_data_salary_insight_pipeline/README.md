@@ -1,9 +1,5 @@
-# Data Science Salary Analysis
-
 ## 📌 Overview
 This project explores salary trends in data science roles globally. It highlights differences based on job level, company size, and work flexibility using structured pipeline processing and visual outputs.
-
-**Dataset**: [Data Science Job Salaries](https://www.kaggle.com/datasets/ruchi798/data-science-job-salaries) published by Ruchi Bhatia on Kaggle.
 
 ## 📊 Data Visualization
 
@@ -12,7 +8,7 @@ This project explores salary trends in data science roles globally. It highlight
 ![Chart 3](chart3.png)
 
 ## 🏗️ Data Architecture
-![Data Architecture](data_architecture.png)
+![Data Architecture](data_salary_insight_pipeline_architecture.png)
 
 ## 🧱 Prerequisites
 - Python 3.10+
