@@ -7,9 +7,9 @@ This repository showcases six real-world data engineering projects. Each project
 | Project | Description                          | Tools Used                   |
 |---------|--------------------------------------|------------------------------|
 | 01. E-commerce Behavior Pipeline | Customer purchase patterns from UCI dataset | Python, SQL, Power BI |
-| 02. Supply Chain Efficiency Dashboard | Transport vs discount vs cost KPIs | SQL, Looker Studio, Metabase |
-| 03. Data Science Salary Analysis | Worldwide salary distribution for DS roles | Python, SQLite, matplotlib |
-| 04. Bank Marketing Dataset | Marketing call effectiveness analysis | Python, SQLite, matplotlib |
+| 02. Supply Chain Efficiency Dashboard | Transport vs discount vs cost KPIs | Python, SQL(SQLite), Metabase |
+| 03. Data Science Salary Analysis | Worldwide salary distribution for DS roles | Python, SQL(SQLite), matplotlib |
+| 04. Bank Marketing Dataset | Marketing call effectiveness analysis | Python, SQL(SQLite), matplotlib |
 | 05. Amazon Sentiment NLP | Sentiment classification on product reviews | Python, seaborn, Tableau |
 | 06. IoT Spark Pipeline (Planned) | Real-time stream data from IoT sensors | PySpark, Kafka, Grafana |
 
