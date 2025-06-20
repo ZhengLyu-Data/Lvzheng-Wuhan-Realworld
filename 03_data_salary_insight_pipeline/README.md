@@ -5,7 +5,7 @@ This project explores salary trends in data science roles globally. It highlight
 
 ![Chart 1](chart1_average salary_by_ experience Level.png)
 ![Chart 2](chart2_remote_ work_ratio_ Distribution.png)
-![Chart 3](chart3.png)
+![Chart 3](chart3_salary_ distribution_by_ company_size.png)
 
 ## Data Architecture
 ![Data Architecture](data_salary_insight_pipeline_architecture.png)
