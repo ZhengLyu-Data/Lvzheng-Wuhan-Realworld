@@ -16,18 +16,20 @@ This project explores salary trends in data science roles globally. It highlight
 - SQLite (optional for local storage)
 
 ## How to Run This Project
-```bash
-# Step 1: Clean the raw dataset
+
+- Step 1: Clean the raw dataset
 python clean_data.py
 
-# Step 2: Build the analysis pipeline
+- Step 2: Build the analysis pipeline
 python pipeline.py
 
-# Step 3: Execute the pipeline
+- Step 3: Execute the pipeline
 python run_pipeline.py
 
-# Step 4: Review the output visuals (matplotlib charts)
-```
+- Step 4: Review the output visuals (matplotlib charts)
+
+🧩 Note on SQL Compatibility:
+All SQL scripts in this project are designed using standard SQL syntax. While executed with SQLite for simplicity, the same structure is compatible with MySQL or PostgreSQL by changing the database connector and placeholder syntax (`?` → `%s`).
 
 ## 🎓 Lessons Learned
 - Position level has significant impact on salary
