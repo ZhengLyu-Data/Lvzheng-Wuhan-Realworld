@@ -3,9 +3,9 @@ This project explores salary trends in data science roles globally. It highlight
 
 ## Data Visualization
 
-![matplotlib dashboard image](chart1_average salary_by_ experience Level.png)
-![matplotlib dashboard image](chart2_remote_ work_ratio_ Distribution.png)
-![matplotlib dashboard image](chart3_salary_ distribution_by_ company_size.png)
+![matplotlib dashboard image](chart1_average_salary_by_experience_level.png)
+![matplotlib dashboard image](chart2_remote_work_ratio_distribution.png)
+![matplotlib dashboard image](chart3_salary_distribution_by_company_size.png)
 
 ## Data Architecture
 ![Data Architecture](data_salary_insight_pipeline_architecture.png)
