@@ -17,7 +17,7 @@ This repository showcases six real-world data engineering projects. Each project
 
 - Modular pipeline: `clean_data.py → pipeline.py → run_pipeline.py`
 - Unified SQL structure (SQLite-first, MySQL-compatible)
-- Real-world data sources from Kaggle & UCI
+- Real-world data sources from Kaggle, UCI, and Amazon
 - Engineering-style architecture diagrams
 - All projects fully executable in cloud platforms (Google Colab / Azure)
 
