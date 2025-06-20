@@ -1,57 +1,42 @@
+
+
 ## Overview
+This project analyzes customer responses to a marketing campaign by a Portuguese bank. The goal is to identify which customer attributes and contact methods are associated with higher subscription rates.
 
-This project analyzes a real-world bank marketing dataset to identify which customer segments are more likely to respond positively to marketing campaigns. The pipeline includes data cleaning, feature standardization, and statistical aggregation using Python. Final insights are visualized using Tableau and Power BI dashboards.
+**Dataset**: [Bank Marketing Dataset](https://www.kaggle.com/datasets/henriqueyamahata/bank-marketing), originally published on Kaggle.
 
-### Data Visualization
+##  Data Visualization
 
-Final insights are displayed via interactive dashboards in Tableau and Power BI:
+![Chart 1](chart1.png)
+![Chart 2](chart2.png)
+![Chart 3](chart3.png)
 
-![Tableau Dashboard](bank_marketing_customer_explorer.twbx.png)  
-![Power BI Dashboard](bank_marketing_customer_behavior.pbix.png)
-
-### Data Architecture
-
-![Data Architecture](bank_marketing_predictive_architecture.png)
+## Data Architecture
+![Data Architecture](data_architecture.png)
 
 ## Prerequisites
+- Python 3.10+
+- pandas / matplotlib
+- SQLite (optional for intermediate storage)
 
-Before running the project, ensure the following:
+## How to Run This Project
+```bash
+# Step 1: Clean the dataset
+python clean_data.py
 
-- Python 3.x installed (or use Google Colab)
-- Required libraries: `pandas`
-- Place `bank_marketing_raw.csv` into the root directory
+# Step 2: Build the pipeline
+python pipeline.py
 
----
+# Step 3: Run the full analysis
+python run_pipeline.py
 
-# How to Run This Project
+# Step 4: View visual outputs (matplotlib)
+```
 
-You can either run the pipeline locally or in Colab.
+## 🎓 Lessons Learned
+- Contact method plays a role in campaign success
+- Younger and older demographics have distinct subscription patterns
+- Education level correlates with campaign responsiveness
 
-- Upload the raw dataset file:  
-   `bank_marketing_raw.csv`
-
-- Clean the data:
-   ```python
-   from clean_data import clean_bank_data
-   df_cleaned = clean_bank_data("bank_marketing_raw.csv")
-
-- Run the analysis:
- from pipeline import analyze_marketing_data
- results = analyze_marketing_data(df_cleaned)
- Save the cleaned file:
-
- df_cleaned.to_csv("bank_marketing_cleaned.csv", index=False)
- (Optional) Download file in Colab:
-
- from google.colab import files
- files.download("bank_marketing_cleaned.csv")
-
-## Lessons Learned
-
-Using .groupby() and .value_counts() enables quick distribution analysis across dimensions
-Standardizing field names in early steps reduces downstream errors
-Visual segmentation by customer traits improves marketing targeting decisions
-Python’s modular scripting makes the entire pipeline reusable and extendable
-
-## Contact
-For any questions, feel free to connect: LinkedIn & GitHub
+## 📬 Contact
+For questions or collaboration: [Zheng Lyu](mailto:zhenglyu1990@gmail.com)
