@@ -8,7 +8,7 @@ This project analyzes customer responses to a marketing campaign by a Portuguese
 ##  Data Visualization
 
 ![matplotlib dashboard image](chart1_subscription_by_contact_type.png)
-![matplotlib dashboard image](chart2.png)
+![matplotlib dashboard image](chart2_age_distribution_by_subscruption_status.png)
 ![Chart 3](chart3.png)
 
 ## Data Architecture
