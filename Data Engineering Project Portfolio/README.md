@@ -11,7 +11,6 @@ This repository showcases six real-world data engineering projects. Each project
 | 03. Data Science Salary Analysis | Worldwide salary distribution for DS roles | Python, SQL(SQLite), matplotlib |
 | 04. Bank Marketing Dataset | Marketing call effectiveness analysis | Python, SQL(SQLite), matplotlib |
 | 05. Amazon Sentiment NLP | Sentiment classification on product reviews | Python, seaborn, Tableau |
-| 06. IoT Spark Pipeline (Planned) | Real-time stream data from IoT sensors | PySpark, Kafka, Grafana |
 
 ## 🧱 Technical Highlights
 
