@@ -8,7 +8,7 @@ This project analyzes supply chain efficiency using a cleaned dataset of 10,999 
 ** 中文说明：** 本仪表板包括运输方式分布、不同产品重要性下的折扣情况，以及客户评分与运输成本的关系，用于综合评估供应链效率。
 
 Below are screenshots of the final visualizations:  
-- ** 中文说明：** 以下为本项目生成的最终可视化图表示例截图：
+ - ** 中文说明：** 以下为本项目生成的最终可视化图表示例截图：
 
 ![metabase dashboard image](chart1_mode_of_shipment.png)
 ![metabase dashboard image](chart2_discount_by_importance.png)
