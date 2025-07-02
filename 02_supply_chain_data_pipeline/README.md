@@ -35,6 +35,9 @@ Before running the project, ensure the following:
 ## How to Run This Project
 ** 中文说明：** 本项目不需额外清洗步骤。直接载入已清洗数据，使用 SQL 脚本或 Metabase 构建图表，即可获得可视化结果。
 
+Run the preprocessing script:
+- 运行预处理脚本：
+
 - Step 1: Load data (already cleaned)
   * 第一步：载入已清洗的数据文件（如 `supply_chain_data_cleaned.csv`）
 - Step 2: Use visualization script or Metabase dashboard builder
