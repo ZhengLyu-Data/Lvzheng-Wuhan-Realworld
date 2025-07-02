@@ -32,13 +32,13 @@ We chose Power BI for interactive visualization and Python for efficient data wr
 Before running the project, ensure the following:
 - 在运行本项目之前，请确保以下环境准备已完成：
 
-- 1.Python 3.x installed or use Google Colab
+1.Python 3.x installed or use Google Colab
   * 安装 Python 3.x，或直接使用 Google Colab 免安装运行 
-- 2.Install pandas, numpy, and openpyxl
+2.Install pandas, numpy, and openpyxl
   * 安装所需 Python 库：pandas、numpy、openpyxl  
-- 3.Power BI Desktop installed (for .pbix file viewing)
+3.Power BI Desktop installed (for .pbix file viewing)
   * 安装 Power BI Desktop（用于打开 .pbix 可视化文件） 
-- 4.Place online_retail_II.xlsx into the data/ directory
+4.Place online_retail_II.xlsx into the data/ directory
   * 确保原始数据文件放在 `data/` 目录下（文件名为 `online_retail_II.xlsx`）
 
 ## How to Run This Project
