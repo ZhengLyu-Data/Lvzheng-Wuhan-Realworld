@@ -22,11 +22,11 @@ The dashboard includes the following charts:
 ** 📝 中文说明：** 推荐使用 Python 3.10 以上版本，使用 Pandas 进行基础处理，Metabase 进行可视化，也可选用 SQLite 做本地数据管理。
 
 - Python 3.10+
-  - Python 3.10 或更高版本
+  * Python 3.10 或更高版本
 - Pandas / metabase
-  - 安装 pandas，用于数据载入与基础处理；Metabase 用于交互式仪表板  
+  * 安装 pandas，用于数据载入与基础处理；Metabase 用于交互式仪表板  
 - SQLite (optional for local storage)
-  - 可选：用于本地执行 SQL 查询的轻量数据库 SQLite
+  * 可选：用于本地执行 SQL 查询的轻量数据库 SQLite
     
 ## How to Run This Project
 ** 📝 中文说明：** 本项目不需额外清洗步骤。直接载入已清洗数据，使用 SQL 脚本或 Metabase 构建图表，即可获得可视化结果。
