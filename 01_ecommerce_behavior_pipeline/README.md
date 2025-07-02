@@ -32,13 +32,13 @@ We chose Power BI for interactive visualization and Python for efficient data wr
 Before running the project, ensure the following:
 - 在运行本项目之前，请确保以下环境准备已完成：
 
-1.Python 3.x installed or use Google Colab
+- 1.Python 3.x installed or use Google Colab
   * 安装 Python 3.x，或直接使用 Google Colab 免安装运行 
-2.Install pandas, numpy, and openpyxl
+- 2.Install pandas, numpy, and openpyxl
   * 安装所需 Python 库：pandas、numpy、openpyxl  
-3.Power BI Desktop installed (for .pbix file viewing)
+- 3.Power BI Desktop installed (for .pbix file viewing)
   * 安装 Power BI Desktop（用于打开 .pbix 可视化文件） 
-4.Place online_retail_II.xlsx into the data/ directory
+- 4.Place online_retail_II.xlsx into the data/ directory
   * 确保原始数据文件放在 `data/` 目录下（文件名为 `online_retail_II.xlsx`）
 
 ## How to Run This Project
@@ -47,11 +47,11 @@ Before running the project, ensure the following:
 Run the preprocessing script:
 - 运行预处理脚本：
 
-1. python and SQL scripts/preprocessing.py
+- 1. python and SQL scripts/preprocessing.py
    The script will output:
    - 执行数据清洗脚本，生成清洗后的数据文件：`data/ecommerce_cleaned.csv`
 
-3. Cleaned CSV: data/ecommerce_cleaned.csv
+- 2. Cleaned CSV: data/ecommerce_cleaned.csv
    Open dashboard/ecommerce_behavior in Power BI Desktop and Tableau, Interact with filters and visuals on the dashboard
    - 使用 Power BI 和 Tableau 打开仪表板，体验交互式筛选、可视化与数据探索
      
