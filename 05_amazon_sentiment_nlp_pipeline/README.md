@@ -46,6 +46,3 @@ Note: Tableau dashboards in this project are based on the NLP results exported f
 - Combining score fields and polarity improves label consistency
 - Creating the dataset is essential for fast prototyping and visualization
 - Python scripting enables modular and reproducible NLP workflows
-
-## Contact
-Please feel free to contact me if you have any questions: Linkedin, Twitter
