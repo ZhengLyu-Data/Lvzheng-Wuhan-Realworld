@@ -36,6 +36,7 @@ Before running the project, ensure the following:
 
 ## How to Run This Project
 ** 📝 中文说明：** 可在本地或 Google Colab 运行 Python 预处理脚本，再用 Power BI 和 Tableau 打开仪表板进行交互展示。
+
 Run the preprocessing script:
 
 1. python and SQL scripts/preprocessing.py
