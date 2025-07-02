@@ -58,10 +58,10 @@ All SQL scripts in this project are designed using standard SQL syntax. While ex
 ** 📝 中文说明：** 数据维度需合理聚合，字段太多会降低图表可读性。预处理环节可以极大提升最终仪表板加载速度。
 
 Invoice and Description fields contain too many unique values; require summarization
-发票号与产品描述字段具有高基数，建议进行预聚合处理 
+* 发票号与产品描述字段具有高基数，建议进行预聚合处理 
 Power BI visuals require field aggregation (e.g., sum, count) to be meaningful
-在 Power BI 中需使用聚合函数（如 SUM、COUNT）以生成可读图表 
+* 在 Power BI 中需使用聚合函数（如 SUM、COUNT）以生成可读图表 
 Visual filtering helps highlight high-value users and product seasonality
-使用筛选器可以识别高价值客户及产品的季节性趋势
+* 使用筛选器可以识别高价值客户及产品的季节性趋势
 Pre-aggregating in Python reduces dashboard load time significantly
-在 Python 中提前聚合数据可显著提升仪表板加载效率与交互性能
+* 在 Python 中提前聚合数据可显著提升仪表板加载效率与交互性能
