@@ -2,7 +2,7 @@
 This project analyzes supply chain efficiency using a cleaned dataset of 10,999 shipment records. It highlights operational bottlenecks, delivery timeliness, and product shipment cost-performance through structured SQL logic and dashboard visualization.
 
 ** 中文说明（项目简介）**
-本项目分析了 10,999 条运输记录，旨在评估供应链的运作效率。通过标准化 SQL 查询和 Metabase 可视化图表，识别交付延迟、运输模式与成本效益的关系，辅助运营优化。适合展示数据查询、分析与可视化结合的完整流程。
+- 本项目分析了 10,999 条运输记录，旨在评估供应链的运作效率。通过标准化 SQL 查询和 Metabase 可视化图表，识别交付延迟、运输模式与成本效益的关系，辅助运营优化。适合展示数据查询、分析与可视化结合的完整流程。
 
 ## Data Visualization
 ** 中文说明：** 本仪表板包括运输方式分布、不同产品重要性下的折扣情况，以及客户评分与运输成本的关系，用于综合评估供应链效率。
