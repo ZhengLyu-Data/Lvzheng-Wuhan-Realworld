@@ -2,6 +2,10 @@
 
 This project analyzes online customer purchasing behavior using the UCI Online Retail II dataset. The goal is to identify top customers, evaluate product performance over time, and visualize purchasing patterns using Power BI. The pipeline includes data cleaning with Python and interactive dashboard creation.
 
+## 📌 中文说明（项目简介）
+
+本项目以英国 Online Retail II 数据为基础，构建端到端的数据清洗与行为分析流程。通过 Python 与可视化工具，探索电商客户的购买模式、退货行为和时间趋势。适合作为数据工程与业务分析能力展示的入门项目。
+
 ## Data Visualization
 
 Below are the screenshots of the final dashboards created in Power BI and Tableau.
