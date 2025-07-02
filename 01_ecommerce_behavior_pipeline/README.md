@@ -8,6 +8,9 @@ This project analyzes online customer purchasing behavior using the UCI Online R
 ## Data Visualization
 ** 中文说明：** 本部分展示了使用 Power BI 和 Tableau 构建的客户购买行为分析图表，涵盖用户分布、退货频率与时间趋势等核心维度。
 
+Below are screenshots of the final visualizations:  
+- ** 中文说明：** 以下为本项目生成的最终可视化图表示例截图：
+
 Power BI Dashboard
 
 ![Power BI dashboard image](ecommerce_customer_behavior.pbix.png)
