@@ -24,6 +24,9 @@ Below are screenshots of the final visualizations:
 ## Prerequisites
 ** 中文说明：** 请准备 Python 环境（建议 3.10+），安装 pandas 与 matplotlib，如需执行 SQL 分析可选用 SQLite 环境。
 
+Before running the project, ensure the following:
+ * 在运行本项目之前，请确保以下环境准备已完成：
+
 - Python 3.10+
   * 推荐 Python 3.10 或更高版本
 - pandas / matplotlib
