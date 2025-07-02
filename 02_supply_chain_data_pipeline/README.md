@@ -32,12 +32,16 @@ The dashboard includes the following charts:
 ** 📝 中文说明：** 本项目不需额外清洗步骤。直接载入已清洗数据，使用 SQL 脚本或 Metabase 构建图表，即可获得可视化结果。
 
 - Step 1: Load data (already cleaned)
+  * 第一步：载入已清洗的数据文件（如 `supply_chain_data_cleaned.csv`）
 - Step 2: Use visualization script or Metabase dashboard builder
+  * 第二步：运行 SQL 脚本或在 Metabase 中手动构建仪表板
 - Step 3: Review insights from chart outputs
-
+  * 第三步：通过图表交互分析运输方式、成本、折扣与客户评分之间的关系
+    
 🧩 Note on SQL Compatibility:
 All SQL scripts in this project are designed using standard SQL syntax. While executed with SQLite for simplicity, the same structure is compatible with MySQL or PostgreSQL by changing the database connector and placeholder syntax (`?` → `%s`).
-
+ - ** 中文补充说明：**  本项目 SQL 脚本采用标准语法，可在 SQLite、MySQL、PostgreSQL 等数据库中灵活迁移，需根据数据库修改连接方式与参数占位符。
+   
 ## Lessons Learned
 **📝 中文说明：** 本项目发现客户评分与运输成本不总是成正比，不同运输方式下折扣差异显著，运输模式优化对提高交付效率具有重要影响。
 
