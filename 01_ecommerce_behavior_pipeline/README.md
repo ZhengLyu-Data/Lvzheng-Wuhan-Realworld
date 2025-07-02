@@ -24,6 +24,7 @@ Tableau Dashboard
 ![data architecture image](ecommerce_behavior_pipeline_architecture.png)
 
 We chose Power BI for interactive visualization and Python for efficient data wrangling. This architecture allows non-technical users to filter and explore insights while maintaining a reproducible backend pipeline.
+- 我们选择使用 Power BI 进行交互式可视化，Python 用于高效的数据清洗处理。该架构既支持非技术用户进行筛选与洞察探索，又能保持后端流程的可复现性。
 
 ## Prerequisites
 ** 中文说明：** 本项目可在本地或 Colab 环境中运行，需提前安装 Python 与必要的库，并准备好数据文件和 Power BI 软件用于可视化操作。
