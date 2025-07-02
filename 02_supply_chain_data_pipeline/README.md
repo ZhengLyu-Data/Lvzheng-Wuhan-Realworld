@@ -23,7 +23,7 @@ Below are screenshots of the final visualizations:
 ** 中文说明：** 推荐使用 Python 3.10 以上版本，使用 Pandas 进行基础处理，Metabase 进行可视化，也可选用 SQLite 做本地数据管理。
 
 Before running the project, ensure the following:
-- 在运行本项目之前，请确保以下环境准备已完成：
+* 在运行本项目之前，请确保以下环境准备已完成：
 
 - Python 3.10+
   * Python 3.10 或更高版本
@@ -36,7 +36,7 @@ Before running the project, ensure the following:
 ** 中文说明：** 本项目不需额外清洗步骤。直接载入已清洗数据，使用 SQL 脚本或 Metabase 构建图表，即可获得可视化结果。
 
 Run the preprocessing script:
-- 运行预处理脚本：
+* 运行预处理脚本：
 
 - Step 1: Load data (already cleaned)
   * 第一步：载入已清洗的数据文件（如 `supply_chain_data_cleaned.csv`）
@@ -46,7 +46,7 @@ Run the preprocessing script:
   * 第三步：通过图表交互分析运输方式、成本、折扣与客户评分之间的关系
     
 Note on SQL Compatibility:
-- 中文说明：关于 SQL 兼容性
+* 中文说明：关于 SQL 兼容性
 
 - All SQL scripts in this project are designed using standard SQL syntax. While executed with SQLite for simplicity, the same structure is compatible with MySQL or PostgreSQL by changing the database connector and placeholder syntax (`?` → `%s`).
  - ** 中文补充说明：**  本项目 SQL 脚本采用标准语法，可在 SQLite、MySQL、PostgreSQL 等数据库中灵活迁移，需根据数据库修改连接方式与参数占位符。
