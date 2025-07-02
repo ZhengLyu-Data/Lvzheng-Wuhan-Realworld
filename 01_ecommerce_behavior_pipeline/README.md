@@ -56,7 +56,7 @@ Run the preprocessing script:
    - 使用 Power BI 和 Tableau 打开仪表板，体验交互式筛选、可视化与数据探索
      
 Note on SQL Compatibility:
-** 中文说明：** 关于 SQL 兼容性
+- ** 中文说明：** 关于 SQL 兼容性
 
 - All SQL scripts in this project are designed using standard SQL syntax. While executed with SQLite for simplicity, the same structure is compatible with MySQL or PostgreSQL by changing the database connector and placeholder syntax (`?` → `%s`).
  - ** 中文说明：** 所有 SQL 脚本基于标准语法编写，当前以 SQLite 运行为主，如需移植到 MySQL/PostgreSQL，仅需修改数据库连接方式及参数占位符格式（如 `?` → `%s`）。
