@@ -20,28 +20,43 @@ This project explores salary trends in data science roles globally. It highlight
 ** 📝 中文说明：** 请使用 Python 3.10 或以上版本，项目依赖 Pandas 和 Matplotlib。若需使用 SQL 脚本分析，可选用 SQLite 环境。
 
 - Python 3.10+
+  * 推荐使用 Python 3.10 或以上版本 
 - pandas / matplotlib
+  * 所需库：用于数据处理与图表绘制
 - SQLite (optional for local storage)
-
+  * 将数据文件 `ds_salaries.csv` 放入 `data/` 文件夹中
+    
 ## How to Run This Project
 ** 📝 中文说明：** 依次运行三个 Python 脚本，先进行数据清洗，再构建分析流程，最终输出图像。建议使用 VS Code 或 Colab 执行查看。
 
-- Step 1: Clean the raw dataset
+- Step 1: Load and Clean the raw dataset
 python clean_data.py
+  * 第一步：载入并清洗原始薪资数据，处理缺失值与标准化字段
 
 - Step 2: Build the analysis pipeline
 python pipeline.py
-
+  * 第二步：构建分析流程，生成分组、聚合与特征字段
+    
 - Step 3: Execute the pipeline
 python run_pipeline.py
-
+  * 第三步：运行主流程，输出分析结果与结构化数据文件
+    
 - Step 4: Review the output visuals (matplotlib charts)
-
-🧩 Note on SQL Compatibility:
-All SQL scripts in this project are designed using standard SQL syntax. While executed with SQLite for simplicity, the same structure is compatible with MySQL or PostgreSQL by changing the database connector and placeholder syntax (`?` → `%s`).
+  * 第四步：查看自动生成的图表，包括不同地区、经验水平与公司规模维度下的薪资对比
+    
+Note on SQL Compatibility:
+All SQL scripts in this project are designed using standard SQL syntax.  
+They are executed using SQLite for simplicity, but can be adapted to MySQL or PostgreSQL by adjusting the database connector and placeholder syntax (`?` → `%s`).
+  - ** 中文说明：**  
+本项目中的 SQL 脚本使用标准语法，默认在 SQLite 上运行。  
+如需迁移至 MySQL 或 PostgreSQL，只需修改数据库连接方式与参数占位符格式（如将 `?` 替换为 `%s`）。
 
 ## Lessons Learned
 ** 📝 中文说明：** 本项目发现职位等级对薪资影响显著，远程办公趋势因地区而异，公司规模对薪资离散度也有重要影响。
-- Position level has significant impact on salary
-- Remote jobs have diversified distribution by region
-- Company size affects salary dispersion
+
+- Position level significantly influences salary outcomes
+  * 职位等级对薪资水平具有显著影响，高级职位平均薪资明显更高
+- Remote roles show highly diverse regional distribution patterns
+  * 远程岗位在地域分布上呈现高度多样性，海外远程比例较高  
+- Company size contributes to variability in salary dispersion
+  * 公司规模影响薪资分布的离散程度，大型企业内部薪资差异更复杂
