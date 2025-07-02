@@ -37,6 +37,9 @@ Before running the project, ensure the following:
 ## How to Run This Project
 ** 中文说明：** 本项目共含三个 Python 模块，运行顺序为：数据清洗 → 数据管道构建 → 输出分析图表，可用于教学与项目演示。
 
+Run the preprocessing script:
+ * 运行预处理脚本：
+
 - Step 1: Load and Clean the dataset
 python clean_data.py
   * 第一步：载入并清洗原始银行营销数据，处理缺失值与字段格式
