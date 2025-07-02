@@ -24,7 +24,8 @@ Note: Tableau dashboards in this project are based on the NLP results exported f
 ## Prerequisites
 ** 中文说明：** 建议使用 Python 3.x 及以下库（或在 Colab 环境中操作），将原始评论数据放入 `data/` 文件夹。
 
-
+Before running the project, ensure the following:
+ * 在运行本项目之前，请确保以下环境准备已完成：
 
 - Before running the project, ensure the following: Python 3.x installed (or use Google Colab)
   * 安装 Python 3.x（或直接使用 Colab 无需配置）
