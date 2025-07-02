@@ -16,10 +16,11 @@ This repository showcases six real-world data engineering projects. Each project
 | 05. Amazon Sentiment NLP | Sentiment classification on product reviews | Python, seaborn, Tableau |
 
 ## Technical Highlights
-** 📝 中文说明：** 本仓库的项目均采用模块化结构，使用标准 SQL 与可视化工具，并提供架构图与云端可运行方案，展示完整工程思维与实践能力。
+** 📝 中文说明：** 本仓库的项目均采用模块化结构，结合 Python 脚本与标准 SQL 查询，配合多种可视化工具（Tableau、Power BI、Metabase、matplotlib），展示完整数据工程与分析流程，适用于教学、作品集与岗位申请。
 
-- Modular pipeline: `clean_data.py → pipeline.py → run_pipeline.py`
-- Unified SQL structure (SQLite-first, MySQL-compatible)
-- Real-world data sources from Kaggle, UCI, and Amazon
+- Modular pipeline structure: `clean_data.py → pipeline.py → run_pipeline.py`
+- Unified SQL logic (SQLite-first, MySQL/PostgreSQL-compatible)
+- Python-driven analysis pipeline (pandas, matplotlib, textblob, etc.)
+- Visualization tools: Tableau, Power BI, Metabase, Seaborn
 - Engineering-style architecture diagrams
-- All projects fully executable in cloud platforms (Google Colab / Azure)
+- Fully executable on cloud platforms (Google Colab / Azure)
