@@ -5,44 +5,57 @@
 This project analyzes sentiment in Amazon food product reviews using natural language processing (NLP). It classifies reviews as positive, neutral, or negative using TextBlob and visualizes the results using Python libraries. The pipeline demonstrates data ingestion, preprocessing, sentiment analysis, and visualization.
 
 ## Data Visualization
-** 📝 中文说明：** 本项目通过 Python 可视化库生成情感分布图与词云，帮助直观理解评论情绪倾向与高频词汇分布。
+** 中文说明：** 本项目通过 Python 可视化库生成情感分布图与词云，帮助直观理解评论情绪倾向与高频词汇分布。
 
 Below are screenshots of the final visualizations:
+** 中文说明：** 以下为本项目生成的最终可视化图表示例截图：
 
 Sentiment Distribution ![Tableau dashboard image](sentiment_distribution.png)
 
 Word Cloud ![Tableau dashboard image](wordcloud.png)
 
 ## Data Architecture
-** 📝 中文说明：** 项目架构由数据读取、文本预处理、情感分析与图像输出四部分组成，支持教学展示与模型原理讲解。
+** 中文说明：** 项目架构由数据读取、文本预处理、情感分析与图像输出四部分组成，支持教学展示与模型原理讲解。
 
 ![data_architecture image](amazon_sentiment_nlp_architecture.png)
 
 Note: Tableau dashboards in this project are based on the NLP results exported from Python scripts. The visualizations represent sentiment distribution, polarity trends, and top review insights derived from TextBlob/VADER outputs.
 
 ## Prerequisites
-** 📝 中文说明：** 建议使用 Python 3.x 及以下库（或在 Colab 环境中操作），将原始评论数据放入 `data/` 文件夹。
+** 中文说明：** 建议使用 Python 3.x 及以下库（或在 Colab 环境中操作），将原始评论数据放入 `data/` 文件夹。
 
 - Before running the project, ensure the following: Python 3.x installed (or use Google Colab)
+  * 安装 Python 3.x（或直接使用 Colab 无需配置）
 - Install required libraries: pandas, numpy, textblob, matplotlib, wordcloud
+  * 安装所需库：用于数据处理、情感分析与可视化
 - Place Reviews.csv into the data/ directory
+  * 将原始数据文件 `Reviews.csv` 放入 `data/` 文件夹
 
 ## How to Run This Project
-** 📝 中文说明：** 运行流程分为 3 步：进入项目目录 → 执行主脚本 → 生成情感标签与可视化图表。
+** 中文说明：** 运行流程分为 3 步：进入项目目录 → 执行主脚本 → 生成情感标签与可视化图表。
 
 - Open terminal or Google Colab
+  * 打开终端或 Google Colab 环境
 - Navigate to the project folder: cd 05_amazon_review_nlp
-
- Run the analysis pipeline: 
- 
-- python scripts/analysis_pipeline.py
+  * 进入项目目录：`05_amazon_review_nlp`
+- Run the analysis pipeline:
+  python scripts/analysis_pipeline.py
+  * 执行主分析脚本，完成清洗、情感打标与图像生成
 - Outputs will be saved to:
-- Labeled reviews: /data/clean_reviews_labeled.csv
-- Word cloud and sentiment distribution plots: /visualizations/
-
+   * 所有输出文件将自动保存至以下路径：
+ - Labeled reviews: /data/clean_reviews_labeled.csv
+   * 含情感标签的清洗数据集：`data/clean_reviews_labeled.csv`
+ - Word cloud and sentiment distribution plots: /visualizations/
+   * 词云图与情感分布图：保存在 `visualizations/` 文件夹中
+     
 ## Lessons Learned
-** 📝 中文说明：** 本项目揭示了规则基础的情感分析（如 TextBlob）在原型搭建中速度快但精度有限，适合作为教学范例或实际文本分析入门项目。
+** 中文说明：** 本项目揭示了规则基础的情感分析（如 TextBlob）在原型搭建中速度快但精度有限，适合作为教学范例或实际文本分析入门项目。
+
 - Rule-based sentiment classification (TextBlob) is fast and easy, but less accurate than ML model
+  * 基于规则的情感分析方法（如 TextBlob）可快速搭建原型，但在处理复杂语义上精度较低
 - Combining score fields and polarity improves label consistency
+  * 同时结合评分字段与情感极性（polarity）可提高标签一致性 
 - Creating the dataset is essential for fast prototyping and visualization
+  * 自建标签数据集有助于快速探索与原型迭代
 - Python scripting enables modular and reproducible NLP workflows
+  * 使用 Python 脚本可实现模块化、可复现的 NLP 分析流程
