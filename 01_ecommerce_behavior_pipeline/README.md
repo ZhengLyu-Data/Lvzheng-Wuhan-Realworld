@@ -11,7 +11,7 @@ This project analyzes online customer purchasing behavior using the UCI Online R
 --- 
 
 ## Data Visualization
-## 📝 中文说明：本部分展示了使用 Power BI 和 Tableau 构建的客户购买行为分析图表，涵盖用户分布、退货频率与时间趋势等核心维度。
+# 📝 中文说明：本部分展示了使用 Power BI 和 Tableau 构建的客户购买行为分析图表，涵盖用户分布、退货频率与时间趋势等核心维度。
 
 Power BI Dashboard
 
@@ -24,7 +24,7 @@ Tableau Dashboard
 --- 
 
 ## Data Architecture
-## 📝 中文说明：项目使用 Python 进行预处理，构建清洗数据集，并通过 Power BI 可视化客户行为路径，适合非技术用户交互分析。
+# 📝 中文说明：项目使用 Python 进行预处理，构建清洗数据集，并通过 Power BI 可视化客户行为路径，适合非技术用户交互分析。
 
 ![data architecture image](ecommerce_behavior_pipeline_architecture.png)
 
@@ -44,7 +44,7 @@ Before running the project, ensure the following:
 --- 
 
 ## How to Run This Project
-## 📝 中文说明：可在本地或 Google Colab 运行 Python 预处理脚本，再用 Power BI 和 Tableau 打开仪表板进行交互展示。
+# 📝 中文说明：可在本地或 Google Colab 运行 Python 预处理脚本，再用 Power BI 和 Tableau 打开仪表板进行交互展示。
 Run the preprocessing script:
 
 1. python and SQL scripts/preprocessing.py
@@ -59,7 +59,7 @@ All SQL scripts in this project are designed using standard SQL syntax. While ex
 ---
 
 ## Lessons Learned
-## 📝 中文说明：数据维度需合理聚合，字段太多会降低图表可读性。预处理环节可以极大提升最终仪表板加载速度。
+# 📝 中文说明：数据维度需合理聚合，字段太多会降低图表可读性。预处理环节可以极大提升最终仪表板加载速度。
 
 Invoice and Description fields contain too many unique values; require summarization
 Power BI visuals require field aggregation (e.g., sum, count) to be meaningful
