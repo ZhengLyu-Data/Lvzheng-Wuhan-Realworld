@@ -56,6 +56,8 @@ python run_pipeline.py
   * 第四步：查看输出图表，探索不同特征维度对营销结果的影响
     
 Note on SQL Compatibility:
+* 中文说明：关于 SQL 兼容性
+  
 - All SQL scripts in this project are designed using standard SQL syntax. While executed with SQLite for simplicity, the same structure is compatible with MySQL or PostgreSQL by changing the database connector and placeholder syntax (`?` → `%s`).
   - ** 中文说明：** 本项目使用的 SQL 脚本基于标准语法，当前以 SQLite 运行为主，也可迁移至 MySQL / PostgreSQL，仅需修改数据库连接方式与参数占位符格式。
     
