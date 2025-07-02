@@ -9,11 +9,11 @@ This repository showcases five real-world data engineering projects. Each projec
 
 | Project 项目名称 | Description 项目简介 | Tools Used 使用工具 |
 |------------------|-----------------------|----------------------|
-| 01. E-commerce Behavior Pipeline <br>🛒 电商行为数据流程分析 | Customer purchase patterns from UCI dataset | Python, SQL (SQLite), Tableau, Power BI |
-| 02. Supply Chain Efficiency Dashboard <br>🚚 供应链效率指标仪表板 | Transport vs discount vs cost KPIs | Python, SQL (SQLite), Metabase |
-| 03. Data Science Salary Analysis <br>💰 数据科学薪资分析 | Worldwide salary distribution for DS roles | Python, SQL (SQLite), matplotlib |
-| 04. Bank Marketing Dataset <br>📞 银行营销行为分析 | Marketing call effectiveness analysis | Python, SQL (SQLite), matplotlib |
-| 05. Amazon Sentiment NLP <br>🗣️ 亚马逊评论情感分析 | Sentiment classification on product reviews | Python, seaborn, Tableau |
+| 01. E-commerce Behavior Pipeline <br> 电商行为数据流程分析 | Customer purchase patterns from UCI dataset | Python, SQL (SQLite), Tableau, Power BI |
+| 02. Supply Chain Efficiency Dashboard <br> 供应链效率指标仪表板 | Transport vs discount vs cost KPIs | Python, SQL (SQLite), Metabase |
+| 03. Data Science Salary Analysis <br> 数据科学薪资分析 | Worldwide salary distribution for DS roles | Python, SQL (SQLite), matplotlib |
+| 04. Bank Marketing Dataset <br> 银行营销行为分析 | Marketing call effectiveness analysis | Python, SQL (SQLite), matplotlib |
+| 05. Amazon Sentiment NLP <br> 亚马逊评论情感分析 | Sentiment classification on product reviews | Python, seaborn, Tableau |
     
 ## Technical Highlights
 ** 中文说明：** 本仓库的项目均采用模块化结构，结合 Python 脚本与标准 SQL 查询，配合多种可视化工具（Tableau、Power BI、Metabase、matplotlib），展示完整数据工程与分析流程，适用于教学、作品集与岗位申请。
