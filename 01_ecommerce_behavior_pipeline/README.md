@@ -25,6 +25,7 @@ Tableau Dashboard
 We chose Power BI for interactive visualization and Python for efficient data wrangling. This architecture allows non-technical users to filter and explore insights while maintaining a reproducible backend pipeline.
 
 ## Prerequisites
+**📝 中文说明：** 本项目可在本地或 Colab 环境中运行，需提前安装 Python 与必要的库，并准备好数据文件和 Power BI 软件用于可视化操作。
 
 Before running the project, ensure the following:
 
@@ -53,7 +54,3 @@ Invoice and Description fields contain too many unique values; require summariza
 Power BI visuals require field aggregation (e.g., sum, count) to be meaningful
 Visual filtering helps highlight high-value users and product seasonality
 Pre-aggregating in Python reduces dashboard load time significantly
-
-## Contact
-
-Please feel free to contact me if you have any questions: LinkedIn，Twitter
