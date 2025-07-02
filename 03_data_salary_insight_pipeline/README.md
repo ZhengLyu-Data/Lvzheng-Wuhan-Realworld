@@ -35,6 +35,9 @@ Before running the project, ensure the following:
 ## How to Run This Project
 ** 中文说明：** 依次运行三个 Python 脚本，先进行数据清洗，再构建分析流程，最终输出图像。建议使用 VS Code 或 Colab 执行查看。
 
+Run the preprocessing script:
+* 运行预处理脚本：
+  
 - Step 1: Load and Clean the raw dataset
 python clean_data.py
   * 第一步：载入并清洗原始薪资数据，处理缺失值与标准化字段
