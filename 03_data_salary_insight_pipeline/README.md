@@ -54,6 +54,8 @@ python run_pipeline.py
   * 第四步：查看自动生成的图表，包括不同地区、经验水平与公司规模维度下的薪资对比
     
 Note on SQL Compatibility:
+* 中文说明：关于 SQL 兼容性
+
 - All SQL scripts in this project are designed using standard SQL syntax. They are executed using SQLite for simplicity, but can be adapted to MySQL or PostgreSQL by adjusting the database connector and placeholder syntax (`?` → `%s`).
   - ** 中文说明：** 本项目中的 SQL 脚本使用标准语法，默认在 SQLite 上运行。如需迁移至 MySQL 或 PostgreSQL，只需修改数据库连接方式与参数占位符格式（如将 `?` 替换为 `%s`）。
 
