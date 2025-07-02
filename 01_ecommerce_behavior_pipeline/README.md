@@ -30,7 +30,7 @@ We chose Power BI for interactive visualization and Python for efficient data wr
 ** 中文说明：** 本项目可在本地或 Colab 环境中运行，需提前安装 Python 与必要的库，并准备好数据文件和 Power BI 软件用于可视化操作。
 
 Before running the project, ensure the following:
-在运行本项目之前，请确保以下环境准备已完成：
+- 在运行本项目之前，请确保以下环境准备已完成：
 
 - 1.Python 3.x installed or use Google Colab
   * 安装 Python 3.x，或直接使用 Google Colab 免安装运行 
