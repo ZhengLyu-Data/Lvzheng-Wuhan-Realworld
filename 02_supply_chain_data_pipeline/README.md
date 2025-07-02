@@ -22,6 +22,9 @@ Below are screenshots of the final visualizations:
 ## Prerequisites
 ** 中文说明：** 推荐使用 Python 3.10 以上版本，使用 Pandas 进行基础处理，Metabase 进行可视化，也可选用 SQLite 做本地数据管理。
 
+Before running the project, ensure the following:
+- 在运行本项目之前，请确保以下环境准备已完成：
+
 - Python 3.10+
   * Python 3.10 或更高版本
 - Pandas / metabase
