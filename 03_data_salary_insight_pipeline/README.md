@@ -23,7 +23,7 @@ Below are screenshots of the final visualizations:
 ** 中文说明：** 请使用 Python 3.10 或以上版本，项目依赖 Pandas 和 Matplotlib。若需使用 SQL 脚本分析，可选用 SQLite 环境。
 
 Before running the project, ensure the following:
-* 在运行本项目之前，请确保以下环境准备已完成：
+ * 在运行本项目之前，请确保以下环境准备已完成：
 
 - Python 3.10+
   * 推荐使用 Python 3.10 或以上版本 
@@ -36,7 +36,7 @@ Before running the project, ensure the following:
 ** 中文说明：** 依次运行三个 Python 脚本，先进行数据清洗，再构建分析流程，最终输出图像。建议使用 VS Code 或 Colab 执行查看。
 
 Run the preprocessing script:
-* 运行预处理脚本：
+ * 运行预处理脚本：
   
 - Step 1: Load and Clean the raw dataset
 python clean_data.py
@@ -54,7 +54,7 @@ python run_pipeline.py
   * 第四步：查看自动生成的图表，包括不同地区、经验水平与公司规模维度下的薪资对比
     
 Note on SQL Compatibility:
-* 中文说明：关于 SQL 兼容性
+ * 中文说明：关于 SQL 兼容性
 
 - All SQL scripts in this project are designed using standard SQL syntax. They are executed using SQLite for simplicity, but can be adapted to MySQL or PostgreSQL by adjusting the database connector and placeholder syntax (`?` → `%s`).
   - ** 中文说明：** 本项目中的 SQL 脚本使用标准语法，默认在 SQLite 上运行。如需迁移至 MySQL 或 PostgreSQL，只需修改数据库连接方式与参数占位符格式（如将 `?` 替换为 `%s`）。
