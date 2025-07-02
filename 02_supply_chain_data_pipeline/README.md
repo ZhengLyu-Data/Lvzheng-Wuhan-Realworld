@@ -46,5 +46,8 @@ All SQL scripts in this project are designed using standard SQL syntax. While ex
 **📝 中文说明：** 本项目发现客户评分与运输成本不总是成正比，不同运输方式下折扣差异显著，运输模式优化对提高交付效率具有重要影响。
 
 - Product cost and customer rating are not always correlated
+  * 客户评分与产品成本不总是正相关，部分低成本产品仍可获得高评分
 - Discounts vary more significantly by shipment method than product tier
+  * 不同运输方式下，折扣策略差异显著，运输成本结构具有分层特征 
 - Shipment mode optimization directly impacts delivery timeliness
+  * 优化运输模式对提升交付效率具有直接推动作用，属于核心业务杠杆
