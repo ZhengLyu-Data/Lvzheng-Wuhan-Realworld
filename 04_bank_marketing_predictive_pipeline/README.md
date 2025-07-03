@@ -7,6 +7,7 @@ This project analyzes customer responses to a marketing campaign by a Portuguese
 ## Data Visualization | 可视化概览
 
 This project presents three interactive charts generated using Plotly, exported as static images for quick preview, and available as downloadable HTML files for full interactivity.
+
 ** 中文说明 ** 本项目使用 Plotly 生成三张交互式图表，提供静态图片用于快速浏览，并附带 HTML 下载链接以支持完整交互体验。
 
   
