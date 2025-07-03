@@ -1,10 +1,12 @@
 ## Overview 项目总览
 This project analyzes sentiment in Amazon food product reviews using natural language processing (NLP). It classifies reviews as positive, neutral, or negative using TextBlob and visualizes the results using Python libraries. The pipeline demonstrates data ingestion, preprocessing, sentiment analysis, and visualization.
 
-** 中文说明 **
-- 本项目基于 Amazon 食品评论数据集，使用 Python 与自然语言处理（NLP）技术分析评论情感倾向。通过 TextBlob 模型对评论文本进行极性分析，分为正面、中性与负面类别，并输出词云图与情感分布图。项目涵盖数据清洗、情感标签生成、可视化输出等完整文本分析流程，适用于教学与实战演示。
+** 中文说明 ** 本项目基于 Amazon 食品评论数据集，使用 Python 与自然语言处理（NLP）技术分析评论情感倾向。通过 TextBlob 模型对评论文本进行极性分析，分为正面、中性与负面类别，并输出词云图与情感分布图。项目涵盖数据清洗、情感标签生成、可视化输出等完整文本分析流程，适用于教学与实战演示。
 
 ## Data Visualization 数据可视化
+
+This project uses Python visualization libraries to generate sentiment distribution charts and word clouds, offering intuitive insights into emotional tendencies and frequent terms in the reviews.
+
 ** 中文说明 ** 本项目通过 Python 可视化库生成情感分布图与词云，帮助直观理解评论情绪倾向与高频词汇分布。
 
 Below are screenshots of the final visualizations:
@@ -19,14 +21,20 @@ Wordcloud Dashboard 数据可视化
 ![Wordcloud wordcloud dashboard image](wordcloud.png).
 
 ## Data Architecture 数据流程图
+
+The project structure consists of four components: data loading, text preprocessing, sentiment analysis, and visualization output. It is designed to support teaching demonstrations and explain model fundamentals.
+
 ** 中文说明 ** 项目架构由数据读取、文本预处理、情感分析与图像输出四部分组成，支持教学展示与模型原理讲解。
 
 ![data_architecture image](amazon_sentiment_nlp_pipeline.png)
 
 Note: Tableau dashboards in this project are based on the NLP results exported from Python scripts. The visualizations represent sentiment distribution, polarity trends, and top review insights derived from TextBlob/VADER outputs.
-* 说明：本项目中的 Tableau 仪表板基于从 Python 脚本导出的自然语言处理（NLP）结果构建。可视化图表展示了情感分布、情感极性变化趋势，以及基于 TextBlob/VADER 分析提取的重点评论洞察。
+** 中文说明 ** ：本项目中的 Tableau 仪表板基于从 Python 脚本导出的自然语言处理（NLP）结果构建。可视化图表展示了情感分布、情感极性变化趋势，以及基于 TextBlob/VADER 分析提取的重点评论洞察。
 
 ## Prerequisites 环境准备
+
+It is recommended to use Python 3.x and the required libraries (or operate in a Colab environment). Place the original review dataset into the data/ folder.
+
 ** 中文说明 ** 建议使用 Python 3.x 及以下库（或在 Colab 环境中操作），将原始评论数据放入 `data/` 文件夹。
 
 Before running the project, ensure the following:
@@ -40,6 +48,9 @@ Before running the project, ensure the following:
   * 将原始数据文件 `Reviews.csv` 放入 `data/` 文件夹
 
 ## How to Run This Project 如何运行本项目
+
+The workflow consists of three steps: navigate to the project directory → run the main script → generate sentiment labels and visualizations.
+
 ** 中文说明 ** 运行流程分为 3 步：进入项目目录 → 执行主脚本 → 生成情感标签与可视化图表。
 
 Run the preprocessing script:
@@ -60,6 +71,9 @@ Run the preprocessing script:
    * 词云图与情感分布图：保存在 `visualizations/` 文件夹中
      
 ## Lessons Learned 学习亮点
+
+This project demonstrates that rule-based sentiment analysis tools like TextBlob are fast and effective for rapid prototyping, though limited in accuracy. They are well-suited for teaching purposes or as an introduction to practical text analytics.
+
 ** 中文说明 ** 本项目揭示了规则基础的情感分析（如 TextBlob）在原型搭建中速度快但精度有限，适合作为教学范例或实际文本分析入门项目。
 
 - Rule-based sentiment classification (TextBlob) is fast and easy, but less accurate than ML model
