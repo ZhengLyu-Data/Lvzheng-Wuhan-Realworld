@@ -20,6 +20,7 @@ Word Cloud ![Tableau dashboard image](wordcloud.png)
 ![data_architecture image](amazon_sentiment_nlp_architecture.png)
 
 Note: Tableau dashboards in this project are based on the NLP results exported from Python scripts. The visualizations represent sentiment distribution, polarity trends, and top review insights derived from TextBlob/VADER outputs.
+* 说明：本项目中的 Tableau 仪表板基于从 Python 脚本导出的自然语言处理（NLP）结果构建。可视化图表展示了情感分布、情感极性变化趋势，以及基于 TextBlob/VADER 分析提取的重点评论洞察。
 
 ## Prerequisites 环境准备
 ** 中文说明：** 建议使用 Python 3.x 及以下库（或在 Colab 环境中操作），将原始评论数据放入 `data/` 文件夹。
