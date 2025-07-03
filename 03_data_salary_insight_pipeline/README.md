@@ -8,7 +8,7 @@ This project explores salary trends in data science roles globally. It highlight
 ** 中文说明：** 本项目使用 Matplotlib 绘制图表，展示了平均薪资与职位经验等级、远程办公比例分布、不同公司规模下的薪资差异。
 
 Below are screenshots of the final visualizations:  
- ** 中文说明：** 以下为本项目生成的最终可视化图表示例截图：
+** 中文说明：** 以下为本项目生成的最终可视化图表示例截图：
 
 ![matplotlib dashboard image](chart1_average_salary_by_experience_level.png)
 ![matplotlib dashboard image](chart2_remote_work_ratio_distribution.png)
