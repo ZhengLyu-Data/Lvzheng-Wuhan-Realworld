@@ -5,6 +5,9 @@ This project explores salary trends in data science roles globally. It highlight
 - 本项目分析了全球范围内数据科学岗位的薪资趋势。通过 Python 数据管道处理，结合 Matplotlib 图表可视化，揭示了不同职位级别、公司规模与远程工作比例下的薪资差异。项目展示了清洗 → 分析 → 可视化的完整流程，适合教学演示与求职展示。
 
 ## Data Visualization 数据可视化
+
+This project uses Matplotlib to visualize the average salary by experience level, the distribution of remote work ratios, and salary variations across different company sizes.
+
 ** 中文说明 ** 本项目使用 Matplotlib 绘制图表，展示了平均薪资与职位经验等级、远程办公比例分布、不同公司规模下的薪资差异。
 
 Below are screenshots of the final visualizations:  
