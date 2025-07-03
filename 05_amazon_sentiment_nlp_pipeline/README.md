@@ -10,9 +10,9 @@ This project analyzes sentiment in Amazon food product reviews using natural lan
 Below are screenshots of the final visualizations:
 ** 中文说明：** 以下为本项目生成的最终可视化图表示例截图：
 
-Sentiment Distribution ![Tableau dashboard image](sentiment_distribution.png)
+Sentiment Distribution ![Seaborn dashboard image](sentiment_distribution.png)
 
-Word Cloud ![Tableau dashboard image](wordcloud.png)
+Word Cloud ![Seaborn dashboard image](wordcloud.png)
 
 ## Data Architecture 数据流程图
 ** 中文说明：** 项目架构由数据读取、文本预处理、情感分析与图像输出四部分组成，支持教学展示与模型原理讲解。
