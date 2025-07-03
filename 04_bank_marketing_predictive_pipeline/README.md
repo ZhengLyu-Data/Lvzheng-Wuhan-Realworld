@@ -4,19 +4,20 @@ This project analyzes customer responses to a marketing campaign by a Portuguese
 ** 中文说明 **
 - 本项目基于葡萄牙银行营销数据，分析不同客户特征与联络方式对营销订阅成效的影响。通过 Python 数据处理与可视化，识别哪些用户群体对营销活动响应更积极，有助于银行精准营销策略制定。适合教学演示或面向商业分析岗位的项目展示。
 
-## Final Visualizations 可视化图表展示
+## Data Visualization | 可视化概览
 
-以下图表基于银行营销数据构建，展示不同客户特征对订阅意愿的影响。每个图表均可点击下载交互式版本（HTML 文件，可离线打开）。
+This project presents three interactive charts generated using Plotly, exported as static images for quick preview, and available as downloadable HTML files for full interactivity.
+** 中文说明 ** 本项目使用 Plotly 生成三张交互式图表，提供静态图片用于快速浏览，并附带 HTML 下载链接以支持完整交互体验。
 
-## Subscription by Education Level  
+  
 ![plotly dashboard image](subscription_by_education_preview.png)
 🔗 [Download Interactive Chart](./visualizations/subscription_by_education.html)
 
-## Subscription by Housing Loan  
+ 
 ![plotly dashboard image](subscription_by_housing_preview.png)  
 🔗 [Download Interactive Chart](./visualizations/subscription_by_housing.html)
 
-## Subscription by Occupation  
+  
 ![plotly dashboard image](subscription_by_occupation_preview.png)  
 🔗 [Download Interactive Chart](./visualizations/subscription_by_occupation.html)
 
