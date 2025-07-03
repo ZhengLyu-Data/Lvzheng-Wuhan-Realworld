@@ -8,7 +8,7 @@ This project analyzes sentiment in Amazon food product reviews using natural lan
 ** 中文说明：** 本项目通过 Python 可视化库生成情感分布图与词云，帮助直观理解评论情绪倾向与高频词汇分布。
 
 Below are screenshots of the final visualizations:
-** 中文说明：** 以下为本项目生成的最终可视化图表示例截图：
+- ** 中文说明：** 以下为本项目生成的最终可视化图表示例截图：
 
 Seaborn Dashboard 数据可视化
 
