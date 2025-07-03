@@ -117,4 +117,4 @@ df.drop(columns=['duration'], inplace=True)
 df.columns = [col.lower().replace('.', '_') for col in df.columns]
 
 # Save and download the cleaned data
-df_cleaned.to_csv("bank_marketing_cleaned.csv", index=False)
+df.to_csv("bank_marketing_cleaned.csv", index=False)
