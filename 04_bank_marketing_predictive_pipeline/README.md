@@ -10,9 +10,9 @@ This project analyzes customer responses to a marketing campaign by a Portuguese
 Below are screenshots of the final visualizations:  
  ** 中文说明 ** 以下为本项目生成的最终可视化图表示例截图：
 
-![matplotlib dashboard image](subscription_outcome_by_education_level.html)
-![matplotlib dashboard image](subscription_outcome_by_housing_loan_status.html)
-![matplotlib dashboard image](subscription_outcome_by_occupation.html)
+![plotly dashboard image](subscription_outcome_by_education_level.html)
+![plotly dashboard image](subscription_outcome_by_housing_loan_status.html)
+![plotly dashboard image](subscription_outcome_by_occupation.html)
 
 ## Data Architecture 数据流程图
 ** 中文说明 ** 本项目构建了清洗 → 分析 → 输出的结构化数据管道，结合逻辑判断与可视化模型，为银行客户行为建模提供参考。
