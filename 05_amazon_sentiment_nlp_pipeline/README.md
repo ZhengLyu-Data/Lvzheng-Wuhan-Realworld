@@ -16,7 +16,7 @@ Seaborn Dashboard 数据可视化
 
 Seaborn Dashboard 数据可视化
 
-![Seaborn wordcloud dashboard image](wordcloud.png).
+![Wordcloud wordcloud dashboard image](wordcloud.png).
 
 ## Data Architecture 数据流程图
 ** 中文说明 ** 项目架构由数据读取、文本预处理、情感分析与图像输出四部分组成，支持教学展示与模型原理讲解。
