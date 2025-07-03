@@ -8,7 +8,7 @@ This project analyzes customer responses to a marketing campaign by a Portuguese
 ** 中文说明：** 项目使用 Matplotlib 绘图展示了不同联络方式、客户年龄分布与教育程度在营销响应上的影响差异。
 
 Below are screenshots of the final visualizations:  
-- ** 中文说明：** 以下为本项目生成的最终可视化图表示例截图：
+ ** 中文说明：** 以下为本项目生成的最终可视化图表示例截图：
 
 ![matplotlib dashboard image](chart1_subscription_by_contact_type.png)
 ![matplotlib dashboard image](chart2_age_distribution_by_subscruption_status.png)
