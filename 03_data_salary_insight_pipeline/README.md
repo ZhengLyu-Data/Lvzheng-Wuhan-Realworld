@@ -54,18 +54,18 @@ Run the preprocessing script:
   
  - Step 1: Load and Clean the raw dataset
  python clean_data.py
-  * 第一步：载入并清洗原始薪资数据，处理缺失值与标准化字段
+   * 第一步：载入并清洗原始薪资数据，处理缺失值与标准化字段
 
  - Step 2: Build the analysis pipeline
  python pipeline.py
-  * 第二步：构建分析流程，生成分组、聚合与特征字段
+   * 第二步：构建分析流程，生成分组、聚合与特征字段
     
  - Step 3: Execute the pipeline
  python run_pipeline.py
-  * 第三步：运行主流程，输出分析结果与结构化数据文件
+   * 第三步：运行主流程，输出分析结果与结构化数据文件
     
  - Step 4: Review the output visuals (matplotlib charts)
-  * 第四步：查看自动生成的图表，包括不同地区、经验水平与公司规模维度下的薪资对比
+   * 第四步：查看自动生成的图表，包括不同地区、经验水平与公司规模维度下的薪资对比
     
 Note on SQL Compatibility:
 
