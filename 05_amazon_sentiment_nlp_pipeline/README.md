@@ -10,14 +10,18 @@ This project analyzes sentiment in Amazon food product reviews using natural lan
 Below are screenshots of the final visualizations:
 ** 中文说明：** 以下为本项目生成的最终可视化图表示例截图：
 
+Seaborn Dashboard 数据可视化
+
 Sentiment Distribution ![Seaborn dashboard image](sentiment_distribution.png)
+
+Seaborn Dashboard 数据可视化
 
 Word Cloud ![Seaborn dashboard image](wordcloud.png)
 
 ## Data Architecture 数据流程图
 ** 中文说明：** 项目架构由数据读取、文本预处理、情感分析与图像输出四部分组成，支持教学展示与模型原理讲解。
 
-![data_architecture image](amazon_sentiment_nlp_architecture.png)
+![data_architecture image](amazon_sentiment_nlp_pipeline_architecture.png)
 
 Note: Tableau dashboards in this project are based on the NLP results exported from Python scripts. The visualizations represent sentiment distribution, polarity trends, and top review insights derived from TextBlob/VADER outputs.
 * 说明：本项目中的 Tableau 仪表板基于从 Python 脚本导出的自然语言处理（NLP）结果构建。可视化图表展示了情感分布、情感极性变化趋势，以及基于 TextBlob/VADER 分析提取的重点评论洞察。
