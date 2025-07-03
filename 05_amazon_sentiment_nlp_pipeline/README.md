@@ -12,11 +12,11 @@ Below are screenshots of the final visualizations:
 
 Seaborn Dashboard 数据可视化
 
-![Seaborn dashboard image](sentiment_distribution.png)
+![Seaborn dashboard image](sentiment_distribution.png).
 
 Seaborn Dashboard 数据可视化
 
-![Seaborn dashboard image](wordcloud.png)
+![Seaborn dashboard image](wordcloud.png).
 
 ## Data Architecture 数据流程图
 ** 中文说明：** 项目架构由数据读取、文本预处理、情感分析与图像输出四部分组成，支持教学展示与模型原理讲解。
