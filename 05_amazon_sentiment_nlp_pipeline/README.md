@@ -14,7 +14,7 @@ Seaborn Dashboard 数据可视化
 
 ![Seaborn sentiment_distribution dashboard image](sentiment_distribution.png).
 
-Seaborn Dashboard 数据可视化
+Wordcloud Dashboard 数据可视化
 
 ![Wordcloud wordcloud dashboard image](wordcloud.png).
 
