@@ -40,7 +40,8 @@ It is recommended to use Python 3.x and the required libraries (or operate in a 
 ** 中文说明 ** 建议使用 Python 3.x 及以下库（或在 Colab 环境中操作），将原始评论数据放入 `data/` 文件夹。
 
 Before running the project, ensure the following:
- * 在运行本项目之前，请确保以下环境准备已完成：
+
+** 在运行本项目之前，请确保以下环境准备已完成：
 
 - Before running the project, ensure the following: Python 3.x installed (or use Google Colab)
   * 安装 Python 3.x（或直接使用 Colab 无需配置）
@@ -56,16 +57,17 @@ The workflow consists of three steps: navigate to the project directory → run 
 ** 中文说明 ** 运行流程分为 3 步：进入项目目录 → 执行主脚本 → 生成情感标签与可视化图表。
 
 Run the preprocessing script:
- * 运行预处理脚本：
 
-- Open terminal or Google Colab
-  * 打开终端或 Google Colab 环境
-- Navigate to the project folder: cd 05_amazon_review_nlp
-  * 进入项目目录：`05_amazon_review_nlp`
-- Run the analysis pipeline:
-  python scripts/analysis_pipeline.py
-  * 执行主分析脚本，完成清洗、情感打标与图像生成
-- Outputs will be saved to:
+** 运行预处理脚本：
+
+ - Open terminal or Google Colab
+   * 打开终端或 Google Colab 环境
+ - Navigate to the project folder: cd 05_amazon_review_nlp
+   * 进入项目目录：`05_amazon_review_nlp`
+ - Run the analysis pipeline:
+   python scripts/analysis_pipeline.py
+   * 执行主分析脚本，完成清洗、情感打标与图像生成
+ - Outputs will be saved to:
    * 所有输出文件将自动保存至以下路径：
  - Labeled reviews: /data/clean_reviews_labeled.csv
    * 含情感标签的清洗数据集：`data/clean_reviews_labeled.csv`
