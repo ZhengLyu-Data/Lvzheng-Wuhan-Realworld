@@ -9,15 +9,15 @@ This project analyzes customer responses to a marketing campaign by a Portuguese
 以下图表基于银行营销数据构建，展示不同客户特征对订阅意愿的影响。每个图表均可点击下载交互式版本（HTML 文件，可离线打开）。
 
 ## Subscription by Education Level  
-![Education Preview](./visualizations/subscription_by_education_preview.png)  
+![plotly dashboard image](subscription_by_education_preview.png)
 🔗 [Download Interactive Chart](./visualizations/subscription_by_education.html)
 
 ## Subscription by Housing Loan  
-![Housing Preview](./visualizations/subscription_by_housing_preview.png)  
+![plotly dashboard image](subscription_by_housing_preview.png)  
 🔗 [Download Interactive Chart](./visualizations/subscription_by_housing.html)
 
 ## Subscription by Occupation  
-![Occupation Preview](./visualizations/subscription_by_occupation_preview.png)  
+![plotly dashboard image](subscription_by_occupation_preview.png)  
 🔗 [Download Interactive Chart](./visualizations/subscription_by_occupation.html)
 
 ## Data Architecture 数据流程图
