@@ -16,7 +16,7 @@ This repository showcases five real-world data engineering projects. Each projec
 | 05. Amazon Sentiment NLP <br> 亚马逊评论情感分析 | Sentiment classification on product reviews | Python, Seaborn, Tableau |
     
 ## Technical Highlights 技术亮点
-** 中文说明：** 本仓库的项目均采用模块化结构，结合 Python 脚本与标准 SQL 查询，配合多种可视化工具（Tableau、Power BI、Metabase、matplotlib），展示完整数据工程与分析流程，适用于教学、作品集与岗位申请。
+** 中文说明 ** 本仓库的项目均采用模块化结构，结合 Python 脚本与标准 SQL 查询，配合多种可视化工具（Tableau、Power BI、Metabase、matplotlib），展示完整数据工程与分析流程，适用于教学、作品集与岗位申请。
 
 - Modular pipeline structure: `clean_data.py → pipeline.py → run_pipeline.py`
   - 模块化流水线结构：`clean_data.py → pipeline.py → run_pipeline.py`
