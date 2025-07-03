@@ -1,10 +1,10 @@
-## Data Engineering Project Portfolio
+## Data Engineering Project Portfolio 数据工程项目组合
 This repository showcases five real-world data engineering projects. Each project demonstrates practical skills in data cleaning, SQL pipeline construction, visualization, and scalable architecture.
 
 ** 中文说明 (项目总览）**
 - 本仓库包含五个基于真实数据的实战数据工程项目，涵盖数据清洗、SQL 查询、可视化构建与管道设计。所有项目可在 Google Colab / Azure 等平台运行，适合用于求职展示、教学演示或研究应用。
 
-## Projects
+## Projects 项目
 ** 中文说明：** 以下为五个真实世界数据工程项目的主题与所用工具，涵盖数据清洗、SQL 分析与可视化展示，支持教学、面试与作品集展示。
 
 | Project 项目名称 | Description 项目简介 | Tools Used 使用工具 |
@@ -15,7 +15,7 @@ This repository showcases five real-world data engineering projects. Each projec
 | 04. Bank Marketing Dataset <br> 银行营销行为分析 | Marketing call effectiveness analysis | Python, SQL (SQLite), matplotlib |
 | 05. Amazon Sentiment NLP <br> 亚马逊评论情感分析 | Sentiment classification on product reviews | Python, seaborn, Tableau |
     
-## Technical Highlights
+## Technical Highlights 技术亮点
 ** 中文说明：** 本仓库的项目均采用模块化结构，结合 Python 脚本与标准 SQL 查询，配合多种可视化工具（Tableau、Power BI、Metabase、matplotlib），展示完整数据工程与分析流程，适用于教学、作品集与岗位申请。
 
 - Modular pipeline structure: `clean_data.py → pipeline.py → run_pipeline.py`
