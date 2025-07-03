@@ -15,7 +15,7 @@ Below are screenshots of the final visualizations:
 ![matplotlib dashboard image](chart3_salary_distribution_by_company_size.png)
 
 ## Data Architecture 数据流程图
-** 中文说明：** 本项目采用模块化 Python 脚本进行数据清洗与管道构建，并通过 Matplotlib 输出静态可视化图像，体现工程结构与教学演示兼容性。
+** 中文说明 ** 本项目采用模块化 Python 脚本进行数据清洗与管道构建，并通过 Matplotlib 输出静态可视化图像，体现工程结构与教学演示兼容性。
 
 ![Data Architecture](data_salary_insight_pipeline_architecture.png)
 
