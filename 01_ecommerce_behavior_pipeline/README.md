@@ -11,9 +11,11 @@ Below are screenshots of the final visualizations:
 - ** 中文说明：** 以下为本项目生成的最终可视化图表示例截图：
 
 Power BI Dashboard 数据可视化
+
 ![Power BI dashboard image](ecommerce_customer_behavior.pbix.png)
 
 Tableau Dashboard 数据可视化
+
 ![tableau dashboard image](ecommerce_behavior_dashboard.twbx.png)
 
 ## Data Architecture 数据流程图  
