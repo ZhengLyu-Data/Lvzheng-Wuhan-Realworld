@@ -5,22 +5,22 @@ This project analyzes supply chain efficiency using a cleaned dataset of 10,999 
 - 本项目分析了 10,999 条运输记录，旨在评估供应链的运作效率。通过标准化 SQL 查询和 Metabase 可视化图表，识别交付延迟、运输模式与成本效益的关系，辅助运营优化。适合展示数据查询、分析与可视化结合的完整流程。
 
 ## Data Visualization 数据可视化
-** 中文说明：** 本仪表板包括运输方式分布、不同产品重要性下的折扣情况，以及客户评分与运输成本的关系，用于综合评估供应链效率。
+** 中文说明 ** 本仪表板包括运输方式分布、不同产品重要性下的折扣情况，以及客户评分与运输成本的关系，用于综合评估供应链效率。
 
 Below are screenshots of the final visualizations:  
- - ** 中文说明：** 以下为本项目生成的最终可视化图表示例截图：
+ - ** 中文说明 ** 以下为本项目生成的最终可视化图表示例截图：
 
 ![metabase dashboard image](chart1_mode_of_shipment.png)
 ![metabase dashboard image](chart2_discount_by_importance.png)
 ![metabase dashboard image](chart3_rating_vs_cost.png)
 
 ## Data Architecture 数据流程图
-** 中文说明：** 项目使用 Python 和标准 SQL 构建数据查询逻辑，利用 Metabase 构建前端图表，实现数据驱动的交互式分析系统。
+** 中文说明 ** 项目使用 Python 和标准 SQL 构建数据查询逻辑，利用 Metabase 构建前端图表，实现数据驱动的交互式分析系统。
 
 ![Data Architecture](supply_chain_data_pipeline_architecture.png)
 
 ## Prerequisites 环境依赖
-** 中文说明：** 推荐使用 Python 3.10 以上版本，使用 Pandas 进行基础处理，Metabase 进行可视化，也可选用 SQLite 做本地数据管理。
+** 中文说明 ** 推荐使用 Python 3.10 以上版本，使用 Pandas 进行基础处理，Metabase 进行可视化，也可选用 SQLite 做本地数据管理。
 
 Before running the project, ensure the following:
 - 在运行本项目之前，请确保以下环境准备已完成：
@@ -33,7 +33,7 @@ Before running the project, ensure the following:
   * 可选：用于本地执行 SQL 查询的轻量数据库 SQLite
     
 ## How to Run This Project 如何运行本项目
-** 中文说明：** 本项目不需额外清洗步骤。直接载入已清洗数据，使用 SQL 脚本或 Metabase 构建图表，即可获得可视化结果。
+** 中文说明 ** 本项目不需额外清洗步骤。直接载入已清洗数据，使用 SQL 脚本或 Metabase 构建图表，即可获得可视化结果。
 
 Run the preprocessing script:
 - 运行预处理脚本：
@@ -46,13 +46,13 @@ Run the preprocessing script:
   * 第三步：通过图表交互分析运输方式、成本、折扣与客户评分之间的关系
     
 Note on SQL Compatibility:
-- 中文说明：关于 SQL 兼容性
+- ** 中文说明 ** 关于 SQL 兼容性
 
 - All SQL scripts in this project are designed using standard SQL syntax. While executed with SQLite for simplicity, the same structure is compatible with MySQL or PostgreSQL by changing the database connector and placeholder syntax (`?` → `%s`).
- - ** 中文补充说明：**  本项目 SQL 脚本采用标准语法，可在 SQLite、MySQL、PostgreSQL 等数据库中灵活迁移，需根据数据库修改连接方式与参数占位符。
+ - ** 中文补充说明 **  本项目 SQL 脚本采用标准语法，可在 SQLite、MySQL、PostgreSQL 等数据库中灵活迁移，需根据数据库修改连接方式与参数占位符。
    
 ## Lessons Learned 学习亮点
-** 中文说明：** 本项目发现客户评分与运输成本不总是成正比，不同运输方式下折扣差异显著，运输模式优化对提高交付效率具有重要影响。
+** 中文说明 ** 本项目发现客户评分与运输成本不总是成正比，不同运输方式下折扣差异显著，运输模式优化对提高交付效率具有重要影响。
 
 - Product cost and customer rating are not always correlated
   * 客户评分与产品成本不总是正相关，部分低成本产品仍可获得高评分
