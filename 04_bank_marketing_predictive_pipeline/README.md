@@ -1,4 +1,4 @@
-## Overview
+## Overview 项目总览
 This project analyzes customer responses to a marketing campaign by a Portuguese bank. The goal is to identify which customer attributes and contact methods are associated with higher subscription rates.
 
 ** 中文说明（项目简介）**
@@ -6,7 +6,7 @@ This project analyzes customer responses to a marketing campaign by a Portuguese
 
 **Dataset**: [Bank Marketing Dataset](https://www.kaggle.com/datasets/henriqueyamahata/bank-marketing), originally published on Kaggle.
 
-##  Data Visualization
+##  Data Visualization 数据可视化
 ** 中文说明：** 项目使用 Matplotlib 绘图展示了不同联络方式、客户年龄分布与教育程度在营销响应上的影响差异。
 
 Below are screenshots of the final visualizations:  
@@ -16,12 +16,12 @@ Below are screenshots of the final visualizations:
 ![matplotlib dashboard image](chart2_age_distribution_by_subscruption_status.png)
 ![matplotlib dashboard image](chart3_subscription_rate_by_education_level.png)
 
-## Data Architecture
+## Data Architecture 数据流程图
 ** 中文说明：** 本项目构建了清洗 → 分析 → 输出的结构化数据管道，结合逻辑判断与可视化模型，为银行客户行为建模提供参考。
 
 ![Data Architecture](bank_marketing_predictive_architecture.png)
 
-## Prerequisites
+## Prerequisites 环境准备
 ** 中文说明：** 请准备 Python 环境（建议 3.10+），安装 pandas 与 matplotlib，如需执行 SQL 分析可选用 SQLite 环境。
 
 Before running the project, ensure the following:
@@ -34,7 +34,7 @@ Before running the project, ensure the following:
 - SQLite (optional for intermediate storage)
   * 可选：用于本地 SQL 分析与中间结果存储
 
-## How to Run This Project
+## How to Run This Project 如何运行本项目
 ** 中文说明：** 本项目共含三个 Python 模块，运行顺序为：数据清洗 → 数据管道构建 → 输出分析图表，可用于教学与项目演示。
 
 Run the preprocessing script:
@@ -61,7 +61,7 @@ Note on SQL Compatibility:
 - All SQL scripts in this project are designed using standard SQL syntax. While executed with SQLite for simplicity, the same structure is compatible with MySQL or PostgreSQL by changing the database connector and placeholder syntax (`?` → `%s`).
   - ** 中文说明：** 本项目使用的 SQL 脚本基于标准语法，当前以 SQLite 运行为主，也可迁移至 MySQL / PostgreSQL，仅需修改数据库连接方式与参数占位符格式。
     
-## Lessons Learned
+## Lessons Learned 学习亮点
 ** 中文说明：** 本项目揭示了营销联络方式对转化率有显著影响，且客户年龄段与教育程度之间存在明显的响应偏好，可辅助优化目标人群筛选策略。
 
 - Contact method plays a role in campaign success
