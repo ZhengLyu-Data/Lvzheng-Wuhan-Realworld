@@ -10,7 +10,9 @@ This project presents three interactive charts generated using Plotly, exported 
 
 ** 中文说明 ** 本项目使用 Plotly 生成三张交互式图表，提供静态图片用于快速浏览，并附带 HTML 下载链接以支持完整交互体验。
 
-  
+Below are screenshots of the final visualizations:  
+** 中文说明 ** 以下为本项目生成的最终可视化图表示例截图：
+
 ![plotly dashboard image](subscription_by_education_preview.png)
 🔗 [Download Interactive Chart](./visualizations/subscription_by_education.html)
 
