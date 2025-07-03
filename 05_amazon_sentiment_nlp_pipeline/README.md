@@ -30,6 +30,7 @@ The project structure consists of four components: data loading, text preprocess
 ![data_architecture image](amazon_sentiment_nlp_pipeline.png)
 
 Note: Tableau dashboards in this project are based on the NLP results exported from Python scripts. The visualizations represent sentiment distribution, polarity trends, and top review insights derived from TextBlob/VADER outputs.
+
 ** 中文说明 ** ：本项目中的 Tableau 仪表板基于从 Python 脚本导出的自然语言处理（NLP）结果构建。可视化图表展示了情感分布、情感极性变化趋势，以及基于 TextBlob/VADER 分析提取的重点评论洞察。
 
 ## Prerequisites 环境准备
