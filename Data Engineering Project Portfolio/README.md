@@ -17,6 +17,9 @@ This repository showcases five real-world data engineering projects. Each projec
 
     
 ## Technical Highlights 技术亮点
+
+All projects in this repository follow a modular structure, combining Python scripts with standard SQL queries and various visualization tools (Tableau, Power BI, Metabase, matplotlib) to demonstrate complete data engineering and analysis workflows. They are suitable for teaching, portfolio presentation, and job applications.
+
 ** 中文说明 ** 本仓库的项目均采用模块化结构，结合 Python 脚本与标准 SQL 查询，配合多种可视化工具（Tableau、Power BI、Metabase、matplotlib），展示完整数据工程与分析流程，适用于教学、作品集与岗位申请。
 
 - Modular pipeline structure: `clean_data.py → pipeline.py → run_pipeline.py`
