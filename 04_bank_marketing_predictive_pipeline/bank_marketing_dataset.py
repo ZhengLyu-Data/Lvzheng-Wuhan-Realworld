@@ -140,9 +140,42 @@ grouped.columns = ['education', 'response', 'count']
 fig = px.bar(grouped, x='education', y='count', color='response',
              barmode='group', title='Subscription Outcome by Education Level')
 
-# Save as interactive HTML (offline-compatible)
+# Save as interactive html(offline-compatible)
 output_path = f"{output_dir}/fig1_education.html"
 fig.write_html(output_path)
 
 # Download the file (for Google Colab)
 files.download(output_path)
+
+# Group by housing loan and response
+grouped2 = df.groupby(['housing', 'y']).size().reset_index(name='count')
+grouped2.columns = ['housing', 'response', 'count']
+
+# Create interactive bar chart
+fig2 = px.bar(grouped2, x='housing', y='count', color='response',
+              barmode='group', title='Subscription Outcome by Housing Loan Status')
+
+# Save as HTML
+output_path2 = f"{output_dir}/fig2_housing.html"
+fig2.write_html(output_path2)
+
+# Download
+files.download(output_path2)
+
+# Group by occupation and response
+grouped3 = df.groupby(['job', 'y']).size().reset_index(name='count')
+grouped3.columns = ['occupation', 'response', 'count']
+
+# Create interactive bar chart
+fig3 = px.bar(grouped3, x='occupation', y='count', color='response',
+              barmode='group', title='Subscription Outcome by Occupation')
+
+# Adjust x-axis label order
+fig3.update_layout(xaxis={'categoryorder': 'total descending'})
+
+# Save as HTML
+output_path3 = f"{output_dir}/fig3_occupation.html"
+fig3.write_html(output_path3)
+
+# Download
+files.download(output_path3)
