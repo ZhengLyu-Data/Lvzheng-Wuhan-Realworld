@@ -4,20 +4,14 @@ This project analyzes customer responses to a marketing campaign by a Portuguese
 ** 中文说明 **
 - 本项目基于葡萄牙银行营销数据，分析不同客户特征与联络方式对营销订阅成效的影响。通过 Python 数据处理与可视化，识别哪些用户群体对营销活动响应更积极，有助于银行精准营销策略制定。适合教学演示或面向商业分析岗位的项目展示。
 
-##  Data Visualization  
-** 中文说明 ** 本项目使用 Plotly 构建交互式图表，展示银行营销活动中客户特征与订阅行为的关系。
+## Interactive Visualization Charts | 交互式图表展示
+以下图表使用 Plotly 构建，可在浏览器中打开查看交互式结果（HTML 文件离线也可查看）。
 
-## 🔹 Interactive Charts (点击查看)
-
-- [Education Level](./visualizations/subscription_by_education.html)
-- [Housing Loan Status](./visualizations/subscription_by_housing.html)
-- [Occupation](./visualizations/subscription_by_occupation.html)
-
-##  Static Previews (静态预览图)
-
-![Education Chart](./visualizations/subscription_by_education.png)
-![Housing Chart](./visualizations/subscription_by_housing.png)
-![Occupation Chart](./visualizations/subscription_by_occupation.png)
+| 图表标题 | 文件链接 | 中文说明 |
+|----------|-----------|-----------|
+| 📘 Subscription by Education Level | [subscription_by_education.html](./visualizations/subscription_by_education.html) | 教育程度 vs 订阅响应 |
+| 🏠 Subscription by Housing Loan | [subscription_by_housing.html](./visualizations/subscription_by_housing.html) | 房贷状态 vs 订阅响应 |
+| 👔 Subscription by Occupation | [subscription_by_occupation.html](./visualizations/subscription_by_occupation.html) | 职业类别 vs 订阅响应 |
 
 ## Data Architecture 数据流程图
 ** 中文说明 ** 本项目构建了清洗 → 分析 → 输出的结构化数据管道，结合逻辑判断与可视化模型，为银行客户行为建模提供参考。
