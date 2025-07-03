@@ -33,7 +33,7 @@ Use Python version 3.10 or above. This project requires pandas and matplotlib. S
 
 Before running the project, ensure the following:
 
-* 在运行本项目之前，请确保以下环境准备已完成：
+** 在运行本项目之前，请确保以下环境准备已完成：
 
 - Python 3.10+
   * 推荐使用 Python 3.10 或以上版本 
