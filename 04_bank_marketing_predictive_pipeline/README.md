@@ -17,7 +17,7 @@ Below are screenshots of the final visualizations:
 ## Data Architecture 数据流程图
 ** 中文说明 ** 本项目构建了清洗 → 分析 → 输出的结构化数据管道，结合逻辑判断与可视化模型，为银行客户行为建模提供参考。
 
-![Data Architecture](bank_marketing_predictive_architecture.png)
+![Data Architecture](bank_marketing_dataset_pipeline.png)
 
 ## Prerequisites 环境准备
 ** 中文说明 ** 请准备 Python 环境（建议 3.10+），安装 pandas 与 matplotlib，如需执行 SQL 分析可选用 SQLite 环境。
