@@ -89,15 +89,15 @@ def analyze_marketing_data(df):
 from google.colab import files
 files.download("bank_marketing_cleaned.csv")
 
-# 📌 STEP 1: Read dataset
+# STEP 1: Read dataset
 import pandas as pd
 df = pd.read_csv('bank_marketing_raw.csv', sep=';')
 
-# 📌 STEP 2: Preview data
+# STEP 2: Preview data
 print("Initial shape:", df.shape)
 print(df.head())
 
-# 📌 STEP 3: Basic Cleaning
+# STEP 3: Basic Cleaning
 # Replace 'unknown' with NaN for proper handling
 df.replace('unknown', pd.NA, inplace=True)
 
@@ -118,3 +118,26 @@ df.columns = [col.lower().replace('.', '_') for col in df.columns]
 
 # Save and download the cleaned data
 df.to_csv("bank_marketing_cleaned.csv", index=False)
+import pandas as pd
+import plotly.express as px
+
+# Load your cleaned data
+df = pd.read_csv("bank_marketing_cleaned.csv")
+
+# Use 'y' instead of 'response'
+grouped = df.groupby(['education', 'y']).size().reset_index()
+grouped.columns = ['education', 'response', 'count']  # 重命名第二列为 response（仅用于图表展示）
+
+# Plot
+fig = px.bar(
+    grouped,
+    x='education',
+    y='count',
+    color='response',
+    barmode='group',
+    title='Subscription Outcome by Education Level',
+    labels={'education': 'Education Level', 'count': 'Count', 'response': 'Subscription'}
+)
+fig.show()
+fig.write_html("fig1_education.html")
+files.download("fig1_education.html")
