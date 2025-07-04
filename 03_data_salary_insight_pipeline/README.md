@@ -75,6 +75,10 @@ All SQL scripts in this project are designed using standard SQL syntax. They are
   
 ** 中文说明 ** 本项目中的 SQL 脚本使用标准语法，默认在 SQLite 上运行。如需迁移至 MySQL 或 PostgreSQL，只需修改数据库连接方式与参数占位符格式（如将 `?` 替换为 `%s`）。
 
+This project can be executed both on Google Colab and local Jupyter Notebook.
+
+** 中文说明 ** 所有脚本支持在 Google Colab 中直接运行，同时也兼容本地 Jupyter Notebook 环境。只需确保 Python 3.x 与相关库已正确安装，即可在本地复现全部流程与输出结果。
+
 ## Lessons Learned 学习亮点
 
 This project finds that job level has a significant impact on salary, remote work trends vary by region, and company size plays a key role in salary dispersion.
