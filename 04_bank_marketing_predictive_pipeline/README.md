@@ -30,7 +30,7 @@ This project builds a structured data pipeline from cleaning to analysis and out
 
 ** 中文说明 ** 本项目构建了清洗 → 分析 → 输出的结构化数据管道，结合逻辑判断与可视化模型，为银行客户行为建模提供参考。
 
-![Data Architecture](bank_marketing_dataset_pipeline.png)
+![Data Architecture](bank_marketing_dataset_pipeline_architecture.png)
 
 ## Prerequisites 环境准备
 
