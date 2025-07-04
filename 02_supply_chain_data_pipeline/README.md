@@ -67,6 +67,10 @@ All SQL scripts in this project are designed using standard SQL syntax. While ex
 
 ** 中文补充说明 **  本项目 SQL 脚本采用标准语法，可在 SQLite、MySQL、PostgreSQL 等数据库中灵活迁移，需根据数据库修改连接方式与参数占位符。
    
+This project can be executed both on Google Colab and local Jupyter Notebook.
+
+** 中文说明 ** 所有脚本支持在 Google Colab 中直接运行，同时也兼容本地 Jupyter Notebook 环境。只需确保 Python 3.x 与相关库已正确安装，即可在本地复现全部流程与输出结果。
+
 ## Lessons Learned 学习亮点
 
 This project reveals that customer ratings are not always proportional to shipping costs. Discount levels vary significantly across shipment methods, and optimizing the delivery mode plays a crucial role in improving fulfillment efficiency.
