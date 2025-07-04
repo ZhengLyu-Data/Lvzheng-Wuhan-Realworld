@@ -82,6 +82,10 @@ All SQL scripts in this project are designed using standard SQL syntax. While ex
   
 ** 中文说明 ** 本项目使用的 SQL 脚本基于标准语法，当前以 SQLite 运行为主，也可迁移至 MySQL / PostgreSQL，仅需修改数据库连接方式与参数占位符格式。
     
+This project can be executed both on Google Colab and local Jupyter Notebook.
+
+** 中文说明 ** 所有脚本支持在 Google Colab 中直接运行，同时也兼容本地 Jupyter Notebook 环境。只需确保 Python 3.x 与相关库已正确安装，即可在本地复现全部流程与输出结果。
+
 ## Lessons Learned 学习亮点
 
 This project reveals that marketing contact methods significantly impact conversion rates. It also highlights clear response preferences across different age groups and education levels, which can help optimize target audience segmentation strategies.
