@@ -85,9 +85,14 @@ This project finds that job level has a significant impact on salary, remote wor
 
 ** 中文说明 ** 本项目发现职位等级对薪资影响显著，远程办公趋势因地区而异，公司规模对薪资离散度也有重要影响。
 
-- Position level significantly influences salary outcomes
-  * 职位等级对薪资水平具有显著影响，高级职位平均薪资明显更高
-- Remote roles show highly diverse regional distribution patterns
-  * 远程岗位在地域分布上呈现高度多样性，海外远程比例较高  
-- Company size contributes to variability in salary dispersion
-  * 公司规模影响薪资分布的离散程度，大型企业内部薪资差异更复杂
+Position level significantly influences salary outcomes
+
+** 中文说明 ** 职位等级对薪资水平具有显著影响，高级职位平均薪资明显更高
+
+Remote roles show highly diverse regional distribution patterns
+
+** 中文说明 ** 远程岗位在地域分布上呈现高度多样性，海外远程比例较高  
+
+Company size contributes to variability in salary dispersion
+
+** 中文说明 ** 公司规模影响薪资分布的离散程度，大型企业内部薪资差异更复杂
