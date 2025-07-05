@@ -34,25 +34,16 @@ This project builds a structured data pipeline from cleaning to analysis and out
 
 ## Prerequisites 环境准备
 
-Prepare a Python environment (recommended version 3.10+), and install the required libraries: pandas and matplotlib. SQLite can be optionally used for SQL-based analysis.
-
-** 中文说明 ** 请准备 Python 环境（建议 3.10+），安装 pandas 与 matplotlib，如需执行 SQL 分析可选用 SQLite 环境。
-
-Before running the project, ensure the following:
-
-** 在运行本项目之前，请确保以下环境准备已完成：
-
-Python 3.10+
-
-** 中文说明 ** 推荐 Python 3.10 或更高版本
-
-pandas / matplotlib
-
-** 中文说明 ** 用于数据处理与图表生成 
-
-SQLite (optional for intermediate storage)
-
-** 中文说明 ** 可选：用于本地 SQL 分析与中间结果存储
+- Prepare a Python environment (recommended version 3.10+), and install the required libraries: pandas and matplotlib. SQLite can be optionally used for SQL-based analysis.
+  * 请准备 Python 环境（建议 3.10+），安装 pandas 与 matplotlib，如需执行 SQL 分析可选用 SQLite 环境。
+- Before running the project, ensure the following:
+  * 在运行本项目之前，请确保以下环境准备已完成：
+- Python 3.10+
+  * 推荐 Python 3.10 或更高版本
+- pandas / matplotlib
+  * 用于数据处理与图表生成 
+- SQLite (optional for intermediate storage)
+  * 可选：用于本地 SQL 分析与中间结果存储
 
 ## How to Run This Project 如何运行本项目
 
@@ -67,15 +58,12 @@ Run the preprocessing script:
 - Step 1: Load and Clean the dataset
 python clean_data.py
   * 第一步：载入并清洗原始银行营销数据，处理缺失值与字段格式
-    
 - Step 2: Build the pipeline
 python pipeline.py
-  * 第二步：构建数据处理流程，生成分组、统计与衍生字段
-    
+  * 第二步：构建数据处理流程，生成分组、统计与衍生字段   
 - Step 3: Run the full analysis
 python run_pipeline.py
-  * 第三步：执行完整分析管道，输出结构化分析结果
-    
+  * 第三步：执行完整分析管道，输出结构化分析结果   
 - Step 4: View visual outputs (matplotlib)
   * 第四步：查看输出图表，探索不同特征维度对营销结果的影响
     
@@ -93,18 +81,11 @@ This project can be executed both on Google Colab and local Jupyter Notebook.
 
 ## Lessons Learned 学习亮点
 
-This project reveals that marketing contact methods significantly impact conversion rates. It also highlights clear response preferences across different age groups and education levels, which can help optimize target audience segmentation strategies.
-
-** 中文说明 ** 本项目揭示了营销联络方式对转化率有显著影响，且客户年龄段与教育程度之间存在明显的响应偏好，可辅助优化目标人群筛选策略。
-
-Contact method plays a role in campaign success
-
-** 中文说明 ** 客户接触方式（如电话、短信等）对营销转化成功率有显著影响
-
-Younger and older demographics have distinct subscription patterns
-
-** 中文说明 ** 年龄与教育程度两个维度下的客户响应模式差异明显 
-
-Education level correlates with campaign responsiveness
-
-** 中文说明 ** 可基于分析结果优化目标人群的筛选策略与沟通方式
+- This project reveals that marketing contact methods significantly impact conversion rates. It also highlights clear response preferences across different age groups and education levels, which can help optimize target audience segmentation strategies.
+  * 本项目揭示了营销联络方式对转化率有显著影响，且客户年龄段与教育程度之间存在明显的响应偏好，可辅助优化目标人群筛选策略。
+- Contact method plays a role in campaign success
+  * 客户接触方式（如电话、短信等）对营销转化成功率有显著影响
+- Younger and older demographics have distinct subscription patterns
+  * 年龄与教育程度两个维度下的客户响应模式差异明显 
+- Education level correlates with campaign responsiveness
+  * 可基于分析结果优化目标人群的筛选策略与沟通方式
