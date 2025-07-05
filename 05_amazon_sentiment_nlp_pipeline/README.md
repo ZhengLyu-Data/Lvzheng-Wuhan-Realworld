@@ -52,26 +52,17 @@ Place Reviews.csv into the data/ directory
 
 ## How to Run This Project 如何运行本项目
 
-The workflow consists of three steps: navigate to the project directory → run the main script → generate sentiment labels and visualizations.
-
-** 中文说明 ** 运行流程分为 3 步：进入项目目录 → 执行主脚本 → 生成情感标签与可视化图表。
-
-Run the preprocessing script:
-
-** 中文说明 ** 运行预处理脚本：
-
-Open terminal or Google Colab
-   
-** 中文说明 ** 打开终端或 Google Colab 环境
-
-Navigate to the project folder: cd 05_amazon_review_nlp
-   
-** 中文说明 ** 进入项目目录：`05_amazon_review_nlp`
-
-Run the analysis pipeline:
-  python scripts/analysis_pipeline.py
-
-** 中文说明 ** 执行主分析脚本，完成清洗、情感打标与图像生成
+- The workflow consists of three steps: navigate to the project directory → run the main script → generate sentiment labels and visualizations.
+  * 运行流程分为 3 步：进入项目目录 → 执行主脚本 → 生成情感标签与可视化图表。
+- Run the preprocessing script:
+  *运行预处理脚本：
+- Open terminal or Google Colab
+  * 打开终端或 Google Colab 环境
+- Navigate to the project folder: cd 05_amazon_review_nlp
+  * 进入项目目录：`05_amazon_review_nlp`
+- Run the analysis pipeline:
+   python scripts/analysis_pipeline.py
+  * 执行主分析脚本，完成清洗、情感打标与图像生成
 
 Outputs will be saved to:
    
@@ -91,22 +82,13 @@ This project can be executed both on Google Colab and local Jupyter Notebook.
 
 ## Lessons Learned 学习亮点
 
-This project demonstrates that rule-based sentiment analysis tools like TextBlob are fast and effective for rapid prototyping, though limited in accuracy. They are well-suited for teaching purposes or as an introduction to practical text analytics.
-
-** 中文说明 ** 本项目揭示了规则基础的情感分析（如 TextBlob）在原型搭建中速度快但精度有限，适合作为教学范例或实际文本分析入门项目。
-
-Rule-based sentiment classification (TextBlob) is fast and easy, but less accurate than ML model
-
-** 中文说明 ** 基于规则的情感分析方法（如 TextBlob）可快速搭建原型，但在处理复杂语义上精度较低
-
-Combining score fields and polarity improves label consistency
-
-** 中文说明 ** 同时结合评分字段与情感极性（polarity）可提高标签一致性 
-
-Creating the dataset is essential for fast prototyping and visualization
-
-** 中文说明 ** 自建标签数据集有助于快速探索与原型迭代
-
-Python scripting enables modular and reproducible NLP workflows
-  
-** 中文说明 ** 使用 Python 脚本可实现模块化、可复现的 NLP 分析流程
+- This project demonstrates that rule-based sentiment analysis tools like TextBlob are fast and effective for rapid prototyping, though limited in accuracy. They are well-suited for teaching purposes or as an introduction to practical text analytics.
+  * 本项目揭示了规则基础的情感分析（如 TextBlob）在原型搭建中速度快但精度有限，适合作为教学范例或实际文本分析入门项目。
+- Rule-based sentiment classification (TextBlob) is fast and easy, but less accurate than ML model
+  * 基于规则的情感分析方法（如 TextBlob）可快速搭建原型，但在处理复杂语义上精度较低
+- Combining score fields and polarity improves label consistency
+  * 同时结合评分字段与情感极性（polarity）可提高标签一致性 
+- Creating the dataset is essential for fast prototyping and visualization
+  * 自建标签数据集有助于快速探索与原型迭代
+- Python scripting enables modular and reproducible NLP workflows
+  * 使用 Python 脚本可实现模块化、可复现的 NLP 分析流程
