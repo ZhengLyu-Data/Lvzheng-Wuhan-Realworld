@@ -42,12 +42,17 @@ Before running the project, ensure the following:
 
 ** 在运行本项目之前，请确保以下环境准备已完成：
 
-- Python 3.10+
-  * 推荐 Python 3.10 或更高版本
-- pandas / matplotlib
-  * 用于数据处理与图表生成  
-- SQLite (optional for intermediate storage)
-  * 可选：用于本地 SQL 分析与中间结果存储
+Python 3.10+
+
+** 中文说明 ** 推荐 Python 3.10 或更高版本
+
+pandas / matplotlib
+
+** 中文说明 ** 用于数据处理与图表生成 
+
+SQLite (optional for intermediate storage)
+
+** 中文说明 ** 可选：用于本地 SQL 分析与中间结果存储
 
 ## How to Run This Project 如何运行本项目
 
@@ -92,9 +97,14 @@ This project reveals that marketing contact methods significantly impact convers
 
 ** 中文说明 ** 本项目揭示了营销联络方式对转化率有显著影响，且客户年龄段与教育程度之间存在明显的响应偏好，可辅助优化目标人群筛选策略。
 
-- Contact method plays a role in campaign success
-  * 客户接触方式（如电话、短信等）对营销转化成功率有显著影响
-- Younger and older demographics have distinct subscription patterns
-  * 年龄与教育程度两个维度下的客户响应模式差异明显 
-- Education level correlates with campaign responsiveness
-  * 可基于分析结果优化目标人群的筛选策略与沟通方式
+Contact method plays a role in campaign success
+
+** 中文说明 ** 客户接触方式（如电话、短信等）对营销转化成功率有显著影响
+
+Younger and older demographics have distinct subscription patterns
+
+** 中文说明 ** 年龄与教育程度两个维度下的客户响应模式差异明显 
+
+Education level correlates with campaign responsiveness
+
+** 中文说明 ** 可基于分析结果优化目标人群的筛选策略与沟通方式
