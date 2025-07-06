@@ -1,7 +1,7 @@
 ## Data Engineering Project Portfolio 数据工程项目组合
 This repository showcases five real-world data engineering projects. Each project demonstrates practical skills in data cleaning, SQL pipeline construction, visualization, and scalable architecture.
 
-** 中文说明 (系列简介) **  本仓库包含五个基于真实数据的实战数据工程项目，涵盖数据清洗、SQL 查询、可视化构建与管道设计。所有项目可在 Google Colab / Azure 等平台运行，适合用于求职展示、教学演示或研究应用。
+** 中文说明 (系列简介) ** 本仓库包含五个基于真实数据的实战数据工程项目，涵盖数据清洗、SQL 查询、可视化构建与管道设计。所有项目可在 Google Colab / Azure 等平台运行，适合用于求职展示、教学演示或研究应用。
 
 ## Projects 项目
 
