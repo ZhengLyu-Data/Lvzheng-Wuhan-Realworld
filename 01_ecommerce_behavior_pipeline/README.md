@@ -82,6 +82,10 @@ This project can be executed both on Google Colab and local Jupyter Notebook.
 
 ** 中文说明 ** 所有脚本支持在 Google Colab 中直接运行，同时也兼容本地 Jupyter Notebook 环境。只需确保 Python 3.x 与相关库已正确安装，即可在本地复现全部流程与输出结果。
 
+The cleaned dataset is provided as a `.zip` file due to its large size.  Please unzip `online_retail_cleaned.csv.zip` before executing the Python scripts or dashboards.
+
+** 中文说明 **  由于数据体积较大，清洗后数据以 `.zip` 格式提供。使用前请先解压。
+
 ## Lessons Learned 学习亮点 
 
 Data dimensions should be properly aggregated, as too many fields can reduce chart readability. The preprocessing step can significantly improve dashboard loading speed.
