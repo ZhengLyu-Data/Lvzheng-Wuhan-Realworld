@@ -5,13 +5,11 @@ This project analyzes online customer purchasing behavior using the UCI Online R
 
 ## Data Visualization 数据可视化
 
-This section presents customer behavior analysis dashboards built with Power BI and Tableau, covering key dimensions such as user distribution, return frequency, and time-based trends.
+- This section presents customer behavior analysis dashboards built with Power BI and Tableau, covering key dimensions such as user distribution, return frequency, and time-based trends.
+ * 本部分展示了使用 Power BI 和 Tableau 构建的客户购买行为分析图表，涵盖用户分布、退货频率与时间趋势等核心维度。
 
-** 中文说明 ** 本部分展示了使用 Power BI 和 Tableau 构建的客户购买行为分析图表，涵盖用户分布、退货频率与时间趋势等核心维度。
-
-Below are screenshots of the final visualizations:  
-
-** 中文说明 ** 以下为本项目生成的最终可视化图表示例截图：
+- Below are screenshots of the final visualizations:  
+ * 以下为本项目生成的最终可视化图表示例截图：
 
 Power BI Dashboard 数据可视化
 
@@ -35,13 +33,11 @@ We chose Power BI for interactive visualization and Python for efficient data wr
 
 ## Prerequisites 环境依赖  
 
-This project can be run locally or in a Colab environment. Python and required libraries should be installed in advance, along with the dataset and Power BI Desktop for visualization.
+- This project can be run locally or in a Colab environment. Python and required libraries should be installed in advance, along with the dataset and Power BI Desktop for visualization.
+ * 本项目可在本地或 Colab 环境中运行，需提前安装 Python 与必要的库，并准备好数据文件和 Power BI 软件用于可视化操作。
 
-** 中文说明 ** 本项目可在本地或 Colab 环境中运行，需提前安装 Python 与必要的库，并准备好数据文件和 Power BI 软件用于可视化操作。
-
-Before running the project, ensure the following:
-
-** 在运行本项目之前，请确保以下环境准备已完成：
+- Before running the project, ensure the following:
+ * 在运行本项目之前，请确保以下环境准备已完成：
 
 - 1.Python 3.x installed or use Google Colab
   * 安装 Python 3.x，或直接使用 Google Colab 免安装运行 
@@ -54,13 +50,11 @@ Before running the project, ensure the following:
 
 ## How to Run This Project 如何运行本项目
 
-You can run the Python preprocessing script locally or in Google Colab, then open the dashboards in Power BI and Tableau for interactive exploration.
+- You can run the Python preprocessing script locally or in Google Colab, then open the dashboards in Power BI and Tableau for interactive exploration.
+ * 可在本地或 Google Colab 运行 Python 预处理脚本，再用 Power BI 和 Tableau 打开仪表板进行交互展示。
 
-** 中文说明 ** 可在本地或 Google Colab 运行 Python 预处理脚本，再用 Power BI 和 Tableau 打开仪表板进行交互展示。
-
-Run the preprocessing script:
-
-** 运行预处理脚本：
+- Run the preprocessing script:
+ * 运行预处理脚本：
 
  - 1. python and SQL scripts/preprocessing.py
    The script will output:
@@ -70,21 +64,17 @@ Run the preprocessing script:
    Open dashboard/ecommerce_behavior in Power BI Desktop and Tableau, Interact with filters and visuals on the dashboard
     - 使用 Power BI 和 Tableau 打开仪表板，体验交互式筛选、可视化与数据探索
      
-Note on SQL Compatibility:
+- Note on SQL Compatibility:
+ * 关于 SQL 兼容性
 
-** 中文说明 ** 关于 SQL 兼容性
+- All SQL scripts in this project are designed using standard SQL syntax. While executed with SQLite for simplicity, the same structure is compatible with MySQL or PostgreSQL by changing the database connector and placeholder syntax (`?` → `%s`).
+ * 所有 SQL 脚本基于标准语法编写，当前以 SQLite 运行为主，如需移植到 MySQL/PostgreSQL，仅需修改数据库连接方式及参数占位符格式（如 `?` → `%s`）。
 
-All SQL scripts in this project are designed using standard SQL syntax. While executed with SQLite for simplicity, the same structure is compatible with MySQL or PostgreSQL by changing the database connector and placeholder syntax (`?` → `%s`).
+- This project can be executed both on Google Colab and local Jupyter Notebook.
+ * 所有脚本支持在 Google Colab 中直接运行，同时也兼容本地 Jupyter Notebook 环境。只需确保 Python 3.x 与相关库已正确安装，即可在本地复现全部流程与输出结果。
 
-** 中文说明 ** 所有 SQL 脚本基于标准语法编写，当前以 SQLite 运行为主，如需移植到 MySQL/PostgreSQL，仅需修改数据库连接方式及参数占位符格式（如 `?` → `%s`）。
-
-This project can be executed both on Google Colab and local Jupyter Notebook.
-
-** 中文说明 ** 所有脚本支持在 Google Colab 中直接运行，同时也兼容本地 Jupyter Notebook 环境。只需确保 Python 3.x 与相关库已正确安装，即可在本地复现全部流程与输出结果。
-
-The cleaned dataset is provided as a `.zip` file due to its large size.  Please unzip `online_retail_cleaned.csv.zip` before executing the Python scripts or dashboards.
-
-** 中文说明 **  由于数据体积较大，清洗后数据以 `.zip` 格式提供。使用前请先解压。
+- The cleaned dataset is provided as a `.zip` file due to its large size.  Please unzip `online_retail_II_cleaned.csv.zip` before executing the Python scripts or dashboards.
+ * 由于数据体积较大，清洗后数据以 `.zip` 格式提供。使用前请先解压。
 
 ## Lessons Learned 学习亮点 
 
