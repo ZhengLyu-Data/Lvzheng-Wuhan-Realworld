@@ -11,9 +11,9 @@ This repository showcases five real-world data engineering projects. Each projec
 | 项目编号 | 项目名称 | 项目简介（中英文） | 使用工具 |
 |----------|-----------|----------------------|------------|
 | 01 | E-commerce Behavior Pipeline<br>电商行为数据流程分析 | Customer purchase patterns from UCI dataset<br>基于 UCI 数据集分析用户购买行为与电商销售模式 | Python, SQL (SQLite), Tableau, Power BI |
-| 02 | Supply Chain Efficiency Dashboard<br>供应链效率指标仪表板 | Transport vs discount vs cost KPIs<br>分析运输方式、折扣与成本之间的效率匹配关系 | Python, SQL (SQLite), Metabase |
-| 03 | Data Science Salary Analysis<br>数据科学薪资分析 | Worldwide salary distribution for DS roles<br>分析全球不同数据职位的薪资分布与地区差异 | Python, SQL (SQLite), Matplotlib |
-| 04 | Bank Marketing Dataset<br>银行营销行为分析 | Marketing call effectiveness analysis<br>探索电话营销活动中客户响应率与关键特征的关联 | Python, SQL (SQLite), Plotly |
+| 02 | Supply Chain Efficiency Dashboard<br>供应链效率指标仪表板 | Transport vs discount vs cost KPIs<br>分析运输方式、折扣与成本之间的效率匹配关系 | Python, SQL , Metabase |
+| 03 | Data Science Salary Analysis<br>数据科学薪资分析 | Worldwide salary distribution for DS roles<br>分析全球不同数据职位的薪资分布与地区差异 | Python, SQL, Matplotlib |
+| 04 | Bank Marketing Dataset<br>银行营销行为分析 | Marketing call effectiveness analysis<br>探索电话营销活动中客户响应率与关键特征的关联 | Python, SQL , Plotly |
 | 05 | Amazon Sentiment NLP<br>亚马逊评论情感分析 | Sentiment classification on product reviews<br>通过情感分析方法对亚马逊评论进行分类与可视化展示 | Python, Seaborn, Wordcloud |
 
     
