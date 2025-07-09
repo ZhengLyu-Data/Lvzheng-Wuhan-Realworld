@@ -21,15 +21,13 @@ Tableau Dashboard 数据可视化
 
 ## Data Architecture 数据流程图  
 
-The project uses Python for preprocessing to build a cleaned dataset and leverages Power BI to visualize customer behavior patterns, making it suitable for interactive analysis by non-technical users.
-
-** 中文说明 ** 项目使用 Python 进行预处理，构建清洗数据集，并通过 Power BI 可视化客户行为路径，适合非技术用户交互分析。
+- The project uses Python for preprocessing to build a cleaned dataset and leverages Power BI to visualize customer behavior patterns, making it suitable for interactive analysis by non-technical users.
+ * 项目使用 Python 进行预处理，构建清洗数据集，并通过 Power BI 可视化客户行为路径，适合非技术用户交互分析。
 
 ![data architecture image](ecommerce_behavior_pipeline_architecture.png)
 
-We chose Power BI for interactive visualization and Python for efficient data wrangling. This architecture allows non-technical users to filter and explore insights while maintaining a reproducible backend pipeline.
-
-** 中文说明 ** 我们选择使用 Power BI 进行交互式可视化，Python 用于高效的数据清洗处理。该架构既支持非技术用户进行筛选与洞察探索，又能保持后端流程的可复现性。
+- We chose Power BI for interactive visualization and Python for efficient data wrangling. This architecture allows non-technical users to filter and explore insights while maintaining a reproducible backend pipeline.
+ * 我们选择使用 Power BI 进行交互式可视化，Python 用于高效的数据清洗处理。该架构既支持非技术用户进行筛选与洞察探索，又能保持后端流程的可复现性。
 
 ## Prerequisites 环境依赖  
 
