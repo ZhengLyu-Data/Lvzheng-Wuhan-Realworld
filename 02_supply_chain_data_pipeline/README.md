@@ -27,9 +27,8 @@ This project analyzes supply chain efficiency using a cleaned dataset of 10,999 
 - Python 3.10 or above is recommended. Use Pandas for basic processing, Metabase for visualization, and optionally SQLite for local data management.
   * 推荐使用 Python 3.10 以上版本，使用 Pandas 进行基础处理，Metabase 进行可视化，也可选用 SQLite 做本地数据管理。
 
-Before running the project, ensure the following:
-
-** 在运行本项目之前，请确保以下环境准备已完成：
+- Before running the project, ensure the following:
+  * 在运行本项目之前，请确保以下环境准备已完成：
 
  - Python 3.10+
    * Python 3.10 或更高版本
@@ -43,9 +42,8 @@ Before running the project, ensure the following:
 - No additional data cleaning is required. Simply load the cleaned dataset and use the provided SQL scripts or Metabase to generate the visualizations.
   * 本项目不需额外清洗步骤。直接载入已清洗数据，使用 SQL 脚本或 Metabase 构建图表，即可获得可视化结果。
 
-Run the preprocessing script:
-
-** 运行预处理脚本：
+- Run the preprocessing script:
+  * 运行预处理脚本：
 
 - Step 1: Load data (already cleaned)
   * 第一步：载入已清洗的数据文件（如 `supply_chain_data_cleaned.csv`）
