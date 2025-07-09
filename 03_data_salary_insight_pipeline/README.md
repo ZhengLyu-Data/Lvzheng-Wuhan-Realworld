@@ -5,13 +5,11 @@ This project explores salary trends in data science roles globally. It highlight
 
 ## Data Visualization 数据可视化
 
-This project uses Matplotlib to visualize the average salary by experience level, the distribution of remote work ratios, and salary variations across different company sizes.
+- This project uses Matplotlib to visualize the average salary by experience level, the distribution of remote work ratios, and salary variations across different company sizes.
+  * 本项目使用 Matplotlib 绘制图表，展示了平均薪资与职位经验等级、远程办公比例分布、不同公司规模下的薪资差异。
 
-** 中文说明 ** 本项目使用 Matplotlib 绘制图表，展示了平均薪资与职位经验等级、远程办公比例分布、不同公司规模下的薪资差异。
-
-Below are screenshots of the final visualizations:  
-
-** 中文说明 ** 以下为本项目生成的最终可视化图表示例截图：
+- Below are screenshots of the final visualizations:  
+  * 以下为本项目生成的最终可视化图表示例截图：
 
 ![matplotlib dashboard image](chart1_average_salary_by_experience_level.png)
 ![matplotlib dashboard image](chart2_remote_work_ratio_distribution.png)
@@ -19,21 +17,18 @@ Below are screenshots of the final visualizations:
 
 ## Data Architecture 数据流程图
 
-This project uses modular Python scripts for data cleaning and pipeline construction, and generates static visualizations using Matplotlib—demonstrating both an engineering-oriented structure and compatibility with teaching presentations.
-
-** 中文说明 ** 本项目采用模块化 Python 脚本进行数据清洗与管道构建，并通过 Matplotlib 输出静态可视化图像，体现工程结构与教学演示兼容性。
+- This project uses modular Python scripts for data cleaning and pipeline construction, and generates static visualizations using Matplotlib—demonstrating both an engineering-oriented structure and compatibility with teaching presentations.
+  * 本项目采用模块化 Python 脚本进行数据清洗与管道构建，并通过 Matplotlib 输出静态可视化图像，体现工程结构与教学演示兼容性。
 
 ![Data Architecture](data_salary_insight_pipeline_architecture.png)
 
 ## Prerequisites 环境准备
 
-Use Python version 3.10 or above. This project requires pandas and matplotlib. SQLite can optionally be used for SQL-based analysis.
+- Use Python version 3.10 or above. This project requires pandas and matplotlib. SQLite can optionally be used for SQL-based analysis.
+  * 请使用 Python 3.10 或以上版本，项目依赖 Pandas 和 Matplotlib。若需使用 SQL 脚本分析，可选用 SQLite 环境。
 
-** 中文说明 ** 请使用 Python 3.10 或以上版本，项目依赖 Pandas 和 Matplotlib。若需使用 SQL 脚本分析，可选用 SQLite 环境。
-
-Before running the project, ensure the following:
-
-** 在运行本项目之前，请确保以下环境准备已完成：
+- Before running the project, ensure the following:
+  * 在运行本项目之前，请确保以下环境准备已完成：
 
 - Python 3.10+
   * 推荐使用 Python 3.10 或以上版本 
@@ -44,13 +39,11 @@ Before running the project, ensure the following:
     
 ## How to Run This Project 任何运行本项目
 
-Run the three Python scripts in sequence: start with data cleaning, then build the analysis pipeline, and finally generate the visual outputs. It is recommended to use VS Code or Google Colab for execution and review.
+- Run the three Python scripts in sequence: start with data cleaning, then build the analysis pipeline, and finally generate the visual outputs. It is recommended to use VS Code or Google Colab for execution and review.
+  * 依次运行三个 Python 脚本，先进行数据清洗，再构建分析流程，最终输出图像。建议使用 VS Code 或 Colab 执行查看。
 
-** 中文说明 ** 依次运行三个 Python 脚本，先进行数据清洗，再构建分析流程，最终输出图像。建议使用 VS Code 或 Colab 执行查看。
-
-Run the preprocessing script:
-
-** 运行预处理脚本：
+- Run the preprocessing script:
+  * 运行预处理脚本：
   
  - Step 1: Load and Clean the raw dataset
  python clean_data.py
@@ -64,17 +57,14 @@ Run the preprocessing script:
  - Step 4: Review the output visuals (matplotlib charts)
    * 第四步：查看自动生成的图表，包括不同地区、经验水平与公司规模维度下的薪资对比
     
-Note on SQL Compatibility:
+- Note on SQL Compatibility:
+  * 关于 SQL 兼容性
 
-** 中文说明 ** 关于 SQL 兼容性
+- All SQL scripts in this project are designed using standard SQL syntax. They are executed using SQLite for simplicity, but can be adapted to MySQL or PostgreSQL by adjusting the database connector and placeholder syntax (`?` → `%s`).
+  * 本项目中的 SQL 脚本使用标准语法，默认在 SQLite 上运行。如需迁移至 MySQL 或 PostgreSQL，只需修改数据库连接方式与参数占位符格式（如将 `?` 替换为 `%s`）。
 
-All SQL scripts in this project are designed using standard SQL syntax. They are executed using SQLite for simplicity, but can be adapted to MySQL or PostgreSQL by adjusting the database connector and placeholder syntax (`?` → `%s`).
-  
-** 中文说明 ** 本项目中的 SQL 脚本使用标准语法，默认在 SQLite 上运行。如需迁移至 MySQL 或 PostgreSQL，只需修改数据库连接方式与参数占位符格式（如将 `?` 替换为 `%s`）。
-
-This project can be executed both on Google Colab and local Jupyter Notebook.
-
-** 中文说明 ** 所有脚本支持在 Google Colab 中直接运行，同时也兼容本地 Jupyter Notebook 环境。只需确保 Python 3.x 与相关库已正确安装，即可在本地复现全部流程与输出结果。
+- This project can be executed both on Google Colab and local Jupyter Notebook.
+  * 所有脚本支持在 Google Colab 中直接运行，同时也兼容本地 Jupyter Notebook 环境。只需确保 Python 3.x 与相关库已正确安装，即可在本地复现全部流程与输出结果。
 
 ## Lessons Learned 学习亮点
 
