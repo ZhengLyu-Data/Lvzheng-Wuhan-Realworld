@@ -5,13 +5,11 @@ This project analyzes customer responses to a marketing campaign by a Portuguese
 
 ## Data Visualization | 可视化概览
 
-This project presents three interactive charts generated using Plotly, exported as static images for quick preview, and available as downloadable HTML files for full interactivity.
+- This project presents three interactive charts generated using Plotly, exported as static images for quick preview, and available as downloadable HTML files for full interactivity.
+  * 本项目使用 Plotly 生成三张交互式图表，提供静态图片用于快速浏览，并附带 HTML 下载链接以支持完整交互体验。
 
-** 中文说明 ** 本项目使用 Plotly 生成三张交互式图表，提供静态图片用于快速浏览，并附带 HTML 下载链接以支持完整交互体验。
-
-Below are screenshots of the final visualizations:  
-
-** 中文说明 ** 以下为本项目生成的最终可视化图表示例截图：
+- Below are screenshots of the final visualizations:  
+  * 以下为本项目生成的最终可视化图表示例截图：
 
 ![plotly dashboard image](subscription_by_education_preview.png)
 🔗 [Download Interactive Chart](./visualizations/subscription_by_education.html)
@@ -26,9 +24,8 @@ Below are screenshots of the final visualizations:
 
 ## Data Architecture 数据流程图
 
-This project builds a structured data pipeline from cleaning to analysis and output. By combining logical segmentation with visualization models, it provides insights for modeling customer behavior in banking scenarios.
-
-** 中文说明 ** 本项目构建了清洗 → 分析 → 输出的结构化数据管道，结合逻辑判断与可视化模型，为银行客户行为建模提供参考。
+- This project builds a structured data pipeline from cleaning to analysis and output. By combining logical segmentation with visualization models, it provides insights for modeling customer behavior in banking scenarios.
+  * 本项目构建了清洗 → 分析 → 输出的结构化数据管道，结合逻辑判断与可视化模型，为银行客户行为建模提供参考。
 
 ![Data Architecture](bank_marketing_dataset_pipeline.png)
 
@@ -47,13 +44,11 @@ This project builds a structured data pipeline from cleaning to analysis and out
 
 ## How to Run This Project 如何运行本项目
 
-This project consists of three Python modules executed in sequence: data cleaning → pipeline construction → analytical visualization output. It is suitable for teaching and project demonstration purposes.
+- This project consists of three Python modules executed in sequence: data cleaning → pipeline construction → analytical visualization output. It is suitable for teaching and project demonstration purposes.
+  * 本项目共含三个 Python 模块，运行顺序为：数据清洗 → 数据管道构建 → 输出分析图表，可用于教学与项目演示。
 
-** 中文说明 ** 本项目共含三个 Python 模块，运行顺序为：数据清洗 → 数据管道构建 → 输出分析图表，可用于教学与项目演示。
-
-Run the preprocessing script:
-
-** 运行预处理脚本：
+- Run the preprocessing script:
+  * 运行预处理脚本：
 
 - Step 1: Load and Clean the dataset
 python clean_data.py
@@ -67,17 +62,14 @@ python run_pipeline.py
 - Step 4: View visual outputs (matplotlib)
   * 第四步：查看输出图表，探索不同特征维度对营销结果的影响
     
-Note on SQL Compatibility:
-
-** 中文说明 ** 关于 SQL 兼容性
+- Note on SQL Compatibility:
+  * 关于 SQL 兼容性
   
-All SQL scripts in this project are designed using standard SQL syntax. While executed with SQLite for simplicity, the same structure is compatible with MySQL or PostgreSQL by changing the database connector and placeholder syntax (`?` → `%s`).
-  
-** 中文说明 ** 本项目使用的 SQL 脚本基于标准语法，当前以 SQLite 运行为主，也可迁移至 MySQL / PostgreSQL，仅需修改数据库连接方式与参数占位符格式。
+- All SQL scripts in this project are designed using standard SQL syntax. While executed with SQLite for simplicity, the same structure is compatible with MySQL or PostgreSQL by changing the database connector and placeholder syntax (`?` → `%s`).
+  * 本项目使用的 SQL 脚本基于标准语法，当前以 SQLite 运行为主，也可迁移至 MySQL / PostgreSQL，仅需修改数据库连接方式与参数占位符格式。
     
-This project can be executed both on Google Colab and local Jupyter Notebook.
-
-** 中文说明 ** 所有脚本支持在 Google Colab 中直接运行，同时也兼容本地 Jupyter Notebook 环境。只需确保 Python 3.x 与相关库已正确安装，即可在本地复现全部流程与输出结果。
+- This project can be executed both on Google Colab and local Jupyter Notebook.
+  * 所有脚本支持在 Google Colab 中直接运行，同时也兼容本地 Jupyter Notebook 环境。只需确保 Python 3.x 与相关库已正确安装，即可在本地复现全部流程与输出结果。
 
 ## Lessons Learned 学习亮点
 
