@@ -27,8 +27,8 @@ This repository showcases five real-world data engineering projects. Each projec
   * SQL 查询采用 SQLite 优先 编写，兼容 MySQL 和 PostgreSQL。
 - Python is used for all data processing and analysis tasks, with libraries including pandas, matplotlib, textblob, and more.
   * 所有数据处理与分析均使用 Python 工具链，常用库包括 pandas、matplotlib、textblob 等。
-- Visualization tools include Tableau, Power BI, Metabase, Seaborn, Plotly, and WordCloud.
-  * 可视化工具涵盖 Tableau、Power BI、Metabase、Seaborn、Plotly、WordCloud 等。
+- Visualization tools include Tableau, Power BI, Metabase, Seaborn, Plotly, Apache Spark and WordCloud.
+  * 可视化工具涵盖 Tableau、Power BI、Metabase、Seaborn、Plotly、Apache Spark、WordCloud 等。
 - Each project includes an engineering-style architecture diagram to illustrate workflows and module relationships.
   * 每个项目都配备工程化架构图，用于展示流程与模块之间的关系。
 - All scripts are executable both on Google Colab and in local Jupyter Notebook environments.
