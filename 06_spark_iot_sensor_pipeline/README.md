@@ -13,25 +13,25 @@ Below are the visualization results:
 
 以下为最终图表展示结果（已保存为 PNG 文件，可下载用于演示）：
 
-- Fault Type Distribution	
-![Fault Type Distribution](fault_type_distribution.png)  
+- Fault Type Distribution
   * Distribution of fault categories detected from IoT sensor data.  
   * 展示来自物联网传感器数据的故障类型分布。
+![Fault Type Distribution](fault_type_distribution.png)  
 
-- Vibration by Fault Type  
-![Vibration by Fault Type](vibration_fault_boxplot.png)  
+- Vibration by Fault Type
   * Boxplot of vibration readings by fault classification.  
   * 展示不同故障类别下的振动水平分布箱线图。
+![Vibration by Fault Type](vibration_fault_boxplot.png)  
 
 - Temperature by Fault Type
-![Temperature by Fault Type](temperature_fault_violinplot.png)  
   * Violin plot showing temperature patterns across fault types.  
   * 展示不同故障类型下的温度分布小提琴图。
+![Temperature by Fault Type](temperature_fault_violinplot.png)  
 
 - Pressure by Fault Type
-![Pressure by Fault Type](pressure_fault_boxplot.png)  
   * Pressure distribution comparison by fault category.  
   * 展示不同故障类型下的压力分布。
+![Pressure by Fault Type](pressure_fault_boxplot.png)  
 
 ## Data Architecture 数据流程图
 This project follows a full pipeline from original Kaggle dataset to cleaned output and visualization.
