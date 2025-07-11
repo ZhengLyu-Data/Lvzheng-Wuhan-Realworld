@@ -42,15 +42,14 @@ This project follows a full pipeline from original Kaggle dataset to cleaned out
 
 ## Prerequisites 环境准备
 
-Python 3.10+
-
-Apache Spark (PySpark)
-
-pandas / seaborn / matplotlib
-
-Google Colab or local Jupyter environment
-
-推荐使用 Google Colab 直接运行，亦支持本地 Jupyter 环境，只需配置好 Python 与 Spark 即可。*
+- Python 3.10+
+  * 用于运行项目用于脚本编写与流程控制的主要编程语言，推荐使用 3.10 或以上版本以确保兼容性和最新功能支持。 
+- Apache Spark (PySpark)
+  * 分布式数据处理引擎，适用于大规模数据计算。本项目使用其 Python 接口（PySpark）用于大规模数据清洗与处理。
+- pandas / seaborn / matplotlib
+  * 用于数据分析与可视化
+- Google Colab or local Jupyter environment
+  * 推荐使用 Google Colab 直接运行，亦支持本地 Jupyter 环境，只需配置好 Python 与 Spark 即可。*
 
 ## How to Run This Project 如何运行本项目
 This project includes three modular Python scripts:
