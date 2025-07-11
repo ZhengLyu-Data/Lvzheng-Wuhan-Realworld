@@ -38,7 +38,7 @@ This project follows a full pipeline from original Kaggle dataset to cleaned out
 
 本项目完整覆盖数据采集、Spark 清洗、Python 分析与图表展示，流程清晰，工程化程度高。
 
-
+![Data Architecture]()
 
 ## Prerequisites 环境准备
 
