@@ -5,7 +5,7 @@ This repository showcases six real-world data engineering projects. Each project
 
 ## Projects 项目
 
-- The following are five real-world data engineering projects showcasing data cleaning, SQL analysis, and visualization. They are designed to support teaching, interviews, and portfolio presentation.
+- The following are six real-world data engineering projects showcasing data cleaning, SQL analysis, and visualization. They are designed to support teaching, interviews, and portfolio presentation.
     * 以下为六个真实世界数据工程项目的主题与所用工具，涵盖数据清洗、SQL 分析与可视化展示，支持面试与作品集展示。
 
 | 项目编号 | 项目名称 | 项目简介（中英文） | 使用工具 |
