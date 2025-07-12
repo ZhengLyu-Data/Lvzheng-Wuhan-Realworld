@@ -1,17 +1,15 @@
 ## Overview 项目总览
 
-This project builds a Spark-based data pipeline to analyze fault patterns in industrial IoT sensor data. By leveraging PySpark for data handling and Python visualization tools, it demonstrates how real-time manufacturing signals can be transformed into actionable insights.
-本项目基于工业 IoT 传感器数据，构建了一个 Spark 数据分析流程。通过使用 PySpark 进行数据处理，并结合 Python 可视化工具，探索制造过程中故障信号的识别与分析方法，适合教学展示与数据工程类岗位申请。
+- This project builds a Spark-based data pipeline to analyze fault patterns in industrial IoT sensor data. By leveraging PySpark for data handling and Python visualization tools, it demonstrates how real-time manufacturing signals can be transformed into actionable insights.
+  * 本项目基于工业 IoT 传感器数据，构建了一个 Spark 数据分析流程。通过使用 PySpark 进行数据处理，并结合 Python 可视化工具，探索制造过程中故障信号的识别与分析方法，适合教学展示与数据工程类岗位申请。
 
 ## Data Visualization | 可视化概览
 
-This project generates 4 static charts using matplotlib and seaborn to visualize sensor fault patterns across vibration, temperature, and pressure.
+- This project generates 4 static charts using matplotlib and seaborn to visualize sensor fault patterns across vibration, temperature, and pressure.
+  * 本项目使用 matplotlib 与 seaborn 生成 4 张静态图表，直观展示不同故障类型下的振动、温度与压力分布。
 
-本项目使用 matplotlib 与 seaborn 生成 4 张静态图表，直观展示不同故障类型下的振动、温度与压力分布。
-
-Below are the visualization results:
-
-以下为最终图表展示结果（已保存为 PNG 文件，可下载用于演示）：
+- Below are the visualization results:
+  * 以下为最终图表展示结果（已保存为 PNG 文件，可下载用于演示）：
 
 - Fault Type Distribution - Distribution of fault categories detected from IoT sensor data.  
   * 展示来自物联网传感器数据的故障类型分布
@@ -34,9 +32,9 @@ Below are the visualization results:
 ![Pressure by Fault Type](pressure_fault_boxplot.png)  
 
 ## Data Architecture 数据流程图
-This project follows a full pipeline from original Kaggle dataset to cleaned output and visualization.
 
-本项目完整覆盖数据采集、Spark 清洗、Python 分析与图表展示，流程清晰，工程化程度高。
+- This project follows a full pipeline from original Kaggle dataset to cleaned output and visualization.
+  * 本项目完整覆盖数据采集、Spark 清洗、Python 分析与图表展示，流程清晰，工程化程度高。
 
 ![Data Architecture](spark_iot_sensor_pipeline_architecture.png)
 
@@ -52,9 +50,9 @@ This project follows a full pipeline from original Kaggle dataset to cleaned out
   * 推荐使用 Google Colab 直接运行，亦支持本地 Jupyter 环境，只需配置好 Python 与 Spark 即可。*
 
 ## How to Run This Project 如何运行本项目
-This project includes three modular Python scripts:
 
-本项目采用三段式脚本结构，分别完成数据清洗、数据管道构建与可视化分析：
+- This project includes three modular Python scripts:
+  * 本项目采用三段式脚本结构，分别完成数据清洗、数据管道构建与可视化分析：
 
 - Step 1: Clean raw sensor data using PySpark
 python clean_data.py  
