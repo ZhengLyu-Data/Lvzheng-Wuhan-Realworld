@@ -8,6 +8,9 @@ This project builds a Spark-based data pipeline to analyze fault patterns in ind
 
 - This project generates 4 static charts using matplotlib and seaborn to visualize sensor fault patterns across vibration, temperature, and pressure.
   * 本项目使用 matplotlib 与 seaborn 生成 4 张静态图表，直观展示不同故障类型下的振动、温度与压力分布。
+ 
+- All charts below were generated using Seaborn for plotting and Matplotlib for layout and saving.
+  * 以下所有图表均使用 Seaborn 完成绘图，并通过 Matplotlib 实现图像排版与导出。
 
 - Below are the visualization results:
   * 以下为最终图表展示结果（已保存为 PNG 文件，可下载用于演示）：
