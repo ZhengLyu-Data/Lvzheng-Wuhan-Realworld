@@ -31,16 +31,20 @@ This project analyzes customer responses to a marketing campaign by a Portuguese
 
 ## Prerequisites 环境准备
 
-- Prepare a Python environment (recommended version 3.10+), and install the required libraries: pandas and matplotlib. SQLite can be optionally used for SQL-based analysis.
-  * 请准备 Python 环境（建议 3.10+），安装 pandas 与 matplotlib，如需执行 SQL 分析可选用 SQLite 环境。
 - Before running the project, ensure the following:
   * 在运行本项目之前，请确保以下环境准备已完成：
+    
+- Python 3.10+
+  * 用于运行项目用于脚本编写与流程控制的主要编程语言，推荐使用 3.10 或以上版本以确保兼容性和最新功能支持。
+
+- Before running the project, ensure the following:
+  * 在运行本项目之前，请确保以下环境准备已完成：
+
 - Google Colab or local Jupyter environment
-  * 推荐使用 Google Colab 直接运行，亦支持本地 Jupyter 环境，只需配置好 Python 与 Spark 即可。
-- pandas / matplotlib
-  * 用于数据处理与图表生成 
-- SQLite (optional for intermediate storage)
-  * 可选：用于本地 SQL 分析与中间结果存储
+  * 推荐使用 Google Colab 直接运行，亦支持本地 Jupyter 环境。
+    
+- Install required libraries: python, numpy, textblob, matplotlib, wordcloud
+  * 安装所需库：用于数据处理与可视化
 
 ## How to Run This Project 如何运行本项目
 
