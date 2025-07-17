@@ -47,9 +47,6 @@ This project analyzes supply chain efficiency using a cleaned dataset of 10,999 
     
 ## How to Run This Project 如何运行本项目
 
-- No additional data cleaning is required. Simply load the cleaned dataset and use the provided SQL scripts or Metabase to generate the visualizations.
-  * 本项目不需额外清洗步骤。直接载入已清洗数据，使用 SQL 脚本或 Metabase 构建图表，即可获得可视化结果。
-
 - This project includes three modular Python scripts and one SQL-based visualization step:
   * 本项目采用三段式 Python 脚本结构与一个 SQL 可视化步骤，完成数据清洗、管道构建、数据导出与 KPI 查询展示：
 
