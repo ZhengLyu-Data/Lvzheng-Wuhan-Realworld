@@ -45,6 +45,12 @@ This project analyzes customer responses to a marketing campaign by a Portuguese
     
 - Install required libraries: python, numpy, textblob, matplotlib, wordcloud
   * 安装所需库：用于数据处理与可视化
+ 
+- All SQL scripts in this project are designed using standard SQL syntax. While executed with SQLite for simplicity, the same structure is compatible with MySQL or PostgreSQL by changing the database connector and placeholder syntax (`?` → `%s`).
+  * 本项目使用的 SQL 脚本基于标准语法，当前以 SQLite 运行为主，也可迁移至 MySQL / PostgreSQL，仅需修改数据库连接方式与参数占位符格式。
+    
+- This project can be executed both on Google Colab and local Jupyter Notebook.
+  * 所有脚本支持在 Google Colab 中直接运行，同时也兼容本地 Jupyter Notebook 环境。只需确保 Python 3.x 与相关库已正确安装，即可在本地复现全部流程与输出结果。
 
 ## How to Run This Project 如何运行本项目
 
@@ -55,25 +61,19 @@ This project analyzes customer responses to a marketing campaign by a Portuguese
   * 运行预处理脚本：
 
 - Step 1: Load and Clean the dataset
-python clean_data.py
-  * 第一步：载入并清洗原始银行营销数据，处理缺失值与字段格式
+  (clean_data.py)
+  * 第一步：载入并清洗原始银行营销数据，处理缺失值与字段格式 (clean_data.py)
+    
 - Step 2: Build the pipeline
-python pipeline.py
-  * 第二步：构建数据处理流程，生成分组、统计与衍生字段   
+  (pipeline.py)
+  * 第二步：构建数据处理流程，生成分组、统计与衍生字段 (pipeline.py)
+      
 - Step 3: Run the full analysis
-python run_pipeline.py
-  * 第三步：执行完整分析管道，输出结构化分析结果   
+  (run_pipeline.py)
+  * 第三步：执行完整分析管道，输出结构化分析结果 (run_pipeline.py)
+      
 - Step 4: View visual outputs (matplotlib)
   * 第四步：查看输出图表，探索不同特征维度对营销结果的影响
-    
-- Note on SQL Compatibility:
-  * 关于 SQL 兼容性
-  
-- All SQL scripts in this project are designed using standard SQL syntax. While executed with SQLite for simplicity, the same structure is compatible with MySQL or PostgreSQL by changing the database connector and placeholder syntax (`?` → `%s`).
-  * 本项目使用的 SQL 脚本基于标准语法，当前以 SQLite 运行为主，也可迁移至 MySQL / PostgreSQL，仅需修改数据库连接方式与参数占位符格式。
-    
-- This project can be executed both on Google Colab and local Jupyter Notebook.
-  * 所有脚本支持在 Google Colab 中直接运行，同时也兼容本地 Jupyter Notebook 环境。只需确保 Python 3.x 与相关库已正确安装，即可在本地复现全部流程与输出结果。
 
 ## Lessons Learned 学习亮点
 
