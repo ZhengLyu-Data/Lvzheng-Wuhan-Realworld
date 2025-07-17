@@ -57,7 +57,23 @@ Tableau Dashboard 数据可视化
 - Before running the project, ensure the following:
   * 在运行本项目之前，请确保以下环境准备已完成：
 
+- Step 1: Clean raw e-commerce data using Python (clean_data.py)
+  (clean_data.py)
+  * 第一步：使用 Python 对电商原始数据进行清洗，包括缺失值处理、数据类型转换等
 
+- Step 2: Build processing pipeline and export intermediate dataset 
+  (pipeline.py)
+  * 第二步：构建数据管道，将清洗后数据输出为中间 CSV 文件，供后续分析使用
+
+- Step 3: Visualize trends and metrics using Python (run_pipeline.py)
+  (run_pipeline.py)
+  * 第三步：使用 Python 生成关键分析图表（如用户活跃度、购买分布等）
+
+- Step 4: Execute SQL queries for KPI extraction (queries.sql)
+  * 第四步：使用 SQL 提取核心指标，用于后续仪表板构建（可在 SQLite / Azure Data Studio 中运行）
+
+- Step 5: Create dashboards using Tableau and Power BI
+  * 第五步：将 Python 清洗结果导入 Tableau 与 Power BI，构建多维度数据仪表板
 
 - All SQL scripts in this project are designed using standard SQL syntax. While executed with SQLite for simplicity, the same structure is compatible with MySQL or PostgreSQL by changing the database connector and placeholder syntax (`?` → `%s`).
   * 所有 SQL 脚本基于标准语法编写，当前以 SQLite 运行为主，如需移植到 MySQL/PostgreSQL，仅需修改数据库连接方式及参数占位符格式（如 `?` → `%s`）。
