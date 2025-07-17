@@ -40,7 +40,7 @@ Wordcloud Dashboard 数据可视化
 - Google Colab or local Jupyter environment
   * 推荐使用 Google Colab 直接运行，亦支持本地 Jupyter 环境，只需配置好 Python 与 Spark 即可。
     
-- Install required libraries: pandas, numpy, textblob, matplotlib, wordcloud
+- Install required libraries: python, numpy, textblob, matplotlib, wordcloud
   * 安装所需库：用于数据处理、情感分析与可视化
 
 
