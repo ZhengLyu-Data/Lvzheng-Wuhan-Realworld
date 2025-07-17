@@ -50,14 +50,17 @@ This project analyzes supply chain efficiency using a cleaned dataset of 10,999 
 - This project includes three modular Python scripts and one SQL-based visualization step:
   * 本项目采用三段式 Python 脚本结构与一个 SQL 可视化步骤，完成数据清洗、管道构建、数据导出与 KPI 查询展示：
 
-- Step 1: Clean the raw retail data（clean_data.py）
-  * 第一步：使用 Python 清洗原始零售订单数据，处理缺失值与异常记录
+- Step 1: Clean the raw retail data
+ （clean_data.py）
+  * 第一步：使用 Python 清洗原始零售订单数据，处理缺失值与异常记录（clean_data.py）
 
-- Step 2: Construct a KPI data pipeline (pipeline.py)
-  * 第二步：构建 KPI 指标计算的数据流程
+- Step 2: Construct a KPI data pipeline
+  (pipeline.py)
+  * 第二步：构建 KPI 指标计算的数据流程 (pipeline.py)
 
-- Step 3: Export the cleaned data for SQL analysis (run_pipeline.py)
-  * 第三步：将清洗后的数据导出为 CSV，用于后续 SQL 查询
+- Step 3: Export the cleaned data for SQL analysis
+  (run_pipeline.py)
+  * 第三步：将清洗后的数据导出为 CSV，用于后续 SQL 查询 (run_pipeline.py)
 
 - Step 4: Run SQL queries and visualize KPIs in Metabase
   * 第四步：在 Metabase 中加载 CSV 数据，运行 SQL 查询并可视化 KPI 图表
@@ -69,7 +72,9 @@ This project analyzes supply chain efficiency using a cleaned dataset of 10,999 
 
  - Product cost and customer rating are not always correlated
    * 客户评分与产品成本不总是正相关，部分低成本产品仍可获得高评分
+     
  - Discounts vary more significantly by shipment method than product tier
-   * 不同运输方式下，折扣策略差异显著，运输成本结构具有分层特征 
+   * 不同运输方式下，折扣策略差异显著，运输成本结构具有分层特征
+     
  - Shipment mode optimization directly impacts delivery timeliness
    * 优化运输模式对提升交付效率具有直接推动作用，属于核心业务杠杆
