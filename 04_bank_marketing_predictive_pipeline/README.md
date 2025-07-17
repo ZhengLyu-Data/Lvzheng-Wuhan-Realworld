@@ -34,7 +34,7 @@ This project analyzes customer responses to a marketing campaign by a Portuguese
 - Before running the project, ensure the following:
   * 在运行本项目之前，请确保以下环境准备已完成：
     
-- Python 3.10+
+- Use Python version 3.10 or above.
   * 用于运行项目用于脚本编写与流程控制的主要编程语言，推荐使用 3.10 或以上版本以确保兼容性和最新功能支持。
 
 - Before running the project, ensure the following:
