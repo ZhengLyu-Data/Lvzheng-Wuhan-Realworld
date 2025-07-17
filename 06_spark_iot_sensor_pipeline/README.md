@@ -51,7 +51,7 @@ This project builds a Spark-based data pipeline to analyze fault patterns in ind
 - pandas / seaborn / matplotlib
   * 用于数据分析与可视化
 - Google Colab or local Jupyter environment
-  * 推荐使用 Google Colab 直接运行，亦支持本地 Jupyter 环境，只需配置好 Python 与 Spark 即可。*
+  * 推荐使用 Google Colab 直接运行，亦支持本地 Jupyter 环境，只需配置好 Python 与 Spark 即可。
 
 ## How to Run This Project 如何运行本项目
 
