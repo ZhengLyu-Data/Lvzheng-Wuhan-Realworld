@@ -61,11 +61,15 @@ Wordcloud Dashboard 数据可视化
 
 - This project demonstrates that rule-based sentiment analysis tools like TextBlob are fast and effective for rapid prototyping, though limited in accuracy. They are well-suited for teaching purposes or as an introduction to practical text analytics.
   * 本项目揭示了规则基础的情感分析（如 TextBlob）在原型搭建中速度快但精度有限，适合作为教学范例或实际文本分析入门项目。
+    
 - Rule-based sentiment classification (TextBlob) is fast and easy, but less accurate than ML model
   * 基于规则的情感分析方法（如 TextBlob）可快速搭建原型，但在处理复杂语义上精度较低
+    
 - Combining score fields and polarity improves label consistency
-  * 同时结合评分字段与情感极性（polarity）可提高标签一致性 
+  * 同时结合评分字段与情感极性（polarity）可提高标签一致性
+    
 - Creating the dataset is essential for fast prototyping and visualization
   * 自建标签数据集有助于快速探索与原型迭代
+    
 - Python scripting enables modular and reproducible NLP workflows
   * 使用 Python 脚本可实现模块化、可复现的 NLP 分析流程
