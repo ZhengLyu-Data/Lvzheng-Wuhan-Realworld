@@ -14,7 +14,7 @@ This project demonstrates a complete cloud-based ETL pipeline using real-world h
 - Property Count by Year Built - Number of properties grouped by year built.
   * 展示不同建成年份的房产数量统计
 
-![Fault Type Distribution]() 
+![Fault Type Distribution](property_count_by_year.png) 
 
 > All charts are generated using **Seaborn + Matplotlib** to ensure high-quality, customizable visualization output.  
 > 所有图表均采用 Seaborn + Matplotlib 绘制，具备高质量与高度自定义能力。
