@@ -6,6 +6,9 @@ This project demonstrates a complete cloud-based ETL pipeline using real-world h
 
 ## Data Visualization 数据可视化
 
+- All charts are generated using **Seaborn + Matplotlib** to ensure high-quality, customizable visualization output.  
+  * 所有图表均采用 Seaborn + Matplotlib 绘制，具备高质量与高度自定义能力。
+
 - Average Price by Region - Average property price across different regions.
   * 展示不同区域的平均房产价格分布
 
@@ -15,9 +18,6 @@ This project demonstrates a complete cloud-based ETL pipeline using real-world h
   * 展示不同建成年份的房产数量统计
 
 ![Fault Type Distribution](property_count_by_year.png) 
-
-- All charts are generated using **Seaborn + Matplotlib** to ensure high-quality, customizable visualization output.  
-  * 所有图表均采用 Seaborn + Matplotlib 绘制，具备高质量与高度自定义能力。
 
 ## Data Architecture 数据架构
 
