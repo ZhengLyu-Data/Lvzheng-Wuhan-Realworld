@@ -40,5 +40,7 @@ This repository showcases six real-world data engineering projects. Each project
   * 实战项目适用于求职展示、作品集构建及真实业务流程展示。
 - One project demonstrates cloud-based ETL pipeline construction using PySpark and scalable deployment.
   * 其中一个项目展示了基于 PySpark 的云端 ETL 管道构建与可扩展部署能力。
+- All Python visualizations in Project 6 and 7 are created using both Seaborn and Matplotlib to ensure customizable, publication-quality plots.
+  * 项目 6 和项目 7 中所有 Python 图表均结合 Seaborn 与 Matplotlib 实现，兼顾美观性与高度自定义能力。
 - All projects emphasize reproducibility, modularity, and real-world applicability.
   * 所有项目均强调可复现性、模块化与真实场景适应能力。
