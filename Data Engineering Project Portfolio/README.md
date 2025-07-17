@@ -38,3 +38,5 @@ This repository showcases six real-world data engineering projects. Each project
   * 所有数据均来自 Kaggle 真实世界数据集，增强项目的可信度与教学展示价值。
 - Projects are suitable for job applications, portfolio demonstration, and real-world data process presentation.
   * 实战项目适用于求职展示、作品集构建及真实业务流程展示。
+- All projects emphasize reproducibility, modularity, and real-world applicability.
+  * 所有项目均强调可复现性、模块化与真实场景适应能力。
