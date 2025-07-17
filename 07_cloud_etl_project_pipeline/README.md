@@ -33,17 +33,23 @@ This project demonstrates a complete cloud-based ETL pipeline using real-world h
 
 ## How to Run This Project 运行方式
 
-1. Clone this repo or download the source files  
-   克隆本仓库或下载源码文件
+This project includes three modular Python scripts:
+本项目采用三段式脚本结构，分别完成数据清洗、数据管道构建与可视化分析：
 
-2. Run the scripts in order 按顺序运行脚本：
+Step 1: Clean raw housing transaction data using pandas
 
 python clean_data.py
-python pipeline.py
-python run_pipeline.py
+第一步：使用 pandas 清洗原始房产交易数据，处理缺失值与字段格式，输出中间文件 real_estate_cleaned.csv
 
-3. View the charts in the project folder  
-   查看生成图表和输出结果
+Step 2: Build data pipeline and export results for visualization
+
+python pipeline.py
+第二步：构建 ETL 数据处理流程，生成用于分析的关键字段和统计结果，输出文件 real_estate_pipeline_output.csv
+
+Step 3: Generate charts and save as PNG files
+
+python run_pipeline.py
+第三步：读取中间结果，使用 matplotlib 与 seaborn 生成图表，并保存为本地 PNG 图片格式
 
 ## 🎓 Lessons Learned 学习亮点
 
