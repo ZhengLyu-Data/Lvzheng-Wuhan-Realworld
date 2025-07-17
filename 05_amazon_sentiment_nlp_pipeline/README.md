@@ -31,18 +31,18 @@ Wordcloud Dashboard 数据可视化
 
 ## Prerequisites 环境准备
 
-- It is recommended to use Python 3.x and the required libraries (or operate in a Colab environment). Place the original review dataset into the data/ folder.
-  * 建议使用 Python 3.x 及以下库（或在 Colab 环境中操作），将原始评论数据放入 `data/` 文件夹。
+- Python 3.10+
+  * 用于运行项目用于脚本编写与流程控制的主要编程语言，推荐使用 3.10 或以上版本以确保兼容性和最新功能支持。
 
 - Before running the project, ensure the following:
   * 在运行本项目之前，请确保以下环境准备已完成：
 
 - Before running the project, ensure the following: Python 3.x installed (or use Google Colab)
   * 安装 Python 3.x（或直接使用 Colab 无需配置）
+    
 - Install required libraries: pandas, numpy, textblob, matplotlib, wordcloud
   * 安装所需库：用于数据处理、情感分析与可视化
-- Place Reviews.csv into the data/ directory
-  * 将原始数据文件 `Reviews.csv` 放入 `data/` 文件夹
+
 
 ## How to Run This Project 如何运行本项目
 
