@@ -31,21 +31,27 @@ Tableau Dashboard 数据可视化
 
 ## Prerequisites 环境依赖  
 
-Power BI
+- Before running the project, ensure the following:
+  * 在运行本项目之前，请确保以下环境准备已完成：
+    
+- Python 3.10 or above is recommended. 
+  * 推荐使用 Python 3.10 以上版本.
+    
+- Google Colab or local Jupyter environment
+  * 推荐使用 Google Colab 直接运行，亦支持本地 Jupyter 环境，只需配置好 Python 即可。
 
-数据处理与主图表构建工具
-(Used for data processing and main dashboard construction)
+- Taleau / Power BI
+  * Tableau, Power BI 用于仪表板和数据可视化
+    
+- SQLite (optional for local storage)
+  * 可选：同样可以用于本地执行 SQL 查询的轻量数据库 SQLite
 
-Tableau
-
-辅助可视化图表构建工具
-(Used for supplementary visualization charts)
-
-Jupyter Notebook or Google Colab
-
-可选环境，用于演示数据结构或备份文档
-(Optional environment for structure demonstration or backup documentation)
-
+- All SQL scripts in this project are designed using standard SQL syntax. While executed with SQLite for simplicity, the same structure is compatible with MySQL or PostgreSQL by   changing the database connector and placeholder syntax (? → %s).
+  * 本项目 SQL 脚本采用标准语法，可在 SQLite、MySQL、PostgreSQL 等数据库中灵活迁移，需根据数据库修改连接方式与参数占位符。
+    
+- This project can be executed both on Google Colab and local Jupyter Notebook.
+  * 所有脚本支持在 Google Colab 中直接运行，同时也兼容本地 Jupyter Notebook 环境。只需确保 Python 3.x 与相关库已正确安装，即可在本地复现全部流程与输出结果。
+    
 ## How to Run This Project 如何运行本项目
 
 - Before running the project, ensure the following:
