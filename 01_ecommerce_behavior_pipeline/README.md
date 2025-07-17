@@ -31,39 +31,30 @@ Tableau Dashboard 数据可视化
 
 ## Prerequisites 环境依赖  
 
+Power BI
+
+数据处理与主图表构建工具
+(Used for data processing and main dashboard construction)
+
+Tableau
+
+辅助可视化图表构建工具
+(Used for supplementary visualization charts)
+
+Jupyter Notebook or Google Colab
+
+可选环境，用于演示数据结构或备份文档
+(Optional environment for structure demonstration or backup documentation)
+
 - This project can be run locally or in a Colab environment. Python and required libraries should be installed in advance, along with the dataset and Power BI Desktop for visualization.
   * 本项目可在本地或 Colab 环境中运行，需提前安装 Python 与必要的库，并准备好数据文件和 Power BI 软件用于可视化操作。
+
+## How to Run This Project 如何运行本项目
 
 - Before running the project, ensure the following:
   * 在运行本项目之前，请确保以下环境准备已完成：
 
-- 1.Python 3.x installed or use Google Colab
-  * 安装 Python 3.x，或直接使用 Google Colab 免安装运行 
-- 2.Install pandas, numpy, and openpyxl
-  * 安装所需 Python 库：pandas、numpy、openpyxl  
-- 3.Power BI Desktop installed (for .pbix file viewing)
-  * 安装 Power BI Desktop（用于打开 .pbix 可视化文件） 
-- 4.Place online_retail_II.xlsx into the data/ directory
-  * 确保原始数据文件放在 `data/` 目录下（文件名为 `online_retail_II.xlsx`）
 
-## How to Run This Project 如何运行本项目
-
-- You can run the Python preprocessing script locally or in Google Colab, then open the dashboards in Power BI and Tableau for interactive exploration.
-  * 可在本地或 Google Colab 运行 Python 预处理脚本，再用 Power BI 和 Tableau 打开仪表板进行交互展示。
-
-- Run the preprocessing script:
-  * 运行预处理脚本：
-
- - 1. python and SQL scripts/preprocessing.py
-   The script will output:
-    - 执行数据清洗脚本，生成清洗后的数据文件：`data/ecommerce_cleaned.csv`
-
- - 2. Cleaned CSV: data/ecommerce_cleaned.csv
-   Open dashboard/ecommerce_behavior in Power BI Desktop and Tableau, Interact with filters and visuals on the dashboard
-    - 使用 Power BI 和 Tableau 打开仪表板，体验交互式筛选、可视化与数据探索
-     
-- Note on SQL Compatibility:
-  * 关于 SQL 兼容性
 
 - All SQL scripts in this project are designed using standard SQL syntax. While executed with SQLite for simplicity, the same structure is compatible with MySQL or PostgreSQL by changing the database connector and placeholder syntax (`?` → `%s`).
   * 所有 SQL 脚本基于标准语法编写，当前以 SQLite 运行为主，如需移植到 MySQL/PostgreSQL，仅需修改数据库连接方式及参数占位符格式（如 `?` → `%s`）。
