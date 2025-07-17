@@ -54,8 +54,8 @@ This project analyzes customer responses to a marketing campaign by a Portuguese
 
 ## How to Run This Project 如何运行本项目
 
-- This project consists of three Python modules executed in sequence: data cleaning → pipeline construction → analytical visualization output. It is suitable for teaching and project demonstration purposes.
-  * 本项目共含三个 Python 模块，运行顺序为：数据清洗 → 数据管道构建 → 输出分析图表，可用于教学与项目演示。
+- This project consists of three Python modules executed in sequence: data cleaning → pipeline construction → analytical visualization output. 
+  * 本项目共含三个 Python 模块，运行顺序为：数据清洗 → 数据管道构建 → 输出分析图表。
 
 - Run the preprocessing script:
   * 运行预处理脚本：
