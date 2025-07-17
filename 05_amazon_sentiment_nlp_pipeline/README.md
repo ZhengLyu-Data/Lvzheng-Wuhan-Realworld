@@ -46,27 +46,18 @@ Wordcloud Dashboard 数据可视化
 
 ## How to Run This Project 如何运行本项目
 
-- The workflow consists of three steps: navigate to the project directory → run the main script → generate sentiment labels and visualizations.
-  * 运行流程分为 3 步：进入项目目录 → 执行主脚本 → 生成情感标签与可视化图表。
-    
-- Run the preprocessing script:
-  *运行预处理脚本：
-  
-- Open terminal or Google Colab
-  * 打开终端或 Google Colab 环境
-    
-- Run the analysis pipeline:
-   python scripts/analysis_pipeline.py
-  * 执行主分析脚本，完成清洗、情感打标与图像生成
+如何运行本项目
+This project includes three modular Python scripts:
+本项目采用三段式脚本结构，分别完成数据清洗、数据管道构建与可视化分析：
 
-- Labeled reviews: /data/clean_reviews_labeled.csv
-  * 含情感标签的清洗数据集：`data/clean_reviews_labeled.csv`
+Step 1: Clean raw review data using Python 
+第一步：使用 Python 清洗原始评论数据，处理缺失值与文本规范化
 
-- Word cloud and sentiment distribution plots: /visualizations/
-  * 词云图与情感分布图：保存在 `visualizations/` 文件夹中
-     
-- This project can be executed both on Google Colab and local Jupyter Notebook.
-  * 所有脚本支持在 Google Colab 中直接运行，同时也兼容本地 Jupyter Notebook 环境。只需确保 Python 3.x 与相关库已正确安装，即可在本地复现全部流程与输出结果。
+Step 2: Build sentiment analysis pipeline and export CSV
+第二步：构建情感分析流程，将情感分类结果输出为 CSV 文件
+
+Step 3: Visualize sentiment distribution and save charts
+第三步：读取分析结果并生成情感图表，图像保存为本地文件（PNG 格式）
 
 ## Lessons Learned 学习亮点
 
