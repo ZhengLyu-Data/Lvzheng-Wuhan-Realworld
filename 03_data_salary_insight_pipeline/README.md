@@ -28,7 +28,7 @@ This project explores salary trends in data science roles globally. It highlight
   * 在运行本项目之前，请确保以下环境准备已完成：
     
 - Use Python version 3.10 or above.  
-  * 请使用 Python 3.10 或以上版本
+  * 用于运行项目用于脚本编写与流程控制的主要编程语言，推荐使用 3.10 或以上版本以确保兼容性和最新功能支持。
     
 - Google Colab or local Jupyter environment
   * 推荐使用 Google Colab 直接运行，亦支持本地 Jupyter 环境，只需配置好 Python 即可。
