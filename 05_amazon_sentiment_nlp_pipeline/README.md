@@ -51,11 +51,11 @@ Wordcloud Dashboard 数据可视化
 
 - Step 1: Run sentiment pipeline on Amazon review data 
   pipeline.py
-  * 第一步：运行情感分析流程，对亚马逊评论文本进行清洗与分类（pipeline.py）
+  * 第一步：运行情感分析流程，对亚马逊评论文本进行清洗与分类
 
 - Step 2: Generate and save sentiment distribution charts 
   run_pipeline.py
-  * 第二步：生成情感分析图表并保存为 PNG 图像（run_pipeline.py）
+  * 第二步：生成情感分析图表并保存为 PNG 图像
 
 ## Lessons Learned 学习亮点
 
