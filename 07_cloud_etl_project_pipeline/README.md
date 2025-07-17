@@ -9,7 +9,7 @@ This project demonstrates a complete cloud-based ETL pipeline using real-world h
 - Average Price by Region - Average property price across different regions.
   * 展示不同区域的平均房产价格分布
 
- ![Fault Type Distribution]() 
+ ![Fault Type Distribution](avg_price_by_region.png) 
 
 - Property Count by Year Built - Number of properties grouped by year built.
   * 展示不同建成年份的房产数量统计
