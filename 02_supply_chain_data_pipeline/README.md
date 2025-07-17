@@ -30,10 +30,12 @@ This project analyzes supply chain efficiency using a cleaned dataset of 10,999 
 - Before running the project, ensure the following:
   * 在运行本项目之前，请确保以下环境准备已完成：
 
- - Python 3.10+
-   * Python 3.10 或更高版本
+- Google Colab or local Jupyter environment
+  * 推荐使用 Google Colab 直接运行，亦支持本地 Jupyter 环境，只需配置好 Python 与 Spark 即可。
+    
  - Pandas / metabase
-   * 安装 pandas，用于数据载入与基础处理；Metabase 用于交互式仪表板  
+   * 安装 pandas，用于数据载入与基础处理；Metabase 用于交互式仪表板
+     
  - SQLite (optional for local storage)
    * 可选：用于本地执行 SQL 查询的轻量数据库 SQLite
     
