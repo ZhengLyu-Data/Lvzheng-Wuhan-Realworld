@@ -46,18 +46,16 @@ Wordcloud Dashboard 数据可视化
 
 ## How to Run This Project 如何运行本项目
 
-如何运行本项目
-This project includes three modular Python scripts:
-本项目采用三段式脚本结构，分别完成数据清洗、数据管道构建与可视化分析：
+- This project includes two modular Python scripts:
+  * 本项目采用模块化 Python 脚本结构，分阶段完成数据清洗、情感分析与图表可视化：
 
-Step 1: Clean raw review data using Python 
-第一步：使用 Python 清洗原始评论数据，处理缺失值与文本规范化
+- Step 1: Run sentiment pipeline on Amazon review data 
+  pipeline.py
+  * 第一步：运行情感分析流程，对亚马逊评论文本进行清洗与分类（pipeline.py）
 
-Step 2: Build sentiment analysis pipeline and export CSV
-第二步：构建情感分析流程，将情感分类结果输出为 CSV 文件
-
-Step 3: Visualize sentiment distribution and save charts
-第三步：读取分析结果并生成情感图表，图像保存为本地文件（PNG 格式）
+- Step 2: Generate and save sentiment distribution charts 
+  run_pipeline.py
+  * 第二步：生成情感分析图表并保存为 PNG 图像（run_pipeline.py）
 
 ## Lessons Learned 学习亮点
 
