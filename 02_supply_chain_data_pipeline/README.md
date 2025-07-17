@@ -51,15 +51,12 @@ This project analyzes supply chain efficiency using a cleaned dataset of 10,999 
   * 本项目采用三段式 Python 脚本结构与一个 SQL 可视化步骤，完成数据清洗、管道构建、数据导出与 KPI 查询展示：
 
 - Step 1: Clean the raw retail data（clean_data.py）
- （clean_data.py）
   * 第一步：使用 Python 清洗原始零售订单数据，处理缺失值与异常记录
 
 - Step 2: Construct a KPI data pipeline (pipeline.py)
-   (pipeline.py)
   * 第二步：构建 KPI 指标计算的数据流程
 
 - Step 3: Export the cleaned data for SQL analysis (run_pipeline.py)
-  (run_pipeline.py)
   * 第三步：将清洗后的数据导出为 CSV，用于后续 SQL 查询
 
 - Step 4: Run SQL queries and visualize KPIs in Metabase
