@@ -29,11 +29,13 @@ This project explores salary trends in data science roles globally. It highlight
 
 - Before running the project, ensure the following:
   * 在运行本项目之前，请确保以下环境准备已完成：
-
-- Python 3.10+
-  * 推荐使用 Python 3.10 或以上版本 
+    
+- Google Colab or local Jupyter environment
+  * 推荐使用 Google Colab 直接运行，亦支持本地 Jupyter 环境，只需配置好 Python 与 Spark 即可。
+    
 - pandas / matplotlib
   * 所需库：用于数据处理与图表绘制
+    
 - SQLite (optional for local storage)
   * 将数据文件 `ds_salaries.csv` 放入 `data/` 文件夹中
     
