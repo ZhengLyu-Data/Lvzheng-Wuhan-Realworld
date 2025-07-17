@@ -31,7 +31,7 @@ This project demonstrates a complete cloud-based ETL pipeline using real-world h
 - PySpark
 - Jupyter Notebook or Google Colab
 
-## How to Run This Project 运行方式
+## How to Run This Project 如何运行本项目
 
 - This project includes three modular Python scripts:
   * 本项目采用三段式脚本结构，分别完成数据清洗、数据管道构建与可视化分析：
