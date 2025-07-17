@@ -24,44 +24,49 @@ This project analyzes supply chain efficiency using a cleaned dataset of 10,999 
 
 ## Prerequisites 环境依赖
 
+- Before running the project, ensure the following:
+  * 在运行本项目之前，请确保以下环境准备已完成：
+    
 - Python 3.10 or above is recommended. Use Pandas for basic processing, Metabase for visualization, and optionally SQLite for local data management.
   * 推荐使用 Python 3.10 以上版本，使用 Pandas 进行基础处理，Metabase 进行可视化，也可选用 SQLite 做本地数据管理。
 
-- Before running the project, ensure the following:
-  * 在运行本项目之前，请确保以下环境准备已完成：
-
 - Google Colab or local Jupyter environment
-  * 推荐使用 Google Colab 直接运行，亦支持本地 Jupyter 环境，只需配置好 Python 与 Spark 即可。
+  * 推荐使用 Google Colab 直接运行，亦支持本地 Jupyter 环境，只需配置好 Python 即可。
     
- - Pandas / metabase
-   * 安装 pandas，用于数据载入与基础处理；Metabase 用于交互式仪表板
+ - metabase
+   * Metabase 用于交互式仪表板，数据可视化
      
  - SQLite (optional for local storage)
-   * 可选：用于本地执行 SQL 查询的轻量数据库 SQLite
+   * 可选：同样可以用于本地执行 SQL 查询的轻量数据库 SQLite
+  
+- All SQL scripts in this project are designed using standard SQL syntax. While executed with SQLite for simplicity, the same structure is compatible with MySQL or PostgreSQL by changing the database connector and placeholder syntax (`?` → `%s`).
+  * 本项目 SQL 脚本采用标准语法，可在 SQLite、MySQL、PostgreSQL 等数据库中灵活迁移，需根据数据库修改连接方式与参数占位符。
+   
+- This project can be executed both on Google Colab and local Jupyter Notebook.
+  * 所有脚本支持在 Google Colab 中直接运行，同时也兼容本地 Jupyter Notebook 环境。只需确保 Python 3.x 与相关库已正确安装，即可在本地复现全部流程与输出结果。     
     
 ## How to Run This Project 如何运行本项目
 
 - No additional data cleaning is required. Simply load the cleaned dataset and use the provided SQL scripts or Metabase to generate the visualizations.
   * 本项目不需额外清洗步骤。直接载入已清洗数据，使用 SQL 脚本或 Metabase 构建图表，即可获得可视化结果。
 
-- Run the preprocessing script:
-  * 运行预处理脚本：
+- This project includes three modular Python scripts and one SQL-based visualization step:
+  * 本项目采用三段式 Python 脚本结构与一个 SQL 可视化步骤，完成数据清洗、管道构建、数据导出与 KPI 查询展示：
 
-- Step 1: Load data (already cleaned)
-  * 第一步：载入已清洗的数据文件（如 `supply_chain_data_cleaned.csv`）
-- Step 2: Use visualization script or Metabase dashboard builder
-  * 第二步：运行 SQL 脚本或在 Metabase 中手动构建仪表板
-- Step 3: Review insights from chart outputs
-  * 第三步：通过图表交互分析运输方式、成本、折扣与客户评分之间的关系
-    
-- Note on SQL Compatibility:
-  * 关于 SQL 兼容性
+- Step 1: Clean the raw retail data（clean_data.py）
+ （clean_data.py）
+  * 第一步：使用 Python 清洗原始零售订单数据，处理缺失值与异常记录
 
-- All SQL scripts in this project are designed using standard SQL syntax. While executed with SQLite for simplicity, the same structure is compatible with MySQL or PostgreSQL by changing the database connector and placeholder syntax (`?` → `%s`).
-  * 本项目 SQL 脚本采用标准语法，可在 SQLite、MySQL、PostgreSQL 等数据库中灵活迁移，需根据数据库修改连接方式与参数占位符。
-   
-- This project can be executed both on Google Colab and local Jupyter Notebook.
-  * 所有脚本支持在 Google Colab 中直接运行，同时也兼容本地 Jupyter Notebook 环境。只需确保 Python 3.x 与相关库已正确安装，即可在本地复现全部流程与输出结果。
+- Step 2: Construct a KPI data pipeline (pipeline.py)
+   (pipeline.py)
+  * 第二步：构建 KPI 指标计算的数据流程
+
+- Step 3: Export the cleaned data for SQL analysis (run_pipeline.py)
+  (run_pipeline.py)
+  * 第三步：将清洗后的数据导出为 CSV，用于后续 SQL 查询
+
+- Step 4: Run SQL queries and visualize KPIs in Metabase
+  * 第四步：在 Metabase 中加载 CSV 数据，运行 SQL 查询并可视化 KPI 图表
 
 ## Lessons Learned 学习亮点
 
