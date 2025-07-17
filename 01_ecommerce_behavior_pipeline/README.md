@@ -46,9 +46,6 @@ Jupyter Notebook or Google Colab
 可选环境，用于演示数据结构或备份文档
 (Optional environment for structure demonstration or backup documentation)
 
-- This project can be run locally or in a Colab environment. Python and required libraries should be installed in advance, along with the dataset and Power BI Desktop for visualization.
-  * 本项目可在本地或 Colab 环境中运行，需提前安装 Python 与必要的库，并准备好数据文件和 Power BI 软件用于可视化操作。
-
 ## How to Run This Project 如何运行本项目
 
 - Before running the project, ensure the following:
