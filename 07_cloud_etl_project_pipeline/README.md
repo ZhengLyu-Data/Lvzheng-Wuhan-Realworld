@@ -10,10 +10,15 @@ The workflow simulates a typical distributed ETL scenario commonly used in real 
 
 ## Data Visualization 数据可视化
 
-| Chart 图表 | Description 简介 |
-|------------|------------------|
-| `price_distribution_by_region.png` | Average house price by region 区域房价均值分布 |
-| `property_count_by_year.png` | Property count by year built 各年份房产数量统计 |
+- Average Price by Region - Average property price across different regions.
+  * 展示不同区域的平均房产价格分布
+
+ ![Fault Type Distribution]() 
+
+- Property Count by Year Built - Number of properties grouped by year built.
+  * 展示不同建成年份的房产数量统计
+
+![Fault Type Distribution]() 
 
 > All charts are generated using **Seaborn + Matplotlib** to ensure high-quality, customizable visualization output.  
 > 所有图表均采用 Seaborn + Matplotlib 绘制，具备高质量与高度自定义能力。
