@@ -59,16 +59,16 @@ This project builds a Spark-based data pipeline to analyze fault patterns in ind
   * 本项目采用三段式脚本结构，分别完成数据清洗、数据管道构建与可视化分析：
 
 - Step 1: Clean raw sensor data using PySpark
-python clean_data.py  
-  * 第一步：使用 PySpark 清洗原始 IoT 传感器数据，处理缺失值与类型转换
+ （clean_data.py）  
+  * 第一步：使用 PySpark 清洗原始 IoT 传感器数据，处理缺失值与类型转换（clean_data.py）  
 
 - Step 2: Build processing pipeline and export CSV
-python pipeline.py  
-  * 第二步：构建数据管道，将清洗后的数据输出为 CSV 格式，供后续分析使用
+ （pipeline.py）  
+  * 第二步：构建数据管道，将清洗后的数据输出为 CSV 格式，供后续分析使用（pipeline.py）
 
 - Step 3: Visualize fault patterns and save charts
-python run_pipeline.py  
-  * 第三步：读取清洗后的 CSV，生成图表并保存为本地文件（PNG 格式）
+ （run_pipeline.py）  
+  * 第三步：读取清洗后的 CSV，生成图表并保存为本地文件（PNG 格式)（run_pipeline.py） 
 
 ## Lessons Learned 学习亮点
 
