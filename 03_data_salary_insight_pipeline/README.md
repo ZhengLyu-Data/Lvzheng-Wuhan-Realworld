@@ -24,20 +24,26 @@ This project explores salary trends in data science roles globally. It highlight
 
 ## Prerequisites 环境准备
 
-- Use Python version 3.10 or above. This project requires pandas and matplotlib. SQLite can optionally be used for SQL-based analysis.
-  * 请使用 Python 3.10 或以上版本，项目依赖 Pandas 和 Matplotlib。若需使用 SQL 脚本分析，可选用 SQLite 环境。
-
 - Before running the project, ensure the following:
   * 在运行本项目之前，请确保以下环境准备已完成：
     
+- Use Python version 3.10 or above.  
+  * 请使用 Python 3.10 或以上版本
+    
 - Google Colab or local Jupyter environment
-  * 推荐使用 Google Colab 直接运行，亦支持本地 Jupyter 环境，只需配置好 Python 与 Spark 即可。
+  * 推荐使用 Google Colab 直接运行，亦支持本地 Jupyter 环境，只需配置好 Python 即可。
     
-- pandas / matplotlib
-  * 所需库：用于数据处理与图表绘制
+- matplotlib
+  * 用于数据处理与图表绘制
     
-- SQLite (optional for local storage)
-  * 将数据文件 `ds_salaries.csv` 放入 `data/` 文件夹中
+- SQLite – for SQL query processing
+  * SQLite – 用于 SQL 查询处理
+
+- All SQL scripts in this project are designed using standard SQL syntax. They are executed using SQLite for simplicity, but can be adapted to MySQL or PostgreSQL by adjusting the database connector and placeholder syntax (`?` → `%s`).
+  * 本项目中的 SQL 脚本使用标准语法，默认在 SQLite 上运行。如需迁移至 MySQL 或 PostgreSQL，只需修改数据库连接方式与参数占位符格式（如将 `?` 替换为 `%s`）。
+
+- This project can be executed both on Google Colab and local Jupyter Notebook.
+  * 所有脚本支持在 Google Colab 中直接运行，同时也兼容本地 Jupyter Notebook 环境。只需确保 Python 3.x 与相关库已正确安装，即可在本地复现全部流程与输出结果。
     
 ## How to Run This Project 任何运行本项目
 
@@ -47,27 +53,21 @@ This project explores salary trends in data science roles globally. It highlight
 - Run the preprocessing script:
   * 运行预处理脚本：
   
- - Step 1: Load and Clean the raw dataset
- python clean_data.py
-   * 第一步：载入并清洗原始薪资数据，处理缺失值与标准化字段
- - Step 2: Build the analysis pipeline
- python pipeline.py
-   * 第二步：构建分析流程，生成分组、聚合与特征字段  
- - Step 3: Execute the pipeline
- python run_pipeline.py
-   * 第三步：运行主流程，输出分析结果与结构化数据文件    
- - Step 4: Review the output visuals (matplotlib charts)
-   * 第四步：查看自动生成的图表，包括不同地区、经验水平与公司规模维度下的薪资对比
+- Step 1: Load and Clean the raw dataset
+   (clean_data.py)
+  * 第一步：载入并清洗原始薪资数据，处理缺失值与标准化字段 (clean_data.py)
+     
+- Step 2: Build the analysis pipeline
+   (pipeline.py)
+  * 第二步：构建分析流程，生成分组、聚合与特征字段 (pipeline.py)
+     
+- Step 3: Execute the pipeline
+   (run_pipeline.py)
+  * 第三步：运行主流程，输出分析结果与结构化数据文件 (run_pipeline.py)
+        
+- Step 4: Review the output visuals (matplotlib charts)
+  * 第四步：查看自动生成的图表，包括不同地区、经验水平与公司规模维度下的薪资对比
     
-- Note on SQL Compatibility:
-  * 关于 SQL 兼容性
-
-- All SQL scripts in this project are designed using standard SQL syntax. They are executed using SQLite for simplicity, but can be adapted to MySQL or PostgreSQL by adjusting the database connector and placeholder syntax (`?` → `%s`).
-  * 本项目中的 SQL 脚本使用标准语法，默认在 SQLite 上运行。如需迁移至 MySQL 或 PostgreSQL，只需修改数据库连接方式与参数占位符格式（如将 `?` 替换为 `%s`）。
-
-- This project can be executed both on Google Colab and local Jupyter Notebook.
-  * 所有脚本支持在 Google Colab 中直接运行，同时也兼容本地 Jupyter Notebook 环境。只需确保 Python 3.x 与相关库已正确安装，即可在本地复现全部流程与输出结果。
-
 ## Lessons Learned 学习亮点
 
 - This project finds that job level has a significant impact on salary, remote work trends vary by region, and company size plays a key role in salary dispersion.
