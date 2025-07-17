@@ -1,8 +1,8 @@
 ## Overview 项目简介
 
-This project demonstrates a complete cloud-based ETL pipeline using real-world housing data. It includes data cleaning, transformation, analysis, and visualization using PySpark and Python tools. The workflow simulates a typical distributed ETL scenario commonly used in real estate intelligence applications.
+This project demonstrates a complete cloud-based ETL pipeline using real-world housing data. It includes data cleaning, transformation, analysis, and visualization using PySpark and Python tools. The workflow show a typical distributed ETL scenario commonly used in real estate intelligence applications.
 
-本项目基于真实房地产数据，构建了完整的云端 ETL 数据处理流程。涵盖数据清洗、转换、分析及可视化环节，采用 PySpark 与 Python 工具链实现。  流程模拟了分布式环境下的典型 ETL 管道，适用于房地产行业的数据智能应用场景。
+** 中文说明 (项目简介) ** 本项目基于真实房地产数据，构建了完整的云端 ETL 数据处理流程。涵盖数据清洗、转换、分析及可视化环节，采用 PySpark 与 Python 工具链实现。 流程显示了分布式环境下的典型 ETL 管道，适用于房地产行业的数据智能应用场景。
 
 ## Data Visualization 数据可视化
 
