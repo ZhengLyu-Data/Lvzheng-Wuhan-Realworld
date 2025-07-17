@@ -43,7 +43,7 @@ This project analyzes customer responses to a marketing campaign by a Portuguese
 - Google Colab or local Jupyter environment
   * 推荐使用 Google Colab 直接运行，亦支持本地 Jupyter 环境。
     
-- Install required libraries: python, numpy, textblob, matplotlib, wordcloud
+- Install required libraries: Python, Sql, Plotly
   * 安装所需库：用于数据处理与可视化
  
 - All SQL scripts in this project are designed using standard SQL syntax. While executed with SQLite for simplicity, the same structure is compatible with MySQL or PostgreSQL by changing the database connector and placeholder syntax (`?` → `%s`).
@@ -79,9 +79,12 @@ This project analyzes customer responses to a marketing campaign by a Portuguese
 
 - This project reveals that marketing contact methods significantly impact conversion rates. It also highlights clear response preferences across different age groups and education levels, which can help optimize target audience segmentation strategies.
   * 本项目揭示了营销联络方式对转化率有显著影响，且客户年龄段与教育程度之间存在明显的响应偏好，可辅助优化目标人群筛选策略。
+    
 - Contact method plays a role in campaign success
   * 客户接触方式（如电话、短信等）对营销转化成功率有显著影响
+    
 - Younger and older demographics have distinct subscription patterns
-  * 年龄与教育程度两个维度下的客户响应模式差异明显 
+  * 年龄与教育程度两个维度下的客户响应模式差异明显
+    
 - Education level correlates with campaign responsiveness
   * 可基于分析结果优化目标人群的筛选策略与沟通方式
