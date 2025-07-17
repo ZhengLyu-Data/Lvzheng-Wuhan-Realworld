@@ -21,7 +21,7 @@ This project demonstrates a complete cloud-based ETL pipeline using real-world h
 
 ## Data Architecture 数据架构
 
-![pipeline_architecture]()
+![pipeline_architecture](cloud_etl_project_pripeline_architecture.png)
 
 ## Prerequisites 运行依赖
 
