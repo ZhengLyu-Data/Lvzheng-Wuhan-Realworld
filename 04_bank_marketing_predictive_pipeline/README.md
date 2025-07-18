@@ -64,13 +64,13 @@ ORDER BY subscription_rate_pct DESC;
 
 ## How to Run This Project 如何运行本项目
 
-- 1. Step 1: Load and Clean the raw dataset (`clean_data.py`)  
+- Step 1: Load and Clean the raw dataset (clean_data.py)  
   * 载入并清洗原始数据，处理缺失值与字段规范
-  
-- 2. Step 2: Build the analysis pipeline (`pipeline.py`)  
+
+- Step 2: Build the analysis pipeline (pipeline.py)  
   * 构建分析流程，完成特征处理与分组统计
 
-- 3. Step 3: Execute and visualize (`run_pipeline.py`)  
+- Step 3: Execute and visualize (run_pipeline.py)  
   * 运行主脚本，生成所有图表与结构化输出
 
 ## Lessons Learned 学习亮点
