@@ -43,9 +43,9 @@ import shutil
 def download_outputs():
     from IPython.display import FileLink, display
     files = [
-        "fig_campaign_vs_euribor.html",
-        "fig_campaign_histogram.html",
-        "fig_correlation_heatmap.html"
+        "campaign_vs_euribor.html",
+        "campaign_histogram.html",
+        "correlation_heatmap.html"
 	"bank_marketing_cleaned.csv"
     ]
     for f in files:
