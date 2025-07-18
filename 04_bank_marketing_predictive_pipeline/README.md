@@ -23,7 +23,7 @@ This project analyzes a bank marketing dataset to identify factors influencing c
 
 ![Data Architecture](bank_marketing_dataset_pipeline_architecture.png)
 
-## 🗃SQL Analysis  SQL 分析
+## SQL Analysis  SQL 分析
 
 - Query: Subscription Rate by Education Level  
   *（不同教育程度的订阅成功率分析）
