@@ -22,7 +22,7 @@ This project explores salary trends in data science roles globally. It highlight
 - This project uses modular Python scripts for data cleaning and pipeline construction, and generates static visualizations using Matplotlib—demonstrating both an engineering-oriented structure and compatibility with teaching presentations.  
   * 本项目采用模块化 Python 脚本进行数据清洗与管道构建，并通过 Matplotlib 输出静态可视化图像，体现工程结构与教学演示兼容性。
 
-![Data Architecture]()
+![Data Architecture](bank_marketing_dataset_pipeline_architecture.png)
 
 ##  Prerequisites / 环境准备
 
