@@ -40,6 +40,9 @@ This project analyzes a bank marketing dataset to identify factors influencing c
 - All SQL scripts in this project are written in standard SQL syntax, defaulted to SQLite. To adapt to MySQL or PostgreSQL, adjust connectors and parameter placeholders.  
   * 所有 SQL 脚本基于标准语法，默认使用 SQLite。如需迁移至其他数据库，调整连接方式及参数符号即可。
 
+- This project can be executed both on Google Colab and local Jupyter Notebook.
+  * 所有脚本支持在 Google Colab 中直接运行，同时也兼容本地 Jupyter Notebook 环境。只需确保 Python 3.x 与相关库已正确安装，即可在本地复现全部流程与输出结果。
+
 ## How to Run This Project / 如何运行本项目
 
 - 1. Step 1: Load and Clean the raw dataset (`clean_data.py`)  
