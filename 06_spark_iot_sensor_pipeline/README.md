@@ -80,7 +80,9 @@ This project builds a Spark-based data pipeline to analyze fault patterns in ind
 
 - Spark can efficiently handle large-scale sensor data
   * Spark 在处理大规模工业传感器数据方面表现出色，支持高效 ETL 流程
+    
 - Clear visual patterns can help detect fault types
   * 故障类型与振动、温度、压力等信号变量呈现出显著模式，有助于构建预测模型
+    
 - Modular structure ensures clean workflow and reproducibility
   * 模块化结构保证了流程清晰与复现能力，适合教学演示与简历展示
