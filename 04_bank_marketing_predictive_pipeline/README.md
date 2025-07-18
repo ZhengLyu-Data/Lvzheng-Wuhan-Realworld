@@ -26,7 +26,7 @@ This project analyzes a bank marketing dataset to identify factors influencing c
 ##  Prerequisites / 环境准备
 
 - Use Python version 3.10 or above.  
-  * 推荐使用 Python 3.10 以上版本，确保兼容性和新特性支持。
+  * 推荐使用 Python 3.10 或以上版本，确保兼容性和新特性支持。
 
 - Google Colab or local Jupyter environment  
   * 推荐使用 Google Colab 运行，亦支持本地 Jupyter 环境。
