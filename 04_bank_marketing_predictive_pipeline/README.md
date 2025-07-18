@@ -31,7 +31,7 @@ This project analyzes a bank marketing dataset to identify factors influencing c
 - Google Colab or local Jupyter environment  
   * 推荐使用 Google Colab 运行，亦支持本地 Jupyter 环境。
 
-- plotly 
+- Plotly 
   * 用于图表绘制的可视化库
 
 - SQLite – for SQL query processing  
