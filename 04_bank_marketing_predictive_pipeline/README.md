@@ -23,6 +23,24 @@ This project analyzes a bank marketing dataset to identify factors influencing c
 
 ![Data Architecture](bank_marketing_dataset_pipeline_architecture.png)
 
+## 🗃️ SQL Analysis / SQL 分析
+
+- Query: Subscription Rate by Education Level  
+  *（不同教育程度的订阅成功率分析）
+
+sql
+SELECT education,
+       COUNT(*) AS total_customers,
+       SUM(CASE WHEN y = 'yes' THEN 1 ELSE 0 END) AS subscribed,
+       ROUND(100.0 * SUM(CASE WHEN y = 'yes' THEN 1 ELSE 0 END) / COUNT(*), 2) AS subscription_rate_pct
+FROM bank_marketing
+GROUP BY education
+ORDER BY subscription_rate_pct DESC;
+
+** Insight / 洞察：**
+- Higher education level is correlated with a higher subscription rate.
+- 高学历客户的订阅成功率更高，营销应针对性细分。
+
 ##  Prerequisites / 环境准备
 
 - Use Python version 3.10 or above.  
