@@ -1,10 +1,10 @@
-## Overview / 项目总览
+## Overview 项目总览
 
 This project analyzes a bank marketing dataset to identify factors influencing customer subscription to term deposits. The goal is to build an interpretable, efficient, and presentation-ready project using a lightweight CSV file and clean code structure.
 
 ** 中文说明 (项目简介) ** 本项目基于银行营销数据集，探索影响客户订阅定期存款的关键因素。目标是构建一个结构清晰、可视化美观、便于展示的轻量级数据分析项目。
 
-## Data Visualization / 数据可视化
+## Data Visualization 数据可视化
 
 - All visualizations are created using Plotly and exported as interactive HTML files and downloadable PNGs.
   * 所有图表均使用 Plotly 创建，并以交互式 HTML 和 PNG 下载格式输出。
@@ -16,14 +16,14 @@ This project analyzes a bank marketing dataset to identify factors influencing c
 ![plotly dashboard image](campaign_vs_euribor_rate.png)  
 ![plotly dashboard image](correlation_heatmap.png)
 
-## Data Architecture / 数据流程图
+## Data Architecture 数据流程图
 
 - This project uses modular Python scripts for data cleaning and pipeline construction, and generates static visualizations using Matplotlib—demonstrating both an engineering-oriented structure and compatibility with teaching presentations.  
   * 本项目采用模块化 Python 脚本进行数据清洗与管道构建，并通过 Matplotlib 输出静态可视化图像，体现工程结构与教学演示兼容性。
 
 ![Data Architecture](bank_marketing_dataset_pipeline_architecture.png)
 
-## 🗃️ SQL Analysis / SQL 分析
+## 🗃SQL Analysis  SQL 分析
 
 - Query: Subscription Rate by Education Level  
   *（不同教育程度的订阅成功率分析）
@@ -38,11 +38,11 @@ GROUP BY education
 ORDER BY subscription_rate_pct DESC;
 ```
 
-** Insight / 洞察：**
+** Insight 洞察：**
 - Higher education level is correlated with a higher subscription rate.
   * 高学历客户的订阅成功率更高，营销应针对性细分。
 
-##  Prerequisites / 环境准备
+##  Prerequisites 环境准备
 
 - Use Python version 3.10 or above.  
   * 推荐使用 Python 3.10 或以上版本，确保兼容性和新特性支持。
@@ -62,7 +62,7 @@ ORDER BY subscription_rate_pct DESC;
 - This project can be executed both on Google Colab and local Jupyter Notebook.
   * 所有脚本支持在 Google Colab 中直接运行，同时也兼容本地 Jupyter Notebook 环境。只需确保 Python 3.x 与相关库已正确安装，即可在本地复现全部流程与输出结果。
 
-## How to Run This Project / 如何运行本项目
+## How to Run This Project 如何运行本项目
 
 - 1. Step 1: Load and Clean the raw dataset (`clean_data.py`)  
   * 载入并清洗原始数据，处理缺失值与字段规范
@@ -73,7 +73,7 @@ ORDER BY subscription_rate_pct DESC;
 - 3. Step 3: Execute and visualize (`run_pipeline.py`)  
   * 运行主脚本，生成所有图表与结构化输出
 
-## Lessons Learned / 学习亮点
+## Lessons Learned 学习亮点
 
 - Minimal yet professional project structure
   * 项目结构简洁但专业，图表美观
