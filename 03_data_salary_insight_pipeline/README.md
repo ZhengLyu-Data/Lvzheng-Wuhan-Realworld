@@ -22,6 +22,24 @@ This project explores salary trends in data science roles globally. It highlight
 
 ![Data Architecture](data_salary_insight_pipeline_architecture.png)
 
+
+## 🗃️ SQL Analysis SQL 分析
+
+- Query: Average Salary by Experience Level  
+  *（不同经验等级的数据科学家平均薪资）
+
+```sql
+SELECT experience_level,
+       ROUND(AVG(salary_in_usd), 2) AS avg_salary
+FROM salary_data
+GROUP BY experience_level
+ORDER BY avg_salary DESC;
+```
+
+** Insight 洞察：**  
+- Senior-level roles command significantly higher salaries.
+  * 高级职位薪资显著高于初级岗位，体现经验溢价。
+
 ## Prerequisites 环境准备
 
 - Before running the project, ensure the following:
