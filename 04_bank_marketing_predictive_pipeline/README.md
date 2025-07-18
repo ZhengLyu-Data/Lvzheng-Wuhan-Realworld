@@ -12,9 +12,9 @@ This project analyzes a bank marketing dataset to identify factors influencing c
 - Below are screenshots of the final visualizations:  
   * 以下为本项目生成的最终可视化图表示例截图：
 
-![plotly dashboard image](Campaign_Histogram.png)  
-![plotly dashboard image](Campaign_vs_Euribor_Rate.png)  
-![plotly dashboard image](Correlation_Heatmap.png)
+![plotly dashboard image](campaign_histogram.png)  
+![plotly dashboard image](campaign_vs_euribor_rate.png)  
+![plotly dashboard image](correlation_heatmap.png)
 
 ## Data Architecture / 数据流程图
 
