@@ -40,7 +40,7 @@ ORDER BY subscription_rate_pct DESC;
 
 ** Insight / 洞察：**
 - Higher education level is correlated with a higher subscription rate.
-- 高学历客户的订阅成功率更高，营销应针对性细分。
+  * 高学历客户的订阅成功率更高，营销应针对性细分。
 
 ##  Prerequisites / 环境准备
 
