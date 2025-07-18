@@ -29,6 +29,24 @@ Tableau Dashboard 数据可视化
 - We chose Power BI for interactive visualization and Python for efficient data wrangling. This architecture allows non-technical users to filter and explore insights while maintaining a reproducible backend pipeline.
   * 我们选择使用 Power BI 进行交互式可视化，Python 用于高效的数据清洗处理。该架构既支持非技术用户进行筛选与洞察探索，又能保持后端流程的可复现性。
 
+## 🗃️ SQL Analysis / SQL 分析
+
+- Query: Top 10 Countries by Total Sales  
+  *（按国家统计销售总额前十）
+
+```sql
+SELECT Country,
+       SUM(UnitPrice * Quantity) AS TotalSales
+FROM retail_data
+GROUP BY Country
+ORDER BY TotalSales DESC
+LIMIT 10;
+```
+
+**Insight / 洞察：**  
+- Sales are heavily concentrated in the UK, with other countries contributing smaller volumes.
+- 销售额主要集中在英国市场，其他国家贡献相对较小。
+
 ## Prerequisites 环境依赖  
 
 - Before running the project, ensure the following:
