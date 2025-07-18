@@ -9,7 +9,7 @@ def clean_data():
     ]
     df_cleaned = df[numeric_cols].dropna()
     df_cleaned.to_csv("bank_marketing_cleaned.csv", index=False)
-    print("✅ Cleaned data saved as bank_marketing_cleaned.csv")
+    print("Cleaned data saved as bank_marketing_cleaned.csv")
 
 if __name__ == "__main__":
     clean_data()
@@ -22,7 +22,7 @@ def load_data():
     if not os.path.exists(filename):
         raise FileNotFoundError("❌ bank_marketing_cleaned.csv not found. Run clean_data.py first.")
     df = pd.read_csv(filename)
-    print("✅ Loaded cleaned data")
+    print("Loaded cleaned data")
     return df
 
 if __name__ == "__main__":
@@ -74,10 +74,10 @@ import shutil
 def download_outputs():
     from IPython.display import FileLink, display
     files = [
-        "fig_campaign_vs_euribor.html",
-        "fig_campaign_histogram.html",
-        "fig_correlation_heatmap.html"
-	      "bank_marketing_cleaned.csv"
+        "campaign_vs_euribor.html",
+        "campaign_histogram.html",
+        "correlation_heatmap.html"
+	"bank_marketing_cleaned.csv"
     ]
     for f in files:
         try:
