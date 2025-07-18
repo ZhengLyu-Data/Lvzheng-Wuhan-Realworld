@@ -25,13 +25,13 @@ def run_all():
     df = load_data()
 
     fig1 = px.scatter(df, x="campaign", y="euribor3m", title="Campaign vs Euribor Rate")
-    fig1.write_html("fig_campaign_vs_euribor.html")
+    fig1.write_html("campaign_vs_euribor.html")
 
     fig2 = px.histogram(df, x="campaign", title="Distribution of Campaign Count")
-    fig2.write_html("fig_campaign_histogram.html")
+    fig2.write_html("campaign_histogram.html")
 
     fig3 = px.imshow(df.corr(), text_auto=True, title="Correlation Heatmap")
-    fig3.write_html("fig_correlation_heatmap.html")
+    fig3.write_html("correlation_heatmap.html")
 
     print("All plots saved as HTML files.")
 
@@ -58,7 +58,7 @@ download_outputs()
 
 from google.colab import files
 
-files.download("fig_campaign_vs_euribor.html")
-files.download("fig_campaign_histogram.html")
-files.download("fig_correlation_heatmap.html")
+files.download("campaign_vs_euribor.html")
+files.download("campaign_histogram.html")
+files.download("correlation_heatmap.html")
 files.download("bank_marketing_cleaned.csv")
