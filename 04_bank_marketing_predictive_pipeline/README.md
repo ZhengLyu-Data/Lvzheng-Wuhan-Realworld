@@ -14,7 +14,7 @@ This project explores salary trends in data science roles globally. It highlight
   * 以下为本项目生成的最终可视化图表示例截图：
 
 ![plotly dashboard image](Campaign_Histogram.png)  
-![plotly dashboard image]()  
+![plotly dashboard image](Campaign_vs_Euribor_Rate.png)  
 ![plotly dashboard image]()
 
 ## Data Architecture / 数据流程图
