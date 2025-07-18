@@ -35,7 +35,7 @@ FROM supply_chain_data
 GROUP BY Mode_of_Shipment;
 ```
 
-** Insight 洞察：**  
+** Insight 洞察：** 
 - Certain shipping modes incur higher costs despite similar average weights.
   * 部分运输方式在重量相近情况下仍产生较高成本，存在优化空间。
 
