@@ -23,7 +23,7 @@ This project explores salary trends in data science roles globally. It highlight
 ![Data Architecture](data_salary_insight_pipeline_architecture.png)
 
 
-## 🗃️ SQL Analysis SQL 分析
+## SQL Analysis SQL 分析
 
 - Query: Average Salary by Experience Level  
   *（不同经验等级的数据科学家平均薪资）
