@@ -22,6 +22,23 @@ This project analyzes supply chain efficiency using a cleaned dataset of 10,999 
 
 ![Data Architecture](supply_chain_data_pipeline_architecture.png)
 
+## SQL Analysis SQL 分析
+
+- Query: Shipment Mode Efficiency  
+  *（不同运输方式的平均成本与运输时长）
+
+```sql
+SELECT Mode_of_Shipment,
+       AVG(Cost_of_the_Product) AS AvgCost,
+       AVG(Weight_in_gms) AS AvgWeight
+FROM supply_chain_data
+GROUP BY Mode_of_Shipment;
+```
+
+** Insight 洞察：**  
+- Certain shipping modes incur higher costs despite similar average weights.
+  * 部分运输方式在重量相近情况下仍产生较高成本，存在优化空间。
+
 ## Prerequisites 环境依赖
 
 - Before running the project, ensure the following:
