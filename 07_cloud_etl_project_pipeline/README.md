@@ -57,7 +57,7 @@ This project demonstrates a complete cloud-based ETL pipeline using real-world h
   (run_pipeline.py)
   * 第三步：读取中间结果，使用 matplotlib 与 seaborn 生成图表，并保存为本地 PNG 图片格式 (run_pipeline.py)
 
-## 🎓 Lessons Learned 学习亮点
+## Lessons Learned 学习亮点
 
 - Built a real-world ETL pipeline with cloud-ready logic and distributed processing design
   * 构建了具有云端部署能力的真实 ETL 数据处理流程，具备分布式处理设计
