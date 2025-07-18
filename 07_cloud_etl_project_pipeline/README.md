@@ -59,7 +59,14 @@ This project demonstrates a complete cloud-based ETL pipeline using real-world h
 
 ## 🎓 Lessons Learned 学习亮点
 
-- Built a real-world ETL pipeline with **cloud-ready logic and distributed processing design**
-- Learned to combine **PySpark** and **pandas** for flexible preprocessing and transformation
-- Developed multi-step data workflows based on **modular Python script structure**
-- Practiced statistical visualization using **Seaborn + Matplotlib**
+- Built a real-world ETL pipeline with cloud-ready logic and distributed processing design
+  * 构建了具有云端部署能力的真实 ETL 数据处理流程，具备分布式处理设计
+    
+- Learned to combine PySpark and python for flexible preprocessing and transformation
+  * 学会结合 PySpark 与 Python，实现灵活的数据预处理与转换操作
+    
+- Developed multi-step data workflows based on modular Python script structure
+  * 开发了基于模块化 Python 脚本结构的多步骤数据工作流
+    
+- Practiced statistical visualization using Seaborn + Matplotlib
+  * 掌握使用 Seaborn 与 Matplotlib 进行统计型数据可视化的实践技能
