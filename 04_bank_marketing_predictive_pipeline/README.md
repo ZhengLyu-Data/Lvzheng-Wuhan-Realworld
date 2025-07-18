@@ -28,7 +28,7 @@ This project analyzes a bank marketing dataset to identify factors influencing c
 - Query: Subscription Rate by Education Level  
   *（不同教育程度的订阅成功率分析）
 
-sql
+```sql
 SELECT education,
        COUNT(*) AS total_customers,
        SUM(CASE WHEN y = 'yes' THEN 1 ELSE 0 END) AS subscribed,
@@ -36,6 +36,7 @@ SELECT education,
 FROM bank_marketing
 GROUP BY education
 ORDER BY subscription_rate_pct DESC;
+```
 
 ** Insight / 洞察：**
 - Higher education level is correlated with a higher subscription rate.
