@@ -13,7 +13,7 @@ This project analyzes sentiment in Amazon food product reviews using natural lan
 
 Seaborn Dashboard 数据可视化
 
-![Seaborn sentiment_distribution dashboard image]().
+![Seaborn sentiment_distribution dashboard image](sentiment_distribution.png).
 
 Wordcloud Dashboard 数据可视化
 
