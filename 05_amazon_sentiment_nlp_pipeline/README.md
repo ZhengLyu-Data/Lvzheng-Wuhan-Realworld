@@ -17,7 +17,7 @@ Seaborn Dashboard 数据可视化
 
 Wordcloud Dashboard 数据可视化
 
-![Wordcloud wordcloud dashboard image]().
+![Wordcloud wordcloud dashboard image](wordcloud_reviews.png).
 
 ## Data Architecture 数据流程图
 
