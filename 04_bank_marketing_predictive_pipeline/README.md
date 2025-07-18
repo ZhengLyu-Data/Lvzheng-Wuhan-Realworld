@@ -1,15 +1,14 @@
 ## Overview / 项目总览
 
-This project explores salary trends in data science roles globally. It highlights differences based on job level, company size, and work flexibility using structured pipeline processing and visual outputs.
+This project analyzes a bank marketing dataset to identify factors influencing customer subscription to term deposits. The goal is to build an interpretable, efficient, and presentation-ready project using a lightweight CSV file and clean code structure.
 
-**中文说明 (项目简介)**  
-本项目分析了全球范围内数据科学岗位的薪资趋势。通过 Python 数据管道处理，结合 Matplotlib 图表可视化，揭示了不同职位级别、公司规模与远程工作比例下的薪资差异。项目展示了清洗 → 分析 → 可视化的完整流程，适合教学演示与求职展示。
+**中文说明 (项目简介)** 本项目基于银行营销数据集，探索影响客户订阅定期存款的关键因素。目标是构建一个结构清晰、可视化美观、便于展示的轻量级数据分析项目。
 
 ## Data Visualization / 数据可视化
 
-- This project uses Matplotlib to visualize the average salary by experience level, the distribution of remote work ratios, and salary variations across different company sizes.  
-  * 本项目使用 Matplotlib 绘制图表，展示了平均薪资与职位经验等级、远程办公比例分布、不同公司规模下的薪资差异。
-
+- All visualizations are created using Plotly and exported as interactive HTML files and downloadable PNGs.
+  * 所有图表均使用 Plotly 创建，并以交互式 HTML 和 PNG 下载格式输出。
+    
 - Below are screenshots of the final visualizations:  
   * 以下为本项目生成的最终可视化图表示例截图：
 
@@ -54,12 +53,14 @@ This project explores salary trends in data science roles globally. It highlight
 
 ## Lessons Learned / 学习亮点
 
-- Position level significantly influences salary outcomes  
-  * 职位等级对薪资水平具有显著影响
+- Minimal yet professional project structure
+  * 项目结构简洁但专业，图表美观
+    
+- Quick turnaround with one main query and clean Plotly visuals
+  * 单一 SQL 分析维度，突出重点
+  
+- Demonstrates business insights in the context of banking customer acquisition and targeted marketing strategies
+  * 展示了银行领域客户获取和精准营销的洞察价值
 
-- Remote roles show diverse regional patterns  
-  * 远程岗位在不同地区的比例分布差异显著
 
-- Company size contributes to salary dispersion  
-  * 公司规模影响薪资分布的离散程度
 
