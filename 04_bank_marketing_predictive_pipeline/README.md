@@ -1,6 +1,6 @@
 ## Overview 项目总览
 
-This project analyzes a bank marketing dataset to identify factors influencing customer subscription to term deposits. The goal is to build an interpretable, efficient, and presentation-ready project using a lightweight CSV file and clean code structure.
+This project is sourced from the Bank Marketing Data Set provided by the UCI Machine Learning Repository. It contains real customer interaction records collected by a Portuguese bank during marketing campaigns for term deposit products. The data includes customer demographics, historical contact behavior, economic indicators, and campaign outcomes, making it suitable for predictive modeling and business decision analysis.
 
 ** 中文说明 (项目简介) ** 本项目基于 Kaggle 的葡萄牙银行真实客户营销数据（由 UCI 数据库收录，Kaggle 平台同步发布），具备完整业务字段与预测标签，开展数据清洗与探索分析，贴合实际营销业务场景，适用于精细化运营策略制定。
 
