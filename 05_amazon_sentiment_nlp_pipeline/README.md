@@ -1,5 +1,5 @@
 ## Overview 项目总览
-This project analyzes sentiment in Amazon food product reviews using natural language processing (NLP). It classifies reviews as positive, neutral, or negative using TextBlob and visualizes the results using Python libraries. The pipeline demonstrates data ingestion, preprocessing, sentiment analysis, and visualization.
+This project uses the Amazon Fine Food Reviews dataset, publicly available on Kaggle. The dataset consists of over 560,000 real user reviews for food-related products on Amazon. Each record includes review text, rating, user ID, product ID, and timestamp. Originally contributed by the Amazon data science community, this dataset is widely used for sentiment analysis, NLP model training, and recommendation system research.
 
 ** 中文说明 (项目简介) **  本项目使用 Kaggle 平台上公开的 Amazon Fine Food Reviews 数据集，该数据由 Amazon 用户在平台上对食品类商品的真实购买评价构成，涵盖文本评论、评分等级、用户 ID、商品 ID、时间戳等字段，共计超 56 万条评论。该数据原始来源为 Amazon 数据科学社区贡献，用于自然语言处理、情感分析与推荐系统建模等任务，广泛用于 NLP 模型训练与真实电商场景的客户反馈分析。
 
