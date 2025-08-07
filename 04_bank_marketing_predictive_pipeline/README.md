@@ -2,7 +2,7 @@
 
 This project analyzes a bank marketing dataset to identify factors influencing customer subscription to term deposits. The goal is to build an interpretable, efficient, and presentation-ready project using a lightweight CSV file and clean code structure.
 
-** 中文说明 (项目简介) ** 本项目基于银行营销数据集，探索影响客户订阅定期存款的关键因素。目标是构建一个结构清晰、可视化美观、便于展示的轻量级数据分析项目。 
+** 中文说明 (项目简介) ** 本项目基于 Kaggle 的葡萄牙银行真实客户营销数据（由 UCI 数据库收录，Kaggle 平台同步发布），具备完整业务字段与预测标签，开展数据清洗与探索分析，贴合实际营销业务场景，适用于精细化运营策略制定。
 
 ## Data Visualization 数据可视化
 
