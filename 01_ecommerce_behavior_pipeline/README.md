@@ -1,5 +1,5 @@
 ## Overview 项目总览  
-This project analyzes online customer purchasing behavior using the UCI Online Retail II dataset. The goal is to identify top customers, evaluate product performance over time, and visualize purchasing patterns using Power BI. The pipeline includes data cleaning with Python and interactive dashboard creation.
+This project uses the Online Retail II dataset published on Kaggle, which contains real transactional data from a UK-based online retailer between 2009 and 2011. The dataset includes customer purchase behavior, invoice records, product quantities, and regional metadata. It is widely used for behavior analysis, RFM modeling, and e-commerce pattern discovery.
 
 ** 中文说明 (项目简介) **  本项目基于 Kaggle 上英国某大型在线零售企业的真实交易数据（由 UCI 数据库收录，Kaggle 平台同步发布），覆盖客户行为、订单明细与国家分布，适用于用户行为分析与运营策略优化研究。真实UCI Online Retail II 数据集
 
