@@ -1,6 +1,6 @@
 ## Overview 项目总览
 
-This project builds a Spark-based data pipeline to analyze fault patterns in industrial IoT sensor data. By leveraging PySpark for data handling and Python visualization tools, it demonstrates how real-time manufacturing signals can be transformed into actionable insights.
+This project uses an IoT server sensor dataset provided by NASA and published on Kaggle. The data includes real-time system sensor readings from NASA's server infrastructure, with full time-series coverage and labeled failure points. It is widely applied in predictive maintenance, anomaly detection, and industrial equipment status monitoring tasks.
 
 ** 中文说明 (项目简介) ** 本项目基于 Kaggle 平台上的真实数据集，使用由美国国家航空航天局（NASA）提供的服务器传感器监控数据，包含服务器运行中的完整时间序列与故障标注，广泛应用于设备状态预测、工业健康监测与智能维护建模任务，具备高度的实际应用价值与工程适应性。
 
