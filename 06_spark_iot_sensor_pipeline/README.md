@@ -2,7 +2,7 @@
 
 This project builds a Spark-based data pipeline to analyze fault patterns in industrial IoT sensor data. By leveraging PySpark for data handling and Python visualization tools, it demonstrates how real-time manufacturing signals can be transformed into actionable insights.
 
-** 中文说明 (项目简介) ** 本项目基于工业 IoT 传感器数据，构建了一个 Spark 数据分析流程。通过使用 PySpark 进行数据处理，并结合 Python 可视化工具，探索制造过程中故障信号的识别与分析方法，适合教学展示与数据工程类岗位申请。
+** 中文说明 (项目简介) ** 本项目基于 Kaggle 平台上的真实数据集，使用由美国国家航空航天局（NASA）提供的服务器传感器监控数据，包含服务器运行中的完整时间序列与故障标注，广泛应用于设备状态预测、工业健康监测与智能维护建模任务，具备高度的实际应用价值与工程适应性。
 
 ## Data Visualization | 可视化概览
 
