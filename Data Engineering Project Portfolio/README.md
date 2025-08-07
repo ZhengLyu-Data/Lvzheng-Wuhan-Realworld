@@ -15,7 +15,7 @@ This repository showcases six real-world data engineering projects. Each project
 | 03 | Data Science Salary Analysis<br>数据科学职业薪资分析 | Worldwide salary distribution for DS roles<br>分析全球不同数据职位的薪资分布与地区差异 | Python, SQL, Matplotlib |
 | 04 | Bank Marketing Dataset<br>银行营销行为分析 | Predictive Modeling for Bank Term Deposit Campaigns<br>预测客户是否会响应定期存款营销活动 | Python, SQL, Plotly |
 | 05 | Amazon Sentiment NLP<br>亚马逊评论情感分析 | Sentiment classification on product reviews<br>通过情感分析方法对亚马逊评论进行分类与可视化展示 | Python, Seaborn, Wordcloud |
-| 06 | Spark IoT Sensor Pipeline<br>物联网传感器故障检测流程 | Fault detection and classification based on industrial sensor logs<br>基于工业传感器数据的故障检测与分类分析流程 | Python, PySpark, Seaborn, Matplotlib |
+| 06 | NASA Spark IoT Sensor Pipeline<br>NASA物联网传感器故障检测流程 | Fault detection and classification based on industrial sensor logs<br>基于工业传感器数据的故障检测与分类分析流程 | Python, PySpark, Seaborn, Matplotlib |
 | 07 | Cloud ETL Project Pipeline<br>云端数据处理与 ETL 管道构建项目 | Cloud-based ETL pipeline for structured real estate transactions<br>基于云平台的房地产结构化交易数据清洗与分析流程 | Python，PySpark，seaborn, Matplotlib |
     
 ## Technical Highlights 技术亮点
