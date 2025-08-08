@@ -17,7 +17,7 @@ Power BI Dashboard 数据可视化
 
 Tableau Dashboard 数据可视化
 
-![tableau dashboard image]()
+![tableau dashboard image](ecommerce_behavior_dashboard_twbx.png)
 
 ## Data Architecture 数据流程图  
 
