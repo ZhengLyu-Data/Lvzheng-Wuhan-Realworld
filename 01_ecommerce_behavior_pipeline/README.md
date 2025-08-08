@@ -13,11 +13,11 @@ This project uses the Online Retail II dataset published on Kaggle, which contai
 
 Power BI Dashboard 数据可视化
 
-![Power BI dashboard image](ecommerce_customer_behavior.pbix.png)
+![Power BI dashboard image]()
 
 Tableau Dashboard 数据可视化
 
-![tableau dashboard image](ecommerce_behavior_dashboard.twbx.png)
+![tableau dashboard image]()
 
 ## Data Architecture 数据流程图  
 
@@ -75,8 +75,8 @@ LIMIT 10;
 - Before running the project, ensure the following:
   * 在运行本项目之前，请确保以下环境准备已完成：
 
-- Step 1: Clean raw e-commerce data using Python (clean_data.py)
-  * 第一步：使用 Python 对电商原始数据进行清洗，包括缺失值处理、数据类型转换等
+- Step 1: Clean raw Target e-commerce data using Python (clean_data.py)
+  * 第一步：使用 Python 对塔吉特百货原始数据进行清洗，包括缺失值处理、数据类型转换等
 
 - Step 2: Build processing pipeline and export intermediate dataset (pipeline.py)
   * 第二步：构建数据管道，将清洗后数据输出为中间 CSV 文件，供后续分析使用
