@@ -13,7 +13,7 @@ This project uses the Online Retail II dataset published on Kaggle, which contai
 
 Power BI Dashboard 数据可视化
 
-![Power BI dashboard image]()
+![Power BI dashboard image](ecommerce_behavior_dashboard_pbix.png)
 
 Tableau Dashboard 数据可视化
 
