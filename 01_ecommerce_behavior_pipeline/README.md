@@ -41,8 +41,8 @@ FROM order_items_cleaned;
 ```
 
 ** Insight 洞察：**  
-- Sales are heavily concentrated in the UK, with other countries contributing smaller volumes.
-  * 销售额主要集中在英国市场，其他国家贡献相对较小。
+- Sales are heavily concentrated in the US, with other countries contributing smaller volumes.
+  * 销售额主要集中在美国市场，其他国家贡献相对较小。
 
 ## Prerequisites 环境依赖  
 
