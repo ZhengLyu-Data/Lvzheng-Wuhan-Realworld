@@ -1,7 +1,7 @@
 ## Overview 项目总览  
-This project uses the Online Retail II dataset published on Kaggle, which contains real transactional data from a UK-based online retailer between 2009 and 2011. The dataset includes customer purchase behavior, invoice records, product quantities, and regional metadata. It is widely used for behavior analysis, RFM modeling, and e-commerce pattern discovery.
+Analyzed Target USA e-commerce order data to identify sales trends and customer behavior patterns. Data cleaning and SQL queries were performed in Python, with insights visualized in Tableau and Power BI.
 
-** 中文说明 (项目简介) **  本项目基于 Kaggle 上英国某大型在线零售企业的真实交易数据（由 UCI 数据库收录，Kaggle 平台同步发布），覆盖客户行为、订单明细与国家分布，适用于用户行为分析与运营策略优化研究。真实UCI Online Retail II 数据集
+** 中文说明 (项目简介) **  分析美国塔吉特（Target）电商订单数据，识别销售趋势与用户行为模式。使用 Python 进行数据清洗与 SQL 查询，并在 Tableau 和 Power BI 中完成可视化。
 
 ## Data Visualization 数据可视化
 
