@@ -31,16 +31,13 @@ Tableau Dashboard 数据可视化
 
 ## SQL Analysis SQL 分析
 
-- Query: Top 10 Countries by Total Sales  
-  *（按国家统计销售总额前十）
-
 ```sql
-SELECT Country,
-       SUM(UnitPrice * Quantity) AS TotalSales
-FROM retail_data
-GROUP BY Country
-ORDER BY TotalSales DESC
-LIMIT 10;
+-- Total orders, total revenue, and total items sold
+SELECT
+  COUNT(DISTINCT c1) AS total_orders,
+  SUM(c4) AS total_revenue,
+  SUM(c5) AS total_items_sold
+FROM order_items_cleaned;
 ```
 
 ** Insight 洞察：**  
