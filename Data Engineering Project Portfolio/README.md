@@ -12,7 +12,7 @@ This repository showcases six real-world data engineering projects. Each project
 |----------|-----------|----------------------|------------|
 | 01 | US Target E-commerce Behavior Pipeline<br>美国塔吉特电商行为数据流程分析 | Customer purchase patterns from UCI dataset<br>基于美国塔吉特数据集分析用户购买行为与电商销售模式 | Python, SQL, Tableau, Power BI |
 | 02 | Wamlart Supply Chain Efficiency Dashboard<br>美国沃尔玛供应链效率指标仪表板 | Transport vs discount vs cost KPIs<br>分析运输方式、折扣与成本之间的效率匹配关系 | Python, SQL, Metabase |
-| 03 | Data Science Salary Analysis<br>苹果公司DA/DE职业薪资分析 | Worldwide salary distribution for DS roles<br>分析苹果公司不同数据职位的薪资分布与地区差异 | Python, SQL, Matplotlib |
+| 03 | Apple DA/DE Salary Analysis<br>苹果公司DA/DE职业薪资分析 | Worldwide salary distribution for DS roles<br>分析苹果公司不同数据职位的薪资分布与地区差异 | Python, SQL, Matplotlib |
 | 04 | Amazon Sentiment NLP<br>亚马逊评论情感分析 | Sentiment classification on product reviews<br>通过情感分析方法对亚马逊评论进行分类与可视化展示 | Python, Seaborn, Wordcloud |
 | 05 | NASA Spark IoT Sensor Pipeline<br>美国NASA物联网传感器故障检测流程 | Fault detection and classification based on industrial sensor logs<br>基于工业传感器数据的故障检测与分类分析流程 | Python, PySpark, Seaborn, Matplotlib |
 | 06 | Netflix Cloud ETL Project Pipeline<br>美国Netflix原始日志数据处理与 ETL 管道构建项目 | Cloud-based ETL pipeline for structured real estate transactions<br>基于美国Neflix显著降低原始日志数据的处理延迟数据清洗与ETL管道构建流程 | Python，PySpark，seaborn, Matplotlib |
