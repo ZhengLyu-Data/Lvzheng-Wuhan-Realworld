@@ -26,11 +26,16 @@ This project analyzes Apple Inc.’s stock price trends using historical daily t
 ## SQL Analysis SQL 分析
 
 ```sql
-SELECT experience_level,
-       ROUND(AVG(salary_in_usd), 2) AS avg_salary
-FROM salary_data
-GROUP BY experience_level
-ORDER BY avg_salary DESC;
+BEGIN TRANSACTION;
+DROP TABLE IF EXISTS apple_prices;
+CREATE TABLE apple_prices (
+    date TEXT PRIMARY KEY,
+    open REAL NOT NULL,
+    high REAL NOT NULL,
+    low REAL NOT NULL,
+    close REAL NOT NULL,
+    volume INTEGER NOT NULL
+);
 ```
 
 ** Insight 洞察：**  
