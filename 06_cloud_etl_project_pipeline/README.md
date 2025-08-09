@@ -13,7 +13,7 @@ Below are screenshots of the final visualizations:
 以下为本项目生成的最终可视化图表示例截图：
 
 ![matplotlib dashboard image](hourly.png)
-![matplotlib dashboard image]()
+![matplotlib dashboard image](top_titles.png)
 ![matplotlib dashboard image]()
 
 ## Data Architecture 数据流程图
