@@ -81,19 +81,18 @@ ORDER BY avg_salary DESC;
   * 第三步：运行主流程，输出分析结果与结构化数据文件 (run_pipeline.py)
         
 - Step 4: Review the output visuals (matplotlib charts)
-  * 第四步：查看自动生成的图表，包括不同地区、经验水平与公司规模维度下的薪资对比
+  * 第四步：查看自动生成的图表，包括每日收盘价走势、交易量分布，以及短期与长期移动平均线对比。
     
 ## Lessons Learned 学习亮点
 
-- This project finds that job level has a significant impact on salary, remote work trends vary by region, and company size plays a key role in salary dispersion.
-  * 本项目发现职位等级对薪资影响显著，远程办公趋势因地区而异，公司规模对薪资离散度也有重要影响。
-    
-- Position level significantly influences salary outcomes
-  * 职位等级对薪资水平具有显著影响，高级职位平均薪资明显更高
-    
-- Remote roles show highly diverse regional distribution patterns
-  * 远程岗位在地域分布上呈现高度多样性，海外远程比例较高
-    
-- Company size contributes to variability in salary dispersion
-  * 公司规模影响薪资分布的离散程度，大型企业内部薪资差异更复杂
+- This project finds that Apple’s stock price is strongly influenced by major product launches, trading volume fluctuations often align with market news, and moving averages help reveal long-term trends.
+  * 本项目发现苹果公司股票价格受重大产品发布影响显著，交易量波动常与市场新闻同步，移动平均线有助于揭示长期趋势。
 
+- Product launch events significantly impact stock performance
+  * 产品发布事件对股票表现具有显著影响，发布期内价格波动幅度明显增大。
+
+- Trading volume patterns often correlate with market sentiment
+  * 交易量变化常与市场情绪高度相关，新闻热点会引发显著成交量波动。
+
+- Moving averages provide clearer long-term trend signals
+  * 移动平均线能提供更清晰的长期趋势信号，有助于区分短期波动与持续走势。
