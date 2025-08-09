@@ -14,7 +14,7 @@ Below are screenshots of the final visualizations:
 
 ![matplotlib dashboard image](hourly.png)
 ![matplotlib dashboard image](top_titles.png)
-![matplotlib dashboard image]()
+![matplotlib dashboard image](weekday.png)
 
 ## Data Architecture 数据流程图
 
