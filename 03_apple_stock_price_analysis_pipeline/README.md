@@ -13,7 +13,7 @@ This project analyzes Apple Inc.’s stock price trends using historical daily t
   * 以下为本项目生成的最终可视化图表示例截图：
 
 ![matplotlib dashboard image](daily_return_hist.png)
-![matplotlib dashboard image]()
+![matplotlib dashboard image](price_with_ma.png)
 ![matplotlib dashboard image]()
 
 ## Data Architecture 数据流程图
