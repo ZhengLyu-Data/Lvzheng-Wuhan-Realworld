@@ -13,7 +13,7 @@ This project evaluates Walmart’s supply chain efficiency using a cleaned datas
   * 以下为本项目生成的最终可视化图表示例截图：
 
 ![metabase dashboard image](chart1_weekly_trend.png)
-![metabase dashboard image]()
+![metabase dashboard image](chart2_store_yoy_top10.png)
 ![metabase dashboard image]()
 
 ## Data Architecture 数据流程图
