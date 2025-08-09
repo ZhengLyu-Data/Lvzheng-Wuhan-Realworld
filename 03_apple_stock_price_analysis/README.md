@@ -6,8 +6,8 @@ This project analyzes Apple Inc.’s stock price trends using historical daily t
 
 ## Data Visualization 数据可视化
 
-- This project uses Matplotlib to visualize the average salary by experience level, the distribution of remote work ratios, and salary variations across different company sizes.
-  * 本项目使用 Matplotlib 绘制图表，展示了平均薪资与职位经验等级、远程办公比例分布、不同公司规模下的薪资差异。
+- This project uses Matplotlib to visualize Apple Inc.’s stock price trends, including daily closing prices, trading volume distribution, and comparisons of short-term and long-term moving averages.
+  * 本项目利用 Matplotlib 绘制苹果公司股票价格的可视化图表，包括每日收盘价走势、交易量分布，以及短期与长期移动平均线的对比分析。
 
 - Below are screenshots of the final visualizations:  
   * 以下为本项目生成的最终可视化图表示例截图：
@@ -18,16 +18,12 @@ This project analyzes Apple Inc.’s stock price trends using historical daily t
 
 ## Data Architecture 数据流程图
 
-- This project uses modular Python scripts for data cleaning and pipeline construction, and generates static visualizations using Matplotlib—demonstrating both an engineering-oriented structure and compatibility with teaching presentations.
-  * 本项目采用模块化 Python 脚本进行数据清洗与管道构建，并通过 Matplotlib 输出静态可视化图像，体现工程结构与教学演示兼容性。
+- This project applies modular Python scripts for data cleaning and pipeline construction, producing static visualizations of Apple Inc.’s stock performance with Matplotlib—highlighting an engineering-oriented workflow and clear analytical outputs.
+  * 本项目采用模块化 Python 脚本完成数据清洗与管道构建，并利用 Matplotlib 生成苹果公司股票表现的静态可视化图表，突出工程化流程与清晰的分析成果。
 
 ![Data Architecture](data_salary_insight_pipeline_architecture.png)
 
-
 ## SQL Analysis SQL 分析
-
-- Query: Average Salary by Experience Level  
-  *（不同经验等级的数据科学家平均薪资）
 
 ```sql
 SELECT experience_level,
@@ -38,8 +34,8 @@ ORDER BY avg_salary DESC;
 ```
 
 ** Insight 洞察：**  
-- Senior-level roles command significantly higher salaries.
-  * 高级职位薪资显著高于初级岗位，体现经验溢价。
+- Apple’s stock shows significant upward trends during major product launch periods.
+  * 苹果公司股票在重大产品发布期间呈现显著的上升趋势
 
 ## Prerequisites 环境准备
 
