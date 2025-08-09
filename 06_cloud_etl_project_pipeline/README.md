@@ -21,7 +21,7 @@ Below are screenshots of the final visualizations:
 - This project applies modular PySpark scripts for data cleaning, enrichment, and aggregation, then produces visual analytics using Seaborn and Matplotlib—highlighting an engineering-oriented workflow with scalable big data processing.
   * 本项目采用模块化 PySpark 脚本完成数据清洗、特征丰富与聚合分析，并使用 Seaborn 与 Matplotlib 生成可视化结果，体现了工程化数据处理与可扩展的大数据分析能力。
 
-![Data Architecture]() 
+![Data Architecture](cloud_etl_project_pripeline_architecture.png) 
 
 ## Prerequisites 环境准备
 
