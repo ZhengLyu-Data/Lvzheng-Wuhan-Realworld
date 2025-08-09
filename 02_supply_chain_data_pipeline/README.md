@@ -12,7 +12,7 @@ This project evaluates Walmart’s supply chain efficiency using a cleaned datas
 - Below are screenshots of the final visualizations:  
   * 以下为本项目生成的最终可视化图表示例截图：
 
-![metabase dashboard image]()
+![metabase dashboard image](chart1_weekly_trend.png)
 ![metabase dashboard image]()
 ![metabase dashboard image]()
 
