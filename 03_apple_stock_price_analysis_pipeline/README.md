@@ -21,7 +21,7 @@ This project analyzes Apple Inc.’s stock price trends using historical daily t
 - This project applies modular Python scripts for data cleaning and pipeline construction, producing static visualizations of Apple Inc.’s stock performance with Matplotlib—highlighting an engineering-oriented workflow and clear analytical outputs.
   * 本项目采用模块化 Python 脚本完成数据清洗与管道构建，并利用 Matplotlib 生成苹果公司股票表现的静态可视化图表，突出工程化流程与清晰的分析成果。
 
-![Data Architecture](apple_stock_price_analysis_pipeline_architecture.png)
+![Data Architecture](apple_stock_price_analysis_architecture.png)
 
 ## SQL Analysis SQL 分析
 
