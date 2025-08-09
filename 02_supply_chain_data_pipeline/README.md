@@ -1,7 +1,8 @@
 ## Overview 项目总览
-This project analyzes supply chain efficiency using a cleaned dataset of 10,999 shipment records. It highlights operational bottlenecks, delivery timeliness, and product shipment cost-performance through structured SQL logic and dashboard visualization.
 
-** 中文说明 (项目简介) **  本项目分析了 10,999 条运输记录，旨在评估供应链的运作效率。通过标准化 SQL 查询和 Metabase 可视化图表，识别交付延迟、运输模式与成本效益的关系，辅助运营优化。适合展示数据查询、分析与可视化结合的完整流程。
+This project evaluates Walmart’s supply chain efficiency using a cleaned dataset of 421,570 weekly sales records. It identifies sales patterns, seasonal demand shifts, and inventory turnover issues through Python data processing, SQL-based analysis, and Metabase dashboard visualization.
+
+** 中文说明 (项目简介) ** 本项目基于清洗后的 421,570 条沃尔玛每周销售记录数据，评估其供应链运作效率。通过 Python 数据处理、SQL 分析与 Metabase 仪表板可视化，识别销售模式、季节性需求变化及库存周转问题。
 
 ## Data Visualization 数据可视化
 
@@ -11,9 +12,9 @@ This project analyzes supply chain efficiency using a cleaned dataset of 10,999 
 - Below are screenshots of the final visualizations:  
   * 以下为本项目生成的最终可视化图表示例截图：
 
-![metabase dashboard image](chart1_mode_of_shipment.png)
-![metabase dashboard image](chart2_discount_by_importance.png)
-![metabase dashboard image](chart3_rating_vs_cost.png)
+![metabase dashboard image]()
+![metabase dashboard image]()
+![metabase dashboard image]()
 
 ## Data Architecture 数据流程图
 
