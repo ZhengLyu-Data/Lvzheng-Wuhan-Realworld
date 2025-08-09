@@ -25,15 +25,17 @@ This project evaluates Walmart’s supply chain efficiency using a cleaned datas
 
 ## SQL Analysis SQL 分析
 
-- Query: Shipment Mode Efficiency  
-  *（不同运输方式的平均成本与运输时长）
-
 ```sql
-SELECT Mode_of_Shipment,
-       AVG(Cost_of_the_Product) AS AvgCost,
-       AVG(Weight_in_gms) AS AvgWeight
-FROM supply_chain_data
-GROUP BY Mode_of_Shipment;
+DROP VIEW IF EXISTS v_weekly_total_sales;
+DROP VIEW IF EXISTS v_store_yoy_avg;
+DROP VIEW IF EXISTS v_store_dept_lift;
+
+CREATE VIEW v_weekly_total_sales AS
+SELECT
+  week_start,
+  SUM(weekly_sales) AS total_sales
+FROM walmart_weekly_clean
+GROUP BY week_start;
 ```
 
 ** Insight 洞察：** 
