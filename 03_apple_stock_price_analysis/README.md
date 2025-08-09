@@ -1,8 +1,8 @@
 ## Overview 项目总览
 
-This project explores salary trends in data science roles globally. It highlights differences based on job level, company size, and work flexibility using structured pipeline processing and visual outputs.
+This project analyzes Apple Inc.’s stock price trends using historical daily trading data. It examines patterns in closing prices, trading volumes, and moving averages to identify potential market signals. The analysis follows a structured ETL pipeline with Python for data cleaning, SQL for query-based insights, and Matplotlib for visual representation.
 
-** 中文说明 (项目简介) **  本项目分析了全球范围内数据科学岗位的薪资趋势。通过 Python 数据管道处理，结合 Matplotlib 图表可视化，揭示了不同职位级别、公司规模与远程工作比例下的薪资差异。项目展示了清洗 → 分析 → 可视化的完整流程，适合教学演示与求职展示。
+** 中文说明 (项目简介) ** 本项目基于苹果公司历史股票交易数据，分析其收盘价、交易量及移动平均线变化趋势，挖掘潜在市场信号。项目采用 Python 进行数据清洗，结合 SQL 进行查询分析，并通过 Matplotlib 实现可视化展示。
 
 ## Data Visualization 数据可视化
 
