@@ -11,7 +11,7 @@ This repository showcases six real company data engineering projects. Each proje
 | 项目编号 | 项目名称 | 项目简介（中英文） | 使用工具 |
 |----------|-----------|----------------------|------------|
 | 01 | US Target E-commerce Behavior Pipeline<br>美国塔吉特电商行为数据流程分析 | Customer purchase patterns from UCI dataset<br>基于美国塔吉特数据集分析用户购买行为与电商销售模式 | Python, SQL, Tableau, Power BI |
-| 02 | Wamlart Supply Chain Efficiency Dashboard<br>美国沃尔玛供应链效率数据流程分析 | Transport vs discount vs cost KPIs<br>分析运输方式、折扣与成本之间的效率匹配关系 | Python, SQL, Metabase |
+| 02 | Wamlart Supply Chain Efficiency Dashboard<br>美国沃尔玛供应链效率数据流程分析 | Transport vs discount vs cost KPIs<br>基于美国Walmart 官方发布的开源数据，用于分析其运输模式与成本结构。 | Python, SQL, Metabase |
 | 03 | Apple Stock Price Analysis Pipeline<br>美国苹果公司股票价格数据流程分析 |Analyzing Apple’s stock price on market and predict earning trends<br>揭示了苹果股票的周期性趋势、收益结构与高波动区段 | Python, SQL, Matplotlib |
 | 04 | Amazon Sentiment NLP<br>美国亚马逊评论情感数据流程分析 | Sentiment classification on product reviews<br>通过情感分析方法对亚马逊评论进行分类与可视化展示 | Python, Seaborn, Wordcloud |
 | 05 | NASA Spark IoT Sensor Pipeline<br>美国 NASA 物联网传感器故障检测流程分析 | Fault detection and classification based on industrial sensor logs<br>基于工业传感器数据的故障检测与分类分析流程 | Python, PySpark, Seaborn, Matplotlib |
